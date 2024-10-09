@@ -156,7 +156,7 @@ alt="J4x article expired-en.png" />
 Featured articles will show as pending or expired in the Featured
 column.
 
-## Quick Tips
+## Tips
 
 \*You can schedule the publishing of articles from the front end too.
 \*It is also possible to schedule via the menu item for the article.
