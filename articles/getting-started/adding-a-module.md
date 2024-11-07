@@ -1,63 +1,38 @@
-<!-- Filename: J4.x:Getting_Started:_Adding_a_Module / Display title: Aan de slag: Een module toevoegen -->
+<!-- Filename: J4.x:Getting_Started:_Adding_a_Module / Display title: Een Module Toevoegen  -->
 
-## Introduction
+## Introductie
 
-Modules are small extensions used for special purposes. Sometimes they
-are related to other content items. For example, a Menu module is
-required to display Menu Items used to navigate the Site. Sometimes they
-are not related to any other content at all. Module content is usually
-displayed in boxes above, beside or below the main page content. Also,
-modules may be displayed on some pages but not others and to some people
-but not others.
+Modules zijn kleine uitbreidingen die voor speciale doeleinden worden gebruikt. Soms zijn ze gerelateerd aan andere inhoudselementen. Bijvoorbeeld, een Menu-module is nodig om Menu-items weer te geven die worden gebruikt om door de site te navigeren. Soms zijn ze helemaal niet gerelateerd aan andere inhoud. De inhoud van een module wordt meestal weergegeven in kaders boven, naast of onder de hoofdinhoud van de pagina. Ook kunnen modules op sommige pagina's worden weergegeven, maar niet op andere, en aan sommige mensen, maar niet aan anderen.
 
-## The Site Modules List
+## De Lijst met Site Modules
 
-It is worth looking at the Modules (Site) list. Select
-**Content **→** Site Modules** from the Administrator menu. You will see
-the Breadcrumbs, Main Menu and Login Form modules listed. The column
-headings are:
+Het is de moeite waard om naar de lijst Modules (Site) te kijken. Selecteer **Content → Site Modules** vanuit het Administrator menu. Je zult de modules *Breadcrumbs*, *Hoofdmenu* en *Inlogformulier* zien staan. De kolomkoppen zijn:
 
-- **Checkbox.** Select or Deselect all visible items in the list.
-- **Order Symbol.** After selection, used to drag modules up or down to
-  change their order in their assigned positions.
-- **Status.** Published or Unpublished controls whether a module will be
-  seen at all.
-- **Title.** Select a Title link to edit the module.
-- **Position.** This is the position defined in the template. The
-  obvious positions are breadcrumbs and sidebar-right. There are many
-  more.
-- **Type.** The type of module is given because it may not be obvious
-  from the Title.
-- **Pages.** **On All Pages** is obvious. It may be *On Selected Pages*
-  or *Not on Selected Pages*.
-- **Access.** Public means everyone. But this may be restricted by User
-  Group, for example Super User.
-- **ID.** An identification number allocated by Joomla.
+- **Selectievakje** Selecteer of deselecteer alle zichtbare items in de lijst.
+- **Ordersymbool** Na selectie gebruikt om modules omhoog of omlaag te slepen om hun volgorde in hun toegewezen posities te veranderen.
+- **Status** Gepubliceerd of Niet-gepubliceerd bepaalt of een module überhaupt zichtbaar is.
+- **Titel** Selecteer een Titel-link om de module te bewerken.
+- **Positie** Dit is de positie die in de sjabloon is gedefinieerd. De voor de hand liggende posities zijn breadcrumbs en sidebar-rechts. Er zijn nog veel meer.
+- **Type** Het type module wordt gegeven omdat het misschien niet duidelijk is vanuit de Titel.
+- **Pagina's** Een indicator van de pagina's waarop een module wordt weergegeven. Dit kan *Alle*, *Op geselecteerde pagina's*, *Alle behalve geselecteerde pagina's* of *Geen pagina's* zijn.
+- **Toegang** Openbaar betekent iedereen. Maar dit kan beperkt worden door Gebruikersgroep, bijvoorbeeld Super User.
+- **ID** Een identificatienummer toegewezen door Joomla.
 
-## Add a New Module
+## Een Nieuwe Module Toevoegen
 
-A good module to practice with is the Custom module. It is used to
-display arbitrary content such as a message or announcement.
+Een goede module om mee te oefenen is de Aangepaste module. Deze wordt gebruikt om willekeurige inhoud weer te geven, zoals een bericht of aankondiging.
 
-- Select the **New** button in the Tool bar. This opens a list of
-  available Site modules.
-- Select the **Custom** module. This opens the module in the Edit form.
-- Enter a **Title**, for example *Announcement*.
-- Enter the **Module** text, for example *This site is closing for a
-  software update at 20:00 on Friday*.
-- Select a **Position** from the drop-down list. In this case it will be
-  *Sidebar-right* along with the other modules.
-- Set a **Finish Publishing** date. This is optional but an obvious
-  thing to do to make the module disappear after the event announced has
-  passed.
-- Save and Close. Reload the Site and see the result. Is it in the order
-  you want? If not:
-  - In the Modules list select the Order Symbol in the column headings.
-  - Hover on the grab handle symbol for the new module and then select
-    and drag it up or down to the required position. Note that selecting
-    a column head symbol toggles the order so select as required and
-    drag as required.
+- Selecteer de **Nieuw** knop in de werkbalk. Dit opent een lijst met beschikbare Sitemodules.
+- Selecteer de **Aangepaste** module. Dit opent de module in het bewerkformulier.
+- Voer een **Titel** in, bijvoorbeeld *Aankondiging*.
+- Voer de **Module** tekst in, bijvoorbeeld *Deze site sluit voor een software-update om 20:00 uur op vrijdag*.
+- Selecteer een **Positie** uit de keuzelijst. In dit geval kan het *sidebar-rechts* zijn, samen met de andere modules.
+- Stel een **Einde Publicatie** datum in. Dit is optioneel, maar een logische stap om de module te laten verdwijnen nadat het aangekondigde evenement voorbij is.
+- **Opslaan & Sluiten** Herlaad de Site en bekijk het resultaat. Staat het in de volgorde die je wilt? Zo niet:
+  - Selecteer in de Modulelijst het Ordersymbool in de kolomkoppen.
+  - Beweeg over het grijpijzer symbool voor de nieuwe module en selecteer en sleep het naar boven of beneden naar de gewenste positie. Let op dat het selecteren van een kolomkopsymbool de volgorde omkeert, dus selecteer en sleep zoals nodig.
 
-If you want another Custom module with another message go ahead and
-create a New Custom module. You can have as many as you like with
-different titles.
+Als je een andere Aangepaste module wilt met een ander bericht, ga je gang en maak je een Nieuwe Aangepaste module aan. Je kunt er zoveel maken als je wilt met verschillende titels.
+
+*Vertaald door openai.com*
+

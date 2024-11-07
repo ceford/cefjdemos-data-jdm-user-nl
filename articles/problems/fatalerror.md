@@ -1,105 +1,76 @@
-<!-- Filename: J4.x:FatalError / Display title: FatalError -->
+<!-- Filename: J4.x:FatalError / Display title: FataleFout  -->
 
-## Inleiding
+## Introductie
 
-From time to time Joomla may display an error page instead of the page
-you were expecting. There are two types of error pages:
+Van tijd tot tijd kan Joomla een foutenpagina weergeven in plaats van de pagina die je verwachtte. Er zijn twee soorten foutenpagina's:
 
-- The system error page has a red background. It is invoked if there is
-  a serious error before the site or administrator template is rendered.
-- The template error page looks like the normal site or administrator
-  template but the content area is replaced with an error message. This
-  is invoked when the error occurs in content code.
+- De systeemfoutenpagina heeft een rode achtergrond. Deze wordt geactiveerd als er een ernstige fout optreedt voordat de site- of beheerderssjabloon wordt geladen.
+- De sjabloonfoutenpagina lijkt op de normale site- of beheerderssjabloon, maar het inhoudsgebied wordt vervangen door een foutmelding. Dit wordt geactiveerd wanneer de fout optreedt in de inhoudscode.
 
-### System Error Page
+### Systeemfoutenpagina
 
-<img src="https://docs.joomla.org/images/9/9d/Joomla-j4-fatal.png"
-class="thumbborder" decoding="async" data-file-width="800"
-data-file-height="355" width="800" height="355"
-alt="Joomla-j4-fatal.png" />
+![Systeem fatale foutenpagina](../../../en/images/problems/fatal-error.png)
 
-### Template Error Page
+### Sjabloonfoutenpagina
 
-<img src="https://docs.joomla.org/images/6/6d/J4x-template-error.png"
-class="thumbborder" decoding="async" data-file-width="800"
-data-file-height="406" width="800" height="406"
-alt="J4x-template-error.png" />
+![Sjabloonfoutenpagina](../../../en/images/problems/template-error.png)
 
-## How to Resolve
+## Hoe te Oplossen
 
-There are a number of possible reasons for fatal
-errors to occur. Here are just a few:
+Er zijn een aantal mogelijke redenen waarom fatale fouten kunnen optreden. Hier zijn er slechts een paar:
 
-- A change in your host, for example an updated PHP version that is not
-  compatible with Joomla or one of your Extensions.
-- A problem with disk space, memory usage or script time-out.
-- A newly installed or enabled Extension that is not compatible with
-  Joomla. A bad plugin may disable Administrator login!
+- Een verandering bij je host, bijvoorbeeld een geüpdatete PHP-versie die niet compatibel is met Joomla of een van je Extensies.
+- Een probleem met schijfruimte, geheugengebruik of script time-out.
+- Een nieuw geïnstalleerde of ingeschakelde Extensie die niet compatibel is met Joomla. Een slechte plugin kan de Administrator-login uitschakelen!
 
-### Enable Debug
+### Debug Inschakelen
 
-If your Administrator interface **is** still
-working go to **Home Dashboard **→** System panel **→** Global
-Configuration**. In the System tab set *Debug System* to *Yes* and in
-the Server tab set *Error Reporting* to *Maximum*. Then *Save & Close*.
+Als je Administrator-interface **wel** werkt:
+- Ga naar **Home Dashboard → Systeem paneel → Globale Configuratie**.
+- Stel op het tabblad Systeem *Debug Systeem* in op *Ja*.
+- Stel op het tabblad Server *Foutmeldingen* in op *Maximaal*.
+- Klik daarna op *Opslaan & Sluiten*.
 
-If your Administrator interface is **not** working, edit the
-*configuration.php* file in the root folder of your Joomla website.
+Als je Administrator-interface **niet** werkt, bewerk dan het
+*configuration.php* bestand in de hoofdmap van je Joomla-website.
 
-1.  Change the permissions from *444* or *-r--r--r--* (no one has
-    permission to write to the file) to *644* or *-rw-r--r--* (only the
-    Owner has permission to write).
-2.  Inside the file, set *\$debug* to *true* and *\$error_reporting* to
-    *maximum*.
-3.  *Save* the file.
+1. Verander de permissies van *444* of *-r--r--r--* (niemand heeft
+   toestemming om het bestand te schrijven) naar *644* of *-rw-r--r--* (alleen de
+   Eigenaar heeft toestemming om te schrijven).
+2. Bewerk het bestand met een teksteditor en stel `$debug` in op `true` en 
+   `$error_reporting` op `'maximum'`.
+3. *Sla* het bestand op.
 
-With the changes made, reload the page that was causing the error. Now
-you should see a stack trace. Example:
+Na het aanbrengen van de wijzigingen, herlaad je de pagina die de fout veroorzaakte. Nu zou je een stack trace moeten zien. Voorbeeld:
 
-<img
-src="https://docs.joomla.org/images/e/ef/J4x-template-error-stack-trace.png"
-class="thumbborder" decoding="async" data-file-width="800"
-data-file-height="393" width="800" height="393"
-alt="J4x-template-error-stack-trace.png" />
+![Template fout pagina](../../../en/images/problems/template-error-stack-trace.png)
 
-The first item in the stack trace indicates where the error was
-triggered. Sometimes that is enough to identify the faulty Extension.
-Sometimes the faulty Extension is farther down the stack trace. It may
-not mean much to you but the stack trace is invaluable to the experts
-who answer questions in the Joomla Forums.
+Het eerste item in de stack trace geeft aan waar de fout is getriggerd. Soms is dat genoeg om de defecte Extensie te identificeren. Soms staat de defecte Extensie verder naar beneden in de stack trace. Het betekent mogelijk niet veel voor jou, maar de stack trace is van onschatbare waarde voor de experts die vragen beantwoorden in de Joomla Forums.
 
-If you can identify the faulty Extension, disable it. You can do that
-using the Administrator interface if it is working. Otherwise, use
-phpMyAdmin to find the Extension in the *\#\_\_extensions* database
-table and set its *enabled* value to *0*. You should not need to disable
-any core Joomla Extensions.
+Als je de defecte Extensie kunt identificeren, schakel deze dan uit. Dat kun je doen met de Administrator-interface als die werkt. Anders gebruik je phpMyAdmin om de Extensie te vinden in de `#__extensions` databasetabel en zet je de `enabled` waarde op `0`. Je zou geen enkele core Joomla Extensies hoeven uit te schakelen.  
 
-## Forum Post Assistant
+## Forum Post Assistent
 
-To help resolve problems you should download
-the <a href="https://forumpostassistant.github.io/docs/"
-class="external text" target="_blank"
-rel="nofollow noreferrer noopener">Forum Post Assistant</a> (FPA) and
-load it in the root of your Joomla website. The link to find it is also
-near the top of each Joomla Forum page. The FPA is a stand-alone PHP
-script that analyses your Joomla installation and tells you what might
-be wrong. Again, it might not mean much to you but the experts who
-answer questions in the Forums may ask to see it.
+Om problemen op te lossen, moet je de
+[Forum Post Assistant (FPA)](https://forumpostassistant.github.io/docs/) downloaden en
+het in de hoofdmap van je Joomla-website laden. De link om het te vinden is ook
+dichtbij de bovenkant van elke Joomla Forum-pagina te vinden. De FPA is een zelfstandige PHP
+script dat je Joomla-installatie analyseert en je vertelt wat er mis zou kunnen zijn. Nogmaals, het kan misschien niet veel voor jou betekenen, maar de experts die
+vragen beantwoorden in de Forums kunnen vragen om het te bekijken.
 
-## Cleaning Up
+## Opruimen
 
-When your problem is resolved:
+Wanneer je probleem is opgelost:
 
-1.  Go to **Administrator **→** Dashboard **→** System
-    panel **→** Global Configuration**
-2.  Select the System tab and set *Debug System* to *No*.
-3.  Select the Server tab and set *Error Reporting* to *System Default*.
-4.  *Save & Close*.
-5.  Remove the Forum Post Assistant.
+1. Ga naar **Startdashboard → Systeempaneel → Globale Configuratie**
+2. Selecteer de tab Systeem en stel *Debug Systeem* in op *Nee*.
+3. Selecteer de tab Server en stel *Foutmelding* in op *Systeemstandaard*.
+4. *Opslaan & Sluiten*.
+5. Verwijder de Forum Post Assistant.
 
-<img
-src="https://docs.joomla.org/images/thumb/4/41/Stop_hand_nuvola.svg.png/25px-Stop_hand_nuvola.svg.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/thumb/4/41/Stop_hand_nuvola.svg.png/38px-Stop_hand_nuvola.svg.png 1.5x, https://docs.joomla.org/images/4/41/Stop_hand_nuvola.svg.png 2x"
-data-file-width="40" data-file-height="40" width="25" height="25"
-alt="Stop hand nuvola.svg.png" />Warning!
+De machtigingen van `configuration.php` worden ingesteld op alleen-lezen (444 of *r--r--r--*)
+wanneer het formulier van de Globale Configuratie wordt opgeslagen. Het is niet nodig om dit
+handmatig te doen.
+
+*Vertaald door openai.com*
+

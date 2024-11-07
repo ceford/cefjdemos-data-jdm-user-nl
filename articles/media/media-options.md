@@ -1,72 +1,31 @@
 <!-- Filename: J4.x:Media:_Options / Display title: Media: Opties -->
 
-## The Options Form
+## Inleiding
 
-To access the Media: Options form select the **Options** button in the
-Toolbar on the Media page. The fields are well commented and provided
-with default values that should be suitable for almost all sites. You
-usually only need to use the options form if you wish to keep Files
-separate from Images or if you have an unusual file format not included
-in the default list.
+De *Media: Opties* pagina wordt gebruikt om de upload en opslag van media, zowel afbeeldingen als bestanden, te beheren. **Let op:** er zijn beveiligingsimplicaties verbonden aan sommige soorten bestanden - een manier voor een hacker om binnen te komen.
 
-**Beware:** there are security implications associated with some types
-of file - a hacker's way in.
-
-## Separate Files
-
-To set up a location for files that is separate from images first create
-a new folder in the root of your installation, for example **files**.
-Remember, it will be part of a url link so lower case and no spaces or
-punctuation marks.
-
-### FileSystem Local Plugin
-
-Find the FileSystem Local plugin in the list of plugins and open it add
-your newly created file folder to the list of places you can keep media.
-Just click on the + button and select files from the list of available
-folders.
-
-<img
-src="https://docs.joomla.org/images/9/9e/J4.x-media-filesystem-local-plugin-en.png"
-class="thumbborder" decoding="async" data-file-width="800"
-data-file-height="406" width="800" height="406"
-alt="J4.x-media-filesystem-local-plugin-en.png" />
-
-Make sure the plugin is enabled. Save & Close.
-
-### Options Form
-
-In the Options form enter the folder name in the **Path to Files
-Folder** field. Make sure you do not use the name of an existing core
-Joomla folder.
-
-<img src="https://docs.joomla.org/images/9/98/J4.x-media-options-en.png"
-class="thumbborder" decoding="async" data-file-width="800"
-data-file-height="406" width="800" height="406"
-alt="J4.x-media-options-en.png" />
+Om toegang te krijgen tot het *Media: Opties* formulier, selecteer je de **Opties** knop in de Toolbar op de Mediapagina. De velden zijn goed van commentaar voorzien en worden geleverd met standaardwaarden die geschikt zouden moeten zijn voor bijna alle sites. Je hoeft meestal alleen het optiesformulier te gebruiken als je bestanden gescheiden wilt houden van afbeeldingen of als je een ongebruikelijk bestandsformaat hebt dat niet in de standaardlijst is opgenomen.
 
 ## Screenshot
 
-When set up, you will be able to choose between the images and files
-folders in the Local part of the Media view.
+![Het media-optiesformulier](../../../en/images/media/media-options.png)
 
-<img
-src="https://docs.joomla.org/images/0/08/J4.x-media-images-files-en.png"
-class="thumbborder" decoding="async" data-file-width="800"
-data-file-height="406" width="800" height="406"
-alt="J4.x-media-images-files-en.png" />
+## Pad naar Bestanden en Mappen
 
-## Further Information
+Dit zijn afzonderlijke items in het configuratieformulier, maar beide wijzen naar de *afbeeldingen* map in een nieuwe Joomla-installatie. Als u media die geen afbeeldingen zijn (bijvoorbeeld PDF's, spreadsheets en tekstbestanden) apart wilt opslaan, volg dan de volgende stappen:
 
-In this series of tutorials:
+1. Maak een map genaamd *bestanden* in de hoofdmap van uw Joomla-installatie.
+2. Schakel de *FileSystem - Lokaal* plugin in en configureer deze, zoals beschreven in het artikel over [Media Bestandslocaties](jdocmanual?article=user/media/media-file-locations).
+3. Voer de mapnaam, *bestanden*, in het veld *Pad naar Bestandenmap* in het Media Opties Formulier in.
 
--  Managing
-  Media
--  Media: Upload Delete
-  Rename
--  Media: Image Crop Resize
-  Rotate
--  Media:
-  Options
--  Media: Uploading SVG
-  files
+Voer in het Opties formulier de mapnaam in het veld **Pad naar Bestandenmap** in. Zorg ervoor dat u de naam van een bestaande Joomla-hoofdmap niet gebruikt.
+
+Wanneer dit is ingesteld, kunt u kiezen tussen de afbeeldingen- en bestandenmappen in het Lokale deel van de Mediaview.
+
+![De media pagina](../../../en/images/media/media-sample-data-cassiopeia.png)
+
+## Extra Afbeeldings- of Documenttypen
+
+Het kan voorkomen dat een Afbeelding of Document niet kan worden geüpload. Controleer in dat geval of de extensie behoort tot de *Toegestane Extensies*, of de extensie behoort tot de *Toegestane Extensietypen* voor de media, en of het behoort tot de *Toegestane MIME-typen* (mogelijk moet je dit opzoeken). Alle drie moeten correct zijn, anders wordt de upload geweigerd.
+*Vertaald door openai.com*
+

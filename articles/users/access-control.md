@@ -1,210 +1,110 @@
-<!-- Filename: J4.x:Access_Control / Display title: Toegangsbeheer -->
+<!-- Filename: J4.x:Access_Control / Display title: Toegangscontrole -->
 
-## Inleiding
+## Introductie
 
-Joomla heeft een geavanceerd mechanisme om te bepalen wie inhoud op een
-Joomla-site kan zien en aanpassen. Het deel **wie** wordt ingesteld in
-de Gebruikerscomponent opties met Gebruikersgroepen en Toegangsniveaus.
-Het gedeelte **aanpassen** wordt ingesteld in Actie rechten, of bij de
-Algemene instellingen of bij de component instellingen of bij de Item
-instellingen. Standaardwaarden die zijn ingesteld in Algemene rechten
-kunnen bijvoorbeeld worden overschreven bij de Artikel rechten (alle
-artikelen) en Artikel rechten kunnen worden overschreven bij de
-individuele artikel rechten.
+Joomla heeft een geavanceerd mechanisme om te bepalen wie inhoud kan bekijken en manipuleren op een Joomla-site. Het **wie**-gedeelte wordt ingesteld in de opties van de Gebruikerscomponent met Gebruikersgroepen en Toegangsniveaus. Het **manipuleren**-gedeelte wordt ingesteld in Actiemachtigingen, hetzij in de Globale Configuratie-instellingen, in de Component-instellingen of in de Item-instellingen. Bijvoorbeeld, standaardwaarden die in Globale Machtigingen zijn ingesteld, kunnen worden overschreven in Artikelenmachtigingen (alle artikelen) en Artikelenmachtigingen kunnen worden overschreven in individuele Artikelmachtigingen.
 
 ## Gebruikersgroepen
 
-Gebruikersgroepen worden gebruikt om sitegebruikers op te delen in
-groepen met verschillende verantwoordelijkheden. Leden van de
-gebruikersgroep Auteur hebben bijvoorbeeld rechten om in te loggen op de
-Site, artikelen te maken en hun eigen artikelen te bewerken. Niets
-anders! Leden van de Super Users-groep zijn verantwoordelijk voor alle
-aspecten van het beheer en de werking van de site. Joomla biedt negen
-standaard gebruikersgroepen en men kan er meer aanmaken als dat nodig
-is.
+Gebruikersgroepen worden gebruikt om sitegebruikers op te delen in groepen met verschillende verantwoordelijkheden. Bijvoorbeeld: leden van de groep Schrijvers hebben toestemming om in te loggen op de site, artikelen te maken en hun eigen artikelen te bewerken. Niets meer! Leden van de groep Supergebruikers hebben verantwoordelijkheid voor alle aspecten van sitebeheer en -operatie. Joomla biedt negen standaardgebruikersgroepen en je kunt meer maken als je ze nodig hebt.
 
-<img
-src="https://docs.joomla.org/images/thumb/a/ae/J4x-user-groups-nl.png/800px-J4x-user-groups-nl.png.jpeg"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/thumb/a/ae/J4x-user-groups-nl.png/1200px-J4x-user-groups-nl.png.jpeg 1.5x, https://docs.joomla.org/images/a/ae/J4x-user-groups-nl.png 2x"
-data-file-width="1278" data-file-height="744" width="800" height="466"
-alt="J4x-user-groups-nl.png" />
+![Lijst van gebruikersgroepen](../../../en/images/users/access-control-users-groups-list.png)
 
-De standaard gebruikersgroepen zijn opgezet met ouder-kindrelaties om
-dubbele rechten te minimaliseren. Voorbeelden van overerving:
+De standaardgebruikersgroepen zijn opgezet met ouder-kindrelaties om dubbele toestemmingen te minimaliseren. Voorbeelden van overerving:
 
-- Een lid van de 'geregistreerd' groep heeft geen beheerdersrechten om
-  in te loggen in het beheerdeel. Redacteur of Uitgever ook niet.
-- Een lid van de auteursgroep heeft rechten om eigen bestanden te maken
-  en te bewerken. Dat geldt ook voor Redacteur en Uitgever, maar ze
-  hebben extra rechten
+- Een lid van de groep Geregistreerd heeft geen toestemmingen voor Administrator Login. Dit geldt ook voor Redacteur of Uitgever.
+- Een lid van de groep Schrijvers heeft toestemming om te maken en eigen werk te bewerken. Dit geldt ook voor Redacteur en Uitgever, maar zij hebben aanvullende toestemmingen.
 
-Nieuwe gebruikersgroepen kunnen voor speciale doeleinden aangemaakt
-worden. Er kan bijvoorbeeld een groep aangemaakt worden die
-beheerdersrechten heeft om in te loggen, maar waarvan de toegang beperkt
-is tot een enkele component. Er staat een voorbeeld van zo'n eigen
-gebruikersgroep aan het eind van deze handleiding.
+Je kunt nieuwe gebruikersgroepen maken voor speciale doeleinden indien nodig. Je kunt bijvoorbeeld een groep willen maken die wel toestemming heeft voor Administrator Login, maar met toegang beperkt tot een enkel component. Er is een voorbeeld van zo'n aangepaste gebruikersgroep aan het einde van deze tutorial.  
 
 ## Toegangsniveaus
 
-Elke keer als er een object aangemaakt wordt, zoals een artikel, een
-module of een menu-item, ziet men een toegang-veld, meestal in de
-rechterkolom van het gegevensinvoerformulier. Het is een keuzelijst met
-een keuze uit openbaar, gast, geregistreerd, speciaal en supergebruiker.
-De standaardwaarde is Openbaar. De standaard weergavetoegangsniveaus
-worden getoond in de volgende schermafbeelding:
+Elke keer dat je een object maakt, zoals een artikel, een module of een menu-item, zie je een Toegang-veld, meestal in de rechterkolom van het invoerformulier. Het is een keurvak met keuzes als Openbaar, Gast, Geregistreerd, Speciaal en Supergebruikers. De standaardinstelling is Openbaar. De standaard weergavetoegangsniveaus worden getoond in de volgende schermafbeelding:
 
-<img
-src="https://docs.joomla.org/images/thumb/0/0e/J4x-user-access-levels-nl.png/800px-J4x-user-access-levels-nl.png.jpeg"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/thumb/0/0e/J4x-user-access-levels-nl.png/1200px-J4x-user-access-levels-nl.png.jpeg 1.5x, https://docs.joomla.org/images/0/0e/J4x-user-access-levels-nl.png 2x"
-data-file-width="1271" data-file-height="519" width="800" height="327"
-alt="J4x-user-access-levels-nl.png" />
+![Gebruikers weergavetoegangsniveaus](../../../en/images/users/access-control-users-access-levels.png)
 
 Voorbeelden:
 
-- Als men een sitemodule maakt en Toegang instelt op Geregistreerd,
-  wordt deze alleen gezien door gebruikers die zijn aangemeld op de
-  website.
-- Als men een site menu-item maakt en Toegang instelt op
-  Supergebruikers, wordt dit alleen gezien door Supergebruikers die zijn
-  ingelogd op de website.
+- Als je een sitemodule maakt en de toegang instelt op Geregistreerd, wordt deze alleen gezien door gebruikers die zijn ingelogd op de site.
+- Als je een sitemenu-item maakt en de toegang instelt op Supergebruikers, wordt deze alleen gezien door Supergebruikers die zijn ingelogd op de site.
 
-## Rechten
+## Machtigingen
 
-De algemene instellingen rechten zijn het startpunt van waaruit rechten
-instellingen in componenten of individuele items kunnen worden
-overgenomen of overschreven. Schermafbeelding:
+De globale configuratiemachtigingen zijn het startpunt waarvandaan de machtigingsinstellingen in componenten of individuele items kunnen erven of worden overschreven. Screenshot:
 
-<img
-src="https://docs.joomla.org/images/thumb/e/ef/J4x-permissions-global-nl.png/800px-J4x-permissions-global-nl.png.jpeg"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/thumb/e/ef/J4x-permissions-global-nl.png/1200px-J4x-permissions-global-nl.png.jpeg 1.5x, https://docs.joomla.org/images/e/ef/J4x-permissions-global-nl.png 2x"
-data-file-width="1285" data-file-height="930" width="800" height="579"
-alt="J4x-permissions-global-nl.png" />
+![globale configuratiemachtigingen](../../../en/images/users/access-control-global-configuration-permissions.png)
 
-The screenshot shows that members of the Public group do not have
-permission to take any actions. If you select each group in turn you
-will see how the permissions change from group to group. Note that
-Manager and Administrator are allowed Administrator Login but Author,
-Editor and Publisher are not. The latter are effectively Site roles
-rather than Administrator roles.
+De screenshot laat zien dat leden van de Publieke groep geen toestemming hebben om handelingen uit te voeren. Als je elke groep om de beurt selecteert, zie je hoe de machtigingen van groep tot groep veranderen. Merk op dat Manager en Beheerder administratorlogin zijn toegestaan, maar Auteur, Redacteur en Uitgever niet. De laatste zijn in feite Site-rollen in plaats van Beheerrollen.
 
-All group permissions inherit from the Public group. It does not have
-permission for any actions. However, by default items in the Public
-group can be viewed, so assigning Public permission to an item will
-allow it to be seen by all site visitors whether logged in or not.
+Alle groepsrechten erven van de Publieke groep. Deze heeft geen toestemming voor enige acties. Echter, standaard kunnen items in de Publieke groep worden bekeken, dus het toekennen van Publieke machtiging aan een item zal ervoor zorgen dat het door alle sitebezoekers kan worden gezien, of ze nu zijn ingelogd of niet.
 
-### Articles Permissions
+### Artikel Machtigingen
 
-The Articles Permissions actions differ from the Global Configuration
-Permissions actions. Not present are items related to login and present
-are items related to workflows. This is a fairly typical pattern: a
-component will have permissions relevant to the component; a component
-item (such as an article) will have permissions relevant to that one
-item.
+De acties van Artikelen Machtigingen verschillen van de acties van de Globale Configuratie Machtigingen. Niet aanwezig zijn items gerelateerd aan inloggen en wel aanwezig zijn items gerelateerd aan workflows. Dit is een vrij typisch patroon: een component zal machtigingen hebben die relevant zijn voor het component; een component item (zoals een artikel) zal machtigingen hebben die relevant zijn voor dat ene item.
 
-<img
-src="https://docs.joomla.org/images/thumb/7/7f/J4x-permissions-articles-en.png/800px-J4x-permissions-articles-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/7/7f/J4x-permissions-articles-en.png 1.5x"
-data-file-width="1000" data-file-height="1037" width="800" height="830"
-alt="J4x-permissions-articles-en.png" />
+![Inhoud machtigingen](../../../en/images/users/access-control-global-content-permissions.png)
 
-### Single Article Permissions
+### Enkel Artikel Machtigingen
 
-The single article permissions has just three items: Delete, Edit and
-Edit State:
+De machtigingen voor een enkel artikel hebben slechts drie items: Verwijderen, Bewerken en Bewerken Status:
 
-<img
-src="https://docs.joomla.org/images/thumb/1/18/J4x-permissions-article-en.png/800px-J4x-permissions-article-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/1/18/J4x-permissions-article-en.png 1.5x"
-data-file-width="1000" data-file-height="711" width="800" height="569"
-alt="J4x-permissions-article-en.png" />
+![enkele artikel machtigingen](../../../en/images/users/access-control-article-permissions.png)
 
-## Access Control Example: Special Purpose User
+## Voorbeeld Toegangscontrole: Gebruiker met Speciaal Doel
 
-Suppose you need to create a User Group for users who have only one
-responsibility, in this example an Article Administrator. Users in this
-group should have Administrator Login permission but should not see
-anything other than the Content items. Procedure:
+Stel dat je een Gebruikersgroep moet maken voor gebruikers die maar één verantwoordelijkheid hebben, in dit voorbeeld een Artikelbeheerder. Gebruikers in deze groep moeten toestemming hebben voor de beheerderinlog, maar mogen niets anders zien dan de inhoudsitems. Procedure:
 
-### Create a new User Group
+### Maak een nieuwe Gebruikersgroep aan
 
-- Select **Users **→** Groups** from the Administrator menu.
-- Select the `New` button in the Toolbar.
-- Fill out the Group Title field: Article Administrator
-- The Group Parent must be Public - it has no permissions for anything.
+- Selecteer **Gebruikers → Groepen** in het Beheerdersmenu.
+- Selecteer de knop `Nieuw` in de Werkbalk.
+- Vul het veld Groepstitel in: Artikelbeheerder
+- De Groepsouder moet Openbaar zijn - het heeft geen toestemmingen voor iets anders.
 
-<img
-src="https://docs.joomla.org/images/thumb/c/c6/J4x-permissions-article-administrator-en.png/800px-J4x-permissions-article-administrator-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/c/c6/J4x-permissions-article-administrator-en.png 1.5x"
-data-file-width="1000" data-file-height="249" width="800" height="199"
-alt="J4x-permissions-article-administrator-en.png" />
+![Nieuw gebruikersgroepformulier](../../../en/images/users/access-control-new-group.png)
 
-### Assign to Special
+### Toewijzen aan Speciaal
 
-- Select **Users **→** Access Levels** from the Administrator menu.
-- Select the **Special** item.
-- Select the Article Administrator checkbox in the **Users: Edit Viewing
-  Access Level** form.
-- Save & Close.
+- Selecteer **Gebruikers → Toegangsniveaus** in het Beheerdersmenu.
+- Selecteer het item **Speciaal**.
+- Selecteer het selectievakje Artikelbeheerder in het formulier **Gebruikers: Bewerken van BekijkToegangsniveau**.
+- Opslaan & Sluiten.
 
-<img
-src="https://docs.joomla.org/images/thumb/5/59/J4x-permissions-article-administrator-special-en.png/800px-J4x-permissions-article-administrator-special-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/5/59/J4x-permissions-article-administrator-special-en.png 1.5x"
-data-file-width="1000" data-file-height="470" width="800" height="376"
-alt="J4x-permissions-article-administrator-special-en.png" />
+![Selecteer toegang voor groep](../../../en/images/users/access-control-select-access-for-group.png)
 
-### Global Configuration Permissions
+### Globale Configuratie Permissies
 
-- Select **Home Dashboard **→** Global Configuration** from the
-  Administrator menu.
-- Select the **Permissions** tab.
-- Select the **Article Administrator** group.
-- Set **Adminstrator Login** to Allowed.
-- Save & Close
+- Selecteer **Startdashboard → Globale Configuratie** in het
+  Beheerdersmenu.
+- Selecteer het tabblad **Permissies**.
+- Selecteer de groep **Artikelbeheerder**.
+- Zet **Beheerder Inloggen** op Toegestaan.
+- Opslaan & Sluiten.
 
-<img
-src="https://docs.joomla.org/images/thumb/6/66/J4x-permissions-article-administrator-global-en.png/800px-J4x-permissions-article-administrator-global-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/6/66/J4x-permissions-article-administrator-global-en.png 1.5x"
-data-file-width="1000" data-file-height="940" width="800" height="752"
-alt="J4x-permissions-article-administrator-global-en.png" />
+![Selecteer toegang voor groep](../../../en/images/users/access-control-article-administrator-global-permissions.png)
 
-### Articles Options Permissions
+### Artikelen Opties Permissies
 
-- Select **Content **→** Articles** from the Administrator menu.
-- Select the `Options` button from the Toolbar.
-- Select the **Permissions** tab.
-- Select the **Article Administrator** group.
-- Set all items except the first two (Configure ACL & Options and
-  Configure Options Only) to Allowed.
-- Save & Close
+- Selecteer **Inhoud → Artikelen** in het Beheerdersmenu.
+- Selecteer de knop `Opties` in de Werkbalk.
+- Selecteer het tabblad **Permissies**.
+- Selecteer de groep **Artikelbeheerder**.
+- Zet alle items behalve de eerste twee (Configureer ACL & Opties en
+  Alleen Opties Configureren) op Toegestaan.
+- Opslaan & Sluiten.
 
-<img
-src="https://docs.joomla.org/images/thumb/e/ef/J4x-permissions-article-administrator-articles-en.png/800px-J4x-permissions-article-administrator-articles-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/e/ef/J4x-permissions-article-administrator-articles-en.png 1.5x"
-data-file-width="1000" data-file-height="930" width="800" height="744"
-alt="J4x-permissions-article-administrator-articles-en.png" />
+![Selecteer toegang voor groep](../../../en/images/users/access-control-article-administrator-content-permissions.png)
 
-### Create or Edit User
+### Gebruiker Maken of Bewerken
 
-- Create a new user or edit an existing user who is not assigned to any
-  groups
-- Select **Article Administrator** in the **Assigned User Groups** tab
-  of the User edit form.
-- Save & Close.
-- Login as a user in the Article Administrator Group only. The menu
-  should show only article-related items:
+- Maak een nieuwe gebruiker aan of bewerk een bestaande gebruiker die aan geen groepen is toegewezen.
+- Selecteer **Artikelbeheerder** in het tabblad **Toegewezen Gebruikersgroepen**
+  van het Gebruiker bewerken formulier.
+- Opslaan & Sluiten.
+- Log in als een gebruiker in de groep Artikelbeheerder alleen. Het menu
+  moet alleen artikelgerelateerde items tonen:
 
-<img
-src="https://docs.joomla.org/images/thumb/4/40/J4x-permissions-article-administrator-menu-en.png/800px-J4x-permissions-article-administrator-menu-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/4/40/J4x-permissions-article-administrator-menu-en.png 1.5x"
-data-file-width="1000" data-file-height="451" width="800" height="361"
-alt="J4x-permissions-article-administrator-menu-en.png" />
+![Selecteer toegang voor groep](../../../en/images/users/access-control-article-administrator-home-dashboard.png)
+
+*Vertaald door openai.com*
+

@@ -1,114 +1,32 @@
-<!-- Filename: J3.x:Adding_custom_fields/Checkboxes_Field / Display title: Toevoegen extra velden/Selectievakjes veld -->
+<!-- Filename: J3.x:Adding_custom_fields/Checkboxes_Field / Display title: Selectievakjes Veld -->
 
-## Selectievakjes veld
+## Doel
 
-**Artikelen in deze reeks**
+Het selectievakjesveld biedt een of meer selectievakjes die in een artikel kunnen worden geselecteerd. Aangevinkte vakjes verschijnen in de uitvoer als een door komma's gescheiden lijst. In het volgende voorbeeld worden selectievakjes gebruikt om kweekmethoden van planten aan te geven, die een of meer van de volgende kunnen zijn: Zaad, Stek of Ent.
 
-1.  Inleiding
-2.   Parameters voor alle extra
-    velden
-3.   Kalender
-    veld
-4.   Selectievakjes
-    veld
-5.   Kleur
-    veld
-6.   Tekstverwerker
-    veld
-7.   Integer
-    veld
-8.   Lijst
-    veld
-9.   Lijst met afbeeldingen
-    veld
-10.  Media
-    veld
-11.  Keuzerondje
-    veld
-12.  Herhalend
-    veld
-13.  SQL
-    veld
-14.  Tekst
-    veld
-15.  Tekstvak
-    veld
-16.  URL
-    veld
-17.  Gebruiker
-    veld
-18.  Gebruikersgroep
-    veld
-19.  Hoe kunt u extra velden
-    groeperen
-20.  Welke componenten ondersteunen extra
-    velden
-21.  Implementatie in uw
-    component
-22.  Extra velden gebruiken in uw
-    overrides
+## Veld Aanmaken
 
-## Het selectievakjes veld
+* Het **Label** is gebaseerd op de Titel en verschijnt in de output vóór de lijst met geselecteerde waarden.
+* Checkboxen worden één voor één toegevoegd, elk met Tekst en Waarde. De Tekst verschijnt in de output. De waarde wordt gebruikt in het gegevensinvoerformulier en elke waarde moet anders zijn.
 
-Biedt één selectievakje dat aan- of uitgevinkt kan worden.
+![Checkboxen](../../../en/images/fields/fields-checkboxes.png "Checkboxen")
 
-#### Opties
+## Gegevensinvoer
 
-Speciale opties binnen dit veld zijn
+Het gaat erom de items te selecteren die in de output moeten verschijnen.
 
-- Selectievakjes waarden
-  De waarden van de selectievakjes.
+![Checkbox Selectie](../../../en/images/fields/fields-checkboxes-entry.png "Checkbox Selectie")
 
-#### Verwante Informatie
+Velden verschijnen alleen in een artikel als ze zijn ingevuld in het gegevensinvoerformulier van het artikel.
 
-Zie  Selectievakje formulier
-veldtype
 
-#### Schermafbeeldingen
+## Gegevensweergave
 
-##### Het veld aanmaken
+De volgende schermafbeelding van de site toont het veld zoals weergegeven in een artikel. De optie *Automatische weergave* bepaalt de positie van het veld en je sjabloon is verantwoordelijk voor het ontwerp van het veld.
 
-Laten we zeggen dat u een veld maakt met de opties weergegeven in de
-volgende afbeelding.
+Zoek naar het item **Voortplanting**.
 
-<img
-src="https://docs.joomla.org/images/thumb/5/5f/Checkbox_field_create-nl.png/800px-Checkbox_field_create-nl.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/5/5f/Checkbox_field_create-nl.png 1.5x"
-data-file-width="1155" data-file-height="947" width="800" height="656"
-alt="Checkbox field create-nl.png" />
+![Weergave van alle velden](../../../en/images/fields/fields-display.png "Veldenweergave")
 
-##### Het veld in het beheergedeelte gebruiken
+*Vertaald door openai.com*
 
-In het beheergedeelte ziet u het veld bij het aanmaken van een artikel
-of contactpersoon als in de volgende afbeeldingː
-
-<img
-src="https://docs.joomla.org/images/thumb/7/72/Checkbox-nl.png/800px-Checkbox-nl.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/7/72/Checkbox-nl.png 1.5x"
-data-file-width="1158" data-file-height="950" width="800" height="656"
-alt="Checkbox-nl.png" />
-
-##### Het veld op de website gebruiken
-
-Op de website kunt u het veld zien zoals op de volgende afbeelding
-indien optie 1 en 2 zijn aangevinkt. De optie *Automatisch tonen* is
-verantwoordelijk voor de positie van het veld en uw template is
-verantwoordelijk voor het ontwerp van het veld.
-Velden worden alleen getoond op de website als er in het artikel
-gegevens in staan. Als het geen verplicht veld is kunt u dat vergetenǃ
-
-<img
-src="https://docs.joomla.org/images/thumb/f/f9/Checkbox_field_frontend-nl.png/800px-Checkbox_field_frontend-nl.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/f/f9/Checkbox_field_frontend-nl.png 1.5x"
-data-file-width="1013" data-file-height="642" width="800" height="507"
-alt="Checkbox field frontend-nl.png" />
-
-<a
-href="https://docs.joomla.org/J3.x:Adding_custom_fields/Calendar_Field"
-id="content-button" class="button expand success">Vorig: Kalender
-veld</a>
-<a href="https://docs.joomla.org/J3.x:Adding_custom_fields/Color_Field"
-id="content-button" class="button expand">Volgende: Kleur veld</a>

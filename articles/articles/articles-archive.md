@@ -1,139 +1,56 @@
-<!-- Filename: J4.x:How_to_Archive_an_Article / Display title: Hoe een artikel archiveren -->
+<!-- Filename: J4.x:How_to_Archive_an_Article / Display title: Artikelen: Archief  -->
 
-Joomla!  4.x <span id="main-portal-heading">**Hoe**
-Artikelen archiveren</span>
+## Introductie
 
-## Inleiding
+Naarmate de inhoud van je website groeit, is het waarschijnlijk dat een deel van die inhoud moet worden bijgewerkt of vervangen. Je kunt ervoor kiezen om enkele artikelen te depubliceren, maar het kan nodig zijn om ze op een manier te bewaren zodat mensen ze nog steeds kunnen bekijken.
 
-As your website content grows it is likely that some of that content
-will need to be updated or replaced.
+Joomla! maakt het archiveren van artikelen eenvoudig door je de mogelijkheid te geven om de status van een artikel te wijzigen naar **Gearchiveerd**. Een voordeel van archiveren is dat het contentbeheer makkelijker maakt en het archiveren is gestructureerd per jaar.
 
-You might choose to unpublish these articles but you may have a
-requirement to keep the original articles/s in a way that people can
-still view them.
+Deze op status gebaseerde benadering is een belangrijk onderdeel van Joomla's vermogen om content effectief en efficiënt te beheren. Eenmaal gearchiveerd, biedt Joomla methoden om de gearchiveerde inhoud te openen en weer te geven.
 
-Joomla! makes archiving of articles a simple process by allowing you to
-change the status of the article to **Archived**. A benefit of archiving
-is that it makes content management easier and archiving is structured
-by year.
+## Artikelen Archiveren
 
-This status based approach is a key part of Joomla’s ability to
-effectively and efficiently manage content. Once archived, Joomla
-provides methods to access and display the content.
+Je kunt een artikel archiveren op verschillende plaatsen:
 
-## Archiving Articles
+- Een vorig artikel over 
+  [Een Artikel Toevoegen](jdocmnaual?article=user/getting-started/adding-an-article)
+  toonde een screenshot van de *Artikelen* lijstpagina met een geselecteerd artikel en 
+  de *Acties* lijst in de werkbalk open om de beschikbare opties weer te geven. Een daarvan is *Archiveren*. Dat is waarschijnlijk de beste manier om een artikel te archiveren. Let erop dat je meerdere artikelen tegelijk kunt archiveren. Door een of meer artikelen te selecteren, wordt de **Acties** dropdownlijst mogelijk.
+- Elk artikel heeft een *Status* instelling in het artikelbewerkingsformulier. *Gearchiveerd*
+  kan daar worden ingesteld.
+- Vanuit een menu-itemtype *Enkel Artikel*. Het veld *Selecteer Artikel* heeft een *Bewerken* optie die een pop-up *Artikel Bewerken* formulier opent waar het veld *Status* kan worden ingesteld zoals in een standaard artikelbewerkingsformulier. Het menu-item voor een enkel artikel blijft koppelen naar het gearchiveerde artikel.
 
-You can archive an article in several places, in the Article Manager, in
-the Article itself or in the Article via it’s Menu Item.
+Gearchiveerde artikelen verschijnen niet meer in de *standaard* Artieklijst. Selecteer de
+*Filteropties* knop en daarna *Gearchiveerd* in de *- Selecteer Status -* filter 
+om de lijst van gearchiveerde artikelen te zien.
 
-### Archiving via the Article Manager
+## Siteweergave van Gearchiveerde Artikelen
 
-Once logged into Joomla go to the Article Manager via the Home Dashboard
-or Sidebar Menu.
+Zodra artikelen zijn gearchiveerd, zijn er verschillende manieren om ze vanaf de voorkant van de site te bekijken.
 
-<img
-src="https://docs.joomla.org/images/thumb/e/e8/J4.x_navigate_to_article_manager-en.png/500px-J4.x_navigate_to_article_manager-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/thumb/e/e8/J4.x_navigate_to_article_manager-en.png/750px-J4.x_navigate_to_article_manager-en.png 1.5x, https://docs.joomla.org/images/e/e8/J4.x_navigate_to_article_manager-en.png 2x"
-data-file-width="1000" data-file-height="452" width="500" height="226"
-alt="J4.x navigate to article manager-en.png" />
+### Via een menu
 
-From the Article Manager click the checkbox for the article you want to
-archive. Note that you can archive several articles at once.
+Er is een menu-itemtype [Gearchiveerde Artikelen](jdocmanual?article=user/menus/menu-item-type-archived-articles) dat je kunt gebruiken om een link naar gearchiveerde artikelen in je menu te maken.
 
-Selecting one or more articles will enable the **Actions** dropdown
-list.
+### Via een module
 
-From the **Actions** dropdown list choose **Archive**.
+Er is een module [Artikelen – Gearchiveerd](jdocmanual?article=user/modules/articles-archived-module) die je kunt gebruiken om weer te geven op een van de moduleposities van je website template.
 
-<img
-src="https://docs.joomla.org/images/thumb/0/06/J4.x_archive_from_article_manager-en.png/800px-J4.x_archive_from_article_manager-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/0/06/J4.x_archive_from_article_manager-en.png 1.5x"
-data-file-width="1000" data-file-height="539" width="800" height="431"
-alt="J4.x archive from article manager-en.png" />
+De volgende schermafbeelding toont een *Gearchiveerde Artikelen* pagina verkregen met een menu-item. Er zijn filters voor *Maand* en *Jaar* en een lijstlimiet met instellingen van 5 tot 100 en Alles. Wees altijd voorzichtig met het gebruik van *Alles*. Als je duizenden resultaten retourneert, kan je pagina traag laden en niet reageren. Je kunt tijd of geheugen tekortkomen, wat kan leiden tot een serverfout.
 
-The article/s will no longer appear in the *default* Article Manager
-List view.
+![Gearchiveerde artikelen paginaweergave](../../../en/images/articles/articles-archived-site.png)
 
-### Archiving Within an Article
+Onderaan de rechterkolom bevindt zich de module *Gearchiveerde Artikelen*.  
 
-When an article is open you can archive it by simply changing the
-article's **Status**.
+## Artikelen de-archiveren
 
-Click the **Status** dropdown icon.
-
-Select **Archived**. **Save & Close** the article.
-
-<img
-src="https://docs.joomla.org/images/thumb/9/98/J4.x_set_article_status_to_archived-en.png/800px-J4.x_set_article_status_to_archived-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/9/98/J4.x_set_article_status_to_archived-en.png 1.5x"
-data-file-width="1000" data-file-height="127" width="800" height="102"
-alt="J4.x set article status to archived-en.png" />
-
-### From Within a Menu Item
-
-This method only applies for articles that appear in a menu as a
-**Single Article**.
-
-With the Menu Item open, click the **Edit** button in the **Select
-Article** field.
-
-The article will be opened in a panel. Change the status of the article
-to **Archived** as shown in the previous method above.
-
-Click **Save & Close** then **Save & Close** the Menu Item.
-
-## Viewing Archived Articles
-
-Once articles have been archived, there are several ways to view them.
-
-### To view from the backend
-
-In the Article Manager click the **Filter Options** button then the
-**Select Status** dropdown.
-
-Choose **Archived**.
-
-This will apply a filter to display all articles set with a status of
-archived.
-
-Return to the default article list view by clicking the **Clear**
-button.
-
-<img
-src="https://docs.joomla.org/images/thumb/4/4c/J4.x_filter_article_list-en.png/800px-J4.x_filter_article_list-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/4/4c/J4.x_filter_article_list-en.png 1.5x"
-data-file-width="1000" data-file-height="283" width="800" height="226"
-alt="J4.x filter article list-en.png" />
-
-### To view from the frontend via a menu
-
-There is a Menu Item type of **Articles \> Archived Article** that you
-can use to create a link in your menu to archived articles.
-
-### To view from the frontend via a module
-
-There is a module type **Articles – Archived** that you can use to
-display in a one of your website template module positions.
-
-## Un-archive Articles
-
-To un-archive an article the same process applies - the status of the
-article is changed from **Archived** to **Published**.
-
-Follow the steps above at **Viewing Archived Articles \> To view from
-the backend** to filter for archived articles. Select the relevant
-article/s and change the status to **Published**.
+Om een artikel te de-archiveren, geldt hetzelfde proces: de status van het artikel wordt gewijzigd van **Gearchiveerd** naar **Gepubliceerd**.
 
 ## Tips
 
-Remember, archived articles are filtered from view in the Article
-Manager. You must change the status filter to **Archived** to view them.
+* Vergeet niet dat gearchiveerde artikelen zijn gefilterd uit de weergave in de lijst *Artikelen*. Je moet de *Status* filter wijzigen naar *Gearchiveerd* om ze te bekijken.
+* Archiveren betekent niet dat een artikel wordt gedepubliceerd.
+* Je kunt artikelen ook archiveren via de frontend wanneer je bent ingelogd voor frontend-bewerking.
 
-Archiving does not unpublish the article.
+*Vertaald door openai.com*
 
-You can also archive articles from the frontend when logged in for
-frontend editing.

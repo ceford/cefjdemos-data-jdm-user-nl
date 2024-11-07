@@ -1,101 +1,66 @@
-<!-- Filename: J4.x:Getting_Started:_Adding_an_Article / Display title: Aan de slag: Een artikel toevoegen -->
+<!-- Filename: J4.x:Getting_Started:_Adding_an_Article / Display title: Een Artikel Toevoegen -->
 
-## Introduction
+## Inleiding
 
-You have installed Joomla! but don't have a clue what to do next! Let us
-assume you are looking at the Home Dashboard. Select the **Home
-Dashboard** item in the **Administrator** menu just to be sure.
+Na inloggen, beginnend vanaf het Home Dashboard, zijn er verschillende manieren om een nieuw artikel te maken:
 
-There are several ways to create a new article:
+- Selecteer het **+** icoon naast de *Artikelen* knop in het *Site*-paneel van het Home Dashboard.
+- Vouw het *Inhoud* menu uit en selecteer de **+** knop naast *Artikelen* daar.
+- Selecteer op beide plaatsen het **Artikelen** item en kies op de Artikelen lijstpagina de **Nieuw** knop in de Werkbalk.
 
-- Select the **+** icon adjacent to Articles in the Home Dashboard Site
-  panel.
-- Expand the Content menu and select the **+** button adjacent to
-  Articles there.
-- In either location select the **Articles** item and in the Articles
-  list screen select the **New** button the Toolbar.
+Totdat een artikel is aangemaakt, toont de Artikelen pagina een tijdelijke pagina met de mededeling *Er zijn nog geen artikelen aangemaakt.*
 
-## The Toolbar
+## De Werkbalk
 
-On almost every page, immediately beneath the title bar, is a bar
-containing action buttons. This is known as the Toolbar. The buttons
-differ from page to page and sometimes are inactive, appearing grey,
-until an item is selected in the list of items. Example, containing New,
-Action, Options and Help buttons:
+Op bijna elke pagina, direct onder de titelbalk, bevindt zich een balk met actieknoppen. Dit wordt de Werkbalk genoemd. De knoppen verschillen per pagina en zijn soms inactief, wat betekent dat ze grijs worden weergegeven, totdat een item in de lijst wordt geselecteerd. De volgende screenshot toont de *Artikelen* lijst met een geselecteerd artikelvakje. De *Actie* knop is een uitklapmenu dat is geselecteerd om de beschikbare opties te tonen.
 
-<img
-src="https://docs.joomla.org/images/thumb/9/9c/J4.x-getting-started-toolbar-screenshot-en.png/800px-J4.x-getting-started-toolbar-screenshot-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/thumb/9/9c/J4.x-getting-started-toolbar-screenshot-en.png/1200px-J4.x-getting-started-toolbar-screenshot-en.png 1.5x, https://docs.joomla.org/images/9/9c/J4.x-getting-started-toolbar-screenshot-en.png 2x"
-data-file-width="1440" data-file-height="356" width="800" height="198"
-alt="J4.x-getting-started-toolbar-screenshot-en.png" />
+![Artikelenlijst met ingeschakelde actieknoop](../../../en/images/getting-started/articles-list.png)
 
-## The Articles Edit Page
+Selecteer de *Nieuw* knop in de *Werkbalk* van de *Artikelen* pagina om een artikelbewerkingsformulier te openen.  
 
-There are a bewildering number of form fields in the Edit page but all
-but except two have sensible defaults that you can forget about for now.
-The fields to fill in:
+## De Artikelen: Bewerk pagina
 
-- **Title.** This is compulsory and should be something short and
-  simple.
-- **Content** The article text. This is optional but it would not make
-  much sense to have an article with no content. So start typing. If you
-  just want something to try out copy the following paragraph:
+Totdat een artikel is opgeslagen, is het label van de *Titelbalk* *Artikelen: Nieuw* en het heeft slechts een paar Werkbalkknoppen. De knop *Annuleren* kan worden gebruikt om het maken van een artikel te annuleren. Er is geen waarschuwingsbericht. Alle ingevoerde inhoud wordt verwijderd. Na het opslaan wordt het label van de Titelbalk *Artikelen: Bewerken* en heeft de Werkbalk veel meer knoppen.
 
-*Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
-Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean
-imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper
-ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus
-eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing
-sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar,
-hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec
-vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit
-amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris
-sit amet nibh.*
+![Artikel bewerkformulier](../../../en/images/getting-started/article-edit-form.png)
 
-- **Featured.** To the right of the edit box (on laptop or bigger
-  screens and below on smaller screens) there is a field to select to
-  make this a Featured article. Select it and then select the **Save**
-  button in the Toolbar.
+Er zijn een overweldigend aantal velden op de Bewerk pagina, maar allemaal behalve twee hebben verstandige standaardinstellingen. De in te vullen velden:
 
-## Site View
+- **Titel** Dit is **vereist** en moet kort en eenvoudig zijn. In Joomla moet elk formulieronderdeel dat als vereist is gemarkeerd, worden ingevuld, anders kan de inhoud van het formulier niet worden opgeslagen. Je zou kunnen beginnen met *Mijn Eerste Artikel*. In de volgende voorbeelden werd het woord *Artikel* gevolgd door de taalcode gebruikt voor demonstratiedoeleinden in verschillende talen.
+- **Inhoud** De tekst van het artikel. Dit is optioneel, maar het zou weinig zin hebben om een artikel zonder inhoud te hebben. Dus begin met typen. Als je iets wilt proberen, kopieer dan de volgende alinea:
 
-To see what it looks like you can select the Site view icon in the Title
-bar. If the site view is already open just reload it.
+  >Lorem ipsum ad his scripta blandit partiendo, eum fastidii accumsan euripidis in, eum liber hendrerit an. Qui ut wisi vocibus suscipiantur, quo dicit ridens inciderint id. Quo mundi lobortis reformidans eu, legimus senseritdefiniebas an eos. Eu sit tincidunt incorrupte definitionem, vis mutat affert percipit cu, eirmod consectetuer signiferumque eu per. In usu latineequidem dolores. Quo no falli viris intellegam, ut fugit veritus placeratper. Ius id vidit volumus mandamus, vide veritus democritum te nec, ei eosdebet libris consulatu.
+- **Uitgelicht** Rechts van het bewerkingsvak (op laptops of grotere schermen en daaronder op kleinere schermen) is er een veld om te selecteren dat dit een *Uitgelicht* artikel moet zijn. Selecteer het en druk vervolgens op de knop **Opslaan** in de Werkbalk. Uitgelichte artikelen mogen prioriteit krijgen in site-indelingen en kunnen samen verschijnen in een *Uitgelicht* blogindeling.
 
-<img
-src="https://docs.joomla.org/images/thumb/e/ea/J4.x-getting-started-my-first-article-screenshot-en.png/800px-J4.x-getting-started-my-first-article-screenshot-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/e/ea/J4.x-getting-started-my-first-article-screenshot-en.png 1.5x"
-data-file-width="854" data-file-height="480" width="800" height="450"
-alt="J4.x-getting-started-my-first-article-screenshot-en.png" />
+## Voorbeeld
 
-Note the article metadata: the information between the Title and the
-Content. You can configure what information appears and where it appears
-with those other article form fields. Later...
+Om te zien hoe het eruitziet, kun je de *Voorbeeld* knop in de werkbalk selecteren.
 
-## The Read More Break
+![Artikellijst met ingeschakelde actietoets](../../../en/images/getting-started/article-edit-preview.png)
 
-If your article is several paragraphs long and you wish to show a number
-of featured articles on the Home page of your website, you should insert
-a Read More break after the first paragraph. If you click the Editor CMS
-Content button you will find it at the bottom of the list. The break
-appears as a horizontal dashed red line. Here is another paragraph of
-test text to insert below the page break:
+Let op de metadata van het artikel: de informatie tussen de titel en de inhoud. Je kunt configureren welke informatie verschijnt en waar het verschijnt met die andere velden van het artikel. Later...
 
-*Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales,
-augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate
-eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed,
-nonummy id, metus. Nullam accumsan lorem in dui. Cras ultricies mi eu
-turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus
-orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi
-consectetuer lacinia. Nam pretium turpis et arcu. Duis arcu tortor,
-suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam
-ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget,
-posuere ut, mauris.*
+## De Lees Meer Onderbreking
 
-The result is that only the text before the page break appears on the
-Home page. Click the Article Title or the Read More button to see the
-full article on its own.
+Als je artikel uit meerdere alinea's bestaat en je een aantal aanbevolen artikelen op de startpagina van je website wilt tonen, moet je een *Lees Meer...* onderbreking na de eerste alinea invoegen. Als je de knop *CMS Content* van de editor selecteert, vind je deze onderaan de lijst. De onderbreking verschijnt als een horizontale gestreepte rode lijn. Hier is een andere alinea om onder de paginabreak in te voegen:
 
-And notice the Breadcrumbs!
+>Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris.
+
+Het resultaat is dat alleen de tekst vóór de paginaunderbreking verschijnt op een Categorie Blog of Aanbevolen Artikelen pagina (de startpagina). Selecteer de artikel titel of de Lees Meer knop om het volledige artikel op zichzelf te zien.
+
+- Selecteer **Opslaan & Sluiten** om het bewerkingsformulier te sluiten en terug te gaan naar de *Artikelen* lijstpagina.
+
+Een nieuwe Joomla-installatie heeft een Sitemenu met een enkel menu-item genaamd *Home*. Het gebruikt een blog-indeling voor *Aanbevolen Artikelen*. Selecteer de *Sitenaam* link rechtsboven op de Joomla-beheerderpagina om een nieuw tabblad te openen met de startpagina van de site met je nieuwe artikel. 
+
+## Site Weergave
+
+De volgende schermafbeelding toont een site-weergave van het eerste deel van het artikel dat hierboven is beschreven. Je nieuwe Joomla! site zal alleen het *Hoofdmenu*, *Inlogformulier* en je artikel bevatten. Deze schermafbeelding is voor een meertalige site die dezelfde pagina in veel verschillende talen toont en andere inhoud heeft die in latere tutorials wordt gebruikt.
+
+![Site-weergave met behulp van categorie blog-indeling](../../../en/images/getting-started/article-site-view.png)
+
+### Broodkruimels
+
+De lichtgrijze regel die zegt *U bent hier: Home* is een configureerbare module die laat zien waar je je bevindt in de categoriebomenstructuur.
+
+*Vertaald door openai.com*
+

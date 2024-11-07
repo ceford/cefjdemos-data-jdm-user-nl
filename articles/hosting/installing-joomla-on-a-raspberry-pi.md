@@ -1,192 +1,113 @@
-<!-- Filename: Installing_Joomla_on_a_Raspberry_Pi / Display title: Joomla installeren op een Raspberry Pi -->
+<!-- Filename: Installing_Joomla_on_a_Raspberry_Pi / Display title: Raspberry Pi-installatie -->
 
-<img
-src="https://docs.joomla.org/images/thumb/e/e5/Quill_icon.png/30px-Quill_icon.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/thumb/e/e5/Quill_icon.png/45px-Quill_icon.png 1.5x, https://docs.joomla.org/images/thumb/e/e5/Quill_icon.png/60px-Quill_icon.png 2x"
-data-file-width="71" data-file-height="59" width="30" height="25"
-alt="Quill icon.png" />Content is Incomplete
+## Voorwoord
 
-This article or section **is incomplete, which means it may be lacking
-information.** You are welcome to assist in its completion by editing it
-as well. If this article or section <a
-href="https://docs.joomla.org//docs.joomla.org/index.php?title=Installing_Joomla_on_a_Raspberry_Pi/nl&amp;action=history"
-class="external text" target="_blank" rel="noreferrer noopener"></a> <a
-href="https://docs.joomla.org//docs.joomla.org/index.php?title=Installing_Joomla_on_a_Raspberry_Pi/nl&amp;action=history"
-class="external text" target="_blank" rel="noreferrer noopener">has not
-been edited in several days</a>, please consider helping complete the
-content.
-<span class="small">This article was <a
-href="https://docs.joomla.org//docs.joomla.org/index.php?title=Installing_Joomla_on_a_Raspberry_Pi/nl&amp;diff=cur"
-class="external text" target="_blank" rel="noreferrer noopener">last
-edited</a> by
-FuzzyBot
-(talk\|
-contribs
-3 years ago. *(<a
-href="https://docs.joomla.org//docs.joomla.org/index.php?title=Installing_Joomla_on_a_Raspberry_Pi/nl&amp;action=purge"
-class="external text" target="_blank"
-rel="noreferrer noopener">Purge</a>)*</span>
+**Opmerking: Dit document is nog niet volledig en uitgebreid getest.**
 
-**Note: Work-in-progress. This document is not yet ready & fully tested.
-Please wait with translation until it is finished. Thanks!**
-
-The <a href="https://www.raspberrypi.org/" class="external text"
-target="_blank" rel="nofollow noreferrer noopener">Raspberry Pi</a> is a
-small single-board computer that was originally developed to promote the
-teaching of basic computer science in schools and developing countries.
-Because of its versatility it has become very popular and is used as
-media player, small stand-alone server, etc. You can use it as webserver
-and install Joomla! on it. This page shows you how to get a your Joomla!
-website running on the Raspberry Pi.
+De <a href="https://www.raspberrypi.org/" rel="nofollow noreferrer noopener">Raspberry Pi</a> is een kleine single-board computer die oorspronkelijk is ontwikkeld om de basisprincipes van informatica te onderwijzen op scholen en in ontwikkelingslanden. Vanwege zijn veelzijdigheid is het erg populair geworden en wordt het gebruikt als mediaplayer, kleine zelfstandige server, enz. Je kunt het gebruiken als webserver en Joomla! erop installeren. Deze pagina laat je zien hoe je jouw Joomla!-website kunt laten draaien op de Raspberry Pi.
 
 ## Hardware
 
-- **Rasberry Pi version 3 Model B** - There are various models of
-  Raspberry Pi. You can use most models that have an Ethernet port (the
-  Model B types). However for performance we will use the latest version
-  with most RAM memory.
-- **micro SD card** - For the operating system + webserver + Joomla.
-  (RPi version 3 model B uses micro SD other versions might use normal
-  SD cards)
-- **5 Volt adapter (1 Amp)** - to power the Raspberry Pi you'll need to
-  convert the mains power (230V or 110V) to 5 Volt. The Rasperry Pi
-  needs about 1 Amp, and maybe more if you connect USB devices to it.
-- standard **Ethernet cable** - to connect the RPi to your Local Area
-  Network / router / the internet.
+- **Raspberry Pi versie 3 Model B** - Er zijn verschillende modellen van
+  Raspberry Pi. Je kunt de meeste modellen gebruiken die een Ethernet-poort hebben (de
+  Model B types). Voor de prestaties gebruiken we echter de nieuwste versie
+  met het meeste RAM-geheugen.
+- **microSD-kaart** - Voor het besturingssysteem + webserver + Joomla.
+  (RPi versie 3 Model B gebruikt een microSD-kaart, andere versies kunnen normale
+  SD-kaarten gebruiken)
+- **5 Volt adapter (1 Ampère)** - Om de Raspberry Pi van stroom te voorzien moet je
+  de netspanning (230V of 110V) omzetten naar 5 Volt. De Raspberry Pi
+  heeft ongeveer 1 Ampère nodig, en misschien meer als je USB-apparaten erop aansluit.
+- standaard **Ethernet-kabel** - om de RPi aan te sluiten op je Local Area
+  Network / router / het internet.
 
-## Het Installeren Van Het Besturingssysteem
+## Installeren van Besturingssysteem
 
-The operating system Raspbian is a Debian Linux version specially
-compiled for the Raspberry Pi. There are two versions of
-<a href="https://www.raspberrypi.org/downloads/raspbian/"
-class="external text" target="_blank"
-rel="nofollow noreferrer noopener">Raspbian</a> available: **Raspbian
-Jessie with Pixel Lite** (version with PIXEL desktop based on Debian
-Jessie) and **Raspbian Jessie Lite** (minimal version based on Debian
-Jessie). Because we use the Raspberry Pi as webserver for Joomla, we
-won't need the GUI.
+Het besturingssysteem Raspbian is een versie van Debian Linux speciaal gecompileerd voor de Raspberry Pi. Er zijn twee versies van <a href="https://www.raspberrypi.com/software/" rel="nofollow noreferrer noopener">Raspbian</a> beschikbaar: **Raspbian Jessie met Pixel Lite** (versie met PIXEL desktop gebaseerd op Debian Jessie) en **Raspbian Jessie Lite** (minimale versie gebaseerd op Debian Jessie). Omdat we de Raspberry Pi als webserver voor Joomla gebruiken, hebben we de GUI niet nodig.
 
-**Download** <a href="https://www.raspberrypi.org/downloads/raspbian/"
-class="external text" target="_blank"
-rel="nofollow noreferrer noopener">Raspbian Jessie Lite</a> and unzip
-the downloaded file, e.g. 2016-09-23-raspbian-jessie-lite**.zip** (306
-MB) to 2016-09-23-raspbian-jessie-lite**.img** (1.4 GB).
+**Download** <a href="https://www.raspberrypi.org/downloads/raspbian/" rel="nofollow noreferrer noopener">Raspbian Jessie Lite</a> en pak het gedownloade bestand uit, bijvoorbeeld **2016-09-23-raspbian-jessie-lite.zip** (306 MB) naar **2016-09-23-raspbian-jessie-lite.img** (1,4 GB).
 
-Now we need to copy the .img file to the (micro) SD card. You can use a
-tool with graphical interface like
-<a href="https://unetbootin.github.io/" class="external text"
-target="_blank" rel="nofollow noreferrer noopener">UNetbootin</a> (for
-Windows, Mac OS X and Linux) or do it on the command line).
+Nu moeten we het .img-bestand naar de (micro) SD-kaart kopiëren. Je kunt een tool met grafische interface gebruiken zoals <a href="https://unetbootin.github.io/" rel="nofollow noreferrer noopener">UNetbootin</a> (voor Windows, Mac OS X en Linux) of dit via de command line doen.
 
-**Be very careful** when writing the .img disk image to another disk. In
-case you use the wrong destination disk, you will overwrite that disk
-with the .img which makes that disk unusable, resulting in data loss.
+**Wees voorzichtig** bij het schrijven van de *.img*-schijf afbeelding naar een andere schijf. Als je de verkeerde doelbestandschijf opgeeft, overschrijf je die schijf met de *.img*, waardoor deze schijf onbruikbaar wordt en dataverlies veroorzaakt.
 
 ### Windows
 
-In a terminal (CMD) check which device corresponds with the SD Card and
-do something like:
+Controleer in een terminal (CMD) welk apparaat met de SD-kaart overeenkomt en voer iets uit zoals:
 
-    dd bs=1M if=c:\temp\2016-09-23-raspbian-jessie-lite.img od=[the device of your SD Card]
+```
+    dd bs=1M if=c:\temp\2016-09-23-raspbian-jessie-lite.img of=[het apparaat van je SD-kaart]
+```
 
-See also <a
-href="https://www.raspberrypi.org/documentation/installation/installing-images/windows.md"
-class="external text" target="_blank"
-rel="nofollow noreferrer noopener">Installing Operating System Images
-using Windows</a>
+Zie ook <a href="https://www.raspberrypi.org/documentation/installation/installing-images/windows.md" rel="nofollow noreferrer noopener">Besturingssysteemafbeeldingen installeren met Windows</a>
 
 ### Apple OSX
 
-Check which device is used for your SD Card. In our case it's disk1s1
-and we'll do in Terminal:
+Controleer welk apparaat voor je SD-kaart wordt gebruikt. In ons geval is het *disk1s1* en we voeren in Terminal:
 
+```
     sudo dd bs=1M if=~/Downloads/2016-09-23-raspbian-jessie-lite.img of=/dev/disk1s1
+```
 
-See also: <a
-href="https://www.raspberrypi.org/documentation/installation/installing-images/mac.md"
-class="external text" target="_blank"
-rel="nofollow noreferrer noopener">Installing Operating System Images on
-MacOS</a>
+Zie ook: <a href="https://www.raspberrypi.org/documentation/installation/installing-images/mac.md" rel="nofollow noreferrer noopener">Besturingssysteemafbeeldingen installeren op MacOS</a>
 
 ### Linux
 
-We connect a SD Card reader with the (micro) SD Card to a computer. With
-**dmesg** we can find the device name of the SD Card. In our case dmesg
-shows something like
+We verbinden een SD-kaartlezer met de (micro) SD-kaart met een computer. Met *dmesg* kunnen we de apparaatnaam van de SD-kaart vinden. In ons geval toont dmesg iets zoals `[xxxxxx.xxxxxxx]  sdd: sdd1 sdd2`, wat betekent dat we een SD-kaart met 2 partities hebben. Schrijf de Raspbian afbeelding niet naar een partitie maar naar de hele schijf **sdd**.
 
-    [xxxxxx.xxxxxxx]  sdd: sdd1 sdd2
+We zullen *dd* ("Disk Dump") gebruiken om een invoerbestand (*if*) naar een uitvoerbestand (*of*) te schrijven met een gespecificeerde blokgrootte (*bs*).
 
-meaning that we have a SD Card with 2 partitions. Do not write the
-Raspbian image to a partition but to the whole disk **sdd**.
+**Wees voorzichtig**: *dd* schrijft naar een apparaat zonder enige waarschuwing. Controleer dubbel of je naar het juiste apparaat schrijft! Als je naar de verkeerde schijf schrijft, zul je het *dd* commando altijd herinneren als "Disk Destroyer".
 
-We will use **dd** ("Disk Dump") to write an Input File (**if**) to an
-Output File (**of**) using a specified Block Size (**bs**).
-
-**Be VERY careful**: dd will write to a device without any warning.
-Triple double check that that you write to the right device! If you
-write to the wrong disk, then you'll always remember the dd command as
-"Disk Destroyer".
-
+```bash
     sudo dd if=~/Downloads/2016-09-23-raspbian-jessie-lite.img of=/dev/sdd bs=4M
+```
 
-See also <a
-href="https://www.raspberrypi.org/documentation/installation/installing-images/linux.md"
-class="external text" target="_blank"
-rel="nofollow noreferrer noopener">Installing Operating System Images on
-Linux</a>
+Zie ook <a href="https://www.raspberrypi.org/documentation/installation/installing-images/linux.md" rel="nofollow noreferrer noopener">Besturingssysteemafbeeldingen installeren op Linux</a>
 
+**WAARSCHUWING voor Raspbian Stretch versie**: om een SSH-server vanaf de boot werkend te krijgen, moet je een leeg bestand *ssh* creëren op de root partitie.
 
-**WARNING for raspbian stretch version** : to have a ssh server working
-from boot you need to create an empty file ssh on the root partition.
+## Raspberry Pi Verbinden met LAN
 
-## Connecting Raspberry Pi to LAN
+Wanneer we het Raspbian-besturingssysteem op de SD-kaart hebben geïnstalleerd, zullen we:
 
-When we have installed the Raspbian Operating System on the SD Card, we
-will:
+- De micro SD-kaart in de SD-kaartsleuf van de Raspberry Pi plaatsen.
+- Een Ethernet-kabel aansluiten op de Raspberry Pi en op het lokale netwerk (aansluiten op onze router).
+- De 5V-voeding aansluiten op de Raspberry Pi.
 
-- Insert the micro SD card in the SD Card slot on the Raspberry Pi.
-- Connect an an Ethernet cable to the Raspberry Pi and to the Local Area
-  Network (connect it to our router).
-- Connect the 5V power supply to the the Raspberry Pi.
+Het opstarten van de Raspberry Pi duurt ongeveer 30 seconden. We moeten het IP-adres vinden om verbinding te maken via SSH. We kunnen daar verschillende benaderingen voor gebruiken:
 
-Booting up the Raspberry Pi takes roughly 30 seconds. We've to find the
-IP address to connect to it using SSH. We can use different approaches
-for that:
-
-- log into the webinterface of your router and look up the connected
-  devices;
-- use a mobile phone connected the Wifi router using a network scanning
-  App called **Fing Overlook**;
-- use a command like **nmap**. Assuming that our PC has IP address
-  **192.168.0**.25 we can find all other devices in the same network
-  range by doing the following:
+- Log in op de webinterface van je router en zoek naar de verbonden apparaten;
+- Gebruik een mobiele telefoon die is verbonden met de wifi-router met een netwerkscan-app genaamd **Fing Overlook**;
+- Gebruik een opdracht zoals **nmap**. Aangezien onze pc het IP-adres **192.168.0**.25 heeft, kunnen we alle andere apparaten in hetzelfde netwerkbereik vinden door het volgende te doen:
+```
     sudo nmap -sP 192.168.0/24
-
-Which might show the following details:
+```
+Dit kan de volgende details tonen:
 
     Starting Nmap 6.47 ( http://nmap.org ) at 2016-10-22 17:42 CEST
     Nmap scan report for 192.168.0.35
     Host is up (0.00042s latency).
     MAC Address: 42:42:42:42:42:42 (Raspberry Pi Foundation)
 
-To log into our Raspberry Pi, we'll use the command **ssh**.
+Om in te loggen op onze Raspberry Pi gebruiken we de opdracht **ssh**.
 
+```
     ssh pi@192.168.0.35
+```
 
-The first time you'll connect to it, it will show something like:
+De eerste keer dat je verbinding maakt, zal het iets als het volgende tonen:
 
     The authenticity of host '192.168.0.35 (192.168.0.35)' can't be established.
     ECDSA key fingerprint is 42:42:42:42:42:42:42:42:42:42:42:42:42:42:42:42.
     Are you sure you want to continue connecting (yes/no)?
 
-We kiezen ""'Ja"'"
+We zullen kiezen voor **Yes**
 
-    Warning: Permanently added '192.168.0.35' (ECDSA) to the list of known hosts.
+    Warning: Permanently added 192.168.0.35 (ECDSA) to the list of known hosts.
     pi@192.168.0.35's password:
 
-and use the **default password**: **raspberry** which on successful
-login will show:
+En gebruik het *standaard wachtwoord*: *raspberry*, wat bij succesvolle login het volgende zal tonen:
 
     The programs included with the Debian GNU/Linux system are free software;
     the exact distribution terms for each program are described in the
@@ -196,157 +117,139 @@ login will show:
     permitted by applicable law.
     pi@raspberrypi:~ $
 
-We can configure the Raspberry Pi using a text interface via:
+We kunnen de Raspberry Pi configureren via een tekstinterface met:
 
     sudo raspi-config
 
 ### Raspberry Pi Software Configuration Tool (raspi-config)
 
-With this configuration tool we'll only change the following settings.
+Met deze configuratietool zullen we alleen de volgende instellingen wijzigen.
 
-#### 1 Expand Filesystem
+#### 1 Uitbreiden Bestandssysteem
 
-By default the disk space on the SD Card is the same size as the 1.4GB
-.img file that you used to create the SD card for your Raspberry Pi. You
-can use this option to gain the rest of the disk space.
+Standaard is de schijfruimte op de SD-kaart even groot als het 1.4GB .img-bestand dat je hebt gebruikt om de SD-kaart te maken voor je Raspberry Pi. Je kunt deze optie gebruiken om de rest van de schijfruimte te benutten.
 
-#### 2 Change User Password
+#### 2 Wijzig Gebruikerswachtwoord
 
-For security reasons it's best to **change the default password**
-"raspberry" as soon as possible.
+Om veiligheidsredenen is het het beste om **het standaardwachtwoord** "raspberry" zo snel mogelijk te **wijzigen**.
 
-#### 3 Boot Options
+#### 3 Opstartopties
 
-We would like the Raspberry Pi to boot the Text console
+We willen dat de Raspberry Pi opstart naar de Tekstconsole.
 
-##### B2 Console Autologin Text console, automatically logged in as 'pi' user
+##### B2 Console Autologin Tekstconsole, automatisch ingelogd als 'pi' gebruiker
 
-#### 9 Advanced Options
+#### 9 Geavanceerde Opties
 
-##### A3 Memory Split
+##### A3 Geheugen Splits
 
-Because we will use the Raspberry Pi as a headless server without
-connecting it to a monitor, we can decrease the memory used for the GPU
-from 64 to **16**
+Omdat we de Raspberry Pi zullen gebruiken als een headless server zonder deze aan een monitor te verbinden, kunnen we het geheugen dat wordt gebruikt voor de GPU verminderen van 64 naar **16**.
 
-#### 5 Internationalisation Options
+#### 5 Internationalisatie-opties
 
-##### I2 Wijzigen Van De Tijdzone
+##### I2 Wijzig Tijdzone
 
-We'll change the Timezone to our own time zone (e.g. Europe/Amsterdam)
+We zullen de Tijdzone wijzigen naar onze eigen tijdzone (bijvoorbeeld Europa/Amsterdam).
 
-After all changes we'll Reboot the Raspberry Pi, and will login again
-with our new password.
+Na alle wijzigingen zullen we de Raspberry Pi herstarten en opnieuw inloggen met ons nieuwe wachtwoord.
 
     ssh pi@192.168.0.35
 
-Now it's time to install everything else.
+Nu is het tijd om de rest te installeren.
 
-## Update software
+## Software bijwerken
 
-Before installing anything else, we'll:
+Voordat we iets anders installeren, zullen we:
 
-- **update** the list of software versions from all external
-  repositories
-    sudo apt-get update
+- de lijst met softwareversies van alle externe
+  repositories **bijwerken**
+    `sudo apt-get update`
 
-- **upgrade** all installed software
-    sudo apt-get upgrade
+- alle geïnstalleerde software **upgraden**
+    `sudo apt-get upgrade`
 
-**Updating the version list and upgrading all software is something that
-should be done regularly.**
+**Het bijwerken van de versielijst en het upgraden van alle software is iets dat
+regelmatig gedaan moet worden.**
 
 ## Nginx Webserver
 
-A fast and lightweight alternative for Apache web server is the
-increasingly becoming popular **Nginx** web server.
+Een snel en lichtgewicht alternatief voor de Apache-webserver is de steeds populairder wordende **Nginx** webserver.
 
-### Installation of Nginx
+### Installatie van Nginx
 
-We will install nginx and all dependencies (read: software that nginx
-needs to work) with
+We zullen nginx en alle benodigde afhankelijkheden (lees: software die nginx nodig heeft om te functioneren) installeren met
 
     sudo apt-get install nginx
 
-We'll get a message like:
+We krijgen een bericht zoals:
 
-    Reading package lists... Done
-    Building dependency tree
-    Reading state information... Done
-    The following extra packages will be installed:
+    Pakketlijsten worden ingelezen... Klaar
+    Boom van vereisten wordt opgebouwd
+    Statusinformatie wordt gelezen... Klaar
+    De volgende extra pakketten zullen geïnstalleerd worden:
      fontconfig-config fonts-dejavu-core libfontconfig1 libgd3 libjbig0 libtiff5 libvpx1 libxpm4 libxslt1.1 nginx-common nginx-full
-    Suggested packages:
+    Voorgestelde pakketten:
      libgd-tools fcgiwrap nginx-doc ssl-cert
-    The following NEW packages will be installed:
+    De volgende NIEUWE pakketten zullen geïnstalleerd worden:
      fontconfig-config fonts-dejavu-core libfontconfig1 libgd3 libjbig0 libtiff5 libvpx1 libxpm4 libxslt1.1 nginx nginx-common nginx-full
-    0 upgraded, 12 newly installed, 0 to remove and 0 not upgraded.
-    Need to get 3,550 kB of archives.
-    After this operation, 8,666 kB of additional disk space will be used.
-    Do you want to continue? [Y/n] y
+    0 opgewaardeerd, 12 nieuw geïnstalleerd, 0 te verwijderen en 0 niet opgewaardeerd.
+    Er moeten 3.550 kB aan archieven opgehaald worden.
+    Na deze operatie zal er 8.666 kB aan additionele schijfruimte gebruikt worden.
+    Wilt u doorgaan? [J/n] j
 
-By choosing "y" nginx and all needed packages will be installed.
+Door "j" te kiezen, zullen nginx en alle benodigde pakketten worden geïnstalleerd.
 
-You can check the installation with a browser. Go to the IP address of
-your Raspberry pi, in our case
-<a href="http://192.168.0.35/" class="external free" target="_blank"
-rel="nofollow noreferrer noopener">http://192.168.0.35/</a> We should
-see a message like:
+Je kunt de installatie controleren met een browser. Ga naar het IP-adres van je Raspberry Pi, in ons geval
+<a href="http://192.168.0.35/"
+rel="nofollow noreferrer noopener">http://192.168.0.35/</a> We zouden een bericht moeten zien zoals:
 
-    Welcome to nginx on Debian!
-    If you see this page, the nginx web server is successfully installed and working on Debian. Further configuration is required.
-    For online documentation and support please refer to nginx.org
-    Please use the reportbug tool to report bugs in the nginx package with Debian.
-    However, check existing bug reports before reporting a  new bug.
-    Thank you for using debian and nginx.
+    Welkom bij nginx op Debian!
+    Als je deze pagina ziet, is de nginx-webserver succesvol geïnstalleerd en werkt op Debian. Verdere configuratie is vereist.
+    Voor online documentatie en support verwijzen wij naar nginx.org
+    Gebruik alstublieft het reportbug-hulpmiddel om bugs in het nginx-pakket met Debian te rapporteren.
+    Controleer echter bestaande bugrapporten voordat u een nieuwe bug rapporteert.
+    Bedankt voor het gebruik van Debian en nginx.
 
-#### Starting and stopping Nginx
+#### Starten en stoppen van Nginx
 
-Na de installatie zal Nginx automatisch worden gestart. U kunt:
+Na installatie zal Nginx automatisch worden gestart. Je kunt:
 
-- Stop Nginx: sudo service nginx stop
-- Start Nginx: sudo service nginx start
-- Restart Nginx: sudo service nginx restart
+- Nginx stoppen: sudo service nginx stop
+- Nginx starten: sudo service nginx start
+- Nginx herstarten: sudo service nginx restart
 
-### Configure Nginx
+### Configureren van Nginx
 
-#### Global Nginx configuration
+#### Globale Nginx-configuratie
 
-In the global configuration of Nginx we can configure default caching
-etc. The Raspberry Pi 3 uses 1.2 GHz 64-bit **quad-core** ARM Cortex-A53
-processor. If you have an earlier version with less CPU cores, then you
-should use
+In de globale configuratie van Nginx kunnen we standaard caching configureren enzovoort. De Raspberry Pi 3 gebruikt een 1.2 GHz 64-bit **quad-core** ARM Cortex-A53 processor. Als je een eerdere versie hebt met minder CPU-kernen, dan moet je
 
     sudo nano /etc/nginx/nginx.conf
 
-to change the "worker_processes" to fit the amount of CPUs of your
-device. By default it's configured as
+gebruiken om de "worker_processes" aan te passen aan het aantal CPU's van je apparaat. Standaard is het geconfigureerd als
 
     worker_processes 4;
 
-so for Raspberry Pi 3 you don't have to change it.
+dus voor Raspberry Pi 3 hoef je het niet te veranderen.
 
-After changing the Nginx configuration or virtual domain configuration,
-you have to do a
+Na het aanpassen van de Nginx-configuratie of virtuele domeinconfiguratie, moet je een
 
     sudo nginx reload
 
-to make the changes effective.
+doen om de wijzigingen door te voeren.
 
-#### Virtual Domains
+#### Virtuele Domeinen
 
-It's possible to run multiple Joomla websites on the same server using
-virtual domains.
+Het is mogelijk om meerdere Joomla-websites op dezelfde server te draaien met behulp van virtuele domeinen.
 
-Put every website in a separate folder in the default webroot /var/www/
-for example:
+Plaats elke website in een aparte map in de standaard webroot /var/www/ bijvoorbeeld:
 
 - /var/www/example.com/
 - /var/www/voorbeeld.nl/
     sudo mkdir /var/www/example.com
     sudo mkdir /var/www/voorbeeld.nl
 
-For every site we will create a virtual domain which is basically a text
-file with domain specific information:
+Voor elke site maken we een virtueel domein aan, wat in feite een tekstbestand is met domeinspecifieke informatie:
 
 - /etc/nginx/sites-available/example.com
     server {
@@ -376,148 +279,124 @@ file with domain specific information:
       }
     }
 
-We need to enable every site by linking from /etc/nginx/sites-enabled/
-to the virtual domain in "sites-available". We create a symbolic link
-for each virtual domain:
+We moeten elke site inschakelen door een link te maken van /etc/nginx/sites-enabled/ naar het virtuele domein in "sites-available". We maken een symbolische link voor elk virtueel domein:
 
     sudo ln -s /etc/nginx/sites-available/example.com /etc/nginx/sites-enabled/example.com
     sudo ln -s /etc/nginx/sites-available/voorbeeld.nl /etc/nginx/sites-enabled/voorbeeld.nl
 
-To make this virtual domain configuration effective, we do
+Om deze configuratie van virtuele domeinen effectief te maken, doen we
 
     sudo nginx reload
 
-and when everything has been configured correctly it will respond:
+en als alles correct is geconfigureerd zal het reageren:
 
     Reloading nginx configuration: nginx.
 
 ## Database
 
-We can install MariaDB or MySQL; Joomla will work with both. Let's
-install MariaDB with:
+We kunnen MariaDB of MySQL installeren; Joomla werkt met beide. Laten we
+MariaDB installeren met:
 
     sudo apt-get install mariadb-server
 
-During the installation you've to add a password for the **root** user.
-Lets create a **database password**, for example
+Tijdens de installatie moet je een wachtwoord toevoegen voor de **root**-gebruiker.
+Laten we een **databasewachtwoord** aanmaken, bijvoorbeeld
 **correcthorsebatterystaple**.
 
-Finally let's improve the security of our MariaDB installation by
-removing root accounts that are accessible from outside the local host,
-anonymous-user accounts and the test database. We can do that with
+Laten we ten slotte de beveiliging van onze MariaDB-installatie verbeteren door rootaccounts te verwijderen die toegankelijk zijn vanaf buiten de lokale host, anonieme gebruikersaccounts en de testdatabase. We kunnen dat doen met
 
     mysql_secure_installation
 
 ## PHP
 
-For PHP we will install the **php-fpm** (FastCGI Process Manager) that
-runs as a daemon and receives Fast/CGI requests. Furthermore we will
-install **php5-mysql** which is a module for MySQL database connections
-directly from PHP scripts.
+Voor PHP gaan we **php-fpm** (FastCGI Process Manager) installeren, die als een daemon draait en Fast/CGI-verzoeken ontvangt. Verder zullen we **php5-mysql** installeren, wat een module is voor MySQL-databaseverbindingen direct vanuit PHP-scripts.
 
-more recent php7 should be installed with
+De meer recente php7 moet worden geïnstalleerd met
 
-    sudo apt-get install php-fpm php-mysql
+```bash
+sudo apt-get install php-fpm php-mysql
+```
 
-Now we need to let Nginx know that it should use php-fpm for .php files.
-We add a couple of lines to our virtual domains:
+Nu moeten we Nginx laten weten dat het php-fpm moet gebruiken voor .php-bestanden. We voegen een paar regels toe aan onze virtuele domeinen:
 
-    sudo nano /etc/nginx/sites-available/example.com
+```bash
+sudo nano /etc/nginx/sites-available/example.com
+```
 
-add:
+voeg toe:
 
-    location ~ \.php$ {
+```nginx
+location ~ \.php$ {
     fastcgi_pass unix:/var/run/php/php7.0-fpm.sock;
     fastcgi_index index.php;
     include fastcgi_params;
-    }
+}
+```
 
-Test it by creating the following PHP file
+Test dit door het volgende PHP-bestand te maken:
 
-    sudo nano /var/www/example.com/test.php
+```bash
+sudo nano /var/www/example.com/test.php
+```
 
-We use a browser to test if we see the PHP configuration page at
-<a href="http://192.168.0.35/example.com/test.php" class="external free"
-target="_blank"
-rel="nofollow noreferrer noopener">http://192.168.0.35/example.com/test.php</a>
+We gebruiken een browser om te testen of we de PHP-configuratiepagina zien op [http://192.168.0.35/example.com/test.php](http://192.168.0.35/example.com/test.php)
 
 ## Joomla!
 
 - te doen
+```
     sudo wget https://github.com/joomla/joomla-cms/releases/download/3.6.3/Joomla_3.6.3-Stable-Full_Package.zip
     sudo unzip -x Joomla_3.6.3-Stable-Full_Package.zip
+```
 
-## Connecting Raspberry Pi to Internet
+## Raspberry Pi verbinden met internet
 
-We want people on the internet to be able to visit our Joomla website on
-our Raspberry Pi. In order to do that we need to **configure our
-Internet router** to forward all **incoming traffic** on port 80 **to
-our Raspberry Pi**.
+We willen dat mensen op het internet onze Joomla-website op onze Raspberry Pi kunnen bezoeken. Om dat te doen, moeten we **onze internetrouter configureren** om alle **inkomende verkeer** op poort 80 **naar onze Raspberry Pi** door te sturen.
 
-Use your web browser to connect to the Web Interface of your router. A
-router is usually located on the first number of your IP range, in our
-case on 192.168.0.1. In our router we configure **Port Forwarding**:
+Gebruik je webbrowser om verbinding te maken met de webinterface van je router. Een router bevindt zich meestal op het eerste nummer van je IP-bereik, in ons geval op 192.168.0.1. In onze router configureren we **Port Forwarding**:
 
-- External IP Address: 0.0.0.0
-- External Start Port: 80
-- External End Port: 80
-- Internal IP Address: 192.168.0.35 ( = our Raspberry Pi)
-- Internal Start Port: 80
-- Internal End Port: 80
+- Extern IP-adres: 0.0.0.0
+- Externe Startpoort: 80
+- Externe Eindpoort: 80
+- Intern IP-adres: 192.168.0.35 ( = onze Raspberry Pi)
+- Interne Startpoort: 80
+- Interne Eindpoort: 80
 - Protocol: TCP
 
-Make sure that it is enabled.
+Zorg ervoor dat het ingeschakeld is.
 
-If everything is working correctly then you should see your own Joomla
-website on the Raspberry Pi by visiting your external IP address (Find
-your external IP address with a tool like
-<a href="http://www.whatsmyip.org/" class="external text"
-target="_blank" rel="nofollow noreferrer noopener">whatsmyip.org</a>).
+Als alles correct werkt, zou je je eigen Joomla-website op de Raspberry Pi moeten zien door je externe IP-adres te bezoeken (Vind je externe IP-adres met een tool zoals <a href="http://www.whatsmyip.org/" rel="nofollow noreferrer noopener">whatsmyip.org</a>).
 
-### Het gebruik van een domeinnaam
+### Een domeinnaam gebruiken
 
-Let's assume that our external IP address is 42.42.42.42. Let's also
-assume that we have registered a domain name called example.com. We
-would like to serve our Joomla site on our Raspberry Pi to visitors
-visiting example.com. If your domain name registrar gives us the
-possibility to configure the **Domain Name System (DNS)** server, then
-we'll need to create an **MX record** in the DNS that points our
-**domain name to** our **IP address** 42.42.42.42. Note that it can take
-up to 24 hours till all internet providers will redirect the traffic of
-their customers to the configured MX record.
+Laten we aannemen dat ons externe IP-adres 42.42.42.42 is. Laten we ook aannemen dat we een domeinnaam hebben geregistreerd genaamd example.com. We willen onze Joomla-site op onze Raspberry Pi aanbieden aan bezoekers die example.com bezoeken. Als je domeinnaamregistrar ons de mogelijkheid geeft om de **Domain Name System (DNS)**-server te configureren, moeten we een **MX-record** in de DNS aanmaken dat onze **domeinnaam aanwijst naar** ons **IP-adres** 42.42.42.42. Let op dat het tot 24 uur kan duren voordat alle internetproviders het verkeer van hun klanten naar het geconfigureerde MX-record omleiden.
 
 ### Statisch IP-adres
 
-Most routers will keep assigning the same internal IP address to your
-Raspberry Pi. Sometimes it's better to configure your Raspberry Pi to
-use a static IP address:
+De meeste routers zullen hetzelfde interne IP-adres blijven toewijzen aan je Raspberry Pi. Soms is het beter om je Raspberry Pi te configureren om een statisch IP-adres te gebruiken:
 
     sudo nano /etc/network/interfaces
 
-change
+verander
 
     iface eth0 inet static
 
-to
+naar
 
     iface eth0 inet static
     address 192.168.0.35
     netmask 255.255.255.0
     gateway 192.168.0.1
 
-The gateway is the IP address of your router. You can also find it using
+De gateway is het IP-adres van je router. Je kunt het ook vinden met
 
     route
 
-## Externe Links
+# Externe links
 
-- <a href="https://raspberrypi.org" class="external text" target="_blank"
-  rel="nofollow noreferrer noopener">Raspberry Pi Foundation</a> (RPF) -
-  official website and forums
-- <a href="http://elinux.org/RaspberryPiBoard" class="external text"
-  target="_blank" rel="nofollow noreferrer noopener">Raspberry Pi Wiki</a>,
-  supported by the RPF
-- Video of presentation
-  <a href="https://youtu.be/u2MFQCoexD0" class="external text"
-  target="_blank" rel="nofollow noreferrer noopener">Joomla on Raspberry
-  Pi (with Nginx)</a> at Joomladay Germany 2013 in Nuremberg, Germany
+- <a href="https://raspberrypi.org" rel="nofollow noreferrer noopener">Raspberry Pi Foundation</a> (RPF) - officiële website en forums
+- <a href="http://elinux.org/RaspberryPiBoard" rel="nofollow noreferrer noopener">Raspberry Pi Wiki</a>, ondersteund door de RPF
+- Video van presentatie <a href="https://youtu.be/u2MFQCoexD0" rel="nofollow noreferrer noopener">Joomla op Raspberry Pi (met Nginx)</a> op Joomladay Duitsland 2013 in Neurenberg, Duitsland
+
+*Vertaald door openai.com*
+

@@ -1,188 +1,95 @@
-<!-- Filename: J4.x:Adding_a_New_Menu / Display title: Een nieuw menu toevoegen -->
+<!-- Filename: J4.x:Adding_a_New_Menu / Display title: Een Nieuw Menu Toevoegen -->
 
-Joomla!  4.x <span id="main-portal-heading">**Handleiding**
-Een nieuw menu maken</span>
+## Introductie
 
-## Inleiding
+Om toegang te krijgen tot inhoud op je Joomla! website moeten items aan een Menu worden toegewezen. Een standaardinstallatie van Joomla! maakt een **Hoofdmenu** voor je aan. In veel gevallen zul je slechts één menu gebruiken, maar je kunt er meer dan één hebben. Dit stelt je in staat om menu's te maken voor verschillende soorten inhoud, verborgen inhoud, rol specifieke inhoud en meer.
 
-For content to be accessed on your Joomla! website items need to be
-assigned to a Menu. A standard installation of Joomla! creates a **Main
-Menu** for you. In many cases you will use only one menu but you can
-have more than one. This allows you to create Menus for different types
-of content, hidden content, user role specific content and more.
+Er zijn drie stappen bij het maken van een bruikbaar menu:
 
-In this tutorial, you’ll find a complete walk-through of the steps
-involved in creating a Menu in a Joomla! site. We will set up a new
-Menu, create a Menu Module, position it in a defined location in the
-website template and add Menu Items to it.
+1. Maak het Menu. Dit is een container voor Menu-items.
+2. Maak een Menu Module. Hiermee kun je het Menu op een pagina plaatsen.
+3. Maak Menu-items. Dit zijn de door de gebruiker selecteerbare items die naar specifieke pagina's leiden.
 
-## Create A New Menu
+Deze screenshot toont de beschikbare menu's in een meertalige site. In een initiële Joomla-installatie is er een enkel *Hoofdmenu*.
 
-Open a new browser window and type in the URL, which will be similar to
-`http://www.your-site-name-here.com/administrator` or, if you have
-Joomla! installed on your local computer,
-`http://localhost/your-folder-name-here/administrator`. Here you will
-have to log in as an Administrator or Super Administrator.
+![Menu's lijst](../../../en/images/menus/menus-manage.png "Menu's lijst")
 
-There are 2 ways to access the Menu Manager that is used to add a Menu:
+De lijst stelt je in staat om op een van de groene of rode knoppen te klikken om direct naar de lijst van menu-items in dat menu en die staat te gaan.
 
-- From the Home Dashboard, in the Sidebar Menu click the Menu Dashboard
-  Icon to be taken to the Menu Manager, then click **Manage**.
-- Or, from the Home Dashboard, in the Sidebar Menu expand the **Menus**
-  section and then click on **Manage**.
+Deze tutorial behandelt de stappen die betrokken zijn bij het maken van een Menu in een Joomla! site.
 
-<img
-src="https://docs.joomla.org/images/thumb/a/aa/J4.x_menus_dashboard_link-en.png/400px-J4.x_menus_dashboard_link-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/a/aa/J4.x_menus_dashboard_link-en.png 1.5x"
-data-file-width="562" data-file-height="263" width="400" height="187"
-alt="J4.x menus dashboard link-en.png" />
+## Een Nieuw Menu Maken
 
-When the Menu Manager opens it will display current menus and a top
-toolbar with a **+ New** button. Click the + New button.
+Gebruik een van de volgende stappen om een nieuw menu te maken:
 
-<img
-src="https://docs.joomla.org/images/thumb/3/3e/J4.x_menus_dashboard_links-en.png/800px-J4.x_menus_dashboard_links-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/3/3e/J4.x_menus_dashboard_links-en.png 1.5x"
-data-file-width="1000" data-file-height="356" width="800" height="285"
-alt="J4.x menus dashboard links-en.png" />
+- Selecteer in het Administrator-menu het *Menu Dashboard-pictogram* om naar het Menu-dashboard te gaan en selecteer vervolgens **Beheren**. Of...
+- Breid in het Administrator-menu de sectie *Menu's* uit en selecteer vervolgens **Beheren**.
+- Selecteer de knop **+ Nieuw** in de werkbalk.
+- Vul in het gegevensinvoerformulier voor het menu de volgende velden in:
+  - **Titel**: Een geschikte titel voor het menu. Dit wordt gebruikt om het menu te identificeren in de Menu Manager.
+  - **Unieke Naam**: Dit moet een unieke identificatienaam zijn die door Joomla! wordt gebruikt om dit menu te identificeren. Spaties zijn niet toegestaan, maar u mag het '-' teken gebruiken zoals in resources-menu.
+  - **Beschrijving**: Hoewel het niet vereist is, is dit vaak nuttig op een site met veel menu's. Het verschijnt onder de *Titel* in de menulijst zoals hierboven geïllustreerd.<br>
+    ![Nieuw Menu](../../../en/images/menus/menus-new.png "Nieuw Menu")
+- **Opslaan & Sluiten**
 
-Now a **Title** and **Unique Name** are required. A **Description** is
-optional:
+In de lijst met menu's heeft het nieuw gemaakte menu een knop met het label **Voeg een module toe voor dit menu**, wat de volgende stap in het maken van een menu is. U kunt beginnen met het toevoegen van menu-items en later terugkomen om de menumodule te maken.
 
-<img
-src="https://docs.joomla.org/images/thumb/c/c2/J4.x_menu_manager_new-en.png/800px-J4.x_menu_manager_new-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/c/c2/J4.x_menu_manager_new-en.png 1.5x"
-data-file-width="1000" data-file-height="422" width="800" height="338"
-alt="J4.x menu manager new-en.png" />
+## Maak een Module voor het Menu
 
-**Title**: A proper title for the menu. This is used to identify the
-menu in the Menu Manager.
+In de lijst met menu's kun je in de kolom *Gekoppelde Modules* een bestaand menumodule selecteren voor bewerkingsdoeleinden. Je kunt deze bekijken en vervolgens *Sluiten* zonder wijzigingen aan te brengen. Voor je nieuwe menu moet je de knop **Voeg een module toe voor dit menu** selecteren om een modaal venster te openen met het gegevensinvoerformulier van de menu-module.
 
-**Unique Name**: This should be a unique identification name used by
-Joomla! to identify this menu. Spaces are not allowed but you may use
-the '-' character such as resources-menu.
+![Gegevensinvoerformulier van de menu-module](../../../en/images/menus/menus-module.png "Gegevensinvoerformulier van de menu-module")
 
-**Description**: Although not required, a description of the menu can be
-useful for your own or other Site Administrators reference.
+Velden om in te vullen:
 
-Click the **Save** or the **Save & Close** toolbar button to create the
-new menu. The **Save & Close** button will return you to the Menu
-Manager. If you were creating more than one menu you also have the
-option to click **Save & New**. To leave without saving the menu click
-the **Cancel** toolbar button.
+* Het veld **Titel** is verplicht, dus maak een beschrijvende titel aan.
+* De knop **Toon Titel** aan de rechterkant wordt gebruikt om de moduletitel *te tonen* of *te verbergen*, een algemene functie van alle modules.
+* Het veld **Selecteer Menu** moet de naam tonen van het menu dat je zojuist hebt gemaakt.
+* Het veld **Positie** wordt gebruikt om een positie in je sjabloon te selecteren waar je wilt dat je menu verschijnt.
+* Selecteer **Opslaan & Sluiten** zodra de essentiële informatie is toegevoegd.
 
-If you chose **Save & Close**, you will see your new menu in the list of
-Menus.
+Er zijn veel opties om uit te kiezen in het formulier *Module-instellingen bewerken*. Deze worden vermeld in het Helpmenu dat beschikbaar is in het formulier *Module: Bewerken*. Dit is hetzelfde formulier, maar dan op een normale pagina in plaats van in een modaal venster. Je krijgt er toegang toe via het Beheerdersmenu, de route Inhoud / Site-modules naar de lijst met site-modules.
 
-At this point you would be able to start adding items to your new menu.
-However we are going to create a module that will display your menu and
-we can do that from within the Menu Manager.
+Opmerking: hoe je menu eruitziet, hangt af van de opmaak van je sjabloon.
 
-## Create the Module for Your Menu
+## Items toevoegen aan het Menu
 
-Click the **Add a module for this menu** button.
+Om links in je menu te maken, moet je **Menu Items** toevoegen. Er zijn veel
+*Menu-itemtypen* in Joomla en componenten van derden kunnen meer typen toevoegen. Voor
+deze tutorial wordt een link naar een enkel artikel toegevoegd.
 
-<img
-src="https://docs.joomla.org/images/thumb/d/d1/J4.x_menu_manager_add_module-en.png/800px-J4.x_menu_manager_add_module-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/d/d1/J4.x_menu_manager_add_module-en.png 1.5x"
-data-file-width="1000" data-file-height="206" width="800" height="165"
-alt="J4.x menu manager add module-en.png" />
+Je kunt van tevoren een artikel maken of een artikel creëren tijdens het
+menucreatieproces. In beide gevallen moet het artikel bestaan voordat er een menu-item
+voor kan worden gemaakt. In dit voorbeeld krijgt het artikel ook de naam
+*Resources*. Het is bedoeld om een lijst van links naar PDF-bestanden te bevatten.
 
-A **Menu Module** will open ready for input of the necessary
-information. Here are a few of the most basic points regarding the Menu
-Module:
+In de **Menu's** lijst, selecteer vanuit de **Menu Items** kolom het icoon voor het
+nieuw aangemaakte menu, *Resources* in dit voorbeeld. Aanvankelijk zijn er geen menu
+items, dus zegt de lijst slechts *Geen overeenkomende resultaten*.
 
-The **Title** field is required, so create a descriptive title. If you
-want this title displayed on the front of the website, click on the
-"Show Title" button on the right.
+- Selecteer de **Nieuw** knop van de werkbalk om een nieuw menu-item te creëren.
+- Voeg in het **Titel** veld de titel toe die je in het Menu wilt laten zien.
+- In het **Menu-itemtype** veld selecteer je de **Selecteer** knop om een modale
+dialoog te openen met een lijst van componenten. Elk heeft een vervolgkeuzelijst die
+een lijst van beschikbare menu-itemtypen onthult.
+  - Selecteer **Artikelen** en vervolgens **Enkel Artikel**.
+- In het **Selecteer Artikel** veld: **Of:**
+  - Gebruik de **Selecteer** knop om een bestaand artikel te selecteren. Het zal
+  een lijst van artikelen openen om uit te kiezen. **Of:**
+  - Gebruik de **Creëer** knop om een nieuw artikel te maken. Het enige dat je hoeft
+  in te voeren is de artikel titel. Het is waarschijnlijk het beste om gedetailleerde
+  inhoud later toe te voegen.
+- Controleer of het **Menu** veld is ingesteld op het nieuwe Menu.
+- Het **Status** veld moet worden ingesteld op **Gepubliceerd**.
+- Selecteer **Opslaan & Sluiten**.
 
-Notice the **Select Menu** field. This should show the name of the Menu
-you just created.
+![Gegevensinvoerformulier voor menu-items](../../../en/images/menus/menus-single-article.png "Gegevensinvoerformulier voor menu-items")
 
-You need to select a **Position** in your template for where you want
-your menu to appear. Note: getting it to look the way you want it to
-depends on your template styling. Select the postion you require.
+Voeg indien nodig meer Menu Items toe aan het nieuwe Menu.
 
-<img
-src="https://docs.joomla.org/images/thumb/a/a1/J4.x_create_menu_module-en.png/800px-J4.x_create_menu_module-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/a/a1/J4.x_create_menu_module-en.png 1.5x"
-data-file-width="1000" data-file-height="524" width="800" height="419"
-alt="J4.x create menu module-en.png" />
+Zodra items aan het Menu zijn toegevoegd, controleer of het Menu op de website in de juiste positie wordt weergegeven.
 
-There are many options to choose from in the Menu Module such as
-publishing dates, user access, and sub-menu items just to name a few.
-For detailed information about the Menu Module and all it's parameters
-see:  Module
-Menu.
+![Menu weergave](../../../en/images/menus/menus-display.png "Menu weergave")
 
-Once the information has been added click **Save & Close** and you will
-be returned to the Menu Manager.
+*Vertaald door openai.com*
 
-## Add Items To Your Menu
-
-To create the links in your menu you need to add **Menu Items**. There
-are many kinds of Menu Item Types in Joomla. Some are included in the
-core installation and many third-party components may add more types
-also. For this tutorial we will add links to single articles.
-
-The Menu Manager list will now include the new Menu. In the **Menu
-Items** column, click the icon.
-
-<img
-src="https://docs.joomla.org/images/thumb/3/31/J4.x_menu_manager_new_menu_item-en.png/800px-J4.x_menu_manager_new_menu_item-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/3/31/J4.x_menu_manager_new_menu_item-en.png 1.5x"
-data-file-width="1000" data-file-height="168" width="800" height="134"
-alt="J4.x menu manager new menu item-en.png" />
-
-To begin with, this will present an empty list. Click on the **New**
-button in the Toolbar.
-
-<img
-src="https://docs.joomla.org/images/thumb/a/af/J4.x_menu_manager_new_menu_item_2-en.png/800px-J4.x_menu_manager_new_menu_item_2-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/a/af/J4.x_menu_manager_new_menu_item_2-en.png 1.5x"
-data-file-width="1000" data-file-height="267" width="800" height="214"
-alt="J4.x menu manager new menu item 2-en.png" />
-
-The **Menus: New Item** panel will open. We will add a single article to
-the Menu:
-
-- In the **Title** field add the title you want to appear in the Menu.
-- In the **Menu Item Type** field click the **Select** button then
-  **Single Article** then **Single Article**.
-- In the **Select Article** field click the **Select** button which will
-  open a list of your articles. Select your article.
-- Check the **Menu** field is set to the new Menu.
-- The **Status** field should be set to **Published**.
-- Click **Save & Close**.
-
-<img
-src="https://docs.joomla.org/images/thumb/a/a4/J4.x_menu_manager_new_menu_item_3-en.png/800px-J4.x_menu_manager_new_menu_item_3-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/a/a4/J4.x_menu_manager_new_menu_item_3-en.png 1.5x"
-data-file-width="1000" data-file-height="425" width="800" height="340"
-alt="J4.x menu manager new menu item 3-en.png" />
-
-Add more Menu Items to the new Menu.
-
-Once items have been added to the Menu we can check to see that the Menu
-is displayed on the website in the correct position.
-
-To recap, we have created a new Menu, then a Menu Module to display the
-Menu on the website and finally we have added some single article links
-to the new Menu. Checking the website we can see the Menu is displayed
-in the position we chose and it displays the single article links added
-to the menu.
-
-<img
-src="https://docs.joomla.org/images/thumb/5/51/J4.x_menu_sidebar_position-en.png/800px-J4.x_menu_sidebar_position-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/5/51/J4.x_menu_sidebar_position-en.png 1.5x"
-data-file-width="1000" data-file-height="256" width="800" height="205"
-alt="J4.x menu sidebar position-en.png" />

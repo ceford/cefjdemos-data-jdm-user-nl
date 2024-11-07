@@ -1,118 +1,34 @@
-<!-- Filename: J3.x:Adding_custom_fields/List_Field / Display title: Toevoegen extra velden/Lijst veld -->
+<!-- Filename: J3.x:Adding_custom_fields/List_Field / Display title: Lijstveld -->
 
-## Lijst veld
+## Doel
 
-**Artikelen in deze reeks**
+Het lijstvormveldtype biedt een vervolgkeuzelijst of een lijstvak met op maat gedefinieerde items. Als het veld een opgeslagen waarde heeft, wordt deze geselecteerd wanneer de pagina voor het eerst wordt geladen. Zo niet, dan wordt de standaardwaarde (indien aanwezig) geselecteerd.
 
-1.  Inleiding
-2.   Parameters voor alle extra
-    velden
-3.   Kalender
-    veld
-4.   Selectievakjes
-    veld
-5.   Kleur
-    veld
-6.   Tekstverwerker
-    veld
-7.   Integer
-    veld
-8.   Lijst
-    veld
-9.   Lijst met afbeeldingen
-    veld
-10.  Media
-    veld
-11.  Keuzerondje
-    veld
-12.  Herhalend
-    veld
-13.  SQL
-    veld
-14.  Tekst
-    veld
-15.  Tekstvak
-    veld
-16.  URL
-    veld
-17.  Gebruiker
-    veld
-18.  Gebruikersgroep
-    veld
-19.  Hoe kunt u extra velden
-    groeperen
-20.  Welke componenten ondersteunen extra
-    velden
-21.  Implementatie in uw
-    component
-22.  Extra velden gebruiken in uw
-    overrides
-
-### Lijst
-
-Het **lijst** formulierveld type biedt een drop-down lijst met zelf
-gedefinieerde items. Indien het veld een opgeslagen waarde heeft, wordt
-deze geselecteerd als de pagina voor het eerst geladen wordt. Indien
-niet, wordt de standaard waarde (als die er is) geselecteerd.
-
-#### Opties
+## Veldcreatie
 
 Speciale opties binnen dit veld zijn:
 
-- Meerdere
-  Sta toe dat meerdere waarden geselecteerd worden - Indien geactiveerd.
-- Lijst waarden
-  De waarden in de lijst.
+- **Meerdere** Sta toe dat meerdere waarden worden geselecteerd. Als dit is ingesteld op *Nee*, wordt één item in de lijst weergegeven. Als dit is ingesteld op *Ja*, worden drie items weergegeven. De lijst scrolt zodat een of meer items kunnen worden geselecteerd.
+- **Lijstwaarden** Voeg items toe zoals gewenst en gebruik het sleepicoon om hun volgorde te wijzigen. Begin de lijst met Tekst ingesteld op *- Selecteer -* en Waarde leeg. Dit zorgt voor een lege standaard waardoor deze lijst ontbreekt in het artikel.
+- **Veldklasse** Instellen op *w-auto* om de lijst net breed genoeg te maken voor zijn lijst van labels.
 
-#### Verwante Informatie
+![Lijstveldcreatie](../../../en/images/fields/fields-list.png "Lijstveldcreatie")
 
-Zie  Lijst formulier
-veldtype
 
-#### Schermafbeeldingen
+## Gegevensinvoer
 
-##### Het veld aanmaken
+Eenvoudig: selecteer gewoon een item uit de lijst of meerdere items als *Meerdere* *Ja* is.
 
-Laten we zeggen dat u een veld maakt met de opties weergegeven in de
-volgende afbeelding. <img
-src="https://docs.joomla.org/images/thumb/a/a9/List_field_create-nl.png/800px-List_field_create-nl.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/a/a9/List_field_create-nl.png 1.5x"
-data-file-width="1158" data-file-height="946" width="800" height="654"
-alt="List field create-nl.png" />
 
-##### Het veld in het beheergedeelte gebruiken
+## Gegevensweergave
 
-In het beheergedeelte ziet u het veld bij het aanmaken van een artikel
-of contactpersoon als in de volgende afbeeldingː
+De volgende schermafbeelding van de site toont het veld in een artikel. De optie *Automatische weergave* is verantwoordelijk voor de positie van het veld en uw sjabloon is verantwoordelijk voor het ontwerp van het veld.
 
-<img
-src="https://docs.joomla.org/images/thumb/a/a7/List-nl.png/800px-List-nl.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/a/a7/List-nl.png 1.5x"
-data-file-width="1158" data-file-height="944" width="800" height="652"
-alt="List-nl.png" />
+De output is een enkel item of een door komma's gescheiden lijst.
 
-##### Het veld op de website gebruiken
+Zoek naar het **Oorsprong** item.
 
-Op de website ziet u het veld zoals in de volgende afbeelding.
+![Weergave van alle velden](../../../en/images/fields/fields-display.png "Weergave van velden")
 
-<img
-src="https://docs.joomla.org/images/thumb/5/56/List_field_frontend-nl.png/800px-List_field_frontend-nl.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/5/56/List_field_frontend-nl.png 1.5x"
-data-file-width="991" data-file-height="650" width="800" height="525"
-alt="List field frontend-nl.png" />
+*Vertaald door openai.com*
 
-De optie *Automatisch tonen* is verantwoordelijk voor de positie van het
-veld en uw template is verantwoordelijk voor het ontwerp van het veld.
-Velden worden alleen getoond op de website als er in het artikel
-gegevens in staan. Als het geen verplicht veld is kunt u dat vergetenǃ
-
-<a
-href="https://docs.joomla.org/J3.x:Adding_custom_fields/Integer_Field"
-id="content-button" class="button expand success">Vorig: Integer
-veld</a> <a
-href="https://docs.joomla.org/J3.x:Adding_custom_fields/List_of_Images_Field"
-id="content-button" class="button expand">Volgende: Lijst met
-afbeeldingen veld</a>

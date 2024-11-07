@@ -1,67 +1,43 @@
-<!-- Filename: J3.x:Adding_custom_fields/Overrides / Display title: Toevoegen extra velden - Overrides -->
+<!-- Filename: J3.x:Adding_custom_fields/Overrides / Display title: Sjabloonoverschrijvingen -->
 
-## Hoe extra velden gebruiken in uw overrides
+## Automatische Weergave van Veld
 
-**Artikelen in deze reeks**
+Elk van de beschikbare velden heeft een optie genaamd *Automatische Weergave* die kan worden ingesteld op een van de volgende:
 
-1.  Inleiding
-2.   Parameters voor alle extra
-    velden
-3.   Kalender
-    veld
-4.   Selectievakjes
-    veld
-5.   Kleur
-    veld
-6.   Tekstverwerker
-    veld
-7.   Integer
-    veld
-8.   Lijst
-    veld
-9.   Lijst met afbeeldingen
-    veld
-10.  Media
-    veld
-11.  Keuzerondje
-    veld
-12.  Herhalend
-    veld
-13.  SQL
-    veld
-14.  Tekst
-    veld
-15.  Tekstvak
-    veld
-16.  URL
-    veld
-17.  Gebruiker
-    veld
-18.  Gebruikersgroep
-    veld
-19.  Hoe kunt u extra velden
-    groeperen
-20.  Welke componenten ondersteunen extra
-    velden
-21.  Implementatie in uw
-    component
-22.  Extra velden gebruiken in uw
-    overrides
+* Na Titel
+* Voor Weergave-inhoud
+* Na Weergave-inhoud
+* Niet automatisch weergeven
 
-## Hoe extra velden gebruiken in uw overrides
+Als de laatste van deze opties is geselecteerd, wordt het veld niet weergegeven, tenzij je een sjabloonoverschrijving maakt om de weergave zelf te beheren. Of je kunt `{field ID}` toevoegen in een artikel om het veld te plaatsen waar je maar wilt. Maar je moet eraan denken dit in elk artikel te doen.
 
-### Inleiding
+Dit voorbeeld laat zien hoe je een sjabloonoverschrijving maakt voor een Contact. De methoden zijn ook van toepassing op Inhoud en Gebruikerscomponenten.
 
-De echte kracht van extra velden is dat u het kunt gebruiken in uw eigen
-overrides. Hier is een voorbeeld hoe u dat kunt doen.
+## Maak een Template Override
 
-### Extra velden in uw overrides krijgen
+Vanuit het Beheerdersmenu:
 
-In de basis heeft u alles over extra velden in relatie tot het huidige
-item toegankelijk via een nieuw property in uw `$item` variabele genaamd
-`jcfields`. Het `$item->jcfields` property is een array dat de volgende
-gegevens per veld bevat, waarbij een veld eruit ziet als in dit
-voorbeeld:
+* Selecteer **Systeem / Sitetemplates / Cassiopeia Details en Bestanden**
+* Selecteer het tabblad **Maak Overrides aan**.
+* Selecteer **com_contact** uit het *Componenten* paneel.
+* Selecteer **Contact** uit de lijst van beschikbare weergaven. Dit is de indeling voor een enkel contact.
+
+In het **Editor** paneel:
+* Selecteer **html / com_contact / contact / default.php** wat het bestand is dat de algemene indeling van de pagina voor een enkel contact bepaalt.
+* Scroll door dit bestand en let op een reeks `<php if (...) : ?>` blokken. Elk blok zal een tekstgedeelte tonen of verbergen op basis van de contactinstellingen.
+* Let ook op de regels die bevatten:
+```
+    <?php echo $this->item->event->afterDisplayTitle; ?> (regel 73)
+    <?php echo $this->item->event->beforeDisplayContent; ?> (regel 98)
+    <?php echo $this->item->event->afterDisplayContent; ?> (regel 189)
+```
+Een van deze variabelen, of geen van hen, wordt ingevuld afhankelijk van de waarde van het veld Automatische Weergave.
+
+## Velden gebruiken in je override
+
+Je hebt toegang tot alle velden die overeenkomen met het huidige item via een
+`$this->item->jcfields` eigenschap, wat een array is die de volgende
+gegevens voor elk veld bevat (dit voorbeeld is voor een Editor veld):
 
 ```php
     Array
@@ -130,113 +106,67 @@ voorbeeld:
                 [value] => Bar
                 [rawvalue] => Bar
             )
-
     )
 ```
 
-### Render het veld met behulp van FieldsHelper
+## Render het veld
 
-Om het veld te genereren kunt u `FieldsHelper::render()` gebruiken door
-de noodzakelijke waarden door te geven.
+De functie `FieldsHelper::render()` wordt gebruikt om elk veld weer te geven. Voeg eerst een `use Joomla\Component\Fields\Administrator\Helper\FieldsHelper;` verklaring toe aan de lijst met `use` verklaringen bovenaan het override-bestand:
 
 ```php
-    /**
-     * Renders the layout file and data on the context and does a fall back to
-     * Fields afterwards.
-     *
-     * @param   string  $context      The context of the content passed to the helper
-     * @param   string  $layoutFile   layoutFile
-     * @param   array   $displayData  displayData
-     *
-     * @return  NULL|string
-     *
-     * @since  3.7.0
-     */
-    public static function render($context, $layoutFile, $displayData)
+defined('_JEXEC') or die;
+
+use Joomla\CMS\Helper\ContentHelper;
+use Joomla\CMS\HTML\HTMLHelper;
+use Joomla\CMS\Language\Text;
+use Joomla\CMS\Layout\FileLayout;
+use Joomla\CMS\Layout\LayoutHelper;
+use Joomla\CMS\Plugin\PluginHelper;
+use Joomla\CMS\Router\Route;
+use Joomla\Component\Contact\Site\Helper\RouteHelper;
+use Joomla\Component\Fields\Administrator\Helper\FieldsHelper;
 ```
 
-#### Voorbeeldcode voor de override met behulp van FieldsHelper
-
+Vervolgens, waar je de velden in je sjabloon wilt plaatsen, gebruik je de volgende code:
 ```php
-// Load the FieldsHelper
-<?php JLoader::register('FieldsHelper', JPATH_ADMINISTRATOR . '/components/com_fields/helpers/fields.php'); ?>
-
 <?php foreach ($this->item->jcfields as $field) : ?>
-	// Render the field using the fields render method
-	<?php echo FieldsHelper::render($field->context, 'field.render', array('field' => $field)); ?>
+	<?php echo FieldsHelper::render($field->context, 'field.render', array('field' => $field)); ?><br>
 <?php endforeach ?>
 ```
 
-#### Voorbeeldcode voor een raw override
+Of voor een ruwe override, die de label niet vertaalt:
 
 ```php
 <?php foreach ($this->item->jcfields as $field) : ?>
-	// Render the field using the fields render method
-	<?php echo $field->label . ':' . $field->value; ?>
+	<?php echo $field->label . ':' . $field->value; ?><br>
 <?php endforeach ?>
 ```
 
-### jcfields_bevat_niet_de_velden_die_ik_nodig_heb"\>`$item->jcfields` bevat niet de velden die ik nodig heb
+## Individuele velden laden
 
-Het `jcfields` property wordt gegenereerd met behulp van het plugin
-event `onContentPrepare` door de context van de velden door te geven. De
-velden plugin leest dan de velden uit de database en voegt de waarden
-toe aan het jcfields property. Let er alstublieft op dat de component
-die u gebruikt ook het `onContentPrepare` event implementeert met de
-context die u gebruikt voor de velden.
+Om individuele velden aan je content toe te voegen, begin je met het kiezen van specifieke namen voor je aangepaste velden, gebruikmakend van het **Naam** veld, dat zal worden gebruikt om je veld direct aan te roepen in de overschrijvingscode. In het `Opties` tabblad, selecteer **Nee** in het `Automatisch Weergeven` veld om te voorkomen dat het automatisch wordt weergegeven in een van de standaard posities.
 
-Als u core componenten gebruikt dan zou dit out-of-the-box moeten
-werken.
-
-### Individuele velden laden
-
-Begin, om individuele velden aan uw inhoud toe te voegen, met het kiezen
-van specifieke namen voor uw extra velden, door het gebruik van het
-**Naam** veld, wat wordt gebruikt om direct te verwijzen naar uw veld in
-de override code. Selecteer, op het `Opties` tabblad, **Nee** in het
-`Automatisch tonen` veld om te voorkomen dat het automatisch getoond
-wordt op een van de posities.
-
-Plaats daarna, om direct toegang te hebben via de naam naar het extra
-veld in de override code, de code aan het begin van uw bestand. Dit moet
-u doen in ieder override PHP bestand waar u extra velden wilt plaatsen.
+Plaats vervolgens de onderstaande code aan het begin van je bestand om directe toegang per naam tot aangepaste velden in een override mogelijk te maken. Dit moet je doen voor elk override PHP-bestand waarop je individuele aangepaste velden wilt plaatsen.
 
 ```php
-<?php foreach($item->jcfields as $jcfield)
-     {
-          $item->jcFields[$jcfield->name] = $jcfield;
-     }
-?>
+<?php foreach($this->item->jcfields as $jcfield) {
+    $this->item->jcFields[$jcfield->name] = $jcfield;
+} ?>
 ```
 
-En als laatste moet u de plaats code zetten op de plek waar u het
-veldlabel of de waarde getoond wil hebben.
+Ten slotte moet je de code voor veldplaatsing toevoegen op de plek waar je het veldlabel of de veldwaarde wilt weergeven.
 
-Om het **label** van het veld toe te voegen in uw override, voegt u
-onderstaande code toe door het vervangen van `name-of-field` door de
-naam van het veld.
+Om het **label** van het veld aan je override toe te voegen, voeg je de onderstaande code in, waarbij je `naam-van-veld` vervangt door de naam van het veld.
 
 ```php
-<?php echo $item->jcFields['name-of-field']->label; ?>
+<?php echo $this->item->jcFields['naam-van-veld']->label; ?>:&nbsp;
 ```
 
-Om de **waarde** van het veld toe te voegen in uw override, voegt u
-onderstaande code toe door het vervangen van `name-of-field` door de
-naam van het veld. Let op dat in de 3.x serie de **value** in de
-praktijk de **rawvalue** is
-<a href="https://github.com/joomla/joomla-cms/issues/20216"
-class="external free" target="_blank"
-rel="nofollow noreferrer noopener">https://github.com/joomla/joomla-cms/issues/20216</a>
+Om de **waarde** van het veld aan je override toe te voegen, voeg je de onderstaande code in, waarbij je `naam-van-veld` vervangt door de naam van het veld.
 
 ```php
-<?php echo $item->jcFields['name-of-field']->rawvalue; ?>
+<?php echo $this->item->jcFields['naam-van-veld']->rawvalue; ?>
 ```
 
-U kunt deze code toevoegen aan ieder deel van uw override. Bijvoorbeeld:
-De inhoud van een div, de src in een `img` tag, binnen een CSS class
-attribuut, etc.
+Je kunt deze code aan elk deel van je override toevoegen. Voorbeelden: De inhoud van een div, de src in een `img`-tag, binnen een CSS-classattribute, enzovoort.
 
-<a
-href="https://docs.joomla.org/J3.x:Adding_custom_fields/Implement_into_your_component"
-id="content-button" class="button expand success">Vorig: In uw component
-implementeren</a>

@@ -1,336 +1,203 @@
-<!-- Filename: J4.x:Installing_Joomla / Display title: Het installeren van Joomla -->
+<!-- Filename: J4.x:Installing_Joomla / Display title: Joomla installeren -->
 
-Dit is een tijdelijke pagina tot Joomla 4 is vrijgegeven. Kijk tot dan
-bij de  Joomla! 3.x
-installatie
+## Introductie
 
-Het voor het eerst installeren van Joomla! is erg eenvoudig. Na het
-voltooien van de voorbereidende stappen, het opzetten van een hosting
-omgeving en het aanmaken van een database, zal Joomla’s ingebouwde
-installatie programmatuur je site in slechts een paar minuten opzetten.
-De vorige stappen:
+Het voor de eerste keer installeren van Joomla! is erg eenvoudig. Na het voltooien van de voorbereidende stappen, het opzetten van een hostingomgeving en het aanmaken van een database, zal de ingebouwde webinstaller van Joomla je nieuwe site in slechts een paar minuten opzetten. De voorgaande stappen:
 
-### Hosting instellen
+### Hosting Setup
 
-Al je nog geen hosting omgeving hebt ingesteld moet je dat nu doen, of
-bij een hosting bedrijf of op je lokale computer. Lees de  Hosting
-instellen
-handleiding voor de details.
+Als je nog geen hostingomgeving hebt ingesteld, moet je dat nu doen, hetzij bij een hostingservice of op je lokale computer.
 
-Er zijn ook wat PHP instellingen die geschikt moeten zijn om Joomla te
-installeren. De instellingen staan normaliter in een *php.ini* of
-*user.ini* instellingen bestand op de server. Als je op gedeelde hosting
-zit, neem dan contact op met je hosting dienst over hoe deze
-instellingen aan te passen en of het mogelijk is. Als je werkt op een
-localhost, bijvoorbeeld met
-XAMPP, of
-een VPS of dedicated host, dan ben je niet beperkt door deze
-instellingen en kun je ze zelf aanpassen.
+Er zijn ook enkele PHP-instellingen die voldoende moeten zijn om Joomla te installeren. De instellingen staan meestal in een *php.ini* of *user.ini* configuratiebestand op de server. Als je op gedeelde hosting zit, neem contact op met je hostingservice over hoe je deze instellingen kunt wijzigen als dat mogelijk is. Als je op een localhost werkt, bijvoorbeeld met XAMPP, of een VPS of dedicated host, zou je niet beperkt moeten zijn door deze instellingen en kun je ze zelf instellen.
 
-De minimum waarden voor het *php.ini* bestand staan hieronder:
+De minimumwaarden voor het *php.ini* bestand zijn hieronder weergegeven:
 
 - *memory_limit:* 256M
-- *upload_max_filesize:* 30M
-- *post_max_size:* 30M
+- *upload_max_filesize:* 64M
+- *post_max_size:* 64M
 - *max_execution_time:* 30
 
-Het is mogelijk om met lagere waarden te werken van upload_max_filesize
-en post_max_size maar grotere extensies zullen fouten geven bij het
-uploaden en veroorzaken onvoorspelbare problemen.
+Het is mogelijk om met lagere waarden van upload_max_filesize en post_max_size te werken, maar grotere extensies zullen niet kunnen uploaden en kunnen onvoorspelbare problemen veroorzaken.
 
-### Database instellen
+### Database Setup
 
-Als je nog geen database hebt aangemaakt, doe dat dan nu. Het wordt voor
-een hosting bedrijf beschreven in de  Hosting
-instellen
-handleiding. Er is ook een  Aanmaken van een Database voor
-Joomla!
-handleiding die gaat over localhost en phpMyAdmin methodes.
+Als je nog geen database hebt ingesteld, doe dat nu. Dit wordt behandeld voor een cPanel hostingservice in de [cPanel Hosting](jdocmanual?article=user/hosting/cpanel-hosting "cPanel Hosting") handleiding. Er is ook een *Database aanmaken voor Joomla!* handleiding die de localhost en phpMyAdmin methodes behandelt.
 
-U heeft de basisgegevens van de database nodig als de Joomla installatie
-is begonnen.
+Je moet de basisgegevens van de database noteren die nodig zijn wanneer de daadwerkelijke Joomla-installatie wordt gestart.
 
-- Locatie van database, meestal *localhost* zelfs bij een hosting
-  dienst. Het kan een specifieke host dienst zijn zoals
-  *`dbserver1.yourhost.com`*.
+- Locatie van de database, meestal *localhost*, zelfs op een hostingservice. Het kan een specifieke server van een host zijn zoals *`dbserver1.jouwhost.com`*.
 - De naam van de database
-- De gebruikersnaam van de database
-- Het wachtwoord van de gebruiker van de database
+- De naam van de databasegebruiker
+- Het wachtwoord van de databasegebruiker
 
-## Voorbereiding van het installeren
+## Voorbereiden voor Installatie
 
-### Het down- en uploaden van Joomla! pakket bestanden
+### Joomla! Pakketbestanden downloaden en uploaden
 
-Download de huidige versie van Joomla! van de link op de
-<a href="https://downloads.joomla.org/" class="external text"
-target="_blank" rel="noreferrer noopener">Download Joomla</a> pagina
+Download de huidige release van Joomla! via de link op de
+[Download Joomla](https://downloads.joomla.org/) pagina.
 
-Verplaats het gedownloade Joomla! installatie-pakket zip-bestand naar de
-server. Gebruik voor een hosting service de cPanel File Manager Upload
-functie of je kunt een FTP Client gebruiken om het gedownloade Joomla
-4.x zip bestand naar je server te brengen. Er zijn verschillende FTP
-clients beschikbaar. Hier is een gedetailleerde <a
-href="https://en.wikipedia.org/wiki/Comparison_of_FTP_client_software"
-class="external text" target="_blank"
-rel="nofollow noreferrer noopener">vergelijking van FTP client
-software</a>. Indien je twijfelt, gebruik FileZilla.
+Verplaats het gedownloade Joomla-installatiepakket zip-bestand naar de server.
+Voor een hostingservice kun je de cPanel Bestandbeheerder Uploadfunctie
+gebruiken of een FTP-client gebruiken om het gedownloade Joomla
+5.x zip-bestand naar je server te verzenden. Er zijn verschillende FTP-clients beschikbaar.
+Hier is een gedetailleerde [Vergelijking van FTP-clientsoftware](https://en.wikipedia.org/wiki/Comparison_of_FTP_client_software).
+Bij twijfel, gebruik FileZilla.
 
-De "root" map van je server
+De *root* map van je server
 
-Het is beter het gedownloade zip-pakket naar je server te verplaatsen en
-het daar uit te pakken dan om het lokaal uit te pakken en daarna de
-bestanden te verplaatsen. Normaliter upload je de bestanden naar je root
-map van je hostingdienst. Deze heet normaal *public_html* maar andere
-versies zoals *htdocs* zijn mogelijk en dit is afhankelijk van de server
-instellingen van de hoster. Voor Joomla zelf is het uploaden van de
-bestanden en mappen direct in de *public_html* of een submap die je hebt
-aangemaakt voldoende.
+Het is beter om het gedownloade zip-pakket naar je server te verplaatsen en
+daar uit te pakken dan om het lokaal uit te pakken en vervolgens de bestandsstructuur te verplaatsen.
+Normaal upload je je webbestanden naar de rootmap van je hostingservice.
+Deze wordt meestal `public_html` genoemd, maar andere variaties zoals `htdocs` komen voor,
+afhankelijk van hoe je host de server heeft ingesteld. Voor Joomla-doeleinden kun je de bestanden
+direct laden in *public_html* of een submap die je hierin hebt aangemaakt.
 
-<img
-src="https://docs.joomla.org/images/thumb/4/41/Stop_hand_nuvola.svg.png/25px-Stop_hand_nuvola.svg.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/thumb/4/41/Stop_hand_nuvola.svg.png/38px-Stop_hand_nuvola.svg.png 1.5x, https://docs.joomla.org/images/4/41/Stop_hand_nuvola.svg.png 2x"
-data-file-width="40" data-file-height="40" width="25" height="25"
-alt="Stop hand nuvola.svg.png" />Waarschuwing!
+**Waarschuwing:** Als je de bestanden op je eigen computer uitpakt en ze vervolgens naar
+je server kopieert, zorg er dan voor dat je alleen de mappen en bestanden **binnenin** het Joomla-pakket verplaatst.
+Als je de mappen en bestanden in een map uitpakt, bijvoorbeeld genaamd *`Joomla`*, en vervolgens die map uploadt,
+moet je site worden benaderd via *`jouwsitenaam.com/Joomla`* in plaats van
+*`jouwsitenaam.com`*. Je kunt de subdirectory naam veranderen van Joomla naar
+iets meer passend voor je site, zoals jblog, wat handig kan zijn. **Let op:** directorynamen dienen
+kleine letters te bevatten, zonder spaties en met streepjes in plaats van onderstrepingen om woorden te scheiden.
 
-Indien je de bestanden op je eigen computer uitpakt en dan naar de
-server verplaatst dan moeten alleen de mappen en bestanden **binnen**
-het Joomla pakket verplaatst worden (de zip zelf niet). Indien je de
-mappen en bestanden uitpakt in een map, bijvoorbeeld, *`Joomla`* en dan
-die map upload, dan moet de site benaderd worden via
-*`yoursitename.com/Joomla`* in plaats van *`yoursitename.com`*. Je kunt
-de sub-map hernoemen van Joomla in iets dat meer geschikt is voor je
-site, zoals jblog en dat kun je handig vinden. **Let op** map-namen
-moeten met kleine letters zijn, zonder spaties en gebruik maken van
-min-tekens in plaats van onderstrepingen om woorden te scheiden.
+De zip-pakketbestanden kunnen direct op de host worden uitgepakt met
+verschillende opdrachtregeltools (bijv. unzip), die geïnstalleerd moeten zijn op
+de server. Als je hostingservice de admin tool cPanel gebruikt, kan de
+Extraheer-knop ingedrukt worden in de Bestandsbeheerder. Daarnaast kan
+de gratis externe Akeeba Kickstart-tool ook voor dit doel gebruikt worden. De uitgepakte bestanden en directories
+worden in de huidige map geplaatst. Het uitpakken op je lokale computer is afhankelijk
+van je besturingssysteem. Probeer met de rechtermuisknop te klikken en kijk of er een extractiemenu is. In dat geval
+kan je besturingssysteem de bestanden plaatsen in een map met dezelfde naam als het zip-bestand. Na het uitpakken kun je het zip-bestand verwijderen en de
+uitpakmap hernoemen naar iets korts en geschikt voor gebruik in een url.
 
-De zip pakket bestanden kunnen direct op de host uitgepakt worden via
-diverse command line tools (bijvoorbeeld unzip), welke op de server
-geïnstalleerd moeten zijn. Als je hosting dienst gebruik maakt van het
-admin tool cPanel, kan de uitpak knop worden ingedrukt de File Manager.
-Daarnaast, kan het gratis hulpmiddel van derden
-<a href="https://www.akeeba.com/products/akeeba-kickstart.html"
-class="external text" target="_blank"
-rel="nofollow noreferrer noopener">Akeeba Kickstart</a> ook voor dit
-doel gebruikt worden. De uitgepakte bestanden en mappen worden in de
-huidige map geplaatst. Uitpakken op je lokale computer hangt af van je
-operating systeem. Probeer met de rechter muisknop te klikken en kijk of
-er een uipakknop is. In dat geval zet je operating systeem de bestanden
-misschien in een map met dezelfde naam als het zip-bestand. Na het
-uitpakken kun je het zip-bestand verwijderen en de uitpak-map een korte
-naam geven die geschikt is om als URL te gebruiken.
+## Start Installatie
 
-## Start installatie
+Met aan de bovenstaande vereisten voldaan, een database aangemaakt en de vereiste Joomla-bestanden op hun plaats, ben je klaar om Joomla te installeren. Start de Joomla webinstaller door je favoriete browser te openen en naar de domeinnaam van de site te gaan. Bij een hostinginstallatie gebruik je *`https://www.jouwsitenaam.com`*. Als je Joomla lokaal installeert, gebruik je *`http://localhost/`* en zou je het installatiescherm moeten zien.
 
-Als aan bovengenoemde eisen voldaan is, een database aangemaakt is en de
-Joomla bestanden op de juiste plek gezet zijn, ben je klaar om Joomla te
-installeren. Start de Joomla web installatie door je favoriete browser
-te openen en naar de domeinnaam van de site te surfen. Bij het
-installeren op een host gebruik je *`https://www.yoursitename.com`*.
-Indien je Joomla lokaal installeert, gebruik je *`http://localhost/`* en
-je ziet het installatie scherm.
+![Joomla installer deel 1, installatietaal en sitenaam](../../../en/images/getting-started/installing-joomla-installer-1.png)
 
-<img
-src="https://docs.joomla.org/images/0/06/J4x_Installation_screen_page_1.png"
-class="thumbborder" decoding="async" data-file-width="500"
-data-file-height="397" width="500" height="397"
-alt="J4x Installation screen page 1.png" />
-
-Joomla zal proberen automatisch het *Selecteer taal* veld te bepalen
-vanuit de taal van de browser. Dit kan indien gewenst veranderd worden.
+Joomla zal proberen automatisch het veld *Selecteer taal* te identificeren op basis van de taal van je browser. Je kunt dit indien nodig wijzigen.
 
 Vul de volgende informatie in.
 
-- **Websitenaam**: De naam van jouw website — deze kan op elk moment
-  gewijzigd worden op de  Algemene
-  instellingen
-  pagina.
+- **Sitenaam** De naam van je website — dit kan op elk moment later worden gewijzigd in de Site Global Configuratie pagina.
 
-Klik, wanneer alles op de eerste pagina voltooid is, op de
-*Inloggegevens instellen* knop om verder te gaan.
+Wanneer alles op de eerste pagina is ingevuld, druk je op de knop *Login Gegevens Instellen* om verder te gaan.
 
 ## Inloggegevens
 
 Je zou nu het scherm met inloggegevens moeten zien.
 
-<img
-src="https://docs.joomla.org/images/6/66/J4x_Installation_screen_page_2.png"
-class="thumbborder" decoding="async" data-file-width="500"
-data-file-height="481" width="500" height="481"
-alt="J4x Installation screen page 2.png" />
+![Joomla-installatie deel 2, inloggegevens](../../../en/images/getting-started/installing-joomla-installer-2.png)
 
 Vul de volgende informatie in.
 
-- **Echte naam**: De naam van de Super gebruiker. Met deze naam word je
-  begroet door Joomla als je inlogt.
-- **Super gebruiker gebruikersnaam**: De gebruikersnaam voor de *Super
-  User*. Vermijdt admin (wat een goede  Mijn
-  Profiel
-  in de *beheer* interface om het later te veranderen.
-- **Administrator Wachtwoord**: Onthoud dat de Super user de maximale
-  rechten heeft op de website en de beheer omgeving, gebruik dus een
-  moeilijk wachtwoord. Gebruik  Mijn
-  Profiel
-  in de *Administrator* interface om het later te wijzigen. Bevestig het
-  wachtwoord in het **Bevestig Administrator Wachtwoord** veld.
-- **Super user Email Addres**: Het email adres van de Super user. Vul
-  een geldig email adres in voor het geval je het wachtwoord vergeet.
-  Dit is het email adres waarop je een link zult ontvangen om je super
-  gebruiker wachtwoord te wijzigen.
+- **Echte Naam** De naam van de Supergebruiker. Zo zal Joomla je begroeten wanneer je inlogt.
+- **Supergebruiker accountgebruikersnaam** De gebruikersnaam voor de *Supergebruiker*. Vermijd het gebruik van *admin* als de beheerdersnaam!
+- **Beheerderswachtwoord** Vergeet niet dat een Supergebruiker maximale controle heeft over de site- en beheerdersinterfaces, dus gebruik een moeilijk wachtwoord. Gebruik **Mijn Profiel** in de *Beheer* interface om het later te wijzigen.
+- **Supergebruiker e-mailadres** Het e-mailadres van de Supergebruiker. Voer een geldig e-mailadres in voor het geval je je wachtwoord vergeet. Dit is het e-mailadres waar je een link zult ontvangen om het Supergebruiker wachtwoord te wijzigen.
 
-Klik, wanneer alles op de eerste pagina voltooid is, op de *Database
-configuratie* knop om verder te gaan.
+Wanneer alles op de tweede pagina is ingevuld, klik dan op de knop *Verbindingsinstellingen voor database* om verder te gaan.
 
-## Database configuratie
+## Databaseconfiguratie
 
-Voer de database informatie in die je hebt genoteerd toen de database
-werd aangemaakt. Je kunt ook kijken bij  Maak een database aan voor
-Joomla!.
+Voer de database-informatie in die je hebt genoteerd toen je de database voor deze installatie hebt aangemaakt.
 
-<img
-src="https://docs.joomla.org/images/4/4f/J40_Installation_screen_page_3.png"
-class="thumbborder" decoding="async" data-file-width="500"
-data-file-height="637" width="500" height="637"
-alt="J40 Installation screen page 3.png" />
+![Joomla-installatie, deel 3, databaseconfiguratie](../../../en/images/getting-started/installing-joomla-installer-3.png)
 
-Voor de eenvoud verwijzen deze instructies naar de installatie met een
-<a href="http://nl.wikipedia.org/wiki/MySQLi" class="extiw"
-title="nl.wp:MySQLi">MySQLi</a> database. De instructies op de
-installatiepagina verklaren zichzelf, maar hier zijn ze nogmaals:
+Voor vereenvoudiging zijn deze instructies een referentie naar de installatie met een MySQLi-database. De instructies op de installatiepagina spreken voor zich, maar hier zijn ze nogmaals:
 
-- **Databasetype:** MySQLi is de standaard database die gebruikt wordt
-- **Naam host:** Waar de database staat. Normaal is dat *localhost*,
-  zelfs bij hosting diensten, maar sommige hosts gebruiken een
-  specifieke databaseserver zoals *dbserver1.yourhost.com*.
-- **Gebruikersnaam:** De gebruikersnaam die gebruikt wordt om verbinding
-  te maken met de database
-- **Wachtwoord:** Het wachtwoord van de database gebruiker (niet je
-  Administrator wachtwoord)
-- **Naam database:** De naam van de database
-- **Tabelvoorvoegsel:** Wordt automatisch gegenereerd als beveiliging.
-  Je kunt het willekeurig gegeneerde accepteren of het veranderen.
-  Vergeet niet het onderstrepingsteken te gebruiken. (`_`) aan het einde
-  van het voorvoegsel.
-- *Connectie encryptie'*: specificeer hoe de connectie met de database
-  versleuteld moet zijn. Als je dit niet weet - dan kun je het best de
-  standaard gebruiken. Echter kunnen ondernemingen die een of twee
-  richtingen authenticatie voor de database verbinding hebben, deze
-  verstrekken.
+- **Databasetype** MySQLi is de gebruikelijke database
+- **Hostnaam** Waar je database zich bevindt. Vaak is dit *localhost*, zelfs bij hostingdiensten. Sommige hosts gebruiken echter een specifieke databaseserver zoals *dbserver1.jouwhost.com*.
+- **Gebruikersnaam** De gebruikersnaam die wordt gebruikt om verbinding te maken met de database
+- **Wachtwoord** Het wachtwoord voor de databasegebruiker (niet je beheerderswachtwoord)
+- **Databasenaam** De naam van de database
+- **Tabelvoorvoegsel** Dit wordt automatisch gegenereerd als een beveiligingsfunctie. Je kunt de willekeurig gegenereerde standaard accepteren of wijzigen. Vergeet niet het underscore-teken (`_`) aan het einde van het voorvoegsel te plaatsen.
+- **Versleuteling van verbinding** specificeert hoe de verbinding met de database moet worden versleuteld. Als je het niet weet, kun je het beste de standaardinstelling houden. Dit biedt echter de mogelijkheid aan bedrijven die een een- of tweezijdige authenticatie gebruiken voor de databaseverbinding om het te voorzien.
 
-Al deze keuzes kunnen bewerkt worden op de  Algemene
-instellingen
-pagina, onder *Server opties* nadat de installatie voltooid is. Let op,
-de installatie breekt indien je deze instellingen wijzigt na de
-installatie tenzij je een kopie van de huidige database hebt die door de
-Joomla! installatie gebruikt wordt. Over het algemeen wordt de
-gebruikersnaam en het wachtwoord van de database gewijzigd bij het
-verplaatsen van een bestaande installatie naar een nieuwe host met
-andere parameters.
+Al deze keuzes en meer kunnen worden bewerkt op de pagina Site Globale Configuratie, onder *Serveropties* nadat de installatie is voltooid. Let op, je installatie zal niet meer werken als je deze instellingen wijzigt na de installatie, tenzij je een complete kopie hebt van de huidige database die door de Joomla-installatie wordt gebruikt. Veelvoorkomende toepassingen zouden zijn om de gebruikersnaam en het wachtwoord van de database bij te werken of om een bestaande installatie naar een nieuwe host met andere parameters te verplaatsen.
 
-Nadat je op de *Installeer Joomla* knop hebt geklikt, zou je het Joomla
-logo moeten zien draaien. Zodra de installatie gereed is, zou je de
-succes pagina moeten zien.
+Nadat je op de *Joomla Installeren* knop hebt geklikt, zou je de voortgangsbalk van de Joomla-installatie moeten zien.
 
-## Voltooien
+![Joomla-installatie, deel 4, installatie voortgangsbalk](../../../en/images/getting-started/installing-joomla-installer-4.png)
 
-### Succes en het voltooien van de installatie
+Zodra de installatie is voltooid, zou je de succespagina moeten zien.
 
-Gefeliciteerd! Joomla! 4 is nu geïnstalleerd.
+## Afronden
 
-<img
-src="https://docs.joomla.org/images/e/e0/J40_Installation_screen_page_4.png"
-class="thumbborder" decoding="async" data-file-width="500"
-data-file-height="318" width="500" height="318"
-alt="J40 Installation screen page 4.png" />
+### Succes en de installatie afronden
 
-Als je Joomla direct wilt gaan gebruiken zonder [het installeren van
-extra
-talen](https://docs.joomla.org/J4.x:Installing_Joomla#Installing_Extra_Languages "Special:MyLanguage/J4.x:Installing Joomla")
-dan kun je kiezen voor *Open Administrator* om naar het *Beheerder
-dashboard* te gaan of kies voor *Open site* om naar de Home pagina te
-gaan. Je kunt een sectie zien met de aanbevolen PHP instellingen.
+Gefeliciteerd! Je Joomla-site is klaar.
 
-- **Aanbevolen instellingen**: Dit zijn instellingen die aanbevolen zijn
-  in jouw PHP configuratie, maar zal de installatie van Joomla! niet
-  stoppen. Je kunt in de bovenstaande instructies lezen hoe de
-  instellingen gewijzigd kunnen worden als dat nodig is.
+![Joomla installer deel 5, je joomla-site is klaar](../../../en/images/getting-started/installing-joomla-installer-5.png)
 
-### Extra talen
+De bovenstaande screenshot toont een ontwikkelaarsinstallatie. Een productie-installatie 
+verwijdert automatisch de Installatiemap.
 
-Als onderdeel van het Joomla installatieproces wordt de mogelijkheid
-geboden om extra talen te installeren voordat je de installatie
-voltooid.
+Als je direct met Joomla aan de slag wilt zonder extra talen te installeren, 
+kun je *Open Administrator* selecteren om naar het *Administrator Dashboard* 
+te gaan of *Open Site* selecteren om naar de Startpagina van de site te gaan. 
+Je ziet mogelijk een sectie met aanbevolen PHP-instellingen.
 
-Selecteer om dit te doen de 'Installeer extra talen' knop
+- **Aanbevolen Instellingen** Deze instellingen worden aanbevolen in je PHP-configuratie, 
+  maar zullen de installatie van Joomla! niet verhinderen. Je kunt de bovenstaande 
+  instructies raadplegen voor hoe ze kunnen worden gewijzigd indien nodig.
 
-Dit brengt je bij een extra installatie pagina waar de gewenste talen
-kunnen worden geselecteerd.
+### Extra Talen
 
-#### Installeer extra talen
+Als onderdeel van het Joomla-installatieproces krijg je de kans om extra 
+talen te installeren voordat je de installatie voltooit.
 
-Een lijst met taalpakketten wordt getoond.
+Om dit te doen, selecteer je de knop Extra Talen Installeren
 
-<img
-src="https://docs.joomla.org/images/c/ce/J40_Installation_screen_page_5.png"
-decoding="async" data-file-width="500" data-file-height="755"
-width="500" height="755" alt="J40 Installation screen page 5.png" />
+Dit brengt je naar een extra installatiescherm waar je de benodigde 
+talen kunt selecteren.
 
-Selecteer tot 3 talen die je wilt installeren. (meer dan 3 tegelijk kan
-time-out problemen veroorzaken; je kunt er later meer installeren)
+#### Extra Talen Installeren
 
-Denk aan het volgende:
+Een lijst met taalpakketten wordt weergegeven.
 
-- Taalpakketten in aangepaste distributies zullen niet getoond worden op
-  dit moment aangezien deze al geïnstalleerd zijn.
-- Een versie van de voorgestelde pakketten komen overeen met de Joomla
-  Major versie (4.0.x, 4.1.x, etc.). De minor versie van het pakket kan
-  mogelijk niet corresponderen, d.w.z. je installeert versie 4.0.3 en
-  een 4.0.2 taalpakket wordt getoond.
-- Taalpakketten in het bovenstaande voorbeeld die niet compatibel zijn
-  zullen wellicht onvertaalde strings bevatten.
-- De taalpakketten die niet geschikt zijn zullen als een update worden
-  aangeboden wanneer de pakketten zijn vertaald door de geregistreerde
-  vertaal teams. De beschikbare update zal in het Controle paneel
-  getoond worden als ook in **Extensions Manager **→** Update**. Dit is
-  gelijk aan **Extensions Manager **→** Install Languages**.
+![Joomla installer deel 6, extra talen installeren](../../../en/images/getting-started/installing-joomla-installer-6.png)
 
-Klik op **Volgende** en een voortgangsbalk wordt zichtbaar, terwijl het
-taalpakket of pakketten worden geïnstalleerd.
+Selecteer maximaal 3 talen die je wilt installeren. (Meer dan 3 tegelijk 
+kan timeout-problemen veroorzaken; je kunt later meer installeren.)
 
-#### Kies de standaard taal
+Onthoud het volgende:
 
-Wanneer de installatie van de talen klaar is, zul je een
-**Gefeliciteerd! Jouw Joomla! Site is klaar.** scherm zien. Het verschil
-zal een lijst met geïnstalleerde talen zijn waaruit je de standaard taal
-voor de Site en de Beheerder interface kunt selecteren.
+- Taalpakketten die in aangepaste distributies zijn opgenomen, worden in 
+  dit stadium niet vermeld omdat ze al zijn geïnstalleerd.
+- Een versie van de voorgestelde pakketten komt overeen met de Joomla 
+  Hoofdversie (5.0.x, 5.1.x, etc.). De subversie van het pakket kan niet 
+  overeenkomen, bijvoorbeeld je installeert versie 5.0.3 en een 5.0.2 
+  taalpakket wordt weergegeven.
+- Niet-overeenkomende taalpakketten in het bovenstaande voorbeeld kunnen 
+  niet-vertaalde strings bevatten.
+- De niet-overeenkomende taalpakketten zullen als een update worden aangeboden wanneer 
+  de pakketten worden bijgewerkt door de geregistreerde Vertalingsteams. 
+  De beschikbare update wordt weergegeven in het Configuratiescherm en ook in 
+  **Uitbreidingen → Update**. Dit gedrag is vergelijkbaar met **Uitbreidingen → Talen Installeren**.
 
-<img
-src="https://docs.joomla.org/images/d/d2/J40_Installation_screen_page_4_default_langs.png"
-class="thumbborder" decoding="async" data-file-width="500"
-data-file-height="650" width="500" height="650" alt="500" />
+ *Volgende* en een voortgangsbalk worden weergegeven terwijl het taalpakket 
+of de pakketten worden geïnstalleerd.
+
+#### Kies de Standaardtaal
+
+Wanneer de installatie van de talen is voltooid, wordt een vergelijkbaar 
+*Gefeliciteerd! Je Joomla-site is klaar.* scherm weergegeven. Het verschil 
+zal een lijst zijn van de geïnstalleerde talen die je in staat stellen om 
+de standaardtaal voor de Site en de Administrator-interface te selecteren.
+
+![Joomla installer deel 7, kies standaardtaal](../../../en/images/getting-started/installing-joomla-installer-7.png)
 
 - Selecteer de standaardtaal die je wilt gebruiken.
-- Klik, wanneer je de standaardtaal hebt geselecteerd op de *Selecteer
-  standaard taal* knop om te bevestigen.
-- Er wordt een systeemboodschap getoond dat Joomla de standaard
-  ADMINISTRATOR en SITE taal heeft ingesteld. Dit bericht kan worden
-  gesloten.
+- Wanneer je de standaardtaal hebt geselecteerd, klik op de knop *Zet standaardtaal* 
+  om te bevestigen.
+- Er wordt een systeemmelding weergegeven die bevestigt dat Joomla de 
+  standaard BEHEERDER en SITE-taal heeft ingesteld. Die melding kan worden gesloten.
 
-#### Afronden
+#### Voltooien
 
-Je kunt nu navigeren naar het *Administratie dashboard*. Log in door te
-klikken op *Open Administrator* of direct naar de startpagina van de
-website gaan door te kiezen voor *Open website*.
+Je kunt nu naar het *Administrator Dashboard* navigeren. Log in door *Open Administrator* 
+te selecteren of ga direct naar de Startpagina van je site door *Open Site* te selecteren.
 
-## Verwante informatie
-
--  Hosting
-  instellen
--  Hosting en Server
-  instellen
--  Maak een VPS
-  Test-server
--  Instellen van je lokale
-  omgeving
--  Joomla CLI
-  installatie

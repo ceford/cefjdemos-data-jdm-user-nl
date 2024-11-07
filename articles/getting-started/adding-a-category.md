@@ -1,98 +1,71 @@
-<!-- Filename: J4.x:Getting_Started:_Adding_a_Category / Display title: Aan de slag: Een categorie toevoegen -->
+<!-- Filename: J4.x:Getting_Started:_Adding_a_Category / Display title: Een categorie toevoegen  -->
 
-## Introduction
+## Inleiding
 
-Website owners with more than a handful of articles should think about
-how best to present content for ease of navigation. For example, if you
-have a zoo, a museum, a mineral collection or just a large garden you
-may have perhaps 1000 specimens to describe. One article for each
-specimen, with photographs, needs some organisational structure. If the
-articles were files you would probably put them in a file hierarchy. In
-a CMS, articles are not files but categories provide for a similar
-tree-like structure. Example :
+Website-eigenaren met meer dan een handvol artikelen zouden moeten nadenken over hoe ze content het beste kunnen presenteren voor eenvoudige navigatie. Als je bijvoorbeeld een dierentuin, een museum, een minerale collectie of gewoon een grote tuin hebt, moet je misschien wel 1000 exemplaren beschrijven. Eén artikel voor elk exemplaar, met foto's, heeft een bepaalde organisatorische structuur nodig. Als de artikelen bestanden waren, zou je ze waarschijnlijk in een bestandsstructuur plaatsen. In een CMS zijn artikelen geen bestanden, maar categorieën zorgen voor een vergelijkbare boomachtige structuur. Voorbeeld:
 
-|            |                                        |
-|------------|----------------------------------------|
-| Category   | Sub-categories                         |
-| Mammals    | Apes, Monkeys, Ungulates, Dogs, Cats   |
-| Reptiles   | Snakes, Lizards, Crocodiles, Turtles   |
-| Amphibians | Frogs, Toads                           |
-| Birds      | Raptors, Ducks, Gulls, Finches, Tits   |
-| Insects    | Spiders, Butterflies, Bees, Locusts    |
-| Fish       | Sharks, Salmon, Cod, Herring, Mackerel |
+| Categorie   | Subcategorieën                         |
+|-------------|----------------------------------------|
+| Zoogdieren  | Apen, Bavianen, Ongulaten, Honden, Katten   |
+| Reptielen   | Slangen, Hagedissen, Krokodillen, Schildpadden   |
+| Amfibieën   | Kikkers, Padden                           |
+| Vogels      | Roofvogels, Eenden, Meeuwen, Vinken, Mezen   |
+| Geleedpotigen | Spinnen, Vlinders, Bijen, Sprinkhanen    |
+| Vissen      | Haaien, Zalm, Kabeljauw, Haring, Makreel |
 
-Sub-categories may have further sub-categories too. An optimal number
-seems to be about seven.
+Subcategorieën kunnen ook nog verdere subcategorieën hebben. Een maximale beheersbare diepte lijkt ongeveer zeven te zijn. Voor de bovenstaande tabel zou een museum meer hoofdcategorieën kunnen toevoegen:
 
-## Menu Item Types
+```text
+natuur -> leven -> dieren -> zoogdieren...
+natuur -> leven -> planten -> bomen...
+natuur -> mineralen...
+geschiedenis -> Egypte...
+wetenschap -> astronomie...
+wetenschap -> scheikunde...
+```
 
-There are two menu item types designed to work with Categories:
+Stel je voor hoeveel exemplaren een nationaal of klein stadsmuseum bezit!  
 
-- **Category Blog.** This is a page layout that has one or two leading
-  article tasters, often full page width, then several more tasters in
-  two or three columns, and finally a pagination mechanism to link to
-  more articles in the same category. The taster is the content before
-  the page-break. The Site Home page is a category blog that includes
-  All Categories.
-- **Category List.** This is a list layout that displays a list of
-  article titles in a category.
+## Typen Menu-items
 
-## Create a Category
+Er zijn verschillende soorten menu-items ontworpen om te werken met categorieën:
 
-The article mentioned in this Getting Started series, *My First
-Article*, was a bit of an experiment. There may be more experiments so
-why not create an Experiments category? Proceed as follows:
+- **Categorie Blog** Dit is een paginalayout met één of twee leidende
+  artikelvoorbeelden, vaak over de volle breedte van de pagina, gevolgd door 
+  meerdere artikelvoorbeelden in twee of drie kolommen en ten slotte een 
+  pagineringsmechanisme om naar meer artikelen in dezelfde categorie te linken. 
+  Het voorbeeld is de inhoud vóór een pagina-einde, vaak de eerste of tweede 
+  alinea. Een *Startpagina* van een site is vaak een categorieblog die *Alle 
+  Categorieën* omvat. Een *Uitgelichte Artikelen* layout lijkt op een categorieblog 
+  en wordt ook vaak als startpagina gebruikt.
+- **Categorielijst** Dit is een lijstlayout die een lijst van artikelen in 
+  een categorie weergeeft. Het kan worden weergegeven met een zoekfilter om 
+  het zoeken naar artikelen op titel, auteur, hits, tags of maand van 
+  publicatie mogelijk te maken.
+- **Lijst Alle Categorieën in een Artikelcategoriestamboom** Deze layout 
+  lijst een categoriestamboom vanaf een gekozen oudercategorie. Elke tak is 
+  inklapbaar en is het meest nuttig voor grote, complexe categoriestroomstructuren.
 
-- Expand the Content item in the Administrator menu and select the **+**
-  icon alongside the Categories menu item. Note that other components,
-  such as Banners and Contacts, can have categories too. They are kept
-  separate from Content Categories.
-- The **Articles: New Category.** form has only one compulsory field:
-  the Title, in this case Experiments.
-- The **Description.** field is optional but it is best to fill it in as
-  it used in some lists.
-- The **Parent.** field specifies whether this is category, -No Parent-,
-  or a sub-category, selected from the list of categories.
+Menu-items worden in een later artikel behandeld.
 
-<img
-src="https://docs.joomla.org/images/thumb/0/01/J4.x-getting-started-category-screenshot-en.png/800px-J4.x-getting-started-category-screenshot-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/thumb/0/01/J4.x-getting-started-category-screenshot-en.png/1200px-J4.x-getting-started-category-screenshot-en.png 1.5x, https://docs.joomla.org/images/0/01/J4.x-getting-started-category-screenshot-en.png 2x"
-data-file-width="1440" data-file-height="1134" width="800" height="630"
-alt="J4.x-getting-started-category-screenshot-en.png" />
+## Een Categorie Maken
 
-Save and Close! This takes you to the **Articles: Categories** list
-screen.
+Het volgende voorbeeld gebruikt een zoogdieren-categorie, geïnspireerd door de bovenstaande lijst, om te demonstreren hoe je een nieuwe categorie aanmaakt:
 
-## Change Article Category
+![Categorie bewerk formulier](../../../en/images/getting-started/article-category-edit.png)
 
-- Select the **Articles** item from the **Administrator **→** Content**
-  menu.
-- Select the article title link the **Title** column to open the article
-  for editing.
-- In the **Category** field select the Experiments category from the
-  drop-down list.
-- **Save and Close.** There is no change in the Site Home page because
-  the article is still marked as featured and the Home page is a
-  category blog for All Categories.
+- Selecteer het **Inhoud** item in het Beheerdersmenu om het uit te vouwen.
+- Selecteer het **+** icoon naast het *Categorieën* menu-item om het 
+  Categorie-bewerkingsformulier te openen.
+- Het formulier **Artikelen: Nieuwe Categorie** heeft slechts één verplicht veld: 
+  de *Titel*, in dit geval *Zoogdieren*.
+- Het veld **Beschrijving** is optioneel, maar het is het beste om het in te vullen aangezien het in sommige lijsten wordt gebruikt. Suggestie:<br>
+  *Zoogdieren zijn warmbloedige dieren die levende jongen ter wereld brengen.*
+- Het veld **Ouder** specificeert of dit een primaire categorie 
+  (-Geen Ouder-) of een subcategorie is, die geselecteerd wordt uit de lijst met categorieën.
+- **Opslaan en Sluiten** om terug te keren naar de **Artikelen: Categorieën** lijstpagina.
 
-## Create Category List Menu Item
+Deze categorie is nu beschikbaar voor gebruik bij artikelen.
 
-- Select **Menus **→** Main Menu **→** +** from the Administrator menu
-  to open the Menus: New Item form.
-- Select **Articles **→** Category List** in the Menu Item Type field.
-- Select **Select **→** Experiments** in the Choose a Category field.
-- Enter a Title, Experiments in this case.
-- Save and Close.
+*Vertaald door openai.com*  
 
-Go to the Site Home page and reload. Select the new Experiments menu
-item.
-
-<img
-src="https://docs.joomla.org/images/thumb/0/07/J4.x-getting-started-category-list-screenshot-en.png/800px-J4.x-getting-started-category-list-screenshot-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/0/07/J4.x-getting-started-category-list-screenshot-en.png 1.5x"
-data-file-width="852" data-file-height="272" width="800" height="255"
-alt="J4.x-getting-started-category-list-screenshot-en.png" />
-
-Not too pretty at this stage but the layout can be improved. Later...

@@ -1,103 +1,62 @@
-<!-- Filename: J4.x:Deleting_an_Article / Display title: Deleting an Article -->
+<!-- Filename: J4.x:Deleting_an_Article / Display title: Artikelen: Verwijderen -->
 
-<span id="main-portal-heading">**Tutorial**
-How to Delete an Article</span> Joomla!  4.0
+## Inleiding
 
-## Introduction
+In Joomla is het verwijderen van een artikel een proces in twee fasen. De eerste fase stuurt het naar de *Prullenbak* van waaruit het kan worden hersteld. De tweede fase verwijdert het uit de Prullenbak, waarna het artikel permanent wordt verwijderd.
 
-This tutorial covers the steps to delete an article in Joomla!
+## Overwegingen
 
-When you delete an article in Joomla you *Trash* it.
+Overweeg waarom je het artikel wilt verwijderen:
 
-Completely deleting an article involves two stages, the first sends it
-to Trash where it is possible to restore it. The second stage empties it
-from Trash after which the article is removed permanently.
+- Is het niet langer nodig? In dat geval is verwijdering hoogstwaarschijnlijk de juiste
+  handelswijze.
+- Is het een artikel dat in de toekomst opnieuw gebruikt zou kunnen worden? Het kan erg
+  frustrerend zijn om te weten dat je een artikel had dat een goed
+  startpunt zou zijn geweest voor een ander artikel, maar dat je het hebt verwijderd - overweeg om het
+  in plaats daarvan te archiveren.
 
-## Considerations
+## Het Artikel naar de Prullenbak Verplaatsen
 
-Consider why you want to delete the article:
+- Selecteer **Inhoud -> Artikelen** in het Beheerdersmenu.
+- Vink het selectievakje aan om het artikel te selecteren dat je wilt verwijderen. Er moet een artikel geselecteerd zijn om de **Acties** knop in de werkbalk te activeren.
+- Selecteer de **Acties** knop in de werkbalk.
+- Selecteer **Prullenbak** in het dropdownmenu.
 
-- Is it no longer needed? If so, deletion is most likely the right
-  course of action.
-- Is it an article that could be re-used in the future? It can be very
-  frustrating to know you had an article that would have been a good
-  starting point for another but you deleted it - consider archiving it
-  instead.
+![Artikel geselecteerd voor verwijdering naar prullenbak](../../../en/images/articles/articles-selected-to-trash.png)
 
-## Moving the Article to Trash
+Er zal een bevestigingsmelding verschijnen en het artikel zal uit de huidige lijst van artikelen verdwenen zijn, omdat deze normaal gesproken geen items in de prullenbak bevat.
 
-- Log in to the Administrator Home Dashboard. More on this here:
-   Logging in or out of the Administrator
-  Dashboard.
-- From the Sidebar Menu navigate to **Content** then **Articles** to
-  open the **Articles List**.
-- Click the checkbox to select the article you want to delete.
+## Filter om te Herstellen of te Verwijderen
 
+In deze fase van het proces is het artikel nog niet volledig verwijderd. Dit is een handige functie voor het geval je het artikel per ongeluk hebt verwijderd.
 
-<img
-src="https://docs.joomla.org/images/thumb/d/db/J4x_select_and_delete_article-en.png/800px-J4x_select_and_delete_article-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/d/db/J4x_select_and_delete_article-en.png 1.5x"
-data-file-width="1000" data-file-height="275" width="800" height="220"
-alt="J4x select and delete article-en.png" />
+Om de lijst met verwijderde artikelen te bekijken:
 
-The article *must* be selected to enable the **Actions** button in the
-toolbar.
+- Selecteer de knop **Filteropties** om de lijst met filters te openen.
+- Selecteer **Verwijderd** uit de lijst *-- Selecteer Status --*.
 
-Click the **Actions** button then click **Trash** in the dropdown menu.
+![Artikel prullenbak weergave](../../../en/images/articles/articles-trash-list.png)
 
+### Om te Herstellen
 
-<img
-src="https://docs.joomla.org/images/thumb/9/96/J4x_delete_article_confirmed-en.png/800px-J4x_delete_article_confirmed-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/9/96/J4x_delete_article_confirmed-en.png 1.5x"
-data-file-width="1000" data-file-height="125" width="800" height="100"
-alt="J4x delete article confirmed-en.png" />
+Als je je bedenkt, kun je het **Verwijderd**-symbool selecteren in de *Status*-kolom. Het artikel zal terugkeren naar de staat *Gepubliceerd* en zal verdwijnen uit de lijst met verwijderde artikelen.
 
-The article has now been deleted and you will see a confirmation
-message. Clicking the **Trash** button removed the article from the
-**Article List** by changing its status to **Trashed**.
+### Om te Verwijderen
 
-At this stage of the process the article has not been completely
-removed. This is a helpful feature in case you deleted the article by
-mistake.
+Selecteer het selectievakje in de linker kolom van de artikelgegevens. Hiermee worden de knoppen *Acties* en *Verwijderen* in de werkbalk ingeschakeld. De knop *Acties* stelt je in staat om dezelfde actie toe te passen op alle geselecteerde artikelen. Als je echt zeker bent:
 
-## Emptying the Article from Trash
-
-<img
-src="https://docs.joomla.org/images/thumb/a/a6/J4x_empty_article_trash-en.png/800px-J4x_empty_article_trash-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/a/a6/J4x_empty_article_trash-en.png 1.5x"
-data-file-width="1000" data-file-height="352" width="800" height="282"
-alt="J4x empty article trash-en.png" />
-
-To permanently delete the article it must be removed from Trash. To do
-this:
-
-1.  From the Article List Toolbar click the **Filter Options** button.
-    This will display a set of filter fields.
-2.  Set the **- Select Status -** field to **Trashed**. This will filter
-    out all articles except trashed ones.
-3.  Click the checkbox to select the article.
-4.  Click the **Empty Trash** button.
-5.  A message box will appear asking if you are sure you want to delete.
-    Click **OK** to confirm and the article will be removed from Trash.
-6.  Click the **Clear** button at the side of **Filter Options** and
-    this will remove the filter and return to the **Article List**.
+1. Selecteer de knop *Verwijderen* in de werkbalk. Er verschijnt een berichtvenster:<br>
+    <div class="alert alert-light">
+    Weet je zeker dat je wilt verwijderen? Bevestigen zal het geselecteerde item of de geselecteerde items permanent verwijderen!</div>
+2. Selecteer **OK** om te bevestigen en het artikel zal uit de Prullenbak worden verwijderd. Het artikel zal uit de database worden verwijderd. Het is verdwenen, permanent!
+3. Selecteer de knop **Wissen** aan de zijkant van **Filteropties** om terug te keren naar de ongefilterde **Artikelen**-lijst.
 
 ## Tips
 
-- Remember, deleting an article is not the same as archiving an article.
-  Once it has been emptied from Trash it has gone for good.
-- If you delete an article by mistake but have not emptied it from
-  Trash, you can change its status. You have the options to set it as
-  *Archived*, *Published* or *Unpublished*.
-- Joomla will not let you save more than one article with the same
-  alias. If an article is deleted but left in Trash, it still exists. If
-  you try to save an article and you get an error stating the alias
-  already exists, it may be sat in Trash! You should therefore either
-  empty it from trash or you can enter a different alias for your new
-  article.
-- Joomla keeps previous versions of an article unless it is disabled. If
-  you are deleting an article because it somehow "broke", try reverting
-  it back to save time.
+- Vergeet niet dat het verwijderen van een artikel niet hetzelfde is als het archiveren van een artikel. Zodra het uit de prullenbak is verwijderd, is het voorgoed weg.
+- Als je per ongeluk een artikel hebt verwijderd maar het niet uit de prullenbak hebt verwijderd, kun je de status ervan wijzigen. Je hebt de opties om het in te stellen als *Gearchiveerd*, *Gepubliceerd* of *Niet gepubliceerd*.
+- Joomla laat je niet meer dan één artikel met dezelfde alias opslaan. Als een artikel is verwijderd maar nog in de prullenbak staat, bestaat het nog steeds. Als je probeert een artikel op te slaan en je krijgt een foutmelding dat de alias al bestaat, staat het misschien in de prullenbak! Je moet het dan ofwel uit de prullenbak legen of een andere alias voor je nieuwe artikel invoeren.
+- Joomla bewaart eerdere versies van een artikel, tenzij Versies is uitgeschakeld. Als je een artikel verwijdert omdat het op de een of andere manier "kapot" is, probeer het dan terug te zetten naar een eerdere versie.
+
+*Vertaald door openai.com*
+

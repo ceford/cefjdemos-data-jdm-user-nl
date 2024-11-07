@@ -1,164 +1,96 @@
-<!-- Filename: J4.x:Managing_Media / Display title: Managing Media -->
+<!-- Filename: J4.x:Managing_Media / Display title: Media beheren -->
 
-## Introduction
+## Introductie
 
-In Joomla, media are images and files that appear as illustrations or
-links in articles, modules, templates and so on. An important feature of
-media is that they are delivered directly by the web server without
-being processed by Joomla code. This is fast and efficient. Also, be
-aware that media are usually stored in the **images** folder of your
-Joomla web site. Do not confuse this with the **media** folder, which
-contains javascript and style sheet files.
+In Joomla zijn media afbeeldingen en bestanden die als illustraties of links verschijnen in artikelen, modules, sjablonen enzovoort. Een belangrijke eigenschap van media is dat ze direct door de webserver worden geleverd zonder door Joomla-code te worden verwerkt. Dit is snel en efficiënt. Houd er ook rekening mee dat media meestal worden opgeslagen in de **images**-map van je Joomla-website. Verwissel dit niet met de **media**-map, die javascript- en stijlbladbestanden bevat.
 
-Image and file media are managed with the Media component of Joomla. It
-allows you to organise media content in a folder tree, upload individual
-items, perform some elementary image editing functions, and place images
-and links directly into articles.
+Afbeeldingen en bestandsmedia worden beheerd met de Media-component van Joomla. Hiermee kun je mediacontent in een mappenstructuur organiseren, individuele items uploaden, enkele elementaire afbeeldingsbewerkingsfuncties uitvoeren en afbeeldingen en links direct in artikelen plaatsen.
 
-## How to Access
+## Toegang Verkrijgen
 
-From the Joomla Administrator interface there are several routes to open
-the Media component:
+Vanaf de Joomla-beheerinterface zijn er verschillende manieren om de Mediacomponent te openen:
 
-- Select **Content **→** Media** from the Administrator menu.
-- Select **Site panel **→** Media** from the Home Dashboard.
-- Select **CMS Content **→** Media** from an article edit screen.
+- Selecteer **Inhoud → Media** in het Administrator-menu.
+- Selecteer **Sitepaneel → Media** vanaf het Startdashboard.
+- Selecteer **CMS Inhoud → Media** op een artikelbewerkingsscherm.
 
-In the first two cases the Media component appears in a normal component
-screen. In the last it appears in a modal dialog.
+In de eerste twee gevallen verschijnt de Mediakomponent in een normaal komponentenscherm. In het laatste geval verschijnt het in een modale dialoog.
 
 ## Screenshot
 
-The following image shows the Media page just after Joomla installation
-but with the cassiopeia/sampledata folder selected:
+De volgende afbeelding toont de MediPagina net na de installatie van Joomla, maar met de map cassiopeia/sampledata geselecteerd. Een map *files* is toegevoegd om niet-afbeeldingsbestanden op te slaan en een extra map genaamd *garbage* is toegevoegd om het verwijderen van mappen te illustreren:
 
-<img
-src="https://docs.joomla.org/images/0/0a/J4.x-media-cassiopeia-sampledata-en.jpg"
-decoding="async" data-file-width="800" data-file-height="406"
-width="800" height="406"
-alt="J4.x-media-cassiopeia-sampledata-en.jpg" />
+![MediPagina met voorbeeldgegevens cassiopeia](../../../en/images/media/media-sample-data-cassiopeia.png)
 
-## Managing Folders
+## Mappen beheren
 
-The sub-folder names in your images folder tree become part of the image
-url so it is important for linking and search engine optimisation
-purposes that the names conform to a convention:
+De namen van de submappen in je afbeeldingenmap worden deel van de afbeeldings-URL, dus het is belangrijk voor linkdoelen en zoekmachineoptimalisatie dat de namen voldoen aan een conventie:
 
-- all lower case
-- no spaces or punctuation
-- if necessary, use a minus sign to create human readable words, for
-  example deciduous-trees rather than deciduous_trees.
+- alles in kleine letters
+- geen spaties of interpunctie
+- gebruik indien nodig een minteken om leesbare woorden te maken, bijvoorbeeld loofbomen in plaats van loof_bomen.
 
-Before creating much content for your site it may pay to think ahead to
-how you might categorise your content and perhaps create an images
-folder tree that is similar to your category tree. Otherwise you may end
-up with a very large number of images and files in the root of your
-images tree and that will become difficult to manage. If you decide to
-move images into a better structure later you will have to find the
-links to those images in your articles and change them. That could be a
-time-consuming, daunting task!
+Voordat je veel inhoud voor je site maakt, kan het nuttig zijn om vooruit te denken over hoe je je inhoud zou kunnen categoriseren en misschien een afbeeldingenmapstructuur te maken die lijkt op je categoriebomen. Anders zou je uiteindelijk een zeer groot aantal afbeeldingen en bestanden in de hoofdmap van je afbeeldingenboom kunnen hebben en dat kan moeilijk te beheren worden. Als je ervoor kiest om afbeeldingen later in een betere structuur te verplaatsen, moet je de links naar die afbeeldingen in je artikelen vinden en wijzigen. Dat kan een tijdrovende en ontmoedigende taak zijn!
 
-### Folder Navigation
+### Navigeren in mappen
 
-Use the folder tree in the **Local** column to select a folder. In the
-case illustrated above the cassiopeia folder was first selected. That
-revealed the sampledata folder which was then select to show its
-content.
+Gebruik de mappenboom in de **Lokaal** kolom om een map te selecteren. In het hierboven geïllustreerde geval werd eerst de cassiopeia-map geselecteerd. Dat onthulde de *sampledata* map die vervolgens werd geselecteerd om de inhoud te tonen.
 
-The current location is also indicated in the breadcrumbs above the
-images. In this case **images **→** cassiopeia **→** sampledata**.
+De huidige locatie wordt ook aangegeven in de broodkruimels boven de afbeeldingen. In dit geval **afbeeldingen → cassiopeia → sampledata**.
 
-If you select a different folder the previous folder at the same level
-closes.
+Als je een andere map selecteert, sluit de vorige map op hetzelfde niveau.
 
-### Creating a folder
+### Een map maken
 
-- Select the parent folder under which the new folder should be created.
-- Select the **Create New Folder** button.
-- In the *Create New Folder* popup window, enter a name for the folder
-  in the **Folder Name** field.
-- Click the **Create** button.
-- The new folder will appear in in the selected parent folder along with
-  a green Success system message.
+- Selecteer de bovenliggende map waaronder de nieuwe map moet worden gemaakt.
+- Selecteer de **Nieuwe map maken** knop.
+- Voer in het *Nieuwe map maken* pop-upvenster een naam voor de map in het **Mapnaam** veld in.
+- Klik op de **Aanmaken** knop.
+- De nieuwe map verschijnt in de geselecteerde bovenliggende map samen met een groen succesbericht van het systeem.
 
-### Deleting a folder
+### Een map verwijderen
 
-***Warning: deleting a folder will also delete all contents of the
-folder!***
+**Waarschuwing: het verwijderen van een map verwijdert ook alle inhoud van de map!**
 
-- Select the parent of the folder to be deleted using the directory tree
-  shown under **Local**. That will show all of the folders and files in
-  the parent.
-- Move the cursor over the folder to be deleted in the media area. It
-  will turn grey and a white button will appear near the top left.
-- Select the white button. A green tick will appear to indicate it is
-  selected.
-- Select the **Delete** button from the Toolbar.
-- In the **Confirm Delete** popup dialog select the **Delete** button.
-  The folder will be deleted along with all of it files, subfolders and
-  their files.
+- Selecteer de bovenliggende map van de map die moet worden verwijderd met behulp van de mappenboom onder **Lokaal**. Dat toont alle mappen en bestanden in de bovenliggende map.
+- Beweeg de cursor over de map die in het media-gebied moet worden verwijderd. Deze wordt grijs en er verschijnt een knop linksboven.
+- Selecteer de knop. Er verschijnt een vinkje om aan te geven dat deze is geselecteerd.
+- Selecteer de **Verwijderen** knop van de Werkbalk.
+- Selecteer in de **Verwijderen bevestigen** pop-updialoog de **Verwijderen** knop. De map wordt verwijderd samen met al zijn bestanden, submappen en hun bestanden.
 
-The folder selected for deletion is illustrated below:
+De map geselecteerd voor verwijdering is hieronder geïllustreerd:
 
-<img
-src="https://docs.joomla.org/images/4/40/J4.x-media-delete-folder-en.jpg"
-decoding="async" data-file-width="800" data-file-height="201"
-width="800" height="201" alt="J4.x-media-delete-folder-en.jpg" />
+![Mediapagina met prullenbakmap](../../../en/images/media/media-sample-data-garbage-select.png)
 
-## Media Area Toolbar
+## Werkbalk voor Media Gebied
 
-This is the bar above the list of images, files and folders that has
-buttons for a variety of tasks.
+Dit is de balk boven de lijst met afbeeldingen, bestanden en mappen die knoppen bevat voor verschillende taken.
 
-### Select box
+### Selectievak
 
-A check box that allows you to select all of the items in the folder
-displayed in the media area. You might want to use it to delete all of
-the current items without deleting the folder.
+Een selectievakje waarmee je alle items in de map die in het mediagebied wordt weergegeven kunt selecteren. Je kunt dit gebruiken om alle huidige items te verwijderen zonder de map te verwijderen.
 
-### Breadcrumbs
+### Kruimelpad
 
-Use the folder names above the media area to go backwards in the folder
-hierarchy.
+Gebruik de mapnamen boven het mediagebied om terug te gaan in de mappenhiërarchie.
 
-Double click a folder name in the media area to open that folder.
+Dubbelklik op een mapnaam in het mediagebied om die map te openen.
 
-### Search
+### Zoeken
 
-If you have a long list of images and files you can search for items
-containing any group of characters. The search is progressive: as you
-add characters to the search term the list is reduced to just those
-containing that character string.
+Als je een lange lijst met afbeeldingen en bestanden hebt, kun je zoeken naar items die een bepaalde groep karakters bevatten. De zoekopdracht is progressief: terwijl je meer karakters aan de zoekterm toevoegt, wordt de lijst beperkt tot alleen die met die tekenreeks.
 
-### Magnify
+### Vergroten
 
-Use the magnify buttons to enlarge or reduce the thumbnail size.
-Depending on the size of your screen you may see 2, 4, 6 or 8 thumbnail
-images side by side.
+Gebruik de vergrootknoppen om de miniatuurformaat te vergroten of te verkleinen. Afhankelijk van de grootte van je scherm kun je 2, 4, 6 of 8 miniatuurafbeeldingen naast elkaar zien.
 
-### List or Thumbnail Views
+### Lijst- of Miniatuurweergave
 
-In thumbnail view, select the list symbol to switch to list view. In
-list view, select the thumbnail symbol to switch to thumbnail view. In
-list view you will see information on image size and dimensions, amongst
-other data.
+In de miniatuurweergave selecteer je het lijsticoon om naar de lijstweergave te schakelen. In de lijstweergave selecteer je het miniatuuricoon om naar de miniatuurweergave te schakelen. In de lijstweergave zie je informatie over afbeeldingsgrootte en -afmetingen, naast andere gegevens.
 
-### Information
+### Informatie-icoon
 
-Select the Information icon to open a side panel showing information
-about whatever is selected.
+Selecteer het Informatie-icoon om een zijpaneel te openen met informatie over het geselecteerde item.
 
-## Further Information
+*Vertaald door openai.com*
 
-In this series of tutorials:
-
--  Managing
-  Media
--  Media: Upload Delete
-  Rename
--  Media: Image Crop Resize
-  Rotate
--  Media:
-  Options
--  Media: Uploading SVG
-  files

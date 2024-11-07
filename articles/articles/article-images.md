@@ -1,123 +1,74 @@
-<!-- Filename: Adding_an_image_to_an_article / Display title: Een afbeelding toevoegen aan een artikel -->
+<!-- Filename: Adding_an_image_to_an_article / Display title: Artikel: Bewerken - Afbeeldingen   -->
 
-## Introduction
+## Inleiding
 
-How best to add images to an article depends on which version of Joomla
-and which editor are in use. This article has illustrations for Joomla
-4, with notes on differences in Joomla 3, and TinyMCE the Joomla default
-editor. To get started, open an article for editing:
+Het is belangrijk te begrijpen dat afbeeldingen voor webdocumenten apart van HTML-tekst worden opgeslagen. Wanneer een webpagina wordt opgevraagd, haalt de browser eerst de tekst en afzonderlijke ondersteunende bestanden op, zoals stijlbladen en JavaScript-scripts. Afbeeldingen worden later opgehaald. Vaak onderhandelen de browser en de webserver over welke versie van een afbeelding opgehaald moet worden, aangepast aan de grootte en resolutie van het browserscherm. Er is zelfs een Joomla-extensie beschikbaar die verschillende versies van een ouderafbeelding in verschillende formaten en maten maakt om de snelheid van levering en rendering te verbeteren.
 
-- **Select** **Content **→** Articles** in the Administrator menu.
-- **Select** the title of the article you wish to edit
+Afbeeldingen worden in webpagina's opgenomen door middel van naar behoren opgemaakte links. Er zijn twee verschillende mechanismen om afbeeldingen in artikelen op te nemen: 
 
-After inserting the article text, place the cursor at the location where
-the image should appear.
+- Het *Content*-tabblad van het bewerkingsformulier staat toe dat een of meer afbeeldingslinks direct in de tekst van het artikel worden ingevoegd. Dat is het onderwerp van dit artikel.
+- Het tabblad *Afbeeldingen en Links* in het bewerkingsformulier biedt de mogelijkheid om een afbeelding op te nemen als een *Intro-afbeelding* of een *Volledig artikel-afbeelding* of beide. Dat wordt behandeld in een apart artikel over [Afbeeldingen en Links](jdocmanual?article=user/articles/article-images-and-links).
 
-## Adding a local image
+Het is het waard om een onderscheid te maken tussen lokale en externe afbeeldingen:
 
-If the image is located in the images folder of your Joomla installation
-you should insert the image using the **CMS Content **→** Media** button
-In the TinyMCE edit toolbar (In Joomla 3: Select the Image button):
+- **Lokale Afbeeldingen** bevinden zich op dezelfde site als de Joomla-installatie, meestal in de *images*-map. De afbeeldingslinks hoeven het protocol en domeinnaam niet te bevatten omdat ze uit de site-instellingen worden gehaald.
+- **Externe Afbeeldingen** bevinden zich ergens anders op het internet. Ze moeten het protocol en domeinnaam in de link bevatten. Het gebruik van externe afbeeldingen door middel van zogenaamd *hot-linking* kan vandaag toegestaan zijn maar morgen niet meer. Het gebruik van externe afbeeldingen zonder toestemming wordt als slechte etiquette of zelfs diefstal beschouwd. 
 
-<img
-src="https://docs.joomla.org/images/5/5e/Adding-an-image-to-an-article-cms-content-media.png"
-decoding="async" data-file-width="1000" data-file-height="508"
-width="1000" height="508" alt="Adding an image" />
+## Een lokale afbeelding toevoegen
 
-In the popup window, navigate to the image you want to use and click to
-select it. On selection a form will appear prompting for additional
-data. In Joomla 4 the form is to the left. In joomla 3 the form is at
-the bottom (scroll down):
+De beste manier om lokale afbeeldingen in te voegen is door de **CMS Content → Media** knop in de TinyMCE bewerkwerkbalk te gebruiken. Daarmee wordt een Media-dialoogvenster geopend waarmee je een afbeelding kunt selecteren in de afbeeldingsmap van de site.
 
-<img
-src="https://docs.joomla.org/images/d/d4/Adding-an-image-to-an-article-selected-image.png"
-decoding="async" data-file-width="1000" data-file-height="508"
-width="1000" height="508" alt="Selecting an image" />
+**Belangrijk:** Plaats eerst de cursor waar je de afbeelding wilt invoegen. Dat kan aan het begin of het einde van een alinea zijn, of in een lege alinea.
 
-1.  Stel de afbeelding eigenschappen naar behoefte in:
-1.  - **Alternatieve tekst**: Dit wordt het **alt** attribuut va de
-      afbeelding, een belangrijke functie voor toegankelijkheid en de
-      naleving van web-standaards.
+![De media popup-dialoog](../../../en/images/articles/articles-edit-images-media.png)
 
-- **Image Class**: If an image is used without a caption some custom
-  classes may be applied here. For example, in Joomla 4, **float-end
-  ms-2 mb-1** will align the image to the right and float text around it
-  with margins to the left and below to prevent text touching the image.
-  In Joomla 3 the equivalent style is **pull-right**.
-- **Figure Class**: If a caption is set then an alignment class, if any,
-  should be applied to the Figure. It is a html tag that encloses the
-  img tag. Note that in Cassiopeia margins are applied by the template
-  style sheet.
+Navigeer in het popup-dialoogvenster naar de afbeelding die je wilt gebruiken en selecteer deze. Bij selectie verschijnt er een formulier waarin om aanvullende gegevens wordt gevraagd.
 
-1.  - **Caption**: Activeert het bijschrift, wat de titel onder de
-      afbeelding toont.
+- **Afbeeldingsbeschrijving (Alt Text)** Dit is belangrijk voor toegankelijkheidsdoeleinden en om te voldoen aan webstandaarden.
+- **Afbeeldingsklasse** Als een afbeelding zonder bijschrift wordt gebruikt, kunnen hier enkele aangepaste klassen worden toegepast. Bijvoorbeeld, *float-end ms-2 mb-1* zal de afbeelding rechts uitlijnen en tekst eromheen laten vloeien met marges aan de linkerkant en eronder om te voorkomen dat de tekst de afbeelding raakt.
+- **Figuurklasse** Als er een bijschrift is ingesteld, kan een uitlijningsklasse, indien van toepassing, worden toegepast op de figuur. Merk op dat in Cassiopeia marges voor de figuur worden toegepast door de sjabloon-stylesheet, dus *float-start* of *float-end* zijn voldoende.
+- **Figuur Bijschrift** Maakt het bijschrift mogelijk dat de inhoud van dit veld als bijschrift onder de afbeelding weergeeft.
 
-**In Joomla 3**
+**Belangrijk:** Als het veld *Figuur Bijschrift* leeg is, wordt de afbeelding binnen een `<img...>` tag ingevoegd en zal het veld *Figuurklasse* niet worden gebruikt. Als het veld *Figuur Bijschrift* tekst bevat, wordt de `<img...>` tag verpakt in `<figure>...</figure>` tags. De meest bruikbare klassen om toe te voegen zijn *float-start* en *float-end* om de afbeelding links of rechts van de pagina te plaatsen met de tekst die eromheen loopt.
 
-1.  - **Uitlijning**: Stelt de afbeelding uitlijning in. Standaard is de
-      uitlijning **Niet ingesteld**.
-1.  - **Caption Class**: Koppelt de ingegeven class aan het *figcaption*
-      element.
-1.  Klik op de *Invoeg* knop om de afbeelding in te voegen. Het voeg
-    afbeelding scherm sluit en de afbeelding wordt getoond in de editor.
-    Of klik op de *Annuleren* knop om het 'voeg afbeelding toe' scherm
-    te verlaten.
+Selecteer de knop *Media Invoegen* om de afbeelding in te voegen. Het Invoegen Afbeelding scherm sluit en de afbeelding wordt in de editor weergegeven. Of selecteer de knop *Annuleren* om het Invoegen Afbeelding scherm te verlaten.
 
-**Tip:** select the Toggle Editor button to see the applied Image and
-Caption styles.
+**Tip** selecteer de knop Editor Wisselen om de toegepaste Afbeelding- en Figuurstijlen te bekijken. Mogelijk moet je een figuur of afbeelding knippen en plakken om deze te verplaatsen.
 
-### Using Drag and Drop for Local images
+### Het gebruik van Slepen en Neerzetten voor lokale afbeeldingen
 
-In both Joomla 4 and Joomla 3 you can drag an image from the desktop or
-a file browser directly into the article text and the image will be
-uploaded to the media folder and placed in the article. The only snag is
-that all such uploaded images will be placed in the same media folder.
-The location of the Images Directory used for upload and whether this
-feature is enabled (On by default) are set in the TinyMCE configuration
-Options.
+Je kunt een afbeelding van het bureaublad of een bestandsbrowser direct naar de tekst van het artikel slepen en de afbeelding wordt naar de mediamap geüpload en in het artikel geplaatst. Het enige nadeel is dat al deze geüploade afbeeldingen in dezelfde mediamap worden geplaatst.
 
-## Adding a remote image
+De locatie van de *Afbeeldingenmap* die voor uploaden wordt gebruikt en of deze functie is ingeschakeld (standaard ingeschakeld) worden ingesteld in de TinyMCE-configuratie-opties.
 
-If the image you wish to use is not in the images folder of your Joomla
-installation a slightly different procedure is needed.
+## Een externe afbeeldingslink toevoegen
 
-- **Select** **Insert **→** Image** from the TinyMCE toolbar to open a
-  dialog box. In Jooml 3, use the Image icon and the same dialog as used
-  for local images.
-- **Insert** the image url in the Source field.
-- **Fill out** the other fields as required.
-- **Advanced** provides some formatting options applied as in-line
-  styles. Experiment with 1rem, 2, groove. (This feature is incomplete)
+Als de afbeelding die u wilt gebruiken niet in de afbeeldingsmap van uw Joomla-installatie staat, is een iets andere procedure nodig.
 
-<img
-src="https://docs.joomla.org/images/3/39/Adding-an-image-to-an-article-insert-edit-image.png"
-class="thumbborder" decoding="async" data-file-width="480"
-data-file-height="477" width="480" height="477"
-alt="Data for a remote image" />
+- Selecteer **Invoegen → Afbeelding** in de TinyMCE-werkbalk om een dialoogvenster te openen.
+- Voer de afbeelding-URL in het veld **Bron** in.
+- Vul de andere velden naar wens in.
+- Het tabblad **Geavanceerd** biedt enkele opmaakopties die als inline-stijlen worden toegepast. Experimenteer met 1rem, 2, groove.
 
-### Using Drag and Drop for Remote images
+![De afbeelding invoegen pop-up dialoog](../../../en/images/articles/articles-edit-images-external-image.png)
 
-You can drag and drop an image from a remote web site directly into your
-article text. But be aware that this may also copy the image container
-html with class statements not valid for your site.
+### Drag en Drop gebruiken om externe afbeeldingslinks in te voegen
 
-## Het uploaden van afbeeldingen met behulp van de 'Invoegen afbeeldingen' scherm
+U kunt een afbeeldingslink van een externe website direct naar uw artikeltekst slepen. Maar wees ervan bewust dat dit ook de HTML van de afbeeldingcontainer kan kopiëren met klasseverklaringen die niet geldig zijn voor uw site.
 
-U kunt ook nieuwe afbeeldingen uploaden door de upload sectie van het
-'Invoegen afbeelding' scherm te gebruiken.
+## Afbeeldingen uploaden met behulp van de Mediakader
 
-- First open the Media browser and navigate to the folder where you wish
-  to store new images for the current article.
+Je kunt nieuwe afbeeldingen uploaden naar je afbeeldingsmap vanaf de 
+*CMS Content -> Media* pagina.
 
-1.  Klik op de Bladeren knop om door bestanden te bladeren.
-1.  Selecteer de afbeeldingen die u wilt uploaden. Klik op Openen om de
-    selectie te bevestigen. Let op: De stijl en de lay-out van het door
-    bestanden bladeren hangt af van de browser en het operating systeem
-    dat u gebruikt.
-1.  De geselecteerde bestand(en) verschijnen onderaan het 'Invoegen
-    afbeelding' scherm. Klik *Upload starten* om het uploaden van de
-    bestanden te beginnen.
-1.  - Wanneer de upload voltooid is verschijnt een groen bericht
-      bovenaan het scherm.
-1.  U kunt nu de geüploade afbeelding selecteren en invoegen, zoals
-    eerder beschreven.
+- Open het Mediakader en navigeer naar de map waar je nieuwe afbeeldingen voor het huidige artikel wilt opslaan.
+- Selecteer de Upload-knop linksboven op het Media-scherm om een 
+  bestandsbrowser te openen.
+- Selecteer de afbeeldingsbestanden die je wilt uploaden. Selecteer Openen in de bestandsbrowser om de selectie te bevestigen. Opmerking: De stijl en indeling van de bestandsbrowser zijn afhankelijk van de browser en het besturingssysteem dat je gebruikt.
+- De geselecteerde bestand(en) verschijnen in alfabetische volgorde op het Media/Afbeelding-scherm.
+- Wanneer de upload voltooid is, verschijnt er een groene bevestigingsmelding bovenaan het scherm.
+
+Je kunt nu de geüploade afbeelding selecteren en invoegen zoals voorheen.
+
+*Vertaald door openai.com*
+

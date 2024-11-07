@@ -1,47 +1,51 @@
-<!-- Filename: J4.x:Getting_Started:_Adding_a_Menu_Item / Display title: Aan de slag: Een menu-item toevoegen -->
+<!-- Filename: J4.x:Getting_Started:_Adding_a_Menu_Item / Display title: Een menu-item toevoegen  -->
 
-## Introduction
+## Inleiding
 
-Suppose one of your articles is sufficiently important for it to merit a
-menu item - a link to it from the Main Menu. That would be a Single
-Article menu item type. There are several ways to create a new menu
-item:
+Stel dat een van uw artikelen belangrijk genoeg is om het een menu-item te geven - een link ernaar vanuit het Hoofdmenu. Dat zou een *Enkel Artikel* menu-itemtype zijn. Er zijn verschillende manieren om een nieuw menu-item te creëren:
 
-- In the Administrator menu, expand the Menus item and select the **+**
-  icon beside the Main Menu item.
-- Select **Main Menu** in the Administrator menu and then select the
-  **New** button in the Toolbar.
-- Select **All Menu Items** in the Administrator menu and then select
-  the **New** button in the Toolbar. If you use this route you also need
-  to select the Menu the new item will appear in.
+- In het Beheerdersmenu, breid het Menus-item uit en selecteer het **+**-icoontje naast het *Hoofdmenu*-item.
+- Selecteer **Hoofdmenu** in het Beheerdersmenu en klik vervolgens op de **Nieuw**-knop in de Werkbalk.
+- Selecteer **Alle Menu-items** in het Beheerdersmenu en klik vervolgens op de **Nieuw**-knop in de Werkbalk. Als u deze route kiest, moet u ook het Menu selecteren waarin het nieuwe item zal verschijnen.
 
-## The Menu Edit Page
+## De Menu Bewerken Pagina
 
-The Menus: New Item form has four compulsory fields to complete:
+![Menu item bewerkformulier](../../../en/images/getting-started/menu-item-edit-form.png)
 
-- **Menu Title.** Enter a meaningful word or short phrase that will fit
-  nicely into the Main Menu box.
-- **Menu Item Type.** Select from a two-part list: a modal dialog offers
-  a **Menu Item Type** list; open the Articles list and select the
-  Single Article type at the bottom of the list.
-- **Select Article.** Another modal dialog with a list of Articles on
-  your site. Find and select the article this menu item will link to.
-- **Menu.** Over on the right (or below on small screens) check that a
-  menu is selected.
+Het formulier *Menu's: Nieuw Item* heeft vier verplichte velden om in te vullen:
 
-<img
-src="https://docs.joomla.org/images/thumb/a/ac/J4.x-getting-started-menu-edit-screenshot-en.png/800px-J4.x-getting-started-menu-edit-screenshot-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/thumb/a/ac/J4.x-getting-started-menu-edit-screenshot-en.png/1200px-J4.x-getting-started-menu-edit-screenshot-en.png 1.5x, https://docs.joomla.org/images/a/ac/J4.x-getting-started-menu-edit-screenshot-en.png 2x"
-data-file-width="1440" data-file-height="1314" width="800" height="730"
-alt="J4.x-getting-started-menu-edit-screenshot-en.png" />
+- **Menu Titel** Voer een betekenisvol woord of korte zin in die goed
+  in het Hoofdmenu-vak past.
+- **Menu Item Type** Selecteer om een modaal dialoogvenster **Menu Item Type** te openen.
+  - open de **Artikelen** lijst en selecteer het type *Enkel Artikel*.
+- **Selecteer Artikel** Een ander modaal dialoogvenster met een lijst van Artikelen.
+  - Zoek en selecteer het artikel waar dit menu-item naar zal linken.
+- **Menu** Controleer aan de rechterkant (of onderaan op kleine schermen) of een
+  menu is geselecteerd.
+- Selecteer **Opslaan & Sluiten** in de Toolbar-knop.
 
-That is all that must be done. Everything else is optional. Save & Close
-the using the Toolbar button and have a look at the Site Home page. The
-menu item in the Main menu links directly to that page.
+Dat is alles wat gedaan moet worden. Alles anders is optioneel. Kijk eens naar de
+homepagina van de site. Het menu-item in het Hoofdmenu linkt direct naar die pagina.
 
-## Multiple Menu Items
+![Siteweergave van enkel artikel](../../../en/images/getting-started/menu-item-single-article-site-view.png)
 
-So far so good. But what happens when you have 10 or 100 or 1000 or more
-articles? It is time to think of other ways of managing articles and
-other page layouts.
+## Meerdere Menu-items
+
+Tot nu toe gaat het goed. Maar wat gebeurt er als je 10 of 100 of 1000 of meer artikelen hebt? Het is tijd om na te denken over andere manieren om artikelen en andere paginalay-outs te beheren.
+
+## Een Categorielijst Menu-item Maken
+
+- Selecteer het **Menu's → Hoofdmenu → +** icoon uit het Beheerdersmenu om het *Menu's: Nieuw Item* bewerkformulier te openen.
+- Selecteer **Artikelen → Categorielijst** in het veld *Menu-item Type*.
+- Selecteer **Selecteer → Zoogdieren** in het veld *Kies een Categorie*.
+- Voer een **Titel** in, bijvoorbeeld *Artikelen over Zoogdieren* om duidelijk te maken dat dit menu-item bedoeld is om een lijst van artikelen weer te geven.
+- **Opslaan en Sluiten**.
+
+Ga naar de Startpagina van de site en laad deze opnieuw. Selecteer het nieuwe *Artikelen over Zoogdieren* menu-item.
+
+![Categorielijst van Artikelen over Zoogdieren](../../../en/images/getting-started/menu-item-category-list-site-view.png)
+
+Selecteer de artikeltitel, Zoogdieren, om naar de artikelweergave te gaan. Als je veel artikelen hebt, kun je ze hier vinden, waardoor aparte menu-items voor individuele artikelen niet nodig zijn.
+
+*Vertaald door openai.com*
+

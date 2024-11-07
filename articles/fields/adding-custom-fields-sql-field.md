@@ -1,122 +1,40 @@
-<!-- Filename: J3.x:Adding_custom_fields/Sql_Field / Display title: Toevoegen extra velden/SQL veld -->
+<!-- Filename: J3.x:Adding_custom_fields/Sql_Field / Display title: SQL Veld -->
 
-## SQL veld
+## Doel
 
-**Artikelen in deze reeks**
+Het SQL-veld biedt een uitklaplijst van items verkregen uit een databasequery. Om dit veld te gebruiken, moet je weten hoe je een query opstelt en je moet deze testen in phpMyAdmin.
 
-1.  Inleiding
-2.   Parameters voor alle extra
-    velden
-3.   Kalender
-    veld
-4.   Selectievakjes
-    veld
-5.   Kleur
-    veld
-6.   Tekstverwerker
-    veld
-7.   Integer
-    veld
-8.   Lijst
-    veld
-9.   Lijst met afbeeldingen
-    veld
-10.  Media
-    veld
-11.  Keuzerondje
-    veld
-12.  Herhalend
-    veld
-13.  SQL
-    veld
-14.  Tekst
-    veld
-15.  Tekstvak
-    veld
-16.  URL
-    veld
-17.  Gebruiker
-    veld
-18.  Gebruikersgroep
-    veld
-19.  Hoe kunt u extra velden
-    groeperen
-20.  Welke componenten ondersteunen extra
-    velden
-21.  Implementatie in uw
-    component
-22.  Extra velden gebruiken in uw
-    overrides
 
-### SQL
-
-Biedt een drop-down lijst met items verkregen door het uitvoeren van een
-query op de Joomla Database. De resultaten van de eerste kolom die door
-de query worden geretourneerd, bevatten de waarden voor de drop-down
-lijst.
-
-#### Opties
+## Veldcreatie
 
 Speciale opties binnen dit veld zijn:
 
-- Meerdere
-  Sta toe dat meerdere waarden geselecteerd worden - Indien geactiveerd.
-- Query
-  De SQL query die de gegevens voor de drop-down lijst levert. De query
-  moet twee kolommen teruggeven; één genaamd 'value' welke de waarden
-  van de items in de lijst bevat; de andere genaamd 'text' die de tekst
-  in de drop-down lijst bevat. Als u een standaardwaarde wilt gebruiken
-  dan moet u de 'value' als standaard gebruiken.
+- **Meerdere** Sta toe dat meerdere waarden worden geselecteerd. Als dit op *Ja* is ingesteld, worden er 4 items in de lijst weergegeven. Anders wordt er 1 item weergegeven. In beide gevallen is er een lange lijst om doorheen te scrollen om selecties te maken - indien geactiveerd.
+- **Query** De SQL-query die de gegevens voor de vervolgkeuzelijst zal leveren. De query moet twee kolommen retourneren; één genaamd 'value' die de waarden van de lijstitems zal bevatten; de andere genaamd 'text' die de tekst in de vervolgkeuzelijst bevat.
 
-#### Verwante Informatie
+In dit voorbeeld wordt een tabel gebruikt met een lijst van landnamen. Dit is de query:
+```
+SELECT `id` AS value, `title` AS text
+FROM `#__countrybase_countries`
+WHERE `state` = 1
+ORDER BY `title` ASC
+```
+![SQL Veld](../../../en/images/fields/fields-sql.png "SQL Veld")
 
-Zie  SQL formulier
-veldtype
+## Gegevensinvoer
 
-#### Schermafbeeldingen
+Simpel - selecteer uit de lijst.
 
-##### Het veld aanmaken
 
-Laten we zeggen dat u een veld maakt met de opties weergegeven in de
-volgende afbeelding.
+## Gegevensweergave
 
-<img
-src="https://docs.joomla.org/images/thumb/0/06/Sql_field_create-nl.png/800px-Sql_field_create-nl.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/0/06/Sql_field_create-nl.png 1.5x"
-data-file-width="1154" data-file-height="946" width="800" height="656"
-alt="Sql field create-nl.png" />
+De volgende schermafbeelding van de site toont het veld dat in een artikel wordt weergegeven. De optie *Automatische weergave* is verantwoordelijk voor de positie van het veld en je sjabloon is verantwoordelijk voor het ontwerp van het veld.
 
-##### Het veld in het beheergedeelte gebruiken
+Zoek naar het item **Land van herkomst**.
 
-In het beheergedeelte ziet u het veld bij het aanmaken van een artikel
-of contactpersoon als in de volgende afbeeldingː
+![Weergave van alle velden](../../../en/images/fields/fields-display.png "Velden weergave")
 
-<img
-src="https://docs.joomla.org/images/thumb/5/57/Sql-nl.png/800px-Sql-nl.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/5/57/Sql-nl.png 1.5x"
-data-file-width="1157" data-file-height="946" width="800" height="654"
-alt="Sql-nl.png" />
+De output is een enkel item of een door komma's gescheiden lijst van items (landnamen) volgend op het veldlabel (Land van herkomst).
 
-##### Het veld op de website gebruiken
+*Vertaald door openai.com*
 
-Op de website kunt u het veld zien zoals op de volgende afbeelding. De
-optie *Automatisch tonen* is verantwoordelijk voor de positie van het
-veld en uw template is verantwoordelijk voor het ontwerp van het veld.
-Velden worden alleen getoond op de website als er in het artikel
-gegevens in staan. Als het geen verplicht veld is kunt u dat vergetenǃ
-
-<img
-src="https://docs.joomla.org/images/thumb/3/37/Sql_field_frontend-nl.png/800px-Sql_field_frontend-nl.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/3/37/Sql_field_frontend-nl.png 1.5x"
-data-file-width="1070" data-file-height="655" width="800" height="490"
-alt="Sql field frontend-nl.png" />
-
-<a
-href="https://docs.joomla.org/J3.x:Adding_custom_fields/Repeatable_Field"
-id="content-button" class="button expand success">Vorig: Herhalend
-veld</a>
-<a href="https://docs.joomla.org/J3.x:Adding_custom_fields/Text_Field"
-id="content-button" class="button expand">Volgende: Tekst veld</a>

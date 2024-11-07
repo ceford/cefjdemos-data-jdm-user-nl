@@ -1,102 +1,48 @@
-<!-- Filename: How_do_you_put_a_module_inside_an_article%3F / Display title: Hoe zet u een module in een artikel? -->
+<!-- Filename: How_do_you_put_a_module_inside_an_article%3F / Display title: Modules binnen Artikelen  -->
 
-Joomla!  <span class="small">≥ </span>2.5 serie
+## Introductie
 
-U wilt meestal op de een of andere manier modules aan artikelen
-koppelen. De modules worden toegewezen aan module posities en de module
-posities verschijnen ergens op de webpagina, bepaald door het template.
-Het is echter soms handig om een module binnen het artikel op te nemen.
-De Joomla core voorziet op drie manieren om dit te doen: loadposition,
-loadmodule en loadmoduleid. De plugin "Inhoud - Laad modules" moet
-actief zijn.
+Je wilt meestal modules op een bepaalde manier aan artikelen koppelen. Modules worden meestal toegewezen aan moduleposities en de moduleposities verschijnen ergens op de webpagina, zoals bepaald door het sjabloon. Soms is het echter nuttig om een module daadwerkelijk binnen een artikel in te sluiten. Joomla heeft hiervoor een plugin genaamd *Content - Load Modules*. Wanneer deze is ingeschakeld, kan een module op drie verschillende manieren in een artikel worden ingesloten:
 
-Syntaxis:
+```
+    {loadposition positie,[stijl]}
+    {loadmodule mod_type,de titel,[stijl]}
+    {loadmoduleid moduleId}
+```
 
-- {loadposition position,\[style\]}
-- {loadmodule mod_type,the title,\[style\]}
-- {loadmoduleid moduleId}
+Waarbij `stijl` een van de Module Stijl-waarden is uit het tabblad Geavanceerd van het modulegegevensinvoerformulier, bijvoorbeeld html, outline, table, card of noCard.
 
 ## loadposition
 
-Om een module binnen een artikel in te voegen, publiceert u de module op
-een positie en laadt u die positie als volgt in het artikel:
+Om een module in een artikel in te voegen, publiceer je de module op een positie en laad je die positie in het artikel als volgt:
 
-1.  Maak een module en zet zijn positie op ***Mijnpositie***.
-    ***mijnpositie*** kan elke waarde hebben die niet conflicteert met
-    een bestaande template positie. Type bij 'Positie' ***mijnpositie***
-    en druk op enter in plaats van het selecteren uit de drop-down
-    lijst.
-2.  Wijs de module toe aan **Alle** menu-items. Dit zorgt ervoor dat hij
-    altijd verschijnt, ongeacht hoe de bezoeker bij het artikel gekomen
-    is. De module zal niet getoond worden behalve als u het commando om
-    de module te laden in een
-    artikel
-    zet.
-3.  Bewerk de artikelen waarin u wilt dat de module verschijnt en voeg
-    de tekst ***{loadposition mijnpositie}*** toe in het artikel op de
-    plaats waar u de module wilt hebben.
+1. Maak een module en stel de positie in op ***mijnpositie***. ***mijnpositie*** kan elke waarde zijn die niet in conflict is met een bestaande sjabloonpositie. Typ in het modulebewerkingsformulier de positie ***mijnpositie*** in en druk op enter in plaats van deze uit de vervolgkeuzelijst te selecteren.
+2. Wijs de module toe aan **Alle** menu-items. Dit zorgt ervoor dat deze altijd verschijnt, ongeacht hoe de bezoeker bij het artikel is gekomen. De module wordt niet weergegeven tenzij je de opdracht gebruikt om de module in een artikel te laden.
+3. Bewerk het artikel en voeg de tekst ***{loadposition mijnpositie}*** in op de plaats waar je de module wilt laten verschijnen.
 
-\*Let op dat dit alleen werkt als de [*Inhoud - Laad module* plugin
-geactiveerd
-is](https://docs.joomla.org/Help25:Extensions_Plugin_Manager_Edit#Content_-_Load_Modules "Special:MyLanguage/Help25:Extensions Plugin Manager Edit").
-Als deze plugin gedeactiveerd is, verschijnt de tekst *{loadposition
-mijnpositie}* onveranderd in het artikel. De naam van de positie moet
-daarnaast volledig in kleine letters zijn. Een mix van hoofdletters en
-kleine letters werkt niet.
+**Opmerking:** Als de plugin *Content - Modules Laden* is uitgeschakeld, wordt de tekst *{loadposition mijnpositie}* ongewijzigd in het artikel weergegeven. Ook moet de naam van de positie volledig in kleine letters zijn. CamelCapitalisation zal falen.
 
 ## loadmodule
 
-Een alternatief voor "{loadposition xx}" is de "{loadmodule yyy}"
-variatie die wordt afgehandeld door dezelfde plugin.
+De *{loadmodule yyy}*-syntaxis zoekt naar de eerste module waarvan het **type** overeenkomt met de string 'yyy'. Dus je zou een *mod_login* module kunnen laden door {loadmodule login} in je tekst te plaatsen. Het type is niet zo voor de hand liggend! Bijvoorbeeld, de Taalwisselaar heeft het type **languages**. Om het type te vinden, moet je de lijst van modulemappen doorlopen met een bestandsbeheerder/verkenner en het *mod_*-gedeelte van de mapnaam weglaten.
 
-In dit geval zoekt de plugin naar de eerste module waarvan het **type**
-overeenkomt met de tekenreeks 'yyy'. U zou dus een "mod_login" module
-kunnen tonen door {loadmodule login} in de tekst te zetten. Als u een
-speciale versie van een module wilt laten zien, omdat u bijvoorbeeld
-meerdere login modules heeft met de titels login 1, login 2 etc,
-gebruikt u {loadmodule mod_modType, modTitle} waarbij mod\_**modType**
-wordt mod_login en **modTitle** is de naam/titel gegeven aan uw
-instantie van die module. In bovenstaande voorbeeld wordt dat dus
-**{loadmodule mod_login Login 2}**. . U kunt ook de stijl toevoegen die
-wordt gebruikt voor het weergeven van de module. Voeg daarvoor de stijl
-toe als derde parameter: {loadmodule login,login2,xhtml}. Als u geen
-stijl toevoegt, wordt "none" gebruikt.
+Als je een specifieke instantie van een module wilt laden, omdat je meer dan één loginmodule hebt, bijv. met de titels Login 1, Login 2, enz., moet je {loadmodule mod_modType, modTitle} gebruiken, waarbij **mod_modType** mod_login zou zijn en **modTitle** de naam/titel is die aan je module-instantie is gegeven. In het bovenstaande voorbeeld eindig je dus met **{loadmodule mod_login Login 2}**.
+
+Je kunt ook de stijl toevoegen die wordt gebruikt voor het renderen van de module. Om dit te doen, voeg je de stijl als derde parameter toe zoals {loadmodule login,Login 2,xhtml}. Als je geen stijl toevoegt, wordt er geen gebruikt.
 
 ## loadmoduleid
 
-Sinds Joomla! versie 3.9.0 is een alternatief van `{loadposition xx}` en
-`{loadmodule yyy}` `{loadmoduleid z}` wat door dezelfde plugin wordt
-uitgevoerd.
+De syntaxis *{loadmoduleid z}* zoekt naar de module waarvan de `id` overeenkomt met het nummer `z`. Je kunt de module met id 200 laden door *{loadmoduleid 200}* in je tekst te plaatsen. Deze variant gebruikt geen extra parameters zoals de `style`-parameter.
 
-In dit geval kijkt de plugin naar de module waarvan het `id` overeenkomt
-met net nummer `z`. zo kun je de module laden met id 200 door
-`{loadmoduleid 200}` in je tekst te zetten. Deze variant "begrijpt" geen
-extra parameters zoals de `style` parameter.
+## Editor Knop
 
-## Bewerk knop (sinds Joomla! versie 3.5)
+Als de editor-xtd plugin *Knop - Module* is geactiveerd, kun je de editor knop *Module* gebruiken om de hierboven beschreven tags gemakkelijker in de editor tekst in te voegen. De Modullijst heeft een knop in de titelkolom om in te voegen op id en een knop in de Positie kolom om in te voegen op positie.
 
-Als de editor-xtd plugin "Knop - Module" geactiveerd is kun je de
-bewerk-knop "Module" gebruiken om de hierboven beschreven tags
-makkelijker in te voegen in het tekstvak. Sinds Joomla! 3.9 kan dat ook
-met de variant `loadmouleid`.
+## Modules binnen Modules
 
-## Modules binnen modules
+Het is mogelijk om een module op te nemen binnen een *Aangepaste HTML* module. Ze worden op dezelfde manier verwerkt door inhoudsplug-ins als artikelen.
 
-In Joomla! 2.5+ en Joomla! 3.x+ is het mogelijk een module op te nemen
-in een "Aangepaste HTML" module, aangezien de content plugins ze op
-dezelfde manier verwerken als artikelen.
+Er kunnen opmaakproblemen optreden omdat de stijl van de *Aangepaste HTML* module de stijl van de opgenomen module zal omgeven. Dat is de reden waarom de *Module* editor knop niet beschikbaar is in modules van het type *Aangepast*.
 
-Om dit te laten werken moet de optie "Bewerk inhoud" ingeschakeld zijn,
-zoals in dit screenshot.
+*Vertaald door openai.com*
 
-<img
-src="https://docs.joomla.org/images/4/48/J3x_custom_html_prepare_content_option-nl.png"
-decoding="async" data-file-width="691" data-file-height="396"
-width="691" height="396"
-alt="De &quot;Bewerk inhoud&quot; optie in een Aangepaste HTML module." />
-
-Denk er aan dat, als u dit doet, dat er opmaak problemen kunnen ontstaan
-aangezien de "chrome" van de "Aangepaste HTML" module de "chrome" van de
-opgenomen module waardoor ongewenste effecten kunnen ontstaan bij de
-opmaak of lay-out. Dit is de reden waarom de "Module" bewerkknop niet
-beschibaar is in modules van het type "Aangepast".

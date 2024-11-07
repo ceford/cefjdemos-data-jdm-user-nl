@@ -1,161 +1,89 @@
-<!-- Filename: How_do_you_recover_or_reset_your_admin_password%3F / Display title: Herstel beheerderswachtwoord -->
+<!-- Filename: How_do_you_recover_or_reset_your_admin_password%3F / Display title: Herstel administratiewachtwoord -->
 
 ## Inleiding
 
-Normaal gesproken kunnen in het gebruikersbeheer de wachtwoorden van
-gebruikers worden gewijzigd. Om dit te doen, moet je ingelogd zijn met
-een Super Administrator account.
+Normaal gesproken kan een Supergebruiker gebruikers en wachtwoorden toevoegen, bewerken en verwijderen uit de gebruikerslijst. In sommige situaties is dit misschien niet mogelijk. Bijvoorbeeld, de persoon die het Supergebruikerswachtwoord kende is niet langer beschikbaar. Of misschien is de Supergebruiker het wachtwoord vergeten dat werd gebruikt.
 
-In sommige situaties is dit echter niet mogelijk. Bijvoorbeeld als de
-website is gehacked en het wachtwoord is veranderd. Of als je het
-wachtwoord van de Super Administrator vergeten bent.
+In dergelijke gevallen zijn er twee methoden beschikbaar waarmee een sitebeheerder kan inloggen als een Supergebruiker.
 
-In zulke situaties is het nog steeds mogelijk om de Joomla! database aan
-te passen, zodat je als een Super Administrator kunt inloggen. Dit zijn
-de beschikbare mogelijkheden voor Joomla! administrators.
+## Methode 1: Het configuration.php-bestand bewerken
 
-## Methode 1: configuration.php bestand
+Als je toegang hebt tot het `configuration.php`-bestand van de Joomla-installatie op je server, kun je een Super User-wachtwoord resetten of een nieuwe Super User aanmaken als je kunt inloggen als Manager of Administrator.
 
-Als er toegang is tot de `configuratie.php` van de Joomla! installatie
-kan het wachtwoorden op de volgende manier achterhaald worden:
+Je moet het `configuration.php`-bestand openen in een teksteditor. Verander eerst de bestandsrechten naar 644. Je sitebeheerhulpmiddelen, zoals cPanel of Plesk (er zijn ook andere), bieden je meestal de mogelijkheid dit online te doen. Zo niet, dan moet je mogelijk FTP gebruiken om het bestand te downloaden, het lokaal te wijzigen en het opnieuw te uploaden.
 
-1. Gebruik een FTP programma om verbinding maken te maken met de
-website. Zoek het bestand configuration.php en kijk naar de
-bestandsrechten. Als de bestandsrechten 444 of iets anders zijn,
-verander deze dan naar 644. Dit zal problemen voorkomen tijdens het
-uploaden van het aangepaste configuration.php bestand later in dit
-proces.
-2. Download het configuration.php bestand.
-3. Open het configuration.php bestand dat je hebt gedownload in een
-tekstverwerker, bijvoorbeeld notepad++ en voeg de volgende regel toe
+Voeg deze regel onderaan het bestand toe, maar vóór de afsluitende accolades:
+```
+    public $root_user='mijnnaam';
+```
+waarbij **mijnnaam** een gebruikersnaam is met toegang tot de *Manager*- of *Administrator*-groep waarvan je het wachtwoord kent. Een gebruikersnaam die tot de *Author*-, *Editor*- of *Publisher*-groepen behoort, zal niet werken omdat deze groepen geen backendtoegang hebben.
 
-    public $root_user='myname';
+Deze gebruiker zal nu tijdelijk een Super User zijn.
 
-    onderaan de lijst, waarbij 'myname' een gebruikersnaam is met
-administrator rechten, waarvan het wachtwoord bekend is. Een
-gebruikersnaam met rechten in de auteur gebruikersgroep of hoger kan ook
-gebruikt worden in plaats van een gebruikersnaam met administrator
-rechten.
-4. Sla het configuration.php bestand op en upload het terug naar je
-website. Je mag de gebruikersrechten van het configuration.php bestand
-op 644 laten staan.
+Log in op de backend en wijzig het wachtwoord van de Super User waarvoor je het wachtwoord niet hebt, of maak een nieuw Super User-account aan. Als je een nieuwe gebruiker aanmaakt, wil je wellicht de oude gebruiker blokkeren of verwijderen, afhankelijk van je omstandigheden.
 
-    Deze gebruiker wordt nu een tijdelijke super administrator.
-5. Login in het beheergedeelte en wijzig het wachtwoord van de
-administrator gebruiker waar u het wachtwoord van hebt of maak een
-nieuwe super gebruiker aan. Als u een nieuwe gebruiker aanmaakt wilt u
-misschien de oude blokkeren of verwijderen, afhankelijk van uw
-omstandigheden.
-6. Gebruik, als u klaar bent, de link "Klik hier om te proberen het
-automatisch te doen" die verschijnt in de waarschuwing, om de regel te
-verwijderen die toegevoegd is aan het configuration.php bestand. Ga, als
-het gebruik van de link niet succesvol was, terug en verwijder de
-toegevoegde regel uit het configuration.php bestand met een teksteditor.
-Upload het configuration.php bestand terug naar de site.
-7. Controleer, met behulp van uw FTP programma, de bestandsrechten van
-het configuration.php bestand, ze zouden op 444 moeten staan. Wijzig,
-als u de toegevoegde regel handmatig heeft verwijderd, de
-bestandsrechten van het configuration.php bestand in 444.
+Wanneer je klaar bent, gebruik dan de link *Selecteer hier om het automatisch te proberen* die verschijnt in het waarschuwingsvak om de regel te verwijderen die aan het configuration.php-bestand is toegevoegd. Als het gebruik van de link niet succesvol was, ga dan terug en verwijder de toegevoegde regel uit je configuration.php-bestand met behulp van een teksteditor.
 
-Als u geen gebruikers weet die hun wachtwoord kennen en u geen gebruik
-kunt maken van registreren vanaf de website, dan moet u misschien een
-wijziging in de database aanbrengen, zoals hieronder in dit document
-beschreven.
+Als je geen gebruikers hebt die hun wachtwoord kennen, moet je mogelijk een wijziging in je database aanbrengen.
 
-## Methode 2: Direct aanpassen in de database
+## Methode 2: Wijzig de Database
 
-Als bovenstaande methode niet werkt, heeft u twee andere opties, die
-beide het werken direct in de MySQL database vereisen.
+Als de bovenstaande methoden niet hebben gewerkt, heb je twee andere opties, die beide vereisen dat je direct met de MySQL-database werkt.
 
-### Wijzig het wachtwoord in de database
+### Wijzig een Wachtwoord in de Database
 
-Als de admin-gebruiker nog gedefinieerd is, is de eenvoudigste optie het
-wachtwoord te wijzigen in de database naar een bekende waarde. Dit
-vereist dat u toegang heeft tot de MySQL database met behulp van
-phpMyAdmin of een andere client.
+De eenvoudigste optie is om het Super User-wachtwoord in de database te wijzigen naar een bekende waarde. Dit vereist dat je toegang hebt tot de MySQL-database via phpMyAdmin of een andere client. Deze instructies laten zien hoe je een wachtwoord wijzigt naar het woord **geheim**.
 
-Zorg ervoor dat u uw wachtwoord wijzigt wanneer u weer toegang heeft
+Deze methode werkt alleen als de geselecteerde gebruiker deel uitmaakt van de *Manager*- of *Administrator*-groepen.
 
-Deze instructies tonen hoe u handmatig een wachtwoord kunt wijzigen naar
-het woord - `secret`
+**Zorg ervoor dat je het Super User-wachtwoord wijzigt zodra je weer toegang hebt!**
 
-1.  Navigeer naar phpMyAdmin en selecteer de database van de Joomla!
-    site in de keuzelijst links. Dit toont de database tabellen aan de
-    linkerkant van het scherm.
-2.  Zoek en klik op de tabel met "\_users" in de lijst met tabellen (let
-    op: u heeft misschien een voorvoegsel dat niet jos\_ is, ga naar de
-    \_users tabel met uw voorvoegsel).
-3.  Klik op de "Browse" knop in de bovenste werkbalk. Dit toont alle
-    gebruikers die op deze site bestaan.
-4.  Zoek de gebruiker waarvan u het wachtwoord wilt wijzigen en druk op
-    het Wijzigen icoon voor deze rij.
-5.  Een formulier wordt zichtbaar dat u de mogelijkheid geeft het
-    wachtwoord-veld te bewerken. Kopieer de waarde
+1.  Open phpMyAdmin en selecteer de database voor de Joomla!-site. Dit toont de database tabellen aan de linkerkant van het scherm.
+2.  Zoek en selecteer de *#__users* tabel waarbij *#_* het tabelvoorvoegsel voor jouw site is.
+3.  In de *Bladeren* weergave, zoek de gebruiker wiens wachtwoord je wilt wijzigen en selecteer het Bewerk-pictogram voor deze rij.
+    - als de lijst lang is, selecteer de SQL-knop bovenaan en gebruik deze query:<br>
+    `SELECT * FROM `xxxxx_users` WHERE `username` = 'gebruikersnaam'`<br>
+    waarbij je jouw databasevoorvoegsel gebruikt om `xxxxx` te vervangen en de gebruikersnaam die je moet vinden in plaats van `gebruikersnaam`.
+4.  Verander in het bewerkformulier het wachtwoord naar<br>
+    `d2064d358136996bd22421584a7cb33e:trd7TvKHx6dMeoMmBVxYmg0vuXEA4199`<br>
+    en selecteer de *Go*-knop onderaan het formulier. phpMyAdmin zou het bericht *Getroffen rijen: 1* moeten tonen. Op dit punt zou het wachtwoord **geheim** moeten zijn.
+5.  Log in met deze gebruiker en het wachtwoord en wijzig het wachtwoord van deze gebruiker naar een veilige waarde. Controleer alle gebruikers om er zeker van te zijn dat ze legitiem zijn. Als je gehackt bent, wil je misschien alle wachtwoorden op de site wijzigen.
 
-        d2064d358136996bd22421584a7cb33e:trd7TvKHx6dMeoMmBVxYmg0vuXEA4199
+### Voeg een nieuwe Supergebruiker toe
 
-    naar het wachtwoord-veld en druk op *Start* knop. phpMyAdmin zou de
-    boodschap "1 rij bijgewerkt". Op dit moment is het wachtwoord
-    gewijzigd in `secret`.
-6.  Login met deze gebruiker en wachtwoord en wijzig het wachtwoord van
-    de gebruiker in een veilige waarde. Controleer of alle gebruikers
-    die toegang hebben tot het beheergedeelte dat mogen. Als u gehackt
-    bent, wilt u misschien alle wachtwoorden op de site veranderen.
-
-### Voeg een nieuwe Super gebruiker toe
-
-Als het wijzigen van het wachtwoord niet werkt, of als u niet weet welke
-gebruikers lid zijn van de Super gebruikers-groep, dan kunt u deze
-methode gebruiken om een nieuwe gebruiker aan te maken.
-
-1.  Navigeer naar phpMyAdmin en selecteer de database van de Joomla!
-    site in de keuzelijst links. Dit toont links op het scherm de
-    database tabellen.
-2.  Druk op de "SQL" knop in de werkbalk om een SQL query te draaien op
-    de gekozen database. Dit toont een veld genaamd "Voer
-    SQL-query/queries uit op databank ".
-3.  Verwijder alle tekst in dit veld en kopieer en plak onderstaande
-    query en druk op de *Start* knop om de query uit te voeren en voeg
-    de nieuwe beheerders-gebruiker toe aan de tabel.
-4.  Gebruik de SQL query hieronder om nog een beheerders-account toe te
-    voegen.
-
-    Zorg ervoor dat uw database tabel-voorvoegsel gebruikt wordt!
-
-    De volgende code gebruikt jos31\_ als tabelnaam voorvoegsel, wat alleen
-maar een voorbeeld tabel-voorvoegsel is. Het voorvoegsel toen u voor het
-eerst Joomal installeerde is **WILLEKEURIG** of datgene waar u het
-specifiek naar heeft gewijzigd. U moet alle waarden van **jos31\_**(uw
-installatie voorvoegsel) uit onderstaande code veranderen in het
-voorvoegsel die bij uw installatie gebruikt wordt. 
-
-### SQL code die gebruikt moet worden voor Joomla
-
-    INSERT INTO `jos31_users`
+Als het wijzigen van het wachtwoord niet werkt of als je niet zeker weet welke gebruiker lid is van de Super User-groep, kun je deze methode gebruiken om een nieuwe Super User te maken.
+1.  Open phpMyAdmin en selecteer de database voor de Joomla!-site.
+2.  Selecteer de *SQL*-knop in de werkbalk om een SQL-query uit te voeren op de geselecteerde database. Dit toont een veld genaamd "Voer SQL-query/queries uit op database xxxxx".
+3.  Verwijder eventuele tekst in dit veld en kopieer en plak de volgende query. Vergeet niet `xxxxx` te vervangen door je eigen databasevoorvoegsel.
+    ```
+    INSERT INTO `xxxxx_users`
        (`name`, `username`, `password`, `params`, `registerDate`, `lastvisitDate`, `lastResetTime`)
     VALUES ('Administrator2', 'admin2',
         'd2064d358136996bd22421584a7cb33e:trd7TvKHx6dMeoMmBVxYmg0vuXEA4199', '', NOW(), NOW(), NOW());
-    INSERT INTO `jos31_user_usergroup_map` (`user_id`,`group_id`)
+    INSERT INTO `xxxxx_user_usergroup_map` (`user_id`,`group_id`)
     VALUES (LAST_INSERT_ID(),'8');
+    ```
+    Selecteer de *Go*-knop om de query uit te voeren en de nieuwe Super User aan de tabel toe te voegen.
 
-    Op dit punt zou u in staat moeten zijn in te loggen in het
-beheergedeelte van Joomla! met de gebruikersnaam "admin2" en het
-wachtwoord "secret". Ga, na het inloggen, naar gebruikersbeheer en
-wijzig het wachtwoord in een nieuwe veilige waarde en geef het een juist
-e-mailadres. Zorg, als er kans is dat u "gehackt" bent, dat alle
-gebruikers legitiem zijn, met name leden van de groep Super gebruikers.
+Op dit punt zou je moeten kunnen inloggen in de backend van Joomla!
+met de gebruikersnaam *admin2* en het wachtwoord *geheim*.
 
-**Waarschuwing:** De wachtwoorden die op deze pagina getoond worden zijn
-publiek bekend en zijn alleen bestemd voor het herstellen. Uw site kan
-gehackt worden als u deze wachtwoorden niet wijzigt in een veilige
-waarde na het inloggen. Zorg ervoor dat u het wachtwoord wijzigt in een
-veilige waarde na het inloggen!
+Na het inloggen, ga naar de Gebruikerslijst en verander het wachtwoord naar een nieuwe veilige waarde en voeg een geldig e-mailadres toe aan het account.
 
-Bovenstaande voorbeelden wijzigen het wachtwoord in `secret`. Twee
-andere mogelijke waarden worden hieronder getoond:
+Als er een kans is dat je *gehackt* bent, controleer dan of alle gebruikers legitiem zijn, vooral eventuele leden van de Super User-groep.
 
-    - password = "this is the MD5 and salted hashed password"
-    ------------------------------------------------------
-    - admin  = 433903e0a9d6a712e00251e44d29bf87:UJ0b9J5fufL3FKfCc0TLsYJBh2PFULvT
-    - secret = d2064d358136996bd22421584a7cb33e:trd7TvKHx6dMeoMmBVxYmg0vuXEA4199
-    - OU812  = 5e3128b27a2c1f8eb53689f511c4ca9e:J584KAEv9d8VKwRGhb8ve7GdKoG7isMm
+## Alternatieve Tijdelijke Wachtwoorden
+
+**Waarschuwing:** De wachtwoordwaarden die op deze pagina worden getoond zijn
+algemeen bekend en zijn alleen voor hersteldoeleinden. Om te voorkomen dat je
+gehackt wordt, zorg ervoor dat je een tijdelijk wachtwoord wijzigt naar een
+veilige waarde na het inloggen.
+
+    wachtwoord = "dit is het MD5 en gezouten gehashte wachtwoord"
+    ------------------------------------------------------------
+    admin  = 433903e0a9d6a712e00251e44d29bf87:UJ0b9J5fufL3FKfCc0TLsYJBh2PFULvT
+    geheim = d2064d358136996bd22421584a7cb33e:trd7TvKHx6dMeoMmBVxYmg0vuXEA4199
+    OU812  = 5e3128b27a2c1f8eb53689f511c4ca9e:J584KAEv9d8VKwRGhb8ve7GdKoG7isMm
+
+*Vertaald door openai.com*
+

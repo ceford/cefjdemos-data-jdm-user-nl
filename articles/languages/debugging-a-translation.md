@@ -1,123 +1,87 @@
-<!-- Filename: Debugging_a_translation / Display title: Het debuggen van een vertaling -->
+<!-- Filename: Debugging_a_translation / Display title: Het Debuggen van een Vertaling  -->
 
-<img
-src="https://docs.joomla.org/images/thumb/6/69/Split-icon.png/25px-Split-icon.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/thumb/6/69/Split-icon.png/38px-Split-icon.png 1.5x, https://docs.joomla.org/images/thumb/6/69/Split-icon.png/50px-Split-icon.png 2x"
-data-file-width="200" data-file-height="67" width="25" height="8"
-alt="Split-icon.png" />Split Page into Specific Joomla! Versions - J2.5
-and 3.x
+## Joomla Taalbestanden
 
-It has been suggested that this article or section be split into
-specific version
-*Namespaces*.
-(<a
-href="https://docs.joomla.org/index.php?title=Talk:Debugging_a_translation/nl&amp;action=edit&amp;redlink=1"
-class="new"
-title="Talk:Debugging a translation/nl (page does not exist)">Discuss</a>).
-If version split is not obvious, please allow split request to remain
-for 1 week pending discussions. <span class="small">*Proposed since **2
-years ago***.</span>
+Telkens wanneer tekst naar het scherm moet worden uitgevoerd, voegen Joomla-programmeurs een taalconstant in, zoals JYES of JNO. Tijdens het weergevingsproces worden taalbestanden geladen met vertalingen in de juiste taal. De taalbestanden eindigen allemaal op `.ini`. U kunt kijken in languages/en-GB/joomla.ini voor enkele basisvoorbeelden. Regels die beginnen met een puntkomma worden genegeerd. Ze kunnen worden gebruikt voor opmerkingen. De overige regels bestaan uit sleutel="waarde"-paren. Elke taal heeft dezelfde set sleutels, maar de waarden zijn de juiste vertalingen.
 
+Elke Joomla-extensie heeft zijn eigen taalbestanden, dus er zijn er in totaal honderden. Soms zijn er problemen, zoals missende taalconstanten, verkeerd gespelde taalconstanten of syntaxisfouten in de vertaalstrings die een heel taalbestand ongeldig kunnen maken.
 
-Joomla ondersteunt een aantal nuttige debug-mechanismen die het
-makkelijker maken onvertaalde strings te vinden en problemen te
-onderzoeken met vertalingen van geïnstalleerde extensies.
+## Debug Taal
 
-#### Foutopsporing taal
+Joomla biedt enkele nuttige debugging mechanismen die het gemakkelijker kunnen maken om niet-vertaalde strings te lokaliseren en problemen met taalvertalingen in geïnstalleerde extensies te diagnosticeren. Om het uit te proberen:
 
-<img
-src="https://docs.joomla.org/images/thumb/6/62/Global-config-language-debug-nl.png/250px-Global-config-language-debug-nl.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/thumb/6/62/Global-config-language-debug-nl.png/375px-Global-config-language-debug-nl.png 1.5x, https://docs.joomla.org/images/6/62/Global-config-language-debug-nl.png 2x"
-data-file-width="464" data-file-height="168" width="250" height="91"
-alt="Global-config-language-debug-nl.png" />
+Vanuit het Home Dashboard:
 
-U activeert foutopsporing taal via Administratie beheer door naar de
-algemene instellingen te gaan en te klikken op de Systeem tab. Zoek het
-Foutopsporing taal veld, wijzig de waarde in “Ja” en sla uw wijzigingen
-op.
+* Selecteer de **Algemene configuratie** knop in het *Systeem* paneel.
+* Selecteer het *Systeem* paneel en stel **Debug Taal** in op **Ja**.
+* **Taalweergave** is normaal ingesteld op **Waarde**. Als het is ingesteld op **Constante**,
+wordt de lay-out verstoord door lange constanten die niet worden afgebroken.
 
-Met deze optie actief worden alle te vertalen strings getoond met
-speciale tekens omgeven, die hun status aangeven
+Met Debug Taal actief worden alle vertaalbare waarden getoond, omringd met speciale tekens die hun status aangeven:
 
-|                    |                                                                                                                                       |
-|--------------------|---------------------------------------------------------------------------------------------------------------------------------------|
-| Code               | Status                                                                                                                                |
-| \*\*Joomla CMS\*\* | *(tekst omgeven door sterretjes)* geeft aan dat er een overeenkomst gevonden is in het taalbestand en de string vertaald is.          |
-| ??Joomla CMS??     | *(tekst omgeven door een stel vraagtekens)* geeft aan dat de string vertaalbaar is maar er geen match gevonden is in het taalbestand. |
-| Joomla CMS         | "(tekst zonder omringende tekens)" geeft aan dat de string niet te vertalen is.                                                       |
+* `**Joomla CMS**` Tekst omringd door twee sterren geeft aan dat er een match is gevonden in een taalbestand en dat de constante is vertaald.
+* `??Joomla CMS??` Tekst omringd door paren vraagtekens geeft aan dat de constante vertaalbaar is, maar dat er geen match is gevonden in een taalbestand.
+* `Joomla CMS` Tekst zonder omringende tekens geeft aan dat de waarde niet vertaalbaar is.
 
-#### Foutopsporing systeem
+## Systeem Debuggen
 
-Extra foutopsporingsinformatie kan worden verkregen dor het activeren
-van de systeem foutopsporing. Dit wordt gedaan door naar de Algemene
-instellingen te gaan in op de systeem tab te klikken. Zoek het
-Foutopsporing systeem veld op, wijzig de waarde in “Ja” en sla de
-wijzigingen op.
+Aanvullende taal debugging informatie kan verkregen worden door
+systeemdebugging te activeren.
 
-Met deze optie actief hebben alle schermen extra informatie over
-foutopsporing aan het einde van de pagina. Momenteel bevat deze
+Vanaf het Home Dashboard:
 
-- **Profiel informatie.** Dit is de tijd om de code uit te voeren tot de
-  verschillende markeerpunten in de code.
-- **Geheugen gebruik.** De hoeveelheid systeem-RAM-geheugen gebruikt.
-- **SQL query's uitgevoerd.** Alle SQL query's die uitgevoerd zijn
-  tijdens het opbouwen van de pagina.
-- **De taal-bestanden geladen.** Een lijst met alle taalbestanden die
-  geladen zijn tijdens het opbouwen van de pagina, inclusief de
-  volledige pad-informatie. Dit kan handig zijn om te controleren of de
-  verwachte bestanden geladen zijn. Het aantal achter elk pad is het
-  aantal keren dat er naar het bestand verwezen is.
-- **Onvertaalde strings diagnose.** Een lijst met alle gevonden
-  onvertaalde strings en de waarschijnlijke bestandslocatie waar de
-  **JText** aanroep wed gedaan.
-- **Onvertaalde strings ontwerp.** Een lijst met al de gevonden
-  onvertaalde strings in een KEY=Waarde formaat zodat ze gekopieerd en
-  geplakt kunnen worden naar een taalbestand (INI).
+* Selecteer **Plugins** en zoek en activeer vervolgens de **System - Debug** plugin.
+* Selecteer opnieuw het Home Dashboard en dan...
+* Kies de **Globale Configuratie** knop.
+* Selecteer het *Systeem* paneel en zet **Debug Systeem** op **Ja**.
 
-#### Foutopsporing plugin
+Met **Systeem Debug** actief, hebben alle schermen extra debugginginformatie
+onderaan elke pagina. Deze kan worden uitgebreid vanaf een Joomla-icoon en de bovenrand kan verticaal worden versleept om meer regels te tonen.
 
-<img src="https://docs.joomla.org/images/d/db/Debug-plugin-nl.png"
-decoding="async" data-file-width="544" data-file-height="423"
-width="544" height="423" alt="Debug-plugin-nl.png" />
+De debugginginformatie wordt weergegeven onder verschillende kopjes:
 
-deze systeem plugin regelt wat getoond wordt als de foutopsporing actief
-is bij de **Algemene instellingen**. Het is standaard ingeschakeld. U
-kunt de parameters van de plugin bereiken via **Extensies →
-Pluginbeheer**. Zoek de “Systeem - Foutopsporing” plugin en klik erop.
-Er zijn drie instellingen van belang voor vertalers.
+* **J! Info** Basisinstallatiegegevens.
+* **Request** Serververzoekvelden.
+* **Session** Sessiegegegevens.
+* **Profile** De hoeveelheid tijd die nodig is geweest om code uit te voeren tot diverse markeerpunten in de code.
+* **Queries** De SQL-query's die zijn uitgevoerd tijdens het bouwen van de pagina.
+* **Loaded** Een lijst van alle taalbestanden die geladen zijn in het proces van het opbouwen van de pagina, inclusief volledige padinformatie. Dit kan nuttig zijn om te controleren of de verwachte bestanden geladen zijn.
+* **Untranslated** Een lijst van alle niet-vertaalde constanten die gevonden zijn en de waarschijnlijke bestandslocatie gezien waar de vertaalopdracht is gemaakt.
+* **Errors**
 
-- **Toon taalbestanden**. Indien dit op “Ja” staat bevat de
-  foutopsporings-informatie een lijst met taalbestanden die opgevraagd
-  werden toen de pagina opgebouwd werd.
-- **Toon taalstrings** Indien gezet op “Ja” dan wordt een lijst met
-  onvertaalde strings met de locatie van het bestand dat de aanroep naar
-  **JText** doet opgenomen in de foutopsporingsinformatie.
-- **Verwijder vanaf het begin**. Wordt alleen gebruikt als **Toon
-  taalstrings** op “Ja” staat. Dit biedt de mogelijkheid een voorvoegsel
-  van de string te strippen om de sleutel te vormen. Dit is handig als
-  de ontwikkelaar een algemeen voorvoegsel gebruikt voor zijn extensie
-  bij gebruik van de **JText** methode. Zie onderstaande voorbeeld.
+## Systeem - Debug Plugin
 
-Merk op dat het tonen van niet-vertaalde strings alleen de waarde die
-naar de juiste **JText** methode wordt gestuurd toont. Bijvoorbeeld de
-volgende code:
+Deze systeemplugin bepaalt wat er wordt weergegeven wanneer debugging is geactiveerd in de **Globale Configuratie**. Er zijn drie instellingen die interessant zijn voor vertalers.
 
-    echo JText::_( 'Reports Import Configuration' );
+In het **Taal** tabblad:
 
-Indien niet vertaald, zal de ontwikkel modus dit tonen als:
+![plugin systeem debug](../../../en/images/languages/languages-debug-plugin.png "Systeem - Debug Taal")
+
+* **Fouten bij het parseren van taalbestanden** Toon een foutmelding als een taalbestand niet kan worden geladen.
+
+- **Taalbestanden**. Als ingesteld op *Tonen* dan ...
+- **Taalstring** Als ingesteld op *Tonen* dan ...
+- **Eerste woord verwijderen**.
+- **Verwijderen vanaf begin**
+_ **Verwijderen vanaf einde**
+
+**De volgende uitleg moet worden herzien!**
+
+Merk op dat niet-vertalen van strings alleen de waarde tonen die is doorgegeven aan de desbetreffende **Text**-methode. Bijvoorbeeld, met de volgende code:
+
+    echo Text::_('Reports Import Configuration');
+
+Als niet-vertalen weergeven als:
 
     # /administrator/components/com_reports/views/reports/tmpl/default.php
     REPORTS IMPORT CONFIGURATION=Reports Import Configuration
 
-Als de 'Verwijder vanaf het begin' voorvoegsel op "Reports" staat
-verandert de uitvoer enigszins in:
+Als de Strip Key Prefix is ingesteld op "Reports", dan zou de weergave iets veranderen naar:
 
     # /administrator/components/com_reports/views/reports/tmpl/default.php
     REPORTS IMPORT CONFIGURATION=Import Configuration
 
-Merk op dat het getoonde pad een gok is gebaseerd op de aanroep naar de
-PHP *debug_backtrace* functie. Soms is het juist, soms niet en er zijn
-ook gevallen waarbij geen bestand bepaald kan worden. In dit geval moet
-u een oordeel vellen.
+Merk op dat het weergegeven pad slechts een zo goed mogelijke schatting is op basis van een oproep naar de PHP *debug_backtrace* functie. Soms is het nauwkeurig, soms niet en er zijn ook gevallen waarin er geen bestand kon worden bepaald. In die gevallen moet u uw beste oordeel gebruiken.
+
+*Vertaald door openai.com*
+
