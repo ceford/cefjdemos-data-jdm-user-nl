@@ -9,26 +9,30 @@ Het tekstveld maakt invoer van tekst op één regel mogelijk.
 
 Speciale opties binnen dit veld zijn:
 
-- **Filter** Sta het systeem toe om bepaalde HTML-tags of ruwe gegevens op te slaan. Gebruik de
-ruwe filter om ervoor te zorgen dat HTML-code behouden blijft wanneer het formulier wordt verwerkt.
-- **Maximale Lengte** Het maximum aantal tekens dat kan worden ingevoerd.
-- **Prefix** Dit verschijnt voor de tekst in de artikeluitvoer. Voorbeeld: £.
-- **Suffix** Dit verschijnt na de tekst in de artikeluitvoer, voorbeeld: EUR.
+- **Filter** Sta het systeem toe om bepaalde html-tags of ruwe data op te slaan. Gebruik de
+ruwe filter om ervoor te zorgen dat de html-code behouden blijft wanneer het formulier wordt verwerkt.
+- **Maximale Lengte** Het maximale aantal tekens dat kan worden ingevoerd.
+- **Prefix** Dit verschijnt voor de tekst in de artikeloutput. Voorbeeld: £.
+- **Suffix** Dit verschijnt na de tekst in de artikeloutput. Voorbeeld: EUR.
+
+![tekstveldcreatie](../../../en/images/fields/fields-text-edit.png)
+
+**Opmerking:** In dit voorbeeld is het opnemen van het veldtype in de Titel uitsluitend
+voor demonstratiedoeleinden. Laat het weg in je eigen veldtitels.
 
 
 ## Gegevensinvoer
 
 Eenvoudig: Typ je tekst in.
 
+![tekstveld gegevensinvoer](../../../en/images/fields/fields-text-data-entry.png)
 
 ## Gegevensweergave
 
-De volgende screenshot van de site toont het veld weergegeven in een artikel. De optie *Automatische weergave* is verantwoordelijk voor de positie van het veld en je sjabloon is verantwoordelijk voor het ontwerp van het veld.
+De volgende schermafbeelding van de site toont het veld zoals weergegeven in een artikel. De optie *Automatische weergave* is verantwoordelijk voor de positie van het veld en je sjabloon is verantwoordelijk voor het ontwerp van het veld.
 
-Zoek naar het **Prijs** item.
+![tekstveld siteweergave](../../../en/images/fields/fields-text-site.png)
 
-![Weergave van alle velden](../../../en/images/fields/fields-display.png "Veldweergave")
-
-Het veld Tekst volgt het veld Label. En let op dat het £-symbool werd ingesteld als een voorvoegsel.
+Het veld Tekst volgt het veld Label.
 *Vertaald door openai.com*
 

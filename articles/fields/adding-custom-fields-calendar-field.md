@@ -1,38 +1,38 @@
-<!-- Filename: J3.x:Adding_custom_fields/Calendar_Field / Display title: Kalender Veld -->
+<!-- Filename: J3.x:Adding_custom_fields/Calendar_Field / Display title: Kalenderveld -->
 
 ## Doel
 
-Het kalenderveld biedt een tekstvak voor het invoeren van een datum. Een pictogram naast het tekstvak roept een pop-up kalenderkiezer op, die kan worden gebruikt om een datum uit een grafische kalender te selecteren.
+Het kalenderveld biedt een tekstvak voor het invoeren van een datum. Een pictogram naast het tekstvak opent een pop-up kalenderkiezer, waarmee een datum uit een grafische kalender kan worden geselecteerd.
 
 ## Veldcreatie
 
-Gemeenschappelijke veldparameters worden in een apart artikel beschreven.
+Algemene veldparameters worden in een apart artikel beschreven.
 
-* **Titel** U kunt meerdere datumvelden in een artikel hebben, dus het is belangrijk om de titel zorgvuldig in te stellen om onduidelijkheid in de output te voorkomen.
-* **Label** Dit is wat er in de output wordt weergegeven. Als dit leeg wordt gelaten, wordt het ingesteld vanuit de inhoud van het titeleveld, maar het kan worden gewijzigd.
-* **Tijd Weergeven** Als dit is ingesteld op *Ja*, wordt de tijd aan het datumveld, de datumkiezer en de uitvoerdatum toegevoegd. **Let op**: Zelfs als u de tijd niet specificeert in de standaarddatum, wordt de tijd weergegeven wanneer de optie *Tijd tonen* actief is.
-* **Plaatshouder** Kan worden ingesteld op een datumformaat zoals *JJJJ-MM-DD* om gebruikers te herinneren aan het vereiste formaat en/of een herinnering aan waar de datum voor is, zoals *Aankomstdatum*.
+* **Titel** U kunt meerdere datumvelden in een artikel hebben, dus zorgvuldigheid is geboden bij het instellen van de titel om dubbelzinnigheid in de uitvoer te voorkomen.
+* **Label** Dit is wat in de uitvoer wordt weergegeven. Als het leeg wordt gelaten, wordt het ingesteld op basis van de inhoud van het Titelveld, maar het kan worden aangepast.
+* **Tijd weergeven** Als dit is ingesteld op *Ja*, wordt de tijd toegevoegd aan het datumveld, de datumkiezer en de uitvoerdatum. **Let op**: Zelfs als u de tijd niet opgeeft in de standaarddatum, wordt de tijd weergegeven wanneer de optie *Tijd weergeven* actief is.
+* **Plaatshouder** Dit bevindt zich op het tabblad Opties. Het kan worden ingesteld op een datumformaat zoals *JJJJ-MM-DD* om gebruikers eraan te herinneren welk formaat vereist is en/of als geheugensteun waar de datum voor dient, zoals *Aankomstdatum*.
+
+![kalender veldcreatie](../../../en/images/fields/fields-calendar-edit.png)
+
+**Opmerking:** In dit voorbeeld is de opname van het veldtype in de Titel alleen voor demonstratiedoeleinden. Laat het weg in uw eigen veldtitels.
 
 ## Gegevensinvoer
 
-Het gebruik van het kalenderveld is eenvoudig. Je kunt de datum in het vereiste formaat typen of een datum selecteren met de datumkiezer. Zorgvuldigheid is geboden bij het typen van datums. Een fout in de datum wordt bij het opslaan gecorrigeerd naar een nieuwe datum. Bijvoorbeeld, een datum van 2024-14-02 wordt gecorrigeerd naar 2025-02-02.
+In gebruik is het Kalenderveld eenvoudig. Je kunt de datum in het vereiste formaat typen of een datum selecteren met de datumkiezer. Zorgvuldigheid is geboden bij het typen van datums. Een fout in de datum wordt bij het opslaan gecorrigeerd naar een nieuwe datum. Bijvoorbeeld, een datum van 2024-14-02 wordt gecorrigeerd naar 2025-02-02.
 
-De volgende screenshot toont een acquisitiedatum:
+De volgende schermafbeelding toont een Aankoopdatum:
 
-![acquisitiedatum invoer](../../../en/images/fields/fields-date-entry.png "Acquisitiedatum")
+![kalenderveld gegevensinvoer](../../../en/images/fields/fields-calendar-data-entry.png)
 
-Velden verschijnen alleen in een artikel als ze ingevuld zijn in het gegevensinvoerscherm van het artikel.
+Velden verschijnen alleen in een artikel als ze zijn ingevuld in het gegevensinvoervormulier van het artikel.
 
 
 ## Gegevensweergave
 
 De volgende screenshot van de site toont het veld dat in een artikel wordt weergegeven. De optie *Automatische weergave* is verantwoordelijk voor de positie van het veld en je sjabloon is verantwoordelijk voor het ontwerp van het veld.
 
-Zoek naar het item **Verwervingsdatum**.
+![kalenderveld siteweergave](../../../en/images/fields/fields-calendar-site.png)
 
-![Weergave van alle velden](../../../en/images/fields/fields-display.png "Veldenweergave")
-
-De datumformaten worden gelokaliseerd met behulp van taalstrings.
-
-*Vertaald door openai.com*
+De datumnotaties worden gelokaliseerd met behulp van taalstrings.
 

@@ -1,32 +1,31 @@
-<!-- Filename: J3.x:Adding_custom_fields/Checkboxes_Field / Display title: Selectievakjes Veld -->
+<!-- Filename: J3.x:Adding_custom_fields/Checkboxes_Field / Display title: Vinkvakjesveld -->
 
 ## Doel
 
-Het selectievakjesveld biedt een of meer selectievakjes die in een artikel kunnen worden geselecteerd. Aangevinkte vakjes verschijnen in de uitvoer als een door komma's gescheiden lijst. In het volgende voorbeeld worden selectievakjes gebruikt om kweekmethoden van planten aan te geven, die een of meer van de volgende kunnen zijn: Zaad, Stek of Ent.
+Het selectievakjesveld biedt een of meer selectievakjes aan die in een artikel kunnen worden geselecteerd. Aangevinkte vakjes verschijnen in de uitvoer als een door komma's gescheiden lijst. In het volgende voorbeeld worden selectievakjes gebruikt om voortplantingsmethoden van planten aan te geven, die een of meer van Zaad, Stek of Ent kunnen zijn.
 
-## Veld Aanmaken
+## Veld Creatie
 
-* Het **Label** is gebaseerd op de Titel en verschijnt in de output vóór de lijst met geselecteerde waarden.
-* Checkboxen worden één voor één toegevoegd, elk met Tekst en Waarde. De Tekst verschijnt in de output. De waarde wordt gebruikt in het gegevensinvoerformulier en elke waarde moet anders zijn.
+* Het **Label** is gebaseerd op de Titel en verschijnt in de uitvoer vóór de lijst met geselecteerde waarden.
+* Vinkvakjes worden één voor één toegevoegd, elk met Tekst en Waarde. De Tekst verschijnt in de uitvoer. De waarde wordt gebruikt in het gegevensinvoerformulier en moet voor elk anders zijn.
 
-![Checkboxen](../../../en/images/fields/fields-checkboxes.png "Checkboxen")
+![Aanmaken van vinkvakjesveld](../../../en/images/fields/fields-checkboxes-edit.png)
+
+**Opmerking:** In dit voorbeeld is de opname van het veldtype in de Titel alleen voor demonstratiedoeleinden. Laat het weg in je eigen veldtitels.
 
 ## Gegevensinvoer
 
-Het gaat erom de items te selecteren die in de output moeten verschijnen.
+Het is slechts een kwestie van het selecteren van de items die in de output moeten verschijnen.
 
-![Checkbox Selectie](../../../en/images/fields/fields-checkboxes-entry.png "Checkbox Selectie")
+![Aanvinkvakjes veld gegevensinvoer](../../../en/images/fields/fields-checkboxes-data-entry.png)
 
 Velden verschijnen alleen in een artikel als ze zijn ingevuld in het gegevensinvoerformulier van het artikel.
 
-
 ## Gegevensweergave
 
-De volgende schermafbeelding van de site toont het veld zoals weergegeven in een artikel. De optie *Automatische weergave* bepaalt de positie van het veld en je sjabloon is verantwoordelijk voor het ontwerp van het veld.
+De volgende schermafbeelding van de site toont het veld dat in een artikel wordt weergegeven. De optie *Automatische weergave* is verantwoordelijk voor de positie van het veld en jouw sjabloon is verantwoordelijk voor het ontwerp van het veld.
 
-Zoek naar het item **Voortplanting**.
-
-![Weergave van alle velden](../../../en/images/fields/fields-display.png "Veldenweergave")
+![veld met selectievakjes siteweergave](../../../en/images/fields/fields-checkboxes-site.png)
 
 *Vertaald door openai.com*
 
