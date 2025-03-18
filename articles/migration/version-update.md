@@ -10,7 +10,7 @@ Een standaardinstallatie van Joomla 4 en later bevat een nuttig meldingspaneel o
 
 Het updatebericht dat in het meldingenpaneel verschijnt, is afhankelijk van het *Updatekanaal* dat is ingesteld op de pagina *Joomla Update: Opties* en de huidige *Kleine* versie. Met **Updatekanaal** ingesteld op **Standaard** worden updates binnen de huidige *Grote* versie gemeld. Met de parameter ingesteld op *Joomla Next* kun je updaten naar de nieuwste huidige versie en vervolgens op de knop **Controleren op updates** klikken om te zien of de volgende *Grote* versie beschikbaar is.
 
-Hoewel Joomla je zal informeren wanneer er een update beschikbaar is, vereist het dat jij de update uitvoert. Het is een eenvoudig proces dat zo snel mogelijk moet worden uitgevoerd om de site actueel te houden.  
+Hoewel Joomla je zal informeren wanneer er een update beschikbaar is, vereist het dat jij de update uitvoert. Het is een eenvoudig proces dat zo snel mogelijk moet worden uitgevoerd om de site actueel te houden.
 
 ## Toegang tot de Update Component
 
@@ -137,20 +137,19 @@ Als je problemen of fouten ervaart tijdens het updateproces, hier zijn enkele ti
 - Het updateproces maakt of voegt toe aan een logbestand genaamd administrator/logs/joomla_update.php, dat je kunt openen met een teksteditor om de stappen in het logboek te bekijken. Het zal de belangrijkste stappen weergeven (zip downloaden, installeren, SQL-instructies uitvoeren, opruimen), zoals dit:
 
 ```
-2024-04-17T09:13:16+00:00	INFO 127.0.0.1	update	Update gestart door gebruiker Jimmy (139). Oude versie is 5.0.3.
-2024-04-17T09:13:18+00:00	INFO 127.0.0.1	update	Downloaden van updatebestand van ...
-2024-04-17T09:13:28+00:00	INFO 127.0.0.1	update	Bestand Joomla_5.1.0-Stable-Update_Package.zip gedownload.
-2024-04-17T09:13:28+00:00	INFO 127.0.0.1	update	Start van installatie van nieuwe versie.
-2024-04-17T09:13:40+00:00	INFO 127.0.0.1	update	Installatie afronden.
-2024-04-17T09:13:40+00:00	INFO 127.0.0.1	update	Start van SQL-updates.
-2024-04-17T09:13:40+00:00	INFO 127.0.0.1	update	De huidige databaseversie (schema) is 5.0.0-2023-09-11.
+2024-04-17T09:13:16+00:00    INFO 127.0.0.1    update    Update gestart door gebruiker Jimmy (139). Oude versie is 5.0.3.
+2024-04-17T09:13:18+00:00    INFO 127.0.0.1    update    Downloaden van updatebestand van ...
+2024-04-17T09:13:28+00:00    INFO 127.0.0.1    update    Bestand Joomla_5.1.0-Stable-Update_Package.zip gedownload.
+2024-04-17T09:13:28+00:00    INFO 127.0.0.1    update    Start van installatie van nieuwe versie.
+2024-04-17T09:13:40+00:00    INFO 127.0.0.1    update    Installatie afronden.
+2024-04-17T09:13:40+00:00    INFO 127.0.0.1    update    Start van SQL-updates.
+2024-04-17T09:13:40+00:00    INFO 127.0.0.1    update    De huidige databaseversie (schema) is 5.0.0-2023-09-11.
 ... Veel individuele SQL-query's
-2024-04-17T09:13:41+00:00	INFO 127.0.0.1	update	Einde van SQL-updates.
-2024-04-17T09:13:41+00:00	INFO 127.0.0.1	update	De-installeren van extensies
-2024-04-17T09:13:41+00:00	INFO 127.0.0.1	update	Verwijderen van verwijderde bestanden en mappen.
-2024-04-17T09:13:44+00:00	INFO 127.0.0.1	update	Opruimen na installatie.
-2024-04-17T09:13:44+00:00	INFO 127.0.0.1	update	Update naar versie 5.1.0 is voltooid.
+2024-04-17T09:13:41+00:00    INFO 127.0.0.1    update    Einde van SQL-updates.
+2024-04-17T09:13:41+00:00    INFO 127.0.0.1    update    De-installeren van extensies
+2024-04-17T09:13:41+00:00    INFO 127.0.0.1    update    Verwijderen van verwijderde bestanden en mappen.
+2024-04-17T09:13:44+00:00    INFO 127.0.0.1    update    Opruimen na installatie.
+2024-04-17T09:13:44+00:00    INFO 127.0.0.1    update    Update naar versie 5.1.0 is voltooid.
 ```
 
 *Vertaald door openai.com*
-

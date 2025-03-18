@@ -130,7 +130,7 @@ use Joomla\Component\Fields\Administrator\Helper\FieldsHelper;
 Vervolgens, waar je de velden in je sjabloon wilt plaatsen, gebruik je de volgende code:
 ```php
 <?php foreach ($this->item->jcfields as $field) : ?>
-	<?php echo FieldsHelper::render($field->context, 'field.render', array('field' => $field)); ?><br>
+    <?php echo FieldsHelper::render($field->context, 'field.render', array('field' => $field)); ?><br>
 <?php endforeach ?>
 ```
 
@@ -138,7 +138,7 @@ Of voor een ruwe override, die de label niet vertaalt:
 
 ```php
 <?php foreach ($this->item->jcfields as $field) : ?>
-	<?php echo $field->label . ':' . $field->value; ?><br>
+    <?php echo $field->label . ':' . $field->value; ?><br>
 <?php endforeach ?>
 ```
 
@@ -169,4 +169,3 @@ Om de **waarde** van het veld aan je override toe te voegen, voeg je de ondersta
 ```
 
 Je kunt deze code aan elk deel van je override toevoegen. Voorbeelden: De inhoud van een div, de src in een `img`-tag, binnen een CSS-classattribute, enzovoort.
-

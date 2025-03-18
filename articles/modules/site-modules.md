@@ -17,24 +17,24 @@ Modules worden toegewezen aan een positie op een pagina die wordt gedefinieerd d
 En de volgende lijst toont de beschikbare moduleposities per naam:
 
 ```xml
-	<positions>
-		<position>topbar</position>
-		<position>onder-top</position>
-		<position>menu</position>
-		<position>zoeken</position>
-		<position>banner</position>
-		<position>top-a</position>
-		<position>top-b</position>
-		<position>main-top</position>
-		<position>main-bottom</position>
-		<position>broodkruimels</position>
-		<position>sidebar-links</position>
-		<position>sidebar-rechts</position>
-		<position>bottom-a</position>
-		<position>bottom-b</position>
-		<position>footer</position>
-		<position>debug</position>
-	</positions>
+    <positions>
+        <position>topbar</position>
+        <position>onder-top</position>
+        <position>menu</position>
+        <position>zoeken</position>
+        <position>banner</position>
+        <position>top-a</position>
+        <position>top-b</position>
+        <position>main-top</position>
+        <position>main-bottom</position>
+        <position>broodkruimels</position>
+        <position>sidebar-links</position>
+        <position>sidebar-rechts</position>
+        <position>bottom-a</position>
+        <position>bottom-b</position>
+        <position>footer</position>
+        <position>debug</position>
+    </positions>
 ```
 
 ## Een Kernmodule Toevoegen
@@ -107,4 +107,3 @@ Alles klaar?
 - **Wrapper** Deze module toont een iframe-venster naar een gespecificeerde locatie.
 
 *Vertaald door openai.com*
-

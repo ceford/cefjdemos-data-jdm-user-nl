@@ -8,12 +8,12 @@ Houd er rekening mee dat u tijdens de installatie geen databasegebruiker en wach
 
 Als de fout optreedt nadat u uw site naar een andere host heeft verplaatst, controleer dan de volgende items van uw *configuration.php*-bestand. De normale databasesettings zijn als volgt:
 
-	public $dbtype = 'mysqli';
-	public $host = 'localhost';
-	public $user = 'yourdbuser';
-	public $password = 'yourdbpassword';
-	public $db = 'yourdbname';
-	public $dbprefix = 't6q6i_';
+    public $dbtype = 'mysqli';
+    public $host = 'localhost';
+    public $user = 'yourdbuser';
+    public $password = 'yourdbpassword';
+    public $db = 'yourdbname';
+    public $dbprefix = 't6q6i_';
 
 Als de fout optreedt op een site die eerder heeft gewerkt, zijn er een aantal mogelijke redenen, soms tijdelijk en soms per ongeluk.
 
@@ -24,4 +24,3 @@ Als de fout optreedt op een site die eerder heeft gewerkt, zijn er een aantal mo
 3. Je databasegebruikersnaam of wachtwoord is gewijzigd.
 
 *Vertaald door openai.com*
-

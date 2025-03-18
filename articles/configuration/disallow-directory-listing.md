@@ -17,7 +17,7 @@ Options -Indexes
 
 ## No directory listings
 <IfModule mod_autoindex.c>
-	IndexIgnore *
+    IndexIgnore *
 </IfModule>
 ```
 
@@ -26,4 +26,3 @@ Options -Indexes
 Een manier om je site te testen is door de URL van je afbeeldingenmap in de URL-balk van de browser in te voeren: `https://je-domein.nl/images/`. Aangezien de afbeeldingenmap normaal gesproken geen index.html- of index.php-bestand bevat, zou je een volledig lege pagina moeten zien. Als je een lijst van alle bestanden en mappen ziet, dan voorkom je geen directoryscans voor welk deel van je site dan ook. Los dit op!
 
 *Vertaald door openai.com*
-

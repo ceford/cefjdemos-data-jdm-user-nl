@@ -53,7 +53,7 @@ Voor Joomla 4 en 5, voordat je het inschakelt, moet de plugin `if ($app->isAdmin
 
 In een artikel selecteer je het Publicatie tabblad en vervolgens de **Auto** knop voor *Canonieke URL*. Dit zal een link als de volgende plaatsen op elke pagina die het enige artikel weergeeft:
 ```
-	<link href="/jdm3/nl/user/seo/seo-basics.html" rel="canonical" />
+    <link href="/jdm3/nl/user/seo/seo-basics.html" rel="canonical" />
 ```
 
 ## Kwaliteit van de Inhoud
@@ -128,4 +128,3 @@ Het spreekt voor zich dat aantrekkelijke afbeeldingen een site enorm kunnen verb
 * Gebruik responsieve afbeeldingen - er is een Joomla-plugin die dynamisch webp-versies maakt van png- en jpg-afbeeldingen in verschillende formaten.
 
 *Vertaald door openai.com*
-
