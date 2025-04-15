@@ -56,7 +56,11 @@ De items in dit paneel worden goed uitgelegd door de inline hulp. Als je echter 
 
 ### E-mailpaneel
 
-Een Joomla-site zou in staat moeten zijn om uitgaande e-mails te versturen. Naast andere dingen, zal het geautomatiseerde berichten sturen naar de eigenaar van de site wanneer updates beschikbaar zijn. Sommige hostingdiensten beperken echter de methoden waarmee uitgaande e-mail kan worden verzonden. Gebruik je eigen privé-e-mailadres in het Van E-mail-veld:
+Een Joomla-site moet in staat zijn om uitgaande e-mails te versturen. Onder andere worden er automatische berichten gestuurd naar de eigenaar van de site wanneer er updates beschikbaar zijn. Sommige hostingdiensten beperken echter de methoden waarmee uitgaande e-mail verzonden mag worden.
+
+#### Testmail verzenden
+
+Voor Joomla 5.3 stuurde de knop **Verstuur testmail** een bericht naar het adres dat was ingesteld in het veld **Van e-mailadres**. Sinds versie 5.3 wordt de testmail rechtstreeks verzonden naar het e-mailadres van de ingelogde beheerder.
 
 - Probeer eerst PHP Mail en selecteer de knop *Stuur Testmail*. Als de
   e-mail aankomt, ben je klaar om te gaan. Zo niet:
