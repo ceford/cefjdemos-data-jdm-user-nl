@@ -38,7 +38,7 @@ De opsomming van aangepaste velden kan worden verbeterd door de opsommingstekens
   padding-left: 0;
 }
 ```
-![gestileerd zakelijk comité](../../../en/images/contacts/contact-business-committee-styled.png "Gestileerd Zakelijk Comité")
+![gestileerd zakelijk comité](../../../en/images/contacts/contact-business-committee-styled.png)
 
 Dat is zoveel mogelijk wat er gedaan kan worden met stijlen. Beter, maar nog steeds niet goed genoeg. Om meer items toe te voegen en de indeling te veranderen, is een indelingsoverschrijving nodig.
 
@@ -152,7 +152,7 @@ a:has(.contact-thumbnail) {
 
 ### Resultaat
 
-![gerasterde zakencommissie](../../../en/images/contacts/contact-business-committee-grid.png "Gerasterde Zakencommissie")
+![gerasterde zakencommissie](../../../en/images/contacts/contact-business-committee-grid.png)
 
 *Vertaald door openai.com*
 

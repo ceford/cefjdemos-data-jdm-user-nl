@@ -50,7 +50,7 @@ Afhankelijk van de grootte van je site kan het indexeren enkele minuten tot enke
 
 De pagina Geïndexeerde Inhoud toont alle geïndexeerde inhoud. Als je liever hebt dat specifieke items niet in zoekresultaten worden weergegeven, kun je ze uit de Smart Search-database verwijderen door het selectievakje naast de titel van het item aan te vinken en vervolgens op de knop Verwijderen te drukken.
 
-**BELANGRIJKE OPMERKING**: Als je site een grote hoeveelheid inhoud heeft, of bijzonder grote inhoudsitems, of beperkte schijfruimte heeft, moet je lezen over [Smart Search op grote sites](jdocmanual?article=user/smart-search/smart-search-on-large-sites "Smart Search op grote sites").
+**BELANGRIJKE OPMERKING**: Als je site een grote hoeveelheid inhoud heeft, of bijzonder grote inhoudsitems, of beperkte schijfruimte heeft, moet je lezen over [Smart Search op grote sites](jdocmanual?article=user/smart-search/smart-search-on-large-sites).
 
 ## Slim zoeken blootstellen aan sitegebruikers
 

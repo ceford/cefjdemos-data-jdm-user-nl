@@ -1,4 +1,4 @@
-<!-- Filename: J3.x:Adding_custom_fields/Overrides / Display title: Sjabloonoverschrijvingen -->
+<!-- Filename: J3.x:Adding_custom_fields/Overrides / Display title: Voorbeeld Sjabloon Overschrijven -->
 
 ## Automatische Weergave van Veld
 

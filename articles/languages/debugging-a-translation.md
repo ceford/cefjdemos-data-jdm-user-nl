@@ -55,7 +55,7 @@ Deze systeemplugin bepaalt wat er wordt weergegeven wanneer debugging is geactiv
 
 In het **Taal** tabblad:
 
-![plugin systeem debug](../../../en/images/languages/languages-debug-plugin.png "Systeem - Debug Taal")
+![plugin systeem debug](../../../en/images/languages/languages-debug-plugin.png)
 
 * **Fouten bij het parseren van taalbestanden** Toon een foutmelding als een taalbestand niet kan worden geladen.
 

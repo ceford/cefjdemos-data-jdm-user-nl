@@ -6,7 +6,7 @@ Er was eens een tijd dat het gebruikelijk was voor een website om nieuwsitems va
 
 De methode om nieuws te delen is *Really Simple Syndication*, meestal afgekort tot **RSS**, en dit heeft nog steeds een plaats in websitepromotie. De volgende schermafbeelding toont *NetNewsWire*, een gratis en open source RSS-lezer voor Mac. Andere RSS-lezers zijn beschikbaar voor andere platforms. De illustratie toont de **Joomla! Aankondigingen** RSS-feed geselecteerd. Tien aankondigingen worden vermeld met titel en korte beschrijving. De geselecteerde aankondiging wordt volledig weergegeven in de rechterkolom.
 
-![RSS-feed van Joomla Aankondigingen](../../../en/images/news-feeds/news-netnewswire-display.png "Joomla Aankondigingen")
+![RSS-feed van Joomla Aankondigingen](../../../en/images/news-feeds/news-netnewswire-display.png)
 
 Stel je eens voor wat een of meer RSS-feeds voor jouw website zouden kunnen doen!
 
@@ -32,13 +32,13 @@ De RSS-feed kan niet verborgen worden op een homepage met uitgelichte artikelen 
 
 Er is een kernmodule die je kunt plaatsen op Uitgelichte of Categorie Blogpagina's om een sindicatie-link te bieden. Vul de velden in het Module-tabblad in. De meeste hebben geschikte standaardinstellingen. Als het Label-veld leeg wordt gelaten, is het standaard Engelstalige label *Feed Entries*. Selecteer in het tabblad *Menu Toewijzing* **Op alle pagina's**. De module zal alleen verschijnen op Uitgelichte en Categorie Blogpagina's.
 
-![Gegevensinvoer syndicatief feeds](../../../en/images/news-feeds/news-syndication-feeds-form.png "Gegevensinvoer syndicatief feeds")
+![Gegevensinvoer syndicatief feeds](../../../en/images/news-feeds/news-syndication-feeds-form.png)
 
 Vergeet niet de module aan een *Positie* toe te wijzen en deze *Gepubliceerd* te maken.
 
 In de weergave van de sitepagina toont de module een link. Deze is niet bedoeld om op te klikken, tenzij je een lokale Nieuwslezer hebt geconfigureerd. De link moet worden gekopieerd voor gebruik in een Nieuwslezer op een andere site of Nieuwslezer-applicatie.
 
-![Weergave syndicatief feeds](../../../en/images/news-feeds/news-syndication-feeds-display.png "Weergave syndicatief feeds")
+![Weergave syndicatief feeds](../../../en/images/news-feeds/news-syndication-feeds-display.png)
 
 Merk op dat de link betrekking heeft op de items op die pagina. Dus als je site meerdere categorie blogpagina's heeft, zal je verschillende RSS-feeds hebben.
 *Vertaald door openai.com*

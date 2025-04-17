@@ -1,4 +1,4 @@
-<!-- Filename: J4.x:How_to_Create_a_Menu_Item_to_View_Archived_Articles / Display title: Gearchiveerde Artikelen  -->
+<!-- Filename: J4.x:How_to_Create_a_Menu_Item_to_View_Archived_Articles / Display title: Menu Gearchiveerde Artikelen  -->
 
 ## Introductie
 
@@ -15,9 +15,9 @@ Maar wat als oudere artikelen beschikbaar moeten worden gemaakt voor bezoekers v
 5. Pas eventueel de overige parameters aan zodat ze aan uw eisen voldoen. Bijvoorbeeld, u zou **Alle Categorieën** kunnen verwijderen en een of meer categorieën uit de dropdownlijst kunnen kiezen.
 6. Selecteer **Opslaan & Sluiten** om het nieuwe menu-item aan te maken.
 
-![Menuformulier Gearchiveerde Artikelen](../../../en/images/menus/menus-articles-archived.png "Menuformulier Gearchiveerde Artikelen")
+![Menuformulier Gearchiveerde Artikelen](../../../en/images/menus/menus-articles-archived.png)
 
-Er zijn een aantal parameters die u kunt wijzigen – u kunt meer gedetailleerde informatie vinden op het [Help](jdocmanual?article=help/menu-items/menu-item-article-archived "Menu-item: Gearchiveerd Artikel") scherm.
+Er zijn een aantal parameters die u kunt wijzigen – u kunt meer gedetailleerde informatie vinden op het [Help](jdocmanual?article=help/menu-items/menu-item-article-archived) scherm.
 
 Na het opslaan zal het nieuwe menu-item in het Sitemenu verschijnen in de volgorde waarin het is toegevoegd, of de volgorde die is aangepast door slepen en neerzetten, of in dit menu bewerkingsformulier.
 
@@ -25,7 +25,7 @@ Na het opslaan zal het nieuwe menu-item in het Sitemenu verschijnen in de volgor
 
 De link *Gearchiveerde Artikelen* leidt naar een pagina die een lijst met gearchiveerde artikelen weergeeft:
 
-![Menuformulier voor Gearchiveerde Artikelen](../../../en/images/menus/menus-articles-archived-display.png "Menuformulier voor Gearchiveerde Artikelen")
+![Menuformulier voor Gearchiveerde Artikelen](../../../en/images/menus/menus-articles-archived-display.png)
 
 Dit voorbeeld is de standaarduitvoer. Je kunt ervoor kiezen om dit aan te passen, zodat je bijvoorbeeld alleen de gekoppelde titel en de categorie toont – Joomla stelt je in staat dit eenvoudig te wijzigen. Je kunt beslissen dat je alleen de titel wilt tonen, maar het is de moeite waard om ermee te experimenteren om het zo in te stellen als je wilt.
 

@@ -27,7 +27,7 @@ Contacten worden aangemaakt via de pagina met de lijst van contacten. Selecteer 
 
 In het formulier **Contacten: Bewerken**, voer de gegevens in die je beschikbaar hebt over het contact.
 
-![screenshot gegevensinvoer](../../../en/images/contacts/contact-data-entry.png "Gegevensinvoer Screenshot")
+![screenshot gegevensinvoer](../../../en/images/contacts/contact-data-entry.png)
 
 **Opmerkingen:**
 
@@ -61,13 +61,13 @@ House of Commons
 - Business Commissie
 - Cultuur Commissie
 ```
-![alle categorieën in een categorieboom](../../../en/images/contacts/contact-all-committees.png "Alle Categorieën in een Contact Categorieboom")
+![alle categorieën in een categorieboom](../../../en/images/contacts/contact-all-committees.png)
 
 De tweede regel van elke inzending komt uit de Categorie Beschrijving.
 
 Als je een van de Commissie-links selecteert, kan de Commissiepagina er als volgt uitzien:
 
-![contacten in een categorie](../../../en/images/contacts/contact-culture-committee.png "Contacten in een Categorie")
+![contacten in een categorie](../../../en/images/contacts/contact-culture-committee.png)
 
 De lay-out is niet helemaal naar wens. Het zou goed zijn geweest om een
 miniatuurafbeelding van elk individu en een betere lay-out van de details op te nemen. Dat
@@ -78,7 +78,7 @@ kan worden gedaan met een sjabloonoverride (later).
 Voor de Business Commissie is er een Lijst Contacten in een Categorie-menu-item.
 Dat zorgt ervoor dat een andere lay-out wordt gebruikt:
 
-![contact categorie lijst](../../../en/images/contacts/contact-category-list.png "Contact Categorie Lijst")
+![contact categorie lijst](../../../en/images/contacts/contact-category-list.png)
 
 Beter maar nog steeds niet helemaal goed! Een stijl-override was nodig om de
 afbeelding stijl te verminderen. Opnieuw lijkt het dat een sjabloonoverride nuttig kon zijn.
@@ -87,7 +87,7 @@ afbeelding stijl te verminderen. Opnieuw lijkt het dat een sjabloonoverride nutt
 
 Voor dit voorbeeld werden de Voorzitters van alle commissies als uitgelicht gemarkeerd.
 
-![uitgelichte contacten](../../../en/images/contacts/contact-featured.png "Uitgelichte Contacten")
+![uitgelichte contacten](../../../en/images/contacts/contact-featured.png)
 
 ## Sorteervolgorde
 

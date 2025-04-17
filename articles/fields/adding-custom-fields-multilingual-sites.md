@@ -10,7 +10,7 @@ Als je een meertalige site hebt, kun je de labels en beschrijvingen van velden e
 
 In het volgende voorbeeld wordt een contactveldgroep en veld aangemaakt voor de persoonlijke voorkeuren van een contactpersoon. De veldgroep heet Favorieten en het voorbeeldveld heet Auto. Natuurlijk kunnen er meer velden worden toegevoegd voor andere favoriete dingen, zoals eten of films.
 
-Om dit voorbeeld te volgen, wordt aangenomen dat je een meertalige site hebt opgezet, zoals beschreven in de tutorial [Meertalige Sites](jdocmanual?article=user/languages/setup-a-multilingual-site "Meertalige Sites").
+Om dit voorbeeld te volgen, wordt aangenomen dat je een meertalige site hebt opgezet, zoals beschreven in de tutorial [Meertalige Sites](jdocmanual?article=user/languages/setup-a-multilingual-site).
 
 ## Taalconstanten
 
@@ -49,7 +49,7 @@ Vanuit het Beheerdersmenu:
 
 De volgende schermafbeelding toont een voorbeeld van het aanmaken van een override voor een Duitse taalconstante.
 
-![Override creatie in het Duits](../../../en/images/fields/fields-overrides-creation-de.png "Override creatie in het Duits")
+![Override creatie in het Duits](../../../en/images/fields/fields-overrides-creation-de.png)
 
 ## Het veldgroep definiëren
 
@@ -79,11 +79,11 @@ Vanuit het Beheerdersmenu:
 
 Met Engels geselecteerd vóór de Administrator-login, zou het contactgegevensformulier een tabblad moeten bevatten met de Engelse naam van je veldgroep en velden in die groep ook met Engelse waarden.
 
-![Gegevensinvoer in het Engels](../../../en/images/fields/fields-overrides-entry.png "Gegevensinvoer in het Engels")
+![Gegevensinvoer in het Engels](../../../en/images/fields/fields-overrides-entry.png)
 
 Met Duits geselecteerd vóór de Administrator-login, zou je de Duitse vertalingen van je taalconstanten moeten zien:
 
-![Gegevensinvoer in het Duits](../../../en/images/fields/fields-overrides-entry-de.png "Gegevensinvoer in het Duits")
+![Gegevensinvoer in het Duits](../../../en/images/fields/fields-overrides-entry-de.png)
 
 Let op: vertaling door translate.google.co.uk!
 
@@ -91,11 +91,11 @@ Let op: vertaling door translate.google.co.uk!
 
 In het Engels:
 
-![Gegevensweergave in het Engels](../../../en/images/fields/fields-overrides-display.png "Gegevensweergave in het Engels")
+![Gegevensweergave in het Engels](../../../en/images/fields/fields-overrides-display.png)
 
 En in het Duits:
 
-![Gegevensweergave in het Duits](../../../en/images/fields/fields-overrides-display-de.png "Gegevensweergave in het Duits")
+![Gegevensweergave in het Duits](../../../en/images/fields/fields-overrides-display-de.png)
 
 *Vertaald door openai.com*
 

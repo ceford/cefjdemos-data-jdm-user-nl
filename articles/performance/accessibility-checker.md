@@ -4,17 +4,17 @@
 
 Dit is een kernplugin die kan worden gebruikt om toegankelijkheid te controleren tijdens het maken van artikelinhoud. De volgende screenshot toont enkele plugin-instellingen:
 
-![Pluginformulier instellingen](../../../en/images/performance/performance-jooa11y-plugin-form.png "Plugin Instellingen")
+![Pluginformulier instellingen](../../../en/images/performance/performance-jooa11y-plugin-form.png)
 
 Met de optie **Altijd Tonen** ingesteld op *Aan* verschijnt het rapporticoon op elke pagina van de site. Dat is nuttig voor ontwikkeling maar moet nooit aan blijven voor een live site. Zet het op **Uit**!
 
 Als de optie *Altijd Tonen* op *Aan* staat, heeft elke sitepagina een icoon rechtsonder met een telling van het aantal problemen. De volgende screenshot toont het icoon dat is geselecteerd om een informatief paneel te tonen. Het bevat een Pagina-overzicht, Leesbaarheidsopmerkingen en Waarschuwingen, die een voor een kunnen worden geselecteerd. Het eerste probleem is geselecteerd.
 
-![Toegankelijkheid controle van de site](../../../en/images/performance/performance-jooa11y-site-display.png "Toegankelijkheid controle van de site")
+![Toegankelijkheid controle van de site](../../../en/images/performance/performance-jooa11y-site-display.png)
 
 Het *Artikelen: Bewerken* formulier heeft een **Toegankelijkheidscontrole** knop in de werkbalk. Het toont de controle voor een individueel artikel in een pop-upvenster:
 
-![Editor toegankelijkheidscontrole](../../../en/images/performance/performance-jooa11y-admin-display.png "Editor toegankelijkheidscontrole")
+![Editor toegankelijkheidscontrole](../../../en/images/performance/performance-jooa11y-admin-display.png)
 
 ## Problemen Oplossen
 

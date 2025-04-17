@@ -45,7 +45,7 @@ Elke hostingdienst biedt verschillende plannen tegen verschillende prijsniveaus.
 
 Er is niet zoiets als gratis hosting! Er is echter een Joomla-partner hosting service die een gratis Joomla-website aanbiedt op het domein joomla.com. Dit geeft je de kans om je eigen volledig functionele Joomla-website geheel gratis uit te proberen. Het lijkt op een gedeeld hostingplan maar met beperkingen en frequente verzoeken om te upgraden naar een betaald plan. En het gratis plan moet elke 30 dagen worden verlengd, anders wordt het beëindigd. Het volgende artikel laat de stappen zien die nodig zijn om een gratis Joomla-site op te zetten.
 
-* [Gratis Joomla Hosting](jdocmanual?article=user/hosting/free-hosting "")
+* [Gratis Joomla Hosting](jdocmanual?article=user/hosting/free-hosting)
 
 Als je merkt dat je Joomla leuk vindt, kun je upgraden naar een betaald plan of elders zoeken naar een hostingservice die bij je behoeften en budget past.
 
@@ -87,7 +87,7 @@ Als je een domeinnaam hebt gekocht, zal je hostingdienst deze voor je configurer
 
 Het volgende artikel laat zien wat je kunt verwachten als je een hostingplan aanschaft dat een cPanel-gebruikersinterface omvat.
 
-* [cPanel Hosting](jdocmanual?article=user/hosting/cpanel-hosting "cPanel Hosting")
+* [cPanel Hosting](jdocmanual?article=user/hosting/cpanel-hosting)
 
 ## VPS Hosting
 
@@ -103,7 +103,7 @@ De meeste individuen die websites ontwikkelen, houden lokale kopieën op een lap
 
 De volgende artikelen beschrijven hoe je lokale hosting op verschillende types desktop- of laptopcomputers kunt opzetten:
 
-* [Lokale Hosting op Windows](jdocmanual?article=user/hosting/local-hosting-on-windows "Lokale Hosting op Windows") alleen voor Windows
-* [Lokale Hosting met XAMPP](jdocmanual?article=user/hosting/local-hosting-with-xampp "Lokale Hosting met XAMPP") voor Linux, Mac en Windows.
-* [Lokale Hosting op Linux](jdocmanual?article=user/hosting/local-hosting-on-linux "Lokale Hosting op Linux") 
+* [Lokale Hosting op Windows](jdocmanual?article=user/hosting/local-hosting-on-windows) alleen voor Windows
+* [Lokale Hosting met XAMPP](jdocmanual?article=user/hosting/local-hosting-with-xampp) voor Linux, Mac en Windows.
+* [Lokale Hosting op Linux](jdocmanual?article=user/hosting/local-hosting-on-linux) 
 

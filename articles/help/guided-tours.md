@@ -6,14 +6,14 @@ Begeleide Rondleidingen zijn ontworpen om complete nieuwkomers bij Joomla een ze
 
 Er zijn een aantal ingebouwde rondleidingen en de **Welkom bij Joomla!** rondleiding start automatisch de allereerste keer dat een gebruiker inlogt op de beheerdersinterface.
 
-![Welkom bij Begeleide Rondleidingen](../../../en/images/help/guided-tours-welcome.png "Welkom bij Begeleide Rondleidingen")
+![Welkom bij Begeleide Rondleidingen](../../../en/images/help/guided-tours-welcome.png)
 
 ## Lijst van Rondleidingen
 
 De Rondleidingen staan vermeld in een dropdownmenu in de Titelbalk van het dashboard en
 lijstschermen, zoals in de volgende illustratie:
 
-![Begeleide Rondleidingen](../../../en/images/help/guided-tours.png "Begeleide Rondleidingen")
+![Begeleide Rondleidingen](../../../en/images/help/guided-tours.png)
 
 De volledige lijst omvat het volgende:
 

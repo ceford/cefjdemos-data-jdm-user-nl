@@ -193,7 +193,7 @@ Dit kan automatisch worden gedaan via de display-functie van de basiscontroller.
     }
 
 Er zijn ook enkele urlparams waar rekening mee moet worden gehouden. Bekijk dit
-[Joomla StackExchange](http://joomla.stackexchange.com/questions/5781/how-can-i-use-joomlas-cache-with-my-components-view/7000#7000 "")
+[Joomla StackExchange](http://joomla.stackexchange.com/questions/5781/how-can-i-use-joomlas-cache-with-my-components-view/7000#7000)
 
 Wees er ook van bewust dat eventuele updates (zoals hits of bezoektellingen) NIET zullen worden geüpdatet (tenzij je dit buiten deze methode toevoegt en dus enige diepere MVC-deel).
 

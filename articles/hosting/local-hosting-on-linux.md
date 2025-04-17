@@ -10,13 +10,13 @@ Je moet een reeks softwarepakketten installeren die vaak worden aangeduid als de
 
 Vanuit het systeemmenu, gemarkeerd met het LM-logo, selecteer je Beheer / Synaptic Pakketbeheerder. Je wordt gevraagd om je wachtwoord. Voer je loginwachtwoord in om de GUI te openen. Rechtsboven is er een `Zoeken` knop. Selecteer deze en voer **apache** in en selecteer `Zoeken`. Vink het `apache2` selectievakje aan en selecteer in het pop-uplabel `Markeren voor installatie`. Er verschijnt nog een pop-upvenster met een lijst van aanvullende pakketten die nodig zijn om apache te ondersteunen. Selecteer `Markeren`:
 
-![synaptic package manager](../../../en/images/hosting/synaptic-package-manager-gui.png "Synaptic Package Manager GUI")
+![synaptic package manager](../../../en/images/hosting/synaptic-package-manager-gui.png)
 
 Selecteer de `Toepassen` knop in de bovenste werkbalk en de `Toepassen` knop in het Samenvattingsdialoogvenster. Apache zal worden geïnstalleerd en geconfigureerd, het proces eindigt met een **Aangesproken wijzigingen dialoogvenster**. Selecteer `Sluiten`.
 
 Je kunt bevestigen dat Apache is geïnstalleerd en werkt door je browser te openen, standaard Firefox in een nieuwe Linux Mint install, en **localhost** in te voeren in de URL-balk. Je zou de Ubuntu Apache2 Standaardpagina moeten zien:
 
-![apache standaardpagina](../../../en/images/hosting/apache-default-page.png "Apache Standaardpagina")
+![apache standaardpagina](../../../en/images/hosting/apache-default-page.png)
 
 De pagina bevat enkele nuttige informatie over bestandslocaties die later misschien niet zo gemakkelijk beschikbaar zijn, dus je wilt deze pagina misschien afdrukken op papier of naar een pdf-bestand.
 

@@ -12,7 +12,7 @@ Er zijn drie stappen bij het maken van een bruikbaar menu:
 
 Deze screenshot toont de beschikbare menu's in een meertalige site. In een initiële Joomla-installatie is er een enkel *Hoofdmenu*.
 
-![Menu's lijst](../../../en/images/menus/menus-manage.png "Menu's lijst")
+![Menu's lijst](../../../en/images/menus/menus-manage.png)
 
 De lijst stelt je in staat om op een van de groene of rode knoppen te klikken om direct naar de lijst van menu-items in dat menu en die staat te gaan.
 
@@ -29,7 +29,7 @@ Gebruik een van de volgende stappen om een nieuw menu te maken:
   - **Titel**: Een geschikte titel voor het menu. Dit wordt gebruikt om het menu te identificeren in de Menu Manager.
   - **Unieke Naam**: Dit moet een unieke identificatienaam zijn die door Joomla! wordt gebruikt om dit menu te identificeren. Spaties zijn niet toegestaan, maar u mag het '-' teken gebruiken zoals in resources-menu.
   - **Beschrijving**: Hoewel het niet vereist is, is dit vaak nuttig op een site met veel menu's. Het verschijnt onder de *Titel* in de menulijst zoals hierboven geïllustreerd.<br>
-    ![Nieuw Menu](../../../en/images/menus/menus-new.png "Nieuw Menu")
+    ![Nieuw Menu](../../../en/images/menus/menus-new.png)
 - **Opslaan & Sluiten**
 
 In de lijst met menu's heeft het nieuw gemaakte menu een knop met het label **Voeg een module toe voor dit menu**, wat de volgende stap in het maken van een menu is. U kunt beginnen met het toevoegen van menu-items en later terugkomen om de menumodule te maken.
@@ -38,7 +38,7 @@ In de lijst met menu's heeft het nieuw gemaakte menu een knop met het label **Vo
 
 In de lijst met menu's kun je in de kolom *Gekoppelde Modules* een bestaand menumodule selecteren voor bewerkingsdoeleinden. Je kunt deze bekijken en vervolgens *Sluiten* zonder wijzigingen aan te brengen. Voor je nieuwe menu moet je de knop **Voeg een module toe voor dit menu** selecteren om een modaal venster te openen met het gegevensinvoerformulier van de menu-module.
 
-![Gegevensinvoerformulier van de menu-module](../../../en/images/menus/menus-module.png "Gegevensinvoerformulier van de menu-module")
+![Gegevensinvoerformulier van de menu-module](../../../en/images/menus/menus-module.png)
 
 Velden om in te vullen:
 
@@ -83,13 +83,13 @@ een lijst van beschikbare menu-itemtypen onthult.
 - Het **Status** veld moet worden ingesteld op **Gepubliceerd**.
 - Selecteer **Opslaan & Sluiten**.
 
-![Gegevensinvoerformulier voor menu-items](../../../en/images/menus/menus-single-article.png "Gegevensinvoerformulier voor menu-items")
+![Gegevensinvoerformulier voor menu-items](../../../en/images/menus/menus-single-article.png)
 
 Voeg indien nodig meer Menu Items toe aan het nieuwe Menu.
 
 Zodra items aan het Menu zijn toegevoegd, controleer of het Menu op de website in de juiste positie wordt weergegeven.
 
-![Menu weergave](../../../en/images/menus/menus-display.png "Menu weergave")
+![Menu weergave](../../../en/images/menus/menus-display.png)
 
 *Vertaald door openai.com*
 

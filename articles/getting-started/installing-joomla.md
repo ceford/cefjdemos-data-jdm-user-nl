@@ -21,7 +21,7 @@ Het is mogelijk om met lagere waarden van upload_max_filesize en post_max_size t
 
 ### Database Setup
 
-Als je nog geen database hebt ingesteld, doe dat nu. Dit wordt behandeld voor een cPanel hostingservice in de [cPanel Hosting](jdocmanual?article=user/hosting/cpanel-hosting "cPanel Hosting") handleiding. Er is ook een *Database aanmaken voor Joomla!* handleiding die de localhost en phpMyAdmin methodes behandelt.
+Als je nog geen database hebt ingesteld, doe dat nu. Dit wordt behandeld voor een cPanel hostingservice in de [cPanel Hosting](jdocmanual?article=user/hosting/cpanel-hosting) handleiding. Er is ook een *Database aanmaken voor Joomla!* handleiding die de localhost en phpMyAdmin methodes behandelt.
 
 Je moet de basisgegevens van de database noteren die nodig zijn wanneer de daadwerkelijke Joomla-installatie wordt gestart.
 

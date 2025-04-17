@@ -12,7 +12,7 @@ Je kunt de tool online gebruiken via de PageSpeed Insights-website.
 
 De volgende screenshot toont het eerste deel van het PageSpeed Insights-rapport:
 
-![PageSpeed Insights Rapport](../../../en/images/performance/performance-pagespeed-insights.png "PageSpeed Insights Rapport")
+![PageSpeed Insights Rapport](../../../en/images/performance/performance-pagespeed-insights.png)
 
 ## Prestatieverbeteringen
 
