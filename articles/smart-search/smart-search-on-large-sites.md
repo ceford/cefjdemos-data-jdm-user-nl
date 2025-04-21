@@ -27,8 +27,10 @@ De indexeerder verdeelt de indexeeropdracht in batches van inhoudsitems. Standaa
 Als de indexer geen geheugen meer heeft, probeer dan de volgende aanpassingen één voor één te maken totdat het probleem is opgelost.
 
 1. Verlaag de batchgrootte. Als je bijzonder grote inhoudsitems hebt, kan de indexeerder zelfs voor één enkel inhoudsitem door het geheugen raken, dus probeer het aanvankelijk te verlagen naar 5 en als je nog steeds zonder geheugen komt te zitten, verlaag het dan naar 1.
-2. Als je meer geheugen aan de indexeerder kunt toewijzen, doe dat dan. Je kunt het geheugen dat aan de opdrachtregelindexeerder wordt toegewezen verhogen met een extra parameter op de opdrachtregel. Om bijvoorbeeld de geheugenlimiet te verhogen naar 256Mb, gebruik je de volgende opdracht, waarbij je de *256M* vervangt door zoveel geheugen als je veilig aan een proces op je systeem kunt toewijzen.<br>
-   *php -d memory_limit=256M finder_indexer.php*
+2. Als je meer geheugen aan de indexeerder kunt toewijzen, doe dat dan. Je kunt het geheugen dat aan de opdrachtregelindexeerder wordt toegewezen verhogen met een extra parameter op de opdrachtregel. Om bijvoorbeeld de geheugenlimiet te verhogen naar 256Mb, gebruik je de volgende opdracht, waarbij je de *256M* vervangt door zoveel geheugen als je veilig aan een proces op je systeem kunt toewijzen.
+```php
+    php -d memory_limit=256M joomla.php finder:index
+```
 5. Probeer te identificeren welke inhoudsitems ervoor zorgen dat de indexeerder door het geheugen raakt. Als het niet duidelijk is, kun je proberen alle Smart Search-plug-ins uit te schakelen behalve één. Het uitvoeren van de indexeerder met slechts één ingeschakelde plug-in tegelijk zou moeten onthullen welke inhoudstype(n) het probleem veroorzaken. Als laatste redmiddel kun je overwegen een paar uitzonderlijk grote inhoudsitems in afzonderlijke items op te splitsen. Als het probleem zich voordoet bij een aangepast inhoudstype, bekijk de plug-incode en overweeg om minder beschikbare inhoud per item te indexeren.
 
 ## Problemen met onvoldoende schijfruimte
