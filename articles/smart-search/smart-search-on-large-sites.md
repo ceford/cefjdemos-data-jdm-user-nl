@@ -31,7 +31,7 @@ Als de indexer geen geheugen meer heeft, probeer dan de volgende aanpassingen é
 ```php
     php -d memory_limit=256M joomla.php finder:index
 ```
-5. Probeer te identificeren welke inhoudsitems ervoor zorgen dat de indexeerder door het geheugen raakt. Als het niet duidelijk is, kun je proberen alle Smart Search-plug-ins uit te schakelen behalve één. Het uitvoeren van de indexeerder met slechts één ingeschakelde plug-in tegelijk zou moeten onthullen welke inhoudstype(n) het probleem veroorzaken. Als laatste redmiddel kun je overwegen een paar uitzonderlijk grote inhoudsitems in afzonderlijke items op te splitsen. Als het probleem zich voordoet bij een aangepast inhoudstype, bekijk de plug-incode en overweeg om minder beschikbare inhoud per item te indexeren.
+3. Probeer te identificeren welke inhoudsitems ervoor zorgen dat de indexeerder door het geheugen raakt. Als het niet duidelijk is, kun je proberen alle Smart Search-plug-ins uit te schakelen behalve één. Het uitvoeren van de indexeerder met slechts één ingeschakelde plug-in tegelijk zou moeten onthullen welke inhoudstype(n) het probleem veroorzaken. Als laatste redmiddel kun je overwegen een paar uitzonderlijk grote inhoudsitems in afzonderlijke items op te splitsen. Als het probleem zich voordoet bij een aangepast inhoudstype, bekijk de plug-incode en overweeg om minder beschikbare inhoud per item te indexeren.
 
 ## Problemen met onvoldoende schijfruimte
 
