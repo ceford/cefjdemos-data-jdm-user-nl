@@ -85,5 +85,13 @@ Als je een Subformulier veld maakt en je voegt dit voorwaardelijke veld toe voor
 
 ### Rechten tabblad
 
+De machtigingen voor elke gebruikersgroep spreken voor zich voor de acties *Verwijderen*, *Bewerken* en *Status bewerken*. De machtigingen geven aan wie wat mag doen met het veld als geheel – bijvoorbeeld het verwijderen, aanpassen of depubliceren ervan.
+
 ![Veldparameters algemeen tabblad](../../../en/images/fields/fields-parameters-permissions-tab.png)
 
+De machtiging *Aangepaste veldwaarde bewerken* kan verwarrend zijn. Deze geeft aan wie de inhoud van het veld mag wijzigen. Standaard is deze ingesteld op **Niet toegestaan (Geërfd)** voor alle groepen, behalve voor Supergebruikers. Twee voorbeelden:
+
+* **Aangepaste gebruikersregistratiegegevens**
+  Stel dat je een gebruikersveld aanmaakt voor *Geslacht*, dat wordt toegevoegd aan een registratieformulier. Dit kan een lijst of keuzerondje zijn waarmee een gebruiker *Man* of *Vrouw* kan selecteren. In dit geval moet de machtiging voor de groep "Publiek" worden ingesteld op *Toegestaan*. Anders kan een gastgebruiker geen geslacht kiezen. Aangezien alle andere groepen erven van "Publiek", kan een geregistreerde gebruiker na inloggen het geslacht in zijn profiel wijzigen.
+* **Artikelcommentaar**
+  Stel dat je een auteur de mogelijkheid wilt geven om een reactie aan een artikel toe te voegen. Dit kan een tekstveld zijn met een beperkte lengte. In dat geval moet de machtiging voor de groep "Auteur" worden ingesteld op *Toegestaan*. De groepen "Redacteur" en "Uitgever" zullen deze instelling overnemen zodra het formulier is opgeslagen. De groepen "Manager" en "Beheerder" hebben wel bewerkingsrechten voor artikelen, maar niet voor aangepaste veldwaarden – tenzij de waarde voor de groep "Manager" ook op *Toegestaan* wordt gezet.
