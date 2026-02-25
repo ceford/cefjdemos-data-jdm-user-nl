@@ -108,7 +108,12 @@ De onderstaande illustratie toont twee mapgroepen. De eerste groep bestaat uit d
 
 ![Cassiopeia bestanden bewerken](../../../en/images/templates/cassiopeia-customisation-edit-files.png)
 
-Let op dat er geen *user.css* bestand aanwezig is in de *css* map. Dat is er een die je zelf aanmaakt zodat je eerder gedefinieerde stijlen kunt overschrijven. Als het niet aanwezig is, maak het dan nu door de *css* map te selecteren en vervolgens op de *Nieuw* knop te klikken. In het Nieuwe Bestandsvenster selecteer je de *css* map, anders verschijnt het nieuwe bestand op de verkeerde plaats. Voer user (kleine letters en zonder *.css*) in het Veld Bestandsnaam in en selecteer *.css* in het Veld Bestandstype. Selecteer de knop Maken om het bestand aan te maken. Als *user.css* al aanwezig is, selecteer het dan om het bewerkingsformulier te openen.
+Let op: in een nieuwe Joomla-installatie is er geen bestand ***user.css*** aanwezig in de map **css**. Dit is een bestand dat u zelf aanmaakt om eerder gedefinieerde stijlen te overschrijven. Als ***user.css*** al aanwezig is, selecteer het dan om het bewerkingsformulier te openen. Als het niet aanwezig is, maak het dan nu aan:
+
+1. Selecteer de knop **New File**.
+2. Selecteer in het modale dialoogvenster **New File** de map **css**, anders wordt het nieuwe bestand op de verkeerde locatie aangemaakt.
+3. Voer `user` (in kleine letters en zonder `.css`) in het veld **File Name** in en selecteer `.css` in het veld **File Type**.
+4. Selecteer de knop **Create** om het bestand aan te maken.
 
 ### Koppen
 
