@@ -34,4 +34,3 @@ Stel dat je Joomla in de volgende map hebt geïnstalleerd: public_html/tryjoomla
 6. Als je caching hebt ingeschakeld, log dan in op de beheerders backend (wat nu `http://www.voorbeeld.com/administrator` zal zijn en niet `http://www.voorbeeld.com/tryjoomla/administrator`). Ga naar Systeem / Cache en verwijder alle cachebestanden.
 
 *Vertaald door openai.com*
-
