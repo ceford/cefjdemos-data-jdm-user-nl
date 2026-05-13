@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Adding_a_New_Article / Display title: Artikel: Bewerken - Inhoud -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Adding_a_New_Article",
+  "title": "Artikel: Bewerken - Inhoud ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introductie
 
@@ -6,7 +13,7 @@
 
 De volgende screenshot toont het bewerkingsformulier met een artikel dat al is opgeslagen.
 
-![Het inhoudsbewerkingsformulier](../../../en/images/articles/articles-edit-content.png)
+![Het inhoudsbewerkingsformulier](../../../en/images/articles/article-content/01-articles-edit-content.png)
 
 ## Gegevensinvoer
 

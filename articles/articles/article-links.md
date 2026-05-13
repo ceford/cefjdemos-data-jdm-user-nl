@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Article_Links / Display title: Artikel: Bewerken - Links  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Article_Links",
+  "title": "Artikel: Bewerken - Links  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Toegankelijke Links
 

@@ -1,4 +1,11 @@
-<!-- Filename: How_do_you_block_directory_scans_using_htaccess%3F / Display title: Directoryvermelding niet toestaan -->
+<!--
+{
+  "source": "https://docs.joomla.org/How_do_you_block_directory_scans_using_htaccess%3F",
+  "title": "Directoryvermelding niet toestaan ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Achtergrond
 

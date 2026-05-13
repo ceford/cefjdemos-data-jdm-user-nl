@@ -1,4 +1,11 @@
-<!-- Filename: Monitoring_SEO / Display title: SEO Monitoren -->
+<!--
+{
+  "source": "https://docs.joomla.org/Monitoring_SEO",
+  "title": "SEO Monitoren ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Waarom Uw Site Monitoren?
 
@@ -44,11 +51,11 @@ De kracht van aangepaste segmenten is enorm. Het stelt je in staat om selectief 
 
 Om te beginnen met het gebruik van een Aangepast Segment, klik je simpelweg op de pijl bovenaan de pagina om de beschikbare aangepaste segmenten te tonen (omcirkeld in rood). Als er geen beschikbaar zijn, kun je ofwel je eigen maken of bestaande segmenten importeren uit de Google Analytics Gallery (omcirkeld in blauw).
 
-![Google analytics aangepaste segmenten](../../../en/images/seo/seo-google-analytics-custom-segments.png)
+![Google analytics aangepaste segmenten](../../../en/images/seo/monitoring-seo/01-seo-google-analytics-custom-segments.png)
 
 Zodra je hebt gekozen welke segmenten je wilt gebruiken, druk je op toepassen en ze zullen worden toegepast op de gegevens die je bekijkt. Hieronder zie je de filters die worden toegepast om één, twee, drie en drie+ zoekwoorden te tonen.
 
-![Google analytics aangepaste segmenten zoekwoorden](../../../en/images/seo/seo-google-analytics-custom-segments-keywords.png)
+![Google analytics aangepaste segmenten zoekwoorden](../../../en/images/seo/monitoring-seo/02-seo-google-analytics-custom-segments-keywords.png)
 
 ### Dashboards
 
@@ -58,7 +65,7 @@ Dashboards kunnen voor elk doel worden gebruikt en je kunt eenvoudig je eigen da
 
 Om te beginnen, breid je simpelweg de sectie Dashboards van je Analytics-profiel uit
 
-![Google analytics dashboard](../../../en/images/seo/seo-google-anaytics-dashboard.png)
+![Google analytics dashboard](../../../en/images/seo/monitoring-seo/03-seo-google-anaytics-dashboard.png)
 
 ### De Google Analytics Gallery
 

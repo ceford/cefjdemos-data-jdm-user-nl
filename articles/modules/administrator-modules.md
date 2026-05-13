@@ -1,10 +1,17 @@
-<!-- Filename: J4.x:Administrator_Modules / Display title: Beheerdersmodules   -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Administrator_Modules",
+  "title": "Beheerdersmodules   ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Inleiding
 
 De Atum Beheerder-sjabloon wordt geleverd met een volledige set van beheerdermodules die zijn geïnstalleerd en geconfigureerd voor dagelijks gebruik. De onderstaande illustratie toont de posities van het Home Dashboard om aan te geven waar modules zich bevinden.
 
-![atum home dashboard posities](../../../en/images/modules/atum-template-positions.png)
+![atum home dashboard posities](../../../en/images/modules/administrator-modules/01-atum-template-positions.png)
 
 In de bovenstaande illustratie zijn de panelen instanties van de Quick Icon-module die zijn gekoppeld aan quickicon-plugins.
 
@@ -42,11 +49,11 @@ Atum sjabloonposities op naam
 
 U wilt misschien een Aangepaste module toevoegen om beheerders te informeren over een systeemprobleem. Selecteer **Inhoud → Beheerdersmodules** in het beheerdersmenu. De lijst met geïnstalleerde modules is tamelijk lang:
 
-![atum admin modules lijst](../../../en/images/modules/atum-admin-modules-list.png)
+![atum admin modules lijst](../../../en/images/modules/administrator-modules/02-atum-admin-modules-list.png)
 
 Selecteer de knop Nieuw en vervolgens de Aangepaste module. Voer in het bewerkingsformulier Modules: Aangepast een Titel in, een Aangepaste boodschap en selecteer een Positie voor de module. In het onderstaande voorbeeld is de Top-positie geselecteerd. Bovendien zijn in het tabblad Geavanceerd, in het veld Moduleklasse enkele stijlen ingevoerd om de tekst te centreren en wat ruimte toe te voegen: **alert alert-warning text-center**. Sla op om het resultaat te zien. Sluit om het resultaat op de Modules-lijstpagina te zien.
 
-![atum aangepaste module bewerkings systeemboodschap](../../../en/images/modules/atum-admin-module-system-message.png)
+![atum aangepaste module bewerkings systeemboodschap](../../../en/images/modules/administrator-modules/03-atum-admin-module-system-message.png)
 
 Wanneer u klaar bent met het bericht, kunt u gewoon de Status-knop in de modulelijst selecteren om de module te depubliceren.
 

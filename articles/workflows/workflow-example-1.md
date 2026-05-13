@@ -1,4 +1,11 @@
-<!-- Filename: J6.x:Workflow_Scenarios_Example_1 / Display title: Werkstroom Voorbeeld 1 -->
+<!--
+{
+  "source": "https://docs.joomla.org/J6.x:Workflow_Scenarios_Example_1",
+  "title": "Werkstroom Voorbeeld 1 ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Inleiding
 
@@ -6,7 +13,7 @@ Een workflow bestaat uit *fasen* en *overgangen* tussen die fasen. Voor elk arti
 
 Een enkele site kan veel workflows hebben. Hier wordt een *Nieuwsbrief Workflow* gebruikt als voorbeeld om uit te leggen hoe drie personen met verschillende rollen betrokken kunnen zijn bij de productie van een nieuwsbriefartikel. Het voorbeeld gebruikt de Joomla standaard gebruikersgroepen Auteur, Editor en Uitgever. Dat heeft een probleem: een Auteur kan alleen Gepubliceerde artikelen zien en kan daarom geen Ongedocumenteerde artikelen herbewerkingen. Een methode om dat probleem te vermijden wordt behandeld in [Voorbeeld 2](jdocmanual?article=user/workflows/workflow-example-2).
 
-![Workflows lijst](../../../en/images/workflows/example-1-workflows-list.png)
+![Workflows lijst](../../../en/images/workflows/workflow-example-1/01-example-1-workflows-list.png)
 
 Let op dat de *Eenvoudige Workflow* is ingesteld als de *Standaard*. Dit kan lastige gevolgen hebben die later in dit artikel worden behandeld!
 
@@ -20,7 +27,7 @@ Let op dat de *Eenvoudige Workflow* is ingesteld als de *Standaard*. Dit kan las
 
 Er zijn vier stadia in deze Workflow:
 
-![Lijst van Workflows](../../../en/images/workflows/example-1-workflow-stages.png)
+![Lijst van Workflows](../../../en/images/workflows/workflow-example-1/02-example-1-workflow-stages.png)
 
 - **Concept** is het stadium dat door Arthur is gemaakt voor een nieuw artikel.
 - **Review** is het stadium waarin Eddie de inhoud naleest.
@@ -33,7 +40,7 @@ De gegevensinvoerformulieren voor de stadia vergen weinig uitleg, alleen een Naa
 
 Twee overgangen zijn vereist tussen elke fase: één om de fase terug te brengen als er meer werk nodig is in de vorige fase; en een tweede om naar de volgende fase te migreren. Extra overgangen zijn nodig om de beëindiging van een artikel te verwerken:
 
-![Workflows lijst](../../../en/images/workflows/example-1-workflow-transitions.png)
+![Workflows lijst](../../../en/images/workflows/workflow-example-1/03-example-1-workflow-transitions.png)
 
 - **Concept/Beoordeling** om de fase van Concept naar Beoordeling te verplaatsen.
 - **Beoordeling/Concept** om de fase terug te brengen van Beoordeling naar Concept.
@@ -51,7 +58,7 @@ De laatste drie overgangen stellen Pru in staat om de status van een artikel te 
 
 Het datuminvoerformulier heeft vier tabbladen, beginnend met het *Overgang* tabblad:
 
-![Workflows lijst](../../../en/images/workflows/example-1-edit-transition.png)
+![Workflows lijst](../../../en/images/workflows/workflow-example-1/04-example-1-edit-transition.png)
 
 - **Naam** Het is het beste om de Huidige en Doelfasen in de naam te gebruiken.
 - **Huidige Fase** De fase voordat de overgang plaatsvindt.
@@ -60,14 +67,14 @@ Het datuminvoerformulier heeft vier tabbladen, beginnend met het *Overgang* tabb
 
 #### Het *Overgangsacties* tabblad:
 
-![Workflows lijst](../../../en/images/workflows/example-1-edit-transition-actions.png)
+![Workflows lijst](../../../en/images/workflows/workflow-example-1/05-example-1-edit-transition-actions.png)
 
 - **Voorkeursstatus** Definieer de voorkeursstatus die een item moet hebben na het uitvoeren van deze overgang. Laat dit op *-Niet Geselecteerd-* staan als de gebruiker die deze overgang waarschijnlijk uitvoert geen toestemming heeft om artikelen als voorkeursitems aan te merken.
 - **Publicatiestatus** Definieer de publicatiestatus die een item moet hebben na het uitvoeren van deze overgang. Laat dit op *-Niet Geselecteerd-* staan als de gebruiker die deze overgang waarschijnlijk uitvoert geen toestemming heeft om de artikelstatus te wijzigen.
 
 #### Het *Notificaties* tabblad:
 
-![Workflows lijst](../../../en/images/workflows/example-1-edit-transition-notification.png)
+![Workflows lijst](../../../en/images/workflows/workflow-example-1/06-example-1-edit-transition-notification.png)
 
 - **Stuur Notificatie** Stel dit in op *Ja* waar notificaties nodig zijn, bijvoorbeeld wanneer Arthur Eddie moet informeren dat een artikel klaar is voor beoordeling.
 - **Extra Berichttekst** Dit is generieke extra tekst om de ontvanger te helpen.
@@ -86,7 +93,7 @@ Elk artikel wordt aan een workflow toegewezen bij de eerste keer opslaan. Als he
 
 Er is een nieuwe Nieuwsbriefcategorie nodig om de nieuwsbrief weer te geven als een Categorie Blog en om ervoor te zorgen dat de nieuwsbrieffartikelen worden toegewezen aan de Nieuwsbrief Workflow.
 
-![Workflows lijst](../../../en/images/workflows/example-1-newsletter-category.png)
+![Workflows lijst](../../../en/images/workflows/workflow-example-1/07-example-1-newsletter-category.png)
 
 ## Het Nieuwsbrief Menu-item
 
@@ -147,11 +154,11 @@ Je kunt backend-toegang toestaan voor alle leden van deze groepen op de volgende
 
 Hierdoor kunnen Arthur, Eddie en Pru inloggen op de backend met toegang tot de inhoudselementen. Een sterk verkleind Startscherm:
 
-![Startscherm voor Arthur](../../../en/images/workflows/example-1-backend-home.png)
+![Startscherm voor Arthur](../../../en/images/workflows/workflow-example-1/08-example-1-backend-home.png)
 
 Maar Arthur heeft toegang tot zijn conceptartikelen:
 
-![Artikellijst voor Arthur](../../../en/images/workflows/example-1-backend-articles.png)
+![Artikellijst voor Arthur](../../../en/images/workflows/workflow-example-1/09-example-1-backend-articles.png)
 
 Let op dat Arthur het laatste item in de lijst niet kan bewerken omdat het niet een van zijn eigen artikelen is. De titel van het artikel is niet gelinkt. Evenzo kan Arthur geen bestaande categorieën bewerken omdat hij daar geen toestemming voor heeft en deze zijn ook niet gelinkt. Hij kan een nieuwe Categorie aanmaken, maar deze is niet gepubliceerd en hij kan deze niet publiceren!
 
@@ -169,7 +176,7 @@ Als je een artikel aan de verkeerde workflow toewijst, zijn er twee methoden bes
 - Selecteer een geschikte doelworkflow en fase.
 - Selecteer de **Verwerken** knop.
 
-![Artikellijst voor Arthur](../../../en/images/workflows/example-1-backend-batch.png)
+![Artikellijst voor Arthur](../../../en/images/workflows/workflow-example-1/10-example-1-backend-batch.png)
 
 ### Alternatieve Methode
 

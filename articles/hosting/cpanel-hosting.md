@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Hosting_Setup / Display title: cPanel Hosting  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Hosting_Setup",
+  "title": "cPanel Hosting  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Inleiding
 
@@ -7,7 +14,7 @@
 Wanneer u inlogt op uw cPanel-hostingdienst, is dit wat u zou moeten
 zien:
 
-![cpanel hosting controlepaneel](../../../en/images/hosting/cpanel-hosting.png)
+![cpanel hosting controlepaneel](../../../en/images/hosting/cpanel-hosting/01-cpanel-hosting.png)
 
 ### Database-setup
 
@@ -36,7 +43,7 @@ zou twee volledig afzonderlijke Joomla-installaties kunnen hebben, één voor
 productie (voor openbaar gebruik) en één voor testen (privégebruik). U zou dus
 een map kunnen maken binnen *public_html*, met de naam *j4* bijvoorbeeld, en Joomla daar uploaden. U zou een andere map met de naam *j4test* kunnen hebben en daar een andere kopie van Joomla plaatsen. De afbeelding hieronder toont zo'n structuur met twee Joomla-websites.
 
-![cpanel hosting bestandsbeheer](../../../en/images/hosting/cpanel-file-manager.png)
+![cpanel hosting bestandsbeheer](../../../en/images/hosting/cpanel-hosting/02-cpanel-file-manager.png)
 
 Wanneer u heeft besloten over uw structuur, selecteer dan de door u gekozen Joomla-map
 in Bestandsbeheer en klik op de knop Uploaden. In het uploadformulier selecteert u

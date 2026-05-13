@@ -1,4 +1,11 @@
-<!-- Filename: J3.x:Adding_custom_fields/Overrides / Display title: Voorbeeld Sjabloon Overschrijven -->
+<!--
+{
+  "source": "https://docs.joomla.org/J3.x:Adding_custom_fields",
+  "title": "Voorbeeld Sjabloon Overschrijven ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Automatische Weergave van Veld
 

@@ -1,4 +1,11 @@
-<!-- Filename: Article_Images_and_Links / Display title: Artikel: Bewerken - Afbeeldingen en Links -->
+<!--
+{
+  "source": "https://docs.joomla.org/Article_Images_and_Links",
+  "title": "Artikel: Bewerken - Afbeeldingen en Links ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Inleiding
 
@@ -16,7 +23,7 @@ Opmerking: het is het beste om afbeeldingen voor te bereiden in je favoriete afb
 zoals *Gimp*. De kleine en middelgrote afbeeldingen zijn gebruikt om de 
 volgende screenshots te maken.
 
-![Artikel bewerkingsformulier, afbeeldingen- en linktab](../../../en/images/articles/articles-edit-images-and-links-tab.png)
+![Artikel bewerkingsformulier, afbeeldingen- en linktab](../../../en/images/articles/article-images-and-links/01-articles-edit-images-and-links-tab.png)
 
 ## Formulier Velden
 
@@ -53,11 +60,11 @@ Exact dezelfde gegevensinvoer als Link A.
 
 De onderstaande screenshot toont een categorie-bloglay-out met de *Intro Afbeelding*. Het was misschien beter geweest om een panoramafoto te gebruiken met dezelfde hoogte, maar een veel grotere breedte om de lege witte ruimte op te vullen.
 
-![Amfibieën categorie-blogpagina](../../../en/images/articles/articles-site-amphibians-blog.png)
+![Amfibieën categorie-blogpagina](../../../en/images/articles/article-images-and-links/02-articles-site-amphibians-blog.png)
 
 De onderstaande screenshot toont de enkele artikelpagina met de *Volledige Artikelafbeelding* en Link A. De afbeelding is naar rechts uitgelijnd en het zichtbare bijschrift voegt iets toe aan wat de Beschrijving zegt, zodat het logisch klinkt voor schermlezers.
 
-![Kikkers enkele artikelpagina](../../../en/images/articles/articles-site-amphibians-frogs.png)
+![Kikkers enkele artikelpagina](../../../en/images/articles/article-images-and-links/03-articles-site-amphibians-frogs.png)
 
 *Vertaald door openai.com*
 

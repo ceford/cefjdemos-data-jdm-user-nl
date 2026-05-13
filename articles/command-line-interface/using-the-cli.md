@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Using_the_CLI / Display title: De CLI gebruiken -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Using_the_CLI",
+  "title": "De CLI gebruiken ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## De Command Line Interface (CLI)
 
@@ -26,7 +33,7 @@ Anders, wanneer je de terminal command line gebruikt, verander je naar de Joomla
     cd /home/gebruikersnaam/public_html/[optionele submap]/cli
     php joomla.php
 
-![Lijst van commando's](../../../en/images/command-line-interface/cli-command-list.png)
+![Lijst van commando's](../../../en/images/command-line-interface/using-the-cli/01-cli-command-list.png)
 
 En probeer enkele help-commando's uit om vertrouwd te raken met wat je kunt verwachten:
 
@@ -70,13 +77,13 @@ php joomla.php cache:clean --help
 php joomla.php cache:clean
 ```
 
-![Uitvoer van cache clean](../../../en/images/command-line-interface/cli-cache-clean.png)
+![Uitvoer van cache clean](../../../en/images/command-line-interface/using-the-cli/02-cli-cache-clean.png)
 
 ```bash
 php joomla.php cache:clean expired
 ```
 
-![Uitvoer van cache clean expired](../../../en/images/command-line-interface/cli-cache-clean-expired.png)
+![Uitvoer van cache clean expired](../../../en/images/command-line-interface/using-the-cli/03-cli-cache-clean-expired.png)
 
 ### Config
 
@@ -89,19 +96,19 @@ php joomla.php config:get debug --help
 php joomla.php config:get debug
 ```
 
-![Uitvoer van config get debug](../../../en/images/command-line-interface/cli-get-debug.png)
+![Uitvoer van config get debug](../../../en/images/command-line-interface/using-the-cli/04-cli-get-debug.png)
 
 ```bash
 php joomla.php config:set debug=true
 ```
 
-![Uitvoer van config set debug](../../../en/images/command-line-interface/cli-set-debug.png)
+![Uitvoer van config set debug](../../../en/images/command-line-interface/using-the-cli/05-cli-set-debug.png)
 
 ```bash
 php joomla.php config:get --group session
 ```
 
-![Uitvoer van config get group session](../../../en/images/command-line-interface/cli-config-get-group-session.png)
+![Uitvoer van config get group session](../../../en/images/command-line-interface/using-the-cli/06-cli-config-get-group-session.png)
 
 ### Core
 
@@ -112,14 +119,14 @@ php joomla.php core:check-updates --help
 php joomla.php core:check-updates
 ```
 
-![Uitvoer van core check updates](../../../en/images/command-line-interface/cli-check-updates.png)
+![Uitvoer van core check updates](../../../en/images/command-line-interface/using-the-cli/07-cli-check-updates.png)
 
 ```bash
 php joomla.php core:update --help
 php joomla.php core:update
 ```
 
-![Uitvoer van core update](../../../en/images/command-line-interface/cli-core-update.png)
+![Uitvoer van core update](../../../en/images/command-line-interface/using-the-cli/08-cli-core-update.png)
 
 ### Database
 
@@ -183,7 +190,7 @@ php joomla.php finder:index
 php joomla.php finder:index purge
 ```
 
-![Uitvoer van finder index purge](../../../en/images/command-line-interface/cli-finder-index-purge.png)
+![Uitvoer van finder index purge](../../../en/images/command-line-interface/using-the-cli/09-cli-finder-index-purge.png)
 
 ### Scheduler
 
@@ -248,7 +255,7 @@ php joomla.php update:joomla:remove-old-files --help
 php joomla.php update:joomla:remove-old-files
 ```
 
-![Uitvoer van update Joomla verwijder oude bestanden](../../../en/images/command-line-interface/cli-update-remove-old-files.png)
+![Uitvoer van update Joomla verwijder oude bestanden](../../../en/images/command-line-interface/using-the-cli/10-cli-update-remove-old-files.png)
 
 ### User
 
@@ -265,7 +272,7 @@ php joomla.php user:add --username assepoester --name Assepoester --email assepo
 php joomla.php user:add (prompts voor gegevens)
 ```
 
-![Uitvoer van user add met prompts](../../../en/images/command-line-interface/cli-add-user.png)
+![Uitvoer van user add met prompts](../../../en/images/command-line-interface/using-the-cli/11-cli-add-user.png)
 
 ```bash
 php joomla.php user:addtogroup --help

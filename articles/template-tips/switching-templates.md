@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Switching_Templates / Display title: Templates Wisselen -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Switching_Templates",
+  "title": "Templates Wisselen ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Site- en beheerderssjablonen
 
@@ -14,7 +21,7 @@ Een van uw sjablonen moet als standaard worden gemarkeerd. Het wordt gebruikt vo
   in het Beheerdersmenu.
 - Selecteer een van de knoppen in de kolom Standaard.
 
-![sjablonen site stijlen lijst pagina](../../../en/images/templates/switch-templates-styles-list.png)
+![sjablonen site stijlen lijst pagina](../../../en/images/template-tips/switching-templates/01-switch-templates-styles-list.png)
 
 Bekijk uw site om te zien dat alle pagina's het standaard sjabloon gebruiken.
 
@@ -31,7 +38,7 @@ Vanuit de Templates: Stijlen lijst:
 - Selecteer individuele menu-items of schakel alle items in een menu in.
 - Opslaan
 
-![templates stijl bewerkpagina menu toewijzing tabblad](../../../en/images/templates/switch-templates-styles-edit-style-menu-assignment.png)
+![templates stijl bewerkpagina menu toewijzing tabblad](../../../en/images/template-tips/switching-templates/02-switch-templates-styles-edit-style-menu-assignment.png)
 
 In dit voorbeeld zijn alle menu-items in het `Hoofdmenu Testen` menu geselecteerd. Ga terug naar uw site en selecteer een van de menu-items die de geselecteerde template zou moeten gebruiken.
 
@@ -44,7 +51,7 @@ Deze methode wordt gebruikt om de template in te stellen voor individuele menu-i
 - In het veld **Template Stijl**, selecteer de gewenste templaatstijl.
 - Opslaan
 
-![templates menu's bewerk item formulier met stijlselectie](../../../en/images/templates/switch-templates-styles-edit-menu-style.png)
+![templates menu's bewerk item formulier met stijlselectie](../../../en/images/template-tips/switching-templates/03-switch-templates-styles-edit-menu-style.png)
 
 Keer terug naar uw site en selecteer het gewijzigde menu-item om te controleren of het wordt weergegeven met de geselecteerde template stijl.
 

@@ -1,4 +1,11 @@
-<!-- Filename: Unable_to_connect_to_the_database / Display title: Databaseverbinding -->
+<!--
+{
+  "source": "https://docs.joomla.org/Unable_to_connect_to_the_database",
+  "title": "Databaseverbinding ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Fout bij Verbinding Maken
 

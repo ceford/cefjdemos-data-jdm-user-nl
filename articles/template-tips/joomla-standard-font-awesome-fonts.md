@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Joomla_Standard_Font_Awesome_Fonts / Display title: Font Awesome-lettertypen -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Joomla_Standard_Font_Awesome_Fonts",
+  "title": "Font Awesome-lettertypen ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Hoe te Gebruiken
 

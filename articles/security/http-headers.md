@@ -1,4 +1,11 @@
-<!-- Filename: https://magazine.joomla.org/all-issues/may-2022/joomla-new-http-headers-plugin-for-j4 / Display title: HTTP-headers  -->
+<!--
+{
+  "source": "https://docs.joomla.org/https:",
+  "title": "HTTP-headers  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Tijdschriftartikel
 
@@ -58,7 +65,7 @@ Je kunt de HTTP headers bekijken en zien hoe ze betrekking hebben op individuele
 
 In de afbeelding hieronder kun je zien dat de gemarkeerde afbeelding een HTTP-status van 200 retourneert, wat betekent dat de browser deze heeft gevonden. Er is ook een reeks andere informatie gekoppeld aan dat item, zoals bestandsgrootte en bewerkingsdata.
 
-![Joomla http headers 1](../../../en/images/security/http-headers-dev-tools-headers.png)
+![Joomla http headers 1](../../../en/images/security/http-headers/01-http-headers-dev-tools-headers.png)
 
 Als een van je HTML-items niet wordt weergegeven, kun je ook een aanwijzing over de reden ervan vinden in de HTTP headers. In dit voorbeeld is de tweede afbeelding niet weergegeven en je kunt uit de informatie in de rechter paneel opmaken dat er geen HTTP-headerinformatie beschikbaar is.
 
@@ -70,11 +77,11 @@ Behalve het cryptische bericht:
 
 Dus, wanneer de afbeelding vanuit het HTML-document wordt aangeroepen, wordt deze door de browser geweigerd en niet geladen.
 
-![Joomla http headers 2](../../../en/images/security/http-headers-dev-tools-headers-reject.png)
+![Joomla http headers 2](../../../en/images/security/http-headers/02-http-headers-dev-tools-headers-reject.png)
 
 Dit verschilt van niet gevonden worden en een 404 niet gevonden HTTP-foutmelding retourneren. In deze situatie wordt nog steeds naar de afbeelding gezocht op de server waar deze gehost wordt, maar de browser heeft deze niet gevonden.
 
-![Joomla http headers 3](../../../en/images/security/http-headers-dev-tools-headers-not-found.png)
+![Joomla http headers 3](../../../en/images/security/http-headers/03-http-headers-dev-tools-headers-not-found.png)
 
 ## Wat de Joomla HTTP Headers Plugin doet
 
@@ -122,7 +129,7 @@ Dit zou helpen om te voorkomen dat kwaadaardige JavaScript-code op uw website wo
 
 Je kunt de HTTP Headers-plugin van Joomla vinden samen met alle andere Joomla-plugins en deze is toegankelijk op precies dezelfde manier zoals je gewend bent te doen.
 
-![Joomla http headers 4](../../../en/images/security/http-headers-plugins.png)
+![Joomla http headers 4](../../../en/images/security/http-headers/04-http-headers-plugins.png)
 
 ## Het gebruik van de HTTP-headersplugin
 
@@ -140,7 +147,7 @@ Wanneer je de plugin opent, is het eerste geopende tabblad de basisinstellingen 
 
 **Laten we elk van deze op hun beurt bekijken.**
 
-![Joomla http headers 5](../../../en/images/security/http-headers-plugins-tab-plugin.png)
+![Joomla http headers 5](../../../en/images/security/http-headers/05-http-headers-plugins-tab-plugin.png)
 
 ### X-Frame-opties
 
@@ -150,7 +157,7 @@ Met deze optie kun je beslissen of de inhoud van je website kan worden getoond o
 
 Zodra deze is ingeschakeld, wordt een 'x-frame-options: SAMEORIGIN'-tag toegevoegd aan de headers van je website. Deze tag stelt je nog steeds in staat om je eigen inhoud te tonen in een &lt;frame&gt;, &lt;iframe&gt;, &lt;embed&gt; of &lt;object&gt; op je eigen website. Maar niemand anders kan jouw inhoud in een &lt;iframe&gt; op hun eigen website tonen.
 
-![Joomla http headers 6](../../../en/images/security/http-headers-plugins-headers.png)
+![Joomla http headers 6](../../../en/images/security/http-headers/06-http-headers-plugins-headers.png)
 
 De X-Frame-optie-header helpt je website en gebruikers te beschermen tegen **‘Click Jacking’**-aanvallen. Dit is wanneer een aanvaller een &lt;iframe&gt; op hun eigen website plaatst en de bron van het &lt;iframe&gt; instelt als jouw website. Vervolgens gebruikt de aanvaller meerdere transparante lagen van hun eigen website erboven.
 
@@ -164,7 +171,7 @@ De meeste moderne browsers ondersteunen X-Frame-opties, wat geweldig is. Dus, mi
 
 **De meeste moderne browsers ondersteunen de X-Frame-opties.**
 
-![Http headers browser support](../../../en/images/security/http-headers-plugins-xframe-browser-support.png)
+![Http headers browser support](../../../en/images/security/http-headers/07-http-headers-plugins-xframe-browser-support.png)
 
 <div style="background-color: #eeffee; border: 1px solid #009900; padding: 1rem; ">
 Samenvatting
@@ -184,7 +191,7 @@ Dit is vooral belangrijk als je gebruikersregistratie toestaat, het gevoelige ge
 
 Standaard is het Referrer Policy van je website ingesteld op 'strict-origin-when-cross-origin'. Wat geen van de verwijzingsgegevens van de originele webpagina blokkeert, tenzij deze naar een minder veilige http-pagina worden verzonden. Maar, aangezien de meeste webpagina's tegenwoordig https gebruiken, is dit nu een groter probleem dan het ooit was.
 
-![Joomla http headers 8](../../../en/images/security/http-headers-plugins-headers-referer-policy.png)
+![Joomla http headers 8](../../../en/images/security/http-headers/08-http-headers-plugins-headers-referer-policy.png)
 
 Er zijn natuurlijk veel onschuldige toepassingen van deze 'gelekte' gegevens als je geen Referrer Policy voor je website vaststelt. Deze kunnen gegevens bevatten die worden verzameld door de gelinkte website voor analyses, logging of geoptimaliseerde caching.
 
@@ -200,7 +207,7 @@ Vanwege het potentiële beveiligingsrisico op dit soort gegevensgevoelige pagina
 
 Joomla's HTTP Headers-plugin pakt dit probleem aan door je in staat te stellen te kiezen uit een van de 8 Referrer Policies om een Referrer Policy voor je website vast te stellen. Elk met hun eigen beperkingen op wanneer en hoeveel gegevens te delen.
 
-![Joomla http headers 9](../../../en/images/security/http-headers-plugins-headers-referer-policy-setting.png)
+![Joomla http headers 9](../../../en/images/security/http-headers/09-http-headers-plugins-headers-referer-policy-setting.png)
 
 Laten we eens naar deze kijken. Er is een uitstekende beschrijving van hen op de Mozilla Headers-pagina die deze beschrijft als:
 
@@ -233,11 +240,11 @@ Als een goed startpunt, tenzij er een reden is om dat niet te doen, zou ik dit i
 
 De derde instelling om in het eerste tabblad in te stellen is de Cross Origin Opener Policy, wat een browsergebaseerde beveiligingsfunctie is die je in staat stelt om verschillende **‘Browser Context Groups'** van elkaar te scheiden.
 
-![Joomla http headers 10](../../../en/images/security/http-headers-plugins-headers-cross-origin-opener-policy.png)
+![Joomla http headers 10](../../../en/images/security/http-headers/10-http-headers-plugins-headers-cross-origin-opener-policy.png)
 
 Een goed voorbeeld hiervan is het gebruik van pop-ups. Waar de originele browser contextgroep (alle tekst, afbeeldingen, links enz.) wordt losgekoppeld van een nieuwe browser contextgroep die wordt aangemaakt en vervolgens wordt weergegeven in de pop-up.
 
-![Joomla http headers 10](../../../en/images/security/http-headers-plugins-headers-cross-origin-opener-popup.png)
+![Joomla http headers 10](../../../en/images/security/http-headers/11-http-headers-plugins-headers-cross-origin-opener-popup.png)
 
 > Deze HTTP Header optie is vrij diepgaand en ingewikkeld, hoewel er slechts 3 opties zijn. Dus ik moedig je aan om de links hieronder te bekijken om een beter begrip te krijgen van waarom deze optie moet worden ingesteld op je website. Evenals om te leren over enkele van de geavanceerde functies die beschikbaar voor je worden wanneer deze optie actief is.
 
@@ -270,7 +277,7 @@ Zoals aan het begin van deze sectie vermeld, zijn bepaalde geavanceerde functies
 
 De laatste optie om op te focussen in het eerste tabblad is de Force HTTP Headers, wat niet moet worden verward met ‘Force HTTPS’ in de algemene instellingen van Joomla.
 
-![Joomla http headers 11](../../../en/images/security/http-headers-plugins-force-http-headers.png)
+![Joomla http headers 11](../../../en/images/security/http-headers/12-http-headers-plugins-force-http-headers.png)
 
 Dit gedeelte van de Joomla HTTP Header-plugin stelt je in staat om, indien gewenst, een selectie van ‘andere’ headers toe te voegen die niet specifiek in de plugintabs worden vermeld, evenals om de opname van enkele van de inbegrepen headers te forceren.
 
@@ -356,7 +363,7 @@ Als je een reeks HTTP headers voor je website instelt en de browser van de gebru
 
 **Het Strict Transport Security Policy-tabblad is standaard uitgeschakeld.**
 
-![Joomla http headers 12](../../../en/images/security/http-headers-plugins-headers-strict-transport-security.png)
+![Joomla http headers 12](../../../en/images/security/http-headers/13-http-headers-plugins-headers-strict-transport-security.png)
 
 Ik hou van onderzoek doen. Want soms kom je een echte OMG! Moment tegen. Dit is een van die momenten.
 
@@ -384,7 +391,7 @@ Volgens w3techs.com draait ongeveer 20% van alle websites nog steeds alleen op H
 
 Dit is een probleem omdat alle gegevens die naar en van de browser van een gebruiker worden verzonden het risico lopen te worden onderschept. We kennen dit als een **man-in-the-middle aanval**. Nu lijkt dit misschien geen belangrijk aandachtspunt als je website alleen gaat over foto's van schattige kittens.
 
-![beeld van schattige kittens](../../../en/images/security/http-headers-plugins-headers-kittens.jpg)
+![beeld van schattige kittens](../../../en/images/security/http-headers/14-http-headers-plugins-headers-kittens.jpg)
 
 Maar zelfs eenvoudige websites kunnen het slachtoffer worden van hackers en aanvallers die **click-jacking** en andere cross-origin-aanvallen zullen implementeren die je gebruikers schaden.
 
@@ -394,7 +401,7 @@ Een website die geen gebruikersgegevens of inloggegevens uitwisselt, **moet nog 
 
 Zoals je al weet, is het hele punt van HTTPS om een veilige verbinding tot stand te brengen tussen de browser van de gebruiker en je server. Een verbinding waarbij elke uitwisseling van gegevens plaatsvindt in een veilige omgeving die niet kan worden onderschept en gekopieerd door een derde partij. Een man in het midden.
 
-![man in het midden aanval](../../../en/images/security/http-headers-plugins-headers-man-in-middle.png)
+![man in het midden aanval](../../../en/images/security/http-headers/15-http-headers-plugins-headers-man-in-middle.png)
 
 Maar wist je dat, tenzij je **HTTPS SSL-certificaat** **TLS** gebruikt, je 'veilige' verbinding niet zo veilig is als je zou verwachten? Niet-TLS HTTPS-verbindingen zijn nog steeds **kwetsbaar voor man-in-the-middle aanvallen**.
 
@@ -404,7 +411,7 @@ Browsers hebben TLS op grote schaal geadopteerd.
 
 En, TLS 1.3 is niet direct compatibel met eerdere versies tenzij het wordt uitgevoerd in compatibiliteitsmodus. Wat een probleem zou kunnen vormen voor sommigen.
 
-![tls certificaat informatie](../../../en/images/security/http-headers-plugins-headers-tls.png)
+![tls certificaat informatie](../../../en/images/security/http-headers/16-http-headers-plugins-headers-tls.png)
 
 Het gebruik van de HTTP-Header Plug-in van Joomla om om te gaan met Strict-Transport-Security (HSTS) helpt man-in-the-middle aanvallen te beperken door het gebruik van TLS in de webbrowser van je bezoekers af te dwingen. TLS zorgt ervoor dat alle webcommunicatie aan de clientzijde plaatsvindt met behulp van een veilige transportlaag.
 
@@ -424,7 +431,7 @@ Wat de ‘Preload’-tag aan de response-header toevoegt.
 
 In de instellingen is er ook een link preload lijst**. Dit is een lijst die hard gecodeerd is in veel moderne browsers. De lijst informeert de browser dat de verbinding met example.com alleen via HTTPS tot stand moet worden gebracht. Hierdoor vervalt de noodzaak om zelfs maar de initiële verbinding via HTTP tot stand te brengen.
 
-![hsts preload](../../../en/images/security/http-headers-plugins-headers-enter-domain.png)
+![hsts preload](../../../en/images/security/http-headers/17-http-headers-plugins-headers-enter-domain.png)
 
 Zodra HSTS is ingesteld in de Joomla HTTP-header plug-in, worden alle noodzakelijke tags toegevoegd aan de HTTP-response-header. Dit laat elke gebruikersbrowser die probeert verbinding te maken met je server weten dat alle verbindingen **moeten worden gemaakt met HTTPS**, of dit nu in je HTML is gespecificeerd of niet.
 
@@ -458,7 +465,7 @@ Stuur ten slotte je domein naar de HSTS-preloadlijst.
 
 Wanneer je Joomla’s Content Security Policy inschakelt via de HTTP Headers-plugin, geef je de browser van je bezoeker precies aan welke middelen vanaf de server van je website worden geladen. Dit is een uitstekende manier om ervoor te zorgen dat je alleen de content levert die je daadwerkelijk wilt leveren.
 
-![content security policy tab](../../../en/images/security/http-headers-plugins-headers-csp.png)
+![content security policy tab](../../../en/images/security/http-headers/18-http-headers-plugins-headers-csp.png)
 
 Het implementeren van een effectieve Content Security Policy is een effectieve manier om **Cross-Site Scripting (XSS)** en **Clickjacking**-aanvallen vanaf je website te stoppen.
 
@@ -486,7 +493,7 @@ Dit gebeurt omdat de Joomla HTTP Header-plugin de CSP als een HTTP Response Head
 
 Het aanvalsexample hierboven laadde uiteindelijk een JavaScript-bestand van een andere bron om de HTML-uitvoer op het scherm te wijzigen. Dit had voorkomen kunnen worden door de richtlijn `script-src 'self'` toe te voegen aan Joomla's CSP in de plugin.
 
-![policy directive self](../../../en/images/security/http-headers-plugins-headers-policy-directive.png)
+![policy directive self](../../../en/images/security/http-headers/19-http-headers-plugins-headers-policy-directive.png)
 
 In dit voorbeeld zal de browser alleen JavaScript-bestanden in het HTML-document laden als ze van je domein komen. Alle andere JavaScript-bestanden, inclusief die van Mr. Hacker, worden geweigerd.
 
@@ -498,7 +505,7 @@ script-src 'self' https://cdn.jsdelivr.net
 
 Als je problemen hebt met het laden van Bootstrap vanaf de CDN, `https://cdn.jsdelivr.net`, kun je proberen de volledige URL naar het benodigde Bootstrap-bestand toe te voegen. Je zou je richtlijn als volgt formatteren: `script-src 'self' https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js`.
 
-![policy directive self](../../../en/images/security/http-headers-plugins-headers-policy-directive-self.png)
+![policy directive self](../../../en/images/security/http-headers/20-http-headers-plugins-headers-policy-directive-self.png)
 
 Het toevoegen van deze externe bronnen is gemakkelijker te implementeren op een nieuwe website terwijl je deze opbouwt. Maar als je je HTML met Dev Tools doorneemt, zou je alle externe bestanden die al op je bestaande website worden gebruikt, moeten kunnen vinden en in je CSP kunnen opnemen.
 
@@ -623,7 +630,7 @@ navigate-to https://example.com
 
 Joomla’s HTTP Headers-plug-in biedt ook de mogelijkheid om **enkele globale parameters in te stellen in het tabblad Content Security Policy**.
 
-![Joomla http headers 14](../../../en/images/security/http-headers-plugins-headers-csp-global.png)
+![Joomla http headers 14](../../../en/images/security/http-headers/21-http-headers-plugins-headers-csp-global.png)
 
 U kunt ervoor kiezen om het CSP toe te passen op uw website, de beheeromgeving of beide met de clients-instelling.
 
@@ -633,17 +640,17 @@ Vervolgens is er de ‘Nonce’-instelling. Nonce, wat 'nummer eenmalig gebruikt
 
 In de onderstaande afbeelding ziet u de &lt;style&gt;-tag met een nonce-rel-attribuut dat is toegevoegd aan de CSS-stijlen die door de Akeeba Backup-component aan mijn HTML-document zijn toegevoegd.
 
-![Joomla http headers 16](../../../en/images/security/http-headers-plugins-headers-akeeba-style.png)
+![Joomla http headers 16](../../../en/images/security/http-headers/22-http-headers-plugins-headers-akeeba-style.png)
 
 Opmerkelijk is dat de kern-JavaScript- en CSS-code van Joomla die aan het HTML-document wordt toegevoegd, momenteel geen ‘nonce’-tag bevat. Dit komt omdat **ze deel uitmaken van de 'kern'** en niet worden toegevoegd via de Joomla API.
 
 Als je de optie ‘Nonce’ inschakelt in de CSP-instellingen, stel je de browser in staat om inline scripts en stijlen als ‘veilig’ weer te geven. Je moet dan ook de Joomla {nonce}-tag instellen in je script-src beleidsrichtlijn als `script-src 'self' {nonce}`. Als fallback voor oudere browsers die geen 'nonces' ondersteunen, kun je ook {script-hashes} toevoegen na de {nonce}-placeholder, zoals in `script-src 'self' {nonce} {script-hashes}` (let op de spaties). Vergeet niet om eerst **Script Hashes** in te schakelen.
 
-![Joomla nonce-instellingen](../../../en/images/security/http-headers-plugins-headers-nonce-settings.png)
+![Joomla nonce-instellingen](../../../en/images/security/http-headers/23-http-headers-plugins-headers-nonce-settings.png)
 
 Joomla genereert willekeurig de ‘nonce’ tekststring en voegt deze toe aan de &lt;style&gt;- en &lt;script&gt;-tags. Wanneer je de ‘nonce’-optie in de plug-in instellingen inschakelt, wordt de tekststring doorgegeven aan de HTTP-header. De browser interpreteert vervolgens de HTTP-header en verwerkt de bijbehorende &lt;script&gt; of &lt;style&gt;. Tegelijkertijd verwijdert hij de Nonce-tekststring uit de weergegeven HTML in de browser.
 
-![Joomla nonce stijl](../../../en/images/security/http-headers-plugins-headers-nonce-style.png)
+![Joomla nonce stijl](../../../en/images/security/http-headers/24-http-headers-plugins-headers-nonce-style.png)
 
 Hierdoor wordt voorkomen dat een hacker de nonce-tekststring kan kapen en aan zijn eigen geïnjecteerde code kan toevoegen. Zelfs als een hacker erin slaagt om schadelijke JavaScript in jouw HTML te injecteren, zal de browser dit blokkeren.
 
@@ -661,7 +668,7 @@ De HTTP Headers-plug-in van Joomla verzamelt automatisch alle &lt;styles&gt; en 
 
 Om deze functie van de plug-in in te schakelen, zet je de schakelaar op **'Ingeschakeld'**. Voeg in je script-src beleidsrichtlijn de waarde `'self' {script-hashes}` toe. Als je zowel de ‘nonce’- als ‘script-hashes’-functie gebruikt, stel dan de richtlijnwaarde in zoals in het nonce-voorbeeld hierboven.
 
-![Joomla script-hashes](../../../en/images/security/http-headers-plugins-headers-csp-script-hashes.png)
+![Joomla script-hashes](../../../en/images/security/http-headers/25-http-headers-plugins-headers-csp-script-hashes.png)
 
 **Slim bedacht.**
 
@@ -679,7 +686,7 @@ Stap 2 - Ga naar de webpagina met je script erin. Open Dev Tools en in het conso
 
 > Refused to execute inline script because it violates the following Content Security Policy directive: "script-src 'self'". Either the 'unsafe-inline' keyword, a hash ('sha256-0Q1c1CuhLHV7WbNt+ltwJoCf3wF/O+MWqsXetkxWSm0='), or a nonce ('nonce-...') is required to enable inline execution.
 
-![Joomla script-hashes foutmelding](../../../en/images/security/http-headers-plugins-headers-csp-script-hashes-tools-error.png)
+![Joomla script-hashes foutmelding](../../../en/images/security/http-headers/26-http-headers-plugins-headers-csp-script-hashes-tools-error.png)
 
 Stap 3 - Nu hoef je alleen de hash uit de foutmelding te kopiëren en toe te voegen aan je JavaScript-richtlijn in de plug-in en deze opnieuw op te slaan:
 
@@ -687,7 +694,7 @@ Stap 3 - Nu hoef je alleen de hash uit de foutmelding te kopiëren en toe te voe
 script-src 'self' 'sha256-0Q1c1CuhLHV7WbNt+ltwJoCf3wF/O+MWqsXetkxWSm0='
 ```
 
-![Joomla script-hashes toepassen](../../../en/images/security/http-headers-plugins-headers-csp-script-src-self-hash.png)
+![Joomla script-hashes toepassen](../../../en/images/security/http-headers/27-http-headers-plugins-headers-csp-script-src-self-hash.png)
 
 Herlaad daarna je webpagina en controleer opnieuw in Google’s Dev Tools. De foutmelding zal nu verdwenen zijn en de browser zal je script op de webpagina laden.
 
@@ -695,7 +702,7 @@ Herlaad daarna je webpagina en controleer opnieuw in Google’s Dev Tools. De fo
 
 Het toevoegen van hashes aan je inline-code is een goede manier om deze in de HTTP-header op de whitelist te zetten zodat ze toch worden uitgevoerd, terwijl inline-code die niet expliciet is gehasht en toegevoegd aan je CSP, wordt geblokkeerd. Dit voorkomt dat een hacker je website probeert te compromitteren.
 
-![Joomla script hashes tools foutmelding](../../../en/images/security/http-headers-plugins-headers-csp-script-src-self-hash-tools-error.png)
+![Joomla script hashes tools foutmelding](../../../en/images/security/http-headers/28-http-headers-plugins-headers-csp-script-src-self-hash-tools-error.png)
 
 **Opmerking:**
 
@@ -711,7 +718,7 @@ Als je de optie Strict Dynamic in je CSP inschakelt, geeft dit expliciete machti
 
 De Style Hash van de CSP werkt precies zoals de JavaScript-hashes hierboven werken, maar gebruik dit als je CSS &lt;style&gt;-blokken in je HTML-body toevoegt. Net zoals bij 'Script Hashes' **schakel** je de plug-infunctie in en stel je een `style-src` beleidsrichtlijn in om hiernaar te verwijzen met de waarde `'self' {style-hashes}`.
 
-![Joomla style-hashes](../../../en/images/security/http-headers-plugins-headers-csp-style-hash.png)
+![Joomla style-hashes](../../../en/images/security/http-headers/29-http-headers-plugins-headers-csp-style-hash.png)
 
 **Opmerking:**
 
@@ -723,7 +730,7 @@ Deze optie in de plug-in staat toe dat een pagina wordt weergegeven in een ifram
 
 Als je expliciet wilt toestaan dat een andere website je content framed, kun je een specifieke richtlijn ‘frame-src’ instellen.
 
-![Joomla style-hashes frame src](../../../en/images/security/http-headers-plugins-headers-csp-style-hash-frame-src.png)
+![Joomla style-hashes frame src](../../../en/images/security/http-headers/30-http-headers-plugins-headers-csp-style-hash-frame-src.png)
 
 <div style="background-color: #eeffee; border: 1px solid #009900; padding: 1rem; ">
 Take Away

@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Access_Control / Display title: Toegangscontrole -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Access_Control",
+  "title": "Toegangscontrole ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introductie
 
@@ -8,7 +15,7 @@ Joomla heeft een geavanceerd mechanisme om te bepalen wie inhoud kan bekijken en
 
 Gebruikersgroepen worden gebruikt om sitegebruikers op te delen in groepen met verschillende verantwoordelijkheden. Bijvoorbeeld: leden van de groep Schrijvers hebben toestemming om in te loggen op de site, artikelen te maken en hun eigen artikelen te bewerken. Niets meer! Leden van de groep Supergebruikers hebben verantwoordelijkheid voor alle aspecten van sitebeheer en -operatie. Joomla biedt negen standaardgebruikersgroepen en je kunt meer maken als je ze nodig hebt.
 
-![Lijst van gebruikersgroepen](../../../en/images/users/access-control-users-groups-list.png)
+![Lijst van gebruikersgroepen](../../../en/images/users/access-control/01-access-control-users-groups-list.png)
 
 De standaardgebruikersgroepen zijn opgezet met ouder-kindrelaties om dubbele toestemmingen te minimaliseren. Voorbeelden van overerving:
 
@@ -21,7 +28,7 @@ Je kunt nieuwe gebruikersgroepen maken voor speciale doeleinden indien nodig. Je
 
 Elke keer dat je een object maakt, zoals een artikel, een module of een menu-item, zie je een Toegang-veld, meestal in de rechterkolom van het invoerformulier. Het is een keurvak met keuzes als Openbaar, Gast, Geregistreerd, Speciaal en Supergebruikers. De standaardinstelling is Openbaar. De standaard weergavetoegangsniveaus worden getoond in de volgende schermafbeelding:
 
-![Gebruikers weergavetoegangsniveaus](../../../en/images/users/access-control-users-access-levels.png)
+![Gebruikers weergavetoegangsniveaus](../../../en/images/users/access-control/02-access-control-users-access-levels.png)
 
 Voorbeelden:
 
@@ -32,7 +39,7 @@ Voorbeelden:
 
 De globale configuratiemachtigingen zijn het startpunt waarvandaan de machtigingsinstellingen in componenten of individuele items kunnen erven of worden overschreven. Screenshot:
 
-![globale configuratiemachtigingen](../../../en/images/users/access-control-global-configuration-permissions.png)
+![globale configuratiemachtigingen](../../../en/images/users/access-control/03-access-control-global-configuration-permissions.png)
 
 De screenshot laat zien dat leden van de Publieke groep geen toestemming hebben om handelingen uit te voeren. Als je elke groep om de beurt selecteert, zie je hoe de machtigingen van groep tot groep veranderen. Merk op dat Manager en Beheerder administratorlogin zijn toegestaan, maar Auteur, Redacteur en Uitgever niet. De laatste zijn in feite Site-rollen in plaats van Beheerrollen.
 
@@ -42,13 +49,13 @@ Alle groepsrechten erven van de Publieke groep. Deze heeft geen toestemming voor
 
 De acties van Artikelen Machtigingen verschillen van de acties van de Globale Configuratie Machtigingen. Niet aanwezig zijn items gerelateerd aan inloggen en wel aanwezig zijn items gerelateerd aan workflows. Dit is een vrij typisch patroon: een component zal machtigingen hebben die relevant zijn voor het component; een component item (zoals een artikel) zal machtigingen hebben die relevant zijn voor dat ene item.
 
-![Inhoud machtigingen](../../../en/images/users/access-control-global-content-permissions.png)
+![Inhoud machtigingen](../../../en/images/users/access-control/04-access-control-global-content-permissions.png)
 
 ### Enkel Artikel Machtigingen
 
 De machtigingen voor een enkel artikel hebben slechts drie items: Verwijderen, Bewerken en Bewerken Status:
 
-![enkele artikel machtigingen](../../../en/images/users/access-control-article-permissions.png)
+![enkele artikel machtigingen](../../../en/images/users/access-control/05-access-control-article-permissions.png)
 
 ## Voorbeeld Toegangscontrole: Gebruiker met Speciaal Doel
 
@@ -61,7 +68,7 @@ Stel dat je een Gebruikersgroep moet maken voor gebruikers die maar één verant
 - Vul het veld Groepstitel in: Artikelbeheerder
 - De Groepsouder moet Openbaar zijn - het heeft geen toestemmingen voor iets anders.
 
-![Nieuw gebruikersgroepformulier](../../../en/images/users/access-control-new-group.png)
+![Nieuw gebruikersgroepformulier](../../../en/images/users/access-control/06-access-control-new-group.png)
 
 ### Toewijzen aan Speciaal
 
@@ -70,7 +77,7 @@ Stel dat je een Gebruikersgroep moet maken voor gebruikers die maar één verant
 - Selecteer het selectievakje Artikelbeheerder in het formulier **Gebruikers: Bewerken van BekijkToegangsniveau**.
 - Opslaan & Sluiten.
 
-![Selecteer toegang voor groep](../../../en/images/users/access-control-select-access-for-group.png)
+![Selecteer toegang voor groep](../../../en/images/users/access-control/07-access-control-select-access-for-group.png)
 
 ### Globale Configuratie Permissies
 
@@ -81,7 +88,7 @@ Stel dat je een Gebruikersgroep moet maken voor gebruikers die maar één verant
 - Zet **Beheerder Inloggen** op Toegestaan.
 - Opslaan & Sluiten.
 
-![Selecteer toegang voor groep](../../../en/images/users/access-control-article-administrator-global-permissions.png)
+![Selecteer toegang voor groep](../../../en/images/users/access-control/08-access-control-article-administrator-global-permissions.png)
 
 ### Artikelen Opties Permissies
 
@@ -93,7 +100,7 @@ Stel dat je een Gebruikersgroep moet maken voor gebruikers die maar één verant
   Alleen Opties Configureren) op Toegestaan.
 - Opslaan & Sluiten.
 
-![Selecteer toegang voor groep](../../../en/images/users/access-control-article-administrator-content-permissions.png)
+![Selecteer toegang voor groep](../../../en/images/users/access-control/09-access-control-article-administrator-content-permissions.png)
 
 ### Gebruiker Maken of Bewerken
 
@@ -104,7 +111,7 @@ Stel dat je een Gebruikersgroep moet maken voor gebruikers die maar één verant
 - Log in als een gebruiker in de groep Artikelbeheerder alleen. Het menu
   moet alleen artikelgerelateerde items tonen:
 
-![Selecteer toegang voor groep](../../../en/images/users/access-control-article-administrator-home-dashboard.png)
+![Selecteer toegang voor groep](../../../en/images/users/access-control/10-access-control-article-administrator-home-dashboard.png)
 
 *Vertaald door openai.com*
 

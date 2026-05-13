@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:How_to_Show_a_Calendar_Month_List_of_Archived_Articles_Using_a_Module / Display title: Gearchiveerde Artikelen  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:How_to_Show_a_Calendar_Month_List_of_Archived_Articles_Using_a_Module",
+  "title": "Gearchiveerde Artikelen  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Inleiding
 
@@ -48,7 +55,7 @@ Wanneer je klaar bent, selecteer je de knop **Opslaan & Sluiten**.
 
 De module zal worden gepubliceerd in de zijbalk van de website en een lijst van links tonen, bepaald door het aantal maanden dat in de module is ingesteld om weer te geven.
 
-![Voorbeeld van Module voor Gearchiveerde Artikelen](../../../en/images/modules/modules-archived-articles.png)
+![Voorbeeld van Module voor Gearchiveerde Artikelen](../../../en/images/modules/articles-archived-module/01-modules-archived-articles.png)
 
 ## Tips
 

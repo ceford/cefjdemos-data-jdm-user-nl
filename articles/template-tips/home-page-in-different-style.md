@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Home_Page_in_Different_Style / Display title: Startpagina in verschillende stijlen  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Home_Page_in_Different_Style",
+  "title": "Startpagina in verschillende stijlen  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Startpagina van de Site
 
@@ -16,7 +23,7 @@ Stel dat je je startpagina een opvallend uiterlijk wilt geven dat enigszins vers
 
 De Cassiopeia voorbeeldgegevens creëren een Startpagina met een **Uitgelichte Artikelen** menu-itemtype. Het is ingedeeld zoals te zien is in de onderstaande schermafbeelding (enkele kleine wijzigingen zijn aangebracht aan individuele artikelen om hier een betere schermafbeelding te maken).
 
-![startpagina met cassiopeia en voorbeeldgegevens](../../../en/images/templates/templates-home-page-style-cassiopeia-sample-data.png)
+![startpagina met cassiopeia en voorbeeldgegevens](../../../en/images/template-tips/home-page-in-different-style/01-templates-home-page-style-cassiopeia-sample-data.png)
 
 Zo wordt de indeling bereikt:
 
@@ -24,11 +31,11 @@ Zo wordt de indeling bereikt:
 
 De grote afbeelding onder de menubalk bevindt zich in een aangepaste module genaamd Afbeelding die is toegewezen aan de banner-positie in de Cassiopeia-sjabloon.
 
-![aangepaste module gebruikt in voorbeeldgegevensstijl](../../../en/images/templates/templates-home-page-style-custom-module-image.png)
+![aangepaste module gebruikt in voorbeeldgegevensstijl](../../../en/images/template-tips/home-page-in-different-style/02-templates-home-page-style-custom-module-image.png)
 
 In het tabblad Menu-toewijzing is de module uitsluitend toegewezen aan Startpagina:
 
-![tabblad menu-toewijzing van aangepaste module](../../../en/images/templates/templates-home-page-style-custom-module-menu-assignment.png)
+![tabblad menu-toewijzing van aangepaste module](../../../en/images/template-tips/home-page-in-different-style/03-templates-home-page-style-custom-module-menu-assignment.png)
 
 De achtergrondafbeelding wordt geselecteerd in het tabblad Opties van de Modules: Aangepaste bewerkingsformulier.
 
@@ -44,7 +51,7 @@ Er zijn afzonderlijke artikelen over Overrides en Indelingen.
 
 Onder de grote Afbeelding zijn drie kleine vakjes, elk met een afbeelding en tekst eronder. Ze zijn gemaakt met behulp van een Artikelen - Nieuwsflits module in de sjabloon top-a positie. De module is ingesteld om 3 items weer te geven. Zijn Menu-toewijzing is uitsluitend Startpagina. Het tabblad Geavanceerd heeft Indeling ingesteld op horizontaal en Modulestijl ingesteld op noCard.
 
-![nieuwsflitsmodule](../../../en/images/templates/templates-home-page-style-newsflash-module-image.png)
+![nieuwsflitsmodule](../../../en/images/template-tips/home-page-in-different-style/04-templates-home-page-style-newsflash-module-image.png)
 
 Dat sluit de uitleg af van hoe de Cassiopeia voorbeeldgegevens Startpagina is gemaakt.
 

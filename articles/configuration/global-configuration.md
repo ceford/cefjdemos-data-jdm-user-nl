@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Global_Configuration / Display title: Globale Configuratie -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Global_Configuration",
+  "title": "Globale Configuratie ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Overzicht
 
@@ -10,7 +17,7 @@ Het formulier voor de Globale Configuratie stelt een Supergebruiker in staat om 
 
 Het formulier voor de globale configuratie heeft zes tabbladen, waarvan sommige lange lijsten met parameters hebben. Gebruik de *Inline Help Wisselen* knop in de werkbalk om meer of minder informatie over elke parameter te zien.
 
-![Globale configuratie site-tabblad](../../../en/images/configuration/global-configuration-site-tab.png)
+![Globale configuratie site-tabblad](../../../en/images/configuration/global-configuration/01-global-configuration-site-tab.png)
 
 Sommige parameters tonen of verbergen andere parameters wanneer ze geselecteerd worden. Bijvoorbeeld, de **Site Offline** knop toont meer velden wanneer deze op *Ja* is ingesteld dan wanneer deze op *Nee* staat. Met uitgebreide inline help zijn de meeste velden voldoende gedocumenteerd om hier geen verdere uitleg te behoeven, afgezien van enkele aanvullende gebruikersopmerkingen op elk tabblad.
 
@@ -44,7 +51,7 @@ SEO is een acroniem voor *Search Engine Optimization*. Instellingen in deze groe
 
 ## Systeem tabblad
 
-![Globale configuratie systeem tabblad](../../../en/images/configuration/global-configuration-system-tab.png)
+![Globale configuratie systeem tabblad](../../../en/images/configuration/global-configuration/02-global-configuration-system-tab.png)
 
 ### Debug paneel
 
@@ -52,7 +59,7 @@ De items in dit paneel worden goed uitgelegd door de inline hulp. Als je echter 
 
 ## Server-tabblad
 
-![Globale configuratie server-tabblad](../../../en/images/configuration/global-configuration-server-tab.png)
+![Globale configuratie server-tabblad](../../../en/images/configuration/global-configuration/03-global-configuration-server-tab.png)
 
 ### E-mailpaneel
 
@@ -113,19 +120,19 @@ De volgende combinaties werken ook:
 
 ## Logboek tabblad
 
-![Tabblad Globale configuratie site](../../../en/images/configuration/global-configuration-logging-tab.png)
+![Tabblad Globale configuratie site](../../../en/images/configuration/global-configuration/04-global-configuration-logging-tab.png)
 
 Bij normaal gebruik zou een Joomla-site de logboekfunctie uitgeschakeld moeten hebben. Als er problemen zijn, kun je het logboek inschakelen door het veld **Log Almost Everything** op `Ja` te zetten. De optie **Log Deprecated API** is echt alleen voor ontwikkelaars. Het veld **Pad naar Logmap** laat je zien waar je de logbestanden kunt vinden als je logging hebt ingesteld om te helpen bij foutopsporing. De foutrapporten die je daar vindt, zijn alleen diegene die door Joomla worden opgevangen. Er kunnen andere fouten zijn die alleen in de foutlogboeken van je server verschijnen.
 
 ## Het Tabblad Tekstfilters
 
-![Tabblad globale configuratiesite](../../../en/images/configuration/global-configuration-filters-tab.png)
+![Tabblad globale configuratiesite](../../../en/images/configuration/global-configuration/05-global-configuration-filters-tab.png)
 
 De instellingen voor tekstfilters worden toegepast op alle teksteditorvelden die door gebruikers in de geselecteerde groepen worden ingediend. Deze filteropties geven meer controle over de HTML die uw contentproviders indienen. U kunt zo strikt of soepel zijn als nodig is om aan de behoeften van uw site te voldoen. De filtering is opt-in en de standaardinstellingen bieden goede bescherming tegen opmaak die vaak verband houdt met aanvallen op websites.
 
 ## Tabblad Machtigingen
 
-![Tabblad globale configuratie site](../../../en/images/configuration/global-configuration-permissions-tab.png)
+![Tabblad globale configuratie site](../../../en/images/configuration/global-configuration/06-global-configuration-permissions-tab.png)
 
 Machtigingen bepalen wat gebruikers in elke Gebruikersgroep kunnen zien en doen. De
 inzendingen in het tabblad Machtigingen stellen de standaardmachtigingen voor de site in.

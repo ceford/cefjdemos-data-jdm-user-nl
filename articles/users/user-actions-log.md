@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:User_Actions_Log / Display title: Gebruikersactieslogboek -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:User_Actions_Log",
+  "title": "Gebruikersactieslogboek ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introductie
 
@@ -12,7 +19,7 @@ Om de Gebruikersactie Logboeklijst te bekijken:
 
 - Selecteer **Gebruikers → Gebruikersactie Logboek** vanuit het beheerdersmenu.
 
-![gebruikersactie logboek lijstpagina](../../../en/images/users/user-actions-log-list.png)
+![gebruikersactie logboek lijstpagina](../../../en/images/users/user-actions-log/01-user-actions-log-list.png)
 
 Vanaf deze pagina heeft een Supergebruiker een globaal overzicht van alle gebruikersactiviteiten die op een site zijn uitgevoerd.
 
@@ -26,7 +33,7 @@ Vanaf deze pagina heeft een Supergebruiker een globaal overzicht van alle gebrui
 
 Het formulier Opties voor Gebruikersactieslogboek stelt de Supergebruiker in staat om te selecteren welke gebeurtenissen gelogd moeten worden en of IP-adressen in de loggegevens moeten worden opgenomen.
 
-![optiespagina voor gebruikersactieslogboek](../../../en/images/users/user-actions-log-options.png)
+![optiespagina voor gebruikersactieslogboek](../../../en/images/users/user-actions-log/02-user-actions-log-options.png)
 
 ## Plugins
 
@@ -48,7 +55,7 @@ Wanneer ingeschakeld, exporteert deze plugin de gegevens van het actielog voor e
 
 Deze module wordt alleen weergegeven aan Supergebruikers in het Home Dashboard.
 
-![logboekmodule gebruikersacties](../../../en/images/users/user-actions-log-module.png)
+![logboekmodule gebruikersacties](../../../en/images/users/user-actions-log/03-user-actions-log-module.png)
 
 ## Hoe een extensie aan het systeem te koppelen
 

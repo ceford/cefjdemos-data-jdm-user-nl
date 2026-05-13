@@ -1,4 +1,11 @@
-<!-- Filename: J6.x:Workflow_Scenarios_Example_2 / Display title: Voorbeeld Workflow 2  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J6.x:Workflow_Scenarios_Example_2",
+  "title": "Voorbeeld Workflow 2  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introductie
 
@@ -12,14 +19,14 @@ Maak eerst nieuwe gebruikersgroepen aan, allemaal kinderen van *Geregistreerd*.
 - **Voorzitter** Een kind van *Commissie*
 - **Secretaris** Een kind van *Commissie*
 
-![Aangepaste gebruikersgroepen](../../../en/images/workflows/example-2-user-groups.png)
+![Aangepaste gebruikersgroepen](../../../en/images/workflows/workflow-example-2/01-example-2-user-groups.png)
 
 ## Gebruikerstoegangsniveau
 
 - Maak een nieuw niveau, **Comité** en voeg *Comité* toe aan Gebruikersgroepen met Kijktoegang.
 - Voeg in het *Speciale* Toegangsniveau *Comité* toe aan de Gebruikersgroepen met Kijktoegang.
 
-![Kijktoegangsniveaus](../../../en/images/workflows/example-2-viewing-access-levels.png)
+![Kijktoegangsniveaus](../../../en/images/workflows/workflow-example-2/02-example-2-viewing-access-levels.png)
 
 ## Gebruikers Aanmaken
 
@@ -36,7 +43,7 @@ Maak eerst nieuwe gebruikersgroepen aan, allemaal kinderen van *Geregistreerd*.
   - **Voorzitter** Allemaal ingesteld op *Toegestaan* behalve *Verwijderen*. Misschien...
   - **Secretaris** Allemaal ingesteld op *Toegestaan* behalve *Verwijderen* en *Status Bewerken*.
 
-![Lijst van Workflows](../../../en/images/workflows/example-2-workflows-list.png)
+![Lijst van Workflows](../../../en/images/workflows/workflow-example-2/03-example-2-workflows-list.png)
 
 ### Maak de Workflow Stadia
 
@@ -50,7 +57,7 @@ Maak eerst nieuwe gebruikersgroepen aan, allemaal kinderen van *Geregistreerd*.
   - **Notitie** *Documenten gepubliceerd.*
   - **Rechten** Allemaal op *Geërfd* gelaten.
 
-![Workflow stadia](../../../en/images/workflows/example-2-stages-committee-workflow.png)
+![Workflow stadia](../../../en/images/workflows/workflow-example-2/04-example-2-stages-committee-workflow.png)
 
 ### Maak de Workflow Overgangen
 
@@ -120,7 +127,7 @@ Dit is de overgang die wordt uitgevoerd wanneer een commissiedocument niet lange
 - **Rechtentab**
   - **Secretaris** Stel *Uitvoeren Overgang* in op *Geweigerd*.
 
-![Workflow overgangen](../../../en/images/workflows/example-2-transitions-committee-workflow.png)
+![Workflow overgangen](../../../en/images/workflows/workflow-example-2/05-example-2-transitions-committee-workflow.png)
 
 ## Maak een Nieuwe Categorie
 
@@ -143,7 +150,7 @@ commissiepapieren moeten met deze categorie worden aangemaakt, anders krijgen ze
 - **Kies een Categorie** *Commissie*
 - **Toegang** *Commissie*
 
-![Menu-item voor commissie documenten](../../../en/images/workflows/example-2-menu-item.png)
+![Menu-item voor commissie documenten](../../../en/images/workflows/workflow-example-2/06-example-2-menu-item.png)
 
 ## Controleer de Site
 
@@ -153,7 +160,7 @@ Alice, Bob en Charlie kunnen het Menu-item zien, maar niemand anders kan dat, ze
 
 Alice en Bob kunnen ook een Bewerken-link zien voor elk artikel en een **Nieuw Artikel**-knop. Dit wordt meestal door Bob gebruikt om een Commissie-document te maken, maar Alice kan dat ook doen.
 
-![Bobs weergave van de categorieënlijstpagina van commissie-documenten](../../../en/images/workflows/example-2-committee-papers.png)
+![Bobs weergave van de categorieënlijstpagina van commissie-documenten](../../../en/images/workflows/workflow-example-2/07-example-2-committee-papers.png)
 
 ### Om een Commissie-document te maken en te publiceren
 

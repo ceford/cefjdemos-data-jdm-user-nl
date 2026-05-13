@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Cassiopeia_templateDetails.xml / Display title: Cassiopeia templateDetails.xml  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Cassiopeia_templateDetails.xml",
+  "title": "Cassiopeia templateDetails.xml  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Locatie en Doel
 
@@ -40,11 +47,11 @@ Het eerste deel van de templategegevens definieert meestal template-informatie, 
 
 Merk op dat een template die kindertemplates kan hebben, de inheritable waarde op 1 heeft staan. Kindertemplates hebben deze waarde ingesteld op 0. Deze gegevens worden gebruikt in de Templates: Templates (Site) lijst zoals hieronder weergegeven.
 
-![site templates lijst](../../../en/images/templates/templates-list.png)
+![site templates lijst](../../../en/images/templates/cassiopeia-templatedetails-xml/01-templates-list.png)
 
 De beschrijving bevat een taalcode en niet de daadwerkelijke beschrijvingstekststring. De sleutel wordt tijdens de uitvoeringstijd vervangen door de tekst verkregen uit een taalbestand. De taalbestanden worden gedefinieerd in de taal sectie van `templateDetails.xml`.
 
-![templates bewerk stijl formulier](../../../en/images/templates/templates-edit-style.png)
+![templates bewerk stijl formulier](../../../en/images/templates/cassiopeia-templatedetails-xml/02-templates-edit-style.png)
 
 ### Mappen en Bestanden
 
@@ -70,7 +77,7 @@ Mappen en bestanden voor de Cassiopeia-template worden opgeslagen op twee afzond
 
 Dit is het patroon dat te zien is in alle moderne Joomla 4 en 5 templates. De structuur kan worden gezien in de Templates: Aanpassen (Cassiopeia) formulier:
 
-![templates aanpassen cassiopeia pagina](../../../en/images/templates/templates-customise-cassiopeia.png)
+![templates aanpassen cassiopeia pagina](../../../en/images/templates/cassiopeia-templatedetails-xml/03-templates-customise-cassiopeia.png)
 
 ### Moduleposities
 
@@ -101,11 +108,11 @@ Elke tag creëert een modulepositie die beschikbaar is vanuit de positieslijst i
 
 Cassiopeia heeft voldoende templateposities! Als je denkt dat je er een extra nodig hebt, heb je waarschijnlijk ongelijk. Vergeet niet dat elk aantal modules kan worden toegewezen aan een enkele positie en in volgorde kan worden gesorteerd op de Modulens lijstpagina. Beschikbare posities:
 
-![Cassiopeia template posities diagram](../../../en/images/templates/cassiopeia-template-positions.png)
+![Cassiopeia template posities diagram](../../../en/images/templates/cassiopeia-templatedetails-xml/04-cassiopeia-template-positions.png)
 
 Je kunt de moduleposities in elk template ook zien: van **Systeem → Site Templates** selecteer de Opties knop in de Werkbalk. Stel in het Opties formulier het Voorvertonen van Moduleposities veld in op Ingeschakeld. Opslaan en Sluiten. Ga naar je site en voeg ?tp=1 aan het einde toe van elke URL (of &tp=1 als er al een ? in de URL staat). Joomla laat alle beschikbare templateposities zien, zelfs die nog niet zijn gebruikt:
 
-![Cassiopeia template posities](../../../en/images/templates/templates-template-positions-by-tp.png)
+![Cassiopeia template posities](../../../en/images/templates/cassiopeia-templatedetails-xml/05-templates-template-positions-by-tp.png)
 
 ### Talen
 
@@ -124,7 +131,7 @@ De taalbestanden voor de standaard Engelse GB-taal zijn opgeslagen in site/langu
 
 Een template kan weergave-opties aanbieden die door de Beheerder kunnen worden gekozen in het Template: Stijl bewerken formulier. Bijvoorbeeld, het Geavanceerd tabblad van de Cassiopeia-template stelt een Beheerder in staat om het Merkteken te wijzigen, een Logo toe te voegen, een Lettertype Schema te selecteren en meer.
 
-![templates stijl bewerken formulier geavanceerd tabblad](../../../en/images/templates/templates-edit-style-advanced.png)
+![templates stijl bewerken formulier geavanceerd tabblad](../../../en/images/templates/cassiopeia-templatedetails-xml/06-templates-edit-style-advanced.png)
 
 De template-opties worden gedefinieerd binnen een structuur die velden binnen fieldsets creëert. Elke fieldset verschijnt als een tabblad in het bewerkingsformulier. Dit is de structuur die het Geavanceerd tabblad hierboven weergegeven creëert.
 

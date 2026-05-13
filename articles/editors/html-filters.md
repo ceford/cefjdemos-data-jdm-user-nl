@@ -1,4 +1,11 @@
-<!-- Filename: Entering_raw_HTML_in_editors / Display title: HTML-filters  -->
+<!--
+{
+  "source": "https://docs.joomla.org/Entering_raw_HTML_in_editors",
+  "title": "HTML-filters  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## HTML Textarea Tag
 
@@ -24,7 +31,7 @@ Je kunt een van de beschikbare editors selecteren, inclusief Geen, via je Gebrui
 
 Selecteer vanaf het Startdashboard Globale Configuratie en vervolgens het tabblad Tekstfilters. De standaardinstellingen hebben *Geen HTML* geselecteerd voor Gast-, Publieke en Geregistreerde gebruikersgroepen. Elk van deze groepen kan de mogelijkheid hebben om een tekstveld in te vullen, bijvoorbeeld in een contactformulier voor extra informatie over een probleem, dus automatische verwijdering van alle HTML-tags is meestal geschikt. Andere groepen, behalve Supergebruikers, worden beperkt door de Standaard Verboden Lijst. Supergebruikers hebben geen filtering.
 
-![globale configuratie van tekstfilters](../../../en/images/configuration/global-configuration-filters-tab.png)
+![globale configuratie van tekstfilters](../../../en/images/editors/html-filters/01-global-configuration-filters-tab.png)
 
 De notities leggen uit wat er is opgenomen in de standaard verboden lijst en hoe je de andere lijsten kunt gebruiken.
 

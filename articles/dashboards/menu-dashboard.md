@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Menu_Dashboard / Display title: Menu Dashboard  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Menu_Dashboard",
+  "title": "Menu Dashboard  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introductie
 
@@ -8,7 +15,7 @@ Je kunt zoveel Site- en Administrator-menu's hebben als je wilt, en bijna op elk
 
 ## Screenshot
 
-![Menu dashboard](../../../en/images/dashboards/menus-dashboard.png)
+![Menu dashboard](../../../en/images/dashboards/menu-dashboard/01-menus-dashboard.png)
 
 *Vertaald door openai.com*
 

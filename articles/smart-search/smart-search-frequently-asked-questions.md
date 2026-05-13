@@ -1,4 +1,11 @@
-<!-- Filename: Smart_Search_Frequently_Asked_Questions / Display title: Veelgestelde Vragen over Slim Zoeken -->
+<!--
+{
+  "source": "https://docs.joomla.org/Smart_Search_Frequently_Asked_Questions",
+  "title": "Veelgestelde Vragen over Slim Zoeken ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Waarom Zou Ik Slim Zoeken Gebruiken?
 

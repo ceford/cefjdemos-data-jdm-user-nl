@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:How_To_Use_Content_Tags_in_Joomla / Display title: Inhoudstags -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:How_To_Use_Content_Tags_in_Joomla",
+  "title": "Inhoudstags ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Inleiding
 
@@ -22,7 +29,7 @@ Het weergeven van tags kan worden uitgeschakeld! Dit lijkt misschien onlogisch, 
 
 - Selecteer **Componenten → Tags** in het Administrator-menu.
 
-![de tags lijst pagina](../../../en/images/tags/tags-list.png)
+![de tags lijst pagina](../../../en/images/tags/content-tags/01-tags-list.png)
 
 Hoe tags ook zijn aangemaakt, ze zijn te vinden in deze lijst.
 
@@ -32,7 +39,7 @@ Hoe tags ook zijn aangemaakt, ze zijn te vinden in deze lijst.
 
 Selecteer de knop **Nieuw** in de Werkbalk van de Taglijst.
 
-![nieuwe tag genaamd predator](../../../en/images/tags/new-tag-predator.png)
+![nieuwe tag genaamd predator](../../../en/images/tags/content-tags/02-new-tag-predator.png)
 
 - **Titel** Dit is het enige *verplichte* veld.
 - **Alias** Dit wordt aangemaakt vanuit de Titel bij het opslaan.
@@ -82,7 +89,7 @@ Waar je ook nieuwe Tags toevoegt binnen Joomla, ze zullen allemaal verschijnen i
 
 ### De Tags Lijstfilter
 
-![tags lijst filter op type](../../../en/images/tags/tags-list-filter.png)
+![tags lijst filter op type](../../../en/images/tags/content-tags/03-tags-list-filter.png)
 
 Je kunt de lijst op verschillende manieren manipuleren:
 
@@ -109,11 +116,11 @@ In het tag bewerkingsformulier:
 
 Zodra tags op je site zijn aangemaakt, zijn ze beschikbaar voor gebruik, niet alleen in de inhoud maar ook in enkele nuttige modules zoals **Populaire Tags** en **Vergelijkbare Tags**. De volgende voorbeelden laten zien hoe deze eruitzien op een standaardinstallatie met de standaard **Cassiopeia**-sjabloon.
 
-![tags gebruik site voorbeeld gele labrador](../../../en/images/tags/tag-examples-yellow-labrador.png)
+![tags gebruik site voorbeeld gele labrador](../../../en/images/tags/content-tags/04-tag-examples-yellow-labrador.png)
 
 Wanneer je op een van de tags klikt, word je naar een pagina gebracht die alle items opsomt die aan die specifieke tag zijn toegewezen:
 
-![tags gebruik site voorbeeld zwarte labrador](../../../en/images/tags/tag-examples-black-labrador.png)
+![tags gebruik site voorbeeld zwarte labrador](../../../en/images/tags/content-tags/05-tag-examples-black-labrador.png)
 
 Door op een tag te klikken, kom je op een pagina die een lijst uitvoert van alle items die aan die specifieke tag zijn toegewezen - in feite is het een gefilterde lijst van je getagde website-inhoud. Er wordt een filtervak aangeboden om het gemakkelijker te maken items te vinden naarmate de lijst groeit. Je kunt ook het aantal resultaten instellen dat je in één weergave wilt zien.
 

@@ -1,4 +1,11 @@
-<!-- Filename: Verifying_permissions / Display title: Bestandsrechten: Linux -->
+<!--
+{
+  "source": "https://docs.joomla.org/Verifying_permissions",
+  "title": "Bestandsrechten: Linux ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Inleiding
 
@@ -22,11 +29,11 @@ Er zijn verschillende methoden beschikbaar om de machtigingen van websitebestand
 
 Afhankelijk van wat je gebruikt, zou je iets moeten zien zoals deze afbeelding van een deel van het Joomla-hoofdbestandensysteem zoals te zien in cPanel:
 
-![machtigingen verifiëren in cpanel](../../../en/images/test-installations/verifying-permissions-cpanel.png)
+![machtigingen verifiëren in cpanel](../../../en/images/test-installations/permissions-linux/01-verifying-permissions-cpanel.png)
 
 De machtigingen bevinden zich helemaal rechts en worden voorafgegaan door een nul om aan te geven dat het octale getallen zijn. Er zou een formulier moeten zijn om de machtigingen van een of meer geselecteerde items te wijzigen:
 
-![machtigingen wijzigen in cpanel](../../../en/images/test-installations/verifying-permissions-cpanel-change.png)
+![machtigingen wijzigen in cpanel](../../../en/images/test-installations/permissions-linux/02-verifying-permissions-cpanel-change.png)
 
 In een terminalvenster worden bestand- en mapmachtigingen weergegeven als lettergroepen in plaats van als cijfers (de voorloop `d` geeft aan dat het item een directory is):
 

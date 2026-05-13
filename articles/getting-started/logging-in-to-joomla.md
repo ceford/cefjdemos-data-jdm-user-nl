@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Logging_in_to_Joomla / Display title: Inloggen bij Joomla -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Logging_in_to_Joomla",
+  "title": "Inloggen bij Joomla ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introductie
 
@@ -17,7 +24,7 @@ Het volgende behandelt het in- en uitloggen vanuit zowel de backend als de front
 Navigeer naar de Administrator Inlogpagina. Dit is het webadres voor de website aangevuld met /administrator, bijvoorbeeld, my-joomla-website.com/administrator wat de Joomla Administrator 
 inlogpagina oproept:
 
-![Administrator login formulier](../../../en/images/getting-started/logging-in-to-joomla-administrator-login-form.png)
+![Administrator login formulier](../../../en/images/getting-started/logging-in-to-joomla/01-logging-in-to-joomla-administrator-login-form.png)
 
 1.  Voeg je **Gebruikersnaam** toe
 2.  Voeg je **Wachtwoord** toe
@@ -34,7 +41,7 @@ Selecteer de knop **Inloggen** om naar het Joomla! Home Dashboard te gaan.
 
 Om uit te loggen selecteer je het **Gebruikersmenu** en daarna **Uitloggen**.
 
-![Administrator uitlog link](../../../en/images/getting-started/logging-in-to-joomla-logout-link.png)
+![Administrator uitlog link](../../../en/images/getting-started/logging-in-to-joomla/02-logging-in-to-joomla-logout-link.png)
 
 ### Site Inloggen
 
@@ -42,7 +49,7 @@ Als frontend-toegang is ingeschakeld, is er een inlogformulier toegevoegd aan de
 
 Dit voorbeeld gebruikt een inlogformulier in de rechterzijbalk.
 
-![Site login formulier module](../../../en/images/getting-started/logging-in-to-joomla-site-login-form.png)
+![Site login formulier module](../../../en/images/getting-started/logging-in-to-joomla/03-logging-in-to-joomla-site-login-form.png)
 
 In het **Inlogformulier**
 
@@ -55,7 +62,7 @@ Wanneer je inlogt vanaf de frontend van de website, kun je op de pagina blijven 
 
 ### Site Uitloggen
 
-![Site logout formulier module](../../../en/images/getting-started/logging-in-to-joomla-site-logout-form.png)
+![Site logout formulier module](../../../en/images/getting-started/logging-in-to-joomla/04-logging-in-to-joomla-site-logout-form.png)
 
 Om uit te loggen ga je naar het inlogformulier en selecteer je de knop **Uitloggen**.  
 

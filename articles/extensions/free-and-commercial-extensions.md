@@ -1,4 +1,11 @@
-<!-- Filename: Free_and_Commercial_extensions / Display title: De Joomla Extensions Directory  -->
+<!--
+{
+  "source": "https://docs.joomla.org/Free_and_Commercial_extensions",
+  "title": "De Joomla Extensions Directory  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Gratis en Commerciële Extensies
 

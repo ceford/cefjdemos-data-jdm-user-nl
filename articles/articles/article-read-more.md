@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Read_More_Links / Display title: Artikel: Bewerken - Lees meer -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Read_More_Links",
+  "title": "Artikel: Bewerken - Lees meer ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Blog- en Uitgelichte Artikellay-outs
 

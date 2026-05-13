@@ -1,4 +1,11 @@
-<!-- Filename: Joomla_3.x_to_4.x_Step_by_Step_Migration / Display title: Joomla 3 naar 4 Stap voor Stap  -->
+<!--
+{
+  "source": "https://docs.joomla.org/Joomla_3.x_to_4.x_Step_by_Step_Migration",
+  "title": "Joomla 3 naar 4 Stap voor Stap  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Inleiding
 
@@ -42,7 +49,7 @@ De volgende instructies zijn stap voor stap handleidingen om een 3.10.x site te 
 7.  Zorg ervoor dat je het nieuwste database-schema hebt bijgewerkt naar 
     de nieuwste versie van 3.10.x door naar **Extensiebeheerder → Database** tab te gaan. Als je schema niet 
     up-to-date is zoals in de volgende afbeelding, klik dan op de **Herstellen** knop:<br> 
-    ![joomla 3 extensies database](../../../en/images/migration/admin-extension-database-fix.png)
+    ![joomla 3 extensies database](../../../en/images/migration/joomla-3-x-to-4-x-step-by-step-migration/01-admin-extension-database-fix.png)
 8.  Leeg de prullenbak: Heb je artikelen in de prullenbak? Zo ja, verwijder 
     ze (en alle toepasselijke media die mogelijk aan hen gekoppeld zijn als 
     ze elders op de site niet worden gebruikt). Artikelen (categorieën en 
@@ -68,14 +75,14 @@ moeten worden bijgewerkt naar de nieuwste versie of verwijderd. Meer details in
     naar de laatste versie (moet 3.10.x zijn) en test. Maak dan nog een back-up. 
     Klik op de Opties knop in de rechterbovenhoek.
 3.  Selecteer *Joomla Volgende* in de vervolgkeuzelijst voor Update Kanaal.<br> 
-    ![update opties kanaal selectie](../../../en/images/migration/update-options-channel.png)
+    ![update opties kanaal selectie](../../../en/images/migration/joomla-3-x-to-4-x-step-by-step-migration/02-update-options-channel.png)
 4.  Klik op **Opslaan & Sluiten**
 5.  Je zult dan je Geïnstalleerde Joomla Versie zien, de laatste Joomla! 
      versie en de URL voor het updatepakket. Joomla laat je opnieuw 
      de vereisten zien voor Joomla 4. Als het aangeeft dat je een 
      incompatibel systeem of extensies hebt, zal het je hier vertellen. Neem 
      een moment om deze pagina te bekijken.<br> 
-    ![update naar 4 pre update controle](../../../en/images/migration/update-to-4-pre-update-check.png)
+    ![update naar 4 pre update controle](../../../en/images/migration/joomla-3-x-to-4-x-step-by-step-migration/03-update-to-4-pre-update-check.png)
     <div class="alert alert-warning"><strong>Let op:</strong> Update nu 
     NIET naar Joomla! 4. Dit is alleen om je third-party extensies 
     voor te bereiden en de site compatibel te maken met Joomla! 4.</div>
@@ -121,7 +128,7 @@ moeten worden bijgewerkt naar de nieuwste versie of verwijderd. Meer details in
 10. Onderzoek en Verwijder Extensies: ga naar **Extensiebeheerder → Beheer**.
 11. Klik op de Knop *Zoek Hulpmiddelen* om de filteropties weer te geven.
 12. Selecteer Pakket uit de vervolgkeuzelijst *Selecteer Type*.<br> 
-    ![extensies beheerpagina](../../../en/images/migration/extensions-manage.png)
+    ![extensies beheerpagina](../../../en/images/migration/joomla-3-x-to-4-x-step-by-step-migration/04-extensions-manage.png)
     <div class="alert alert-info">Het selecteren van Pakket 
     eerst wordt aanbevolen, omdat als er iets is dat je moet verwijderen 
     in een pakket, het automatisch de bijbehorende Modules, Plug-ins of 
@@ -198,21 +205,21 @@ met de volgende stappen:
 1.  Ga naar **Systeem → Algemene Configuratie → Server tab** en 
     verander Foutenrapportage van Systeem Default naar Maximum. Zorg ervoor 
     dat je Opslaan & Sluiten.<br> 
-    ![systeem algemene configuratie server tabblad](../../../en/images/migration/system-global-configuration-server-tab.png)
+    ![systeem algemene configuratie server tabblad](../../../en/images/migration/joomla-3-x-to-4-x-step-by-step-migration/05-system-global-configuration-server-tab.png)
 2.  Maak nog een back-up.
 3.  Ga naar **Componenten → Joomla Update**. (Het zou moeten zeggen dat er 
     geen updates zijn gevonden. Als dat niet zo is, update Joomla naar de 
     nieuwste versie en test. Maak dan nog een back-up.) Klik op de Opties knop 
     in de rechterbovenhoek.
 4.  Selecteer *Joomla Volgende* uit de vervolgkeuzelijst voor Update Kanaal.<br> 
-    ![component joomla werkbij selecteer update kanaal](../../../en/images/migration/update-select-channel.png)
+    ![component joomla werkbij selecteer update kanaal](../../../en/images/migration/joomla-3-x-to-4-x-step-by-step-migration/06-update-select-channel.png)
 5.  Klik op **Opslaan & Sluiten**.
 6.  Je zult dan je Geïnstalleerde Joomla Versie zien, de Laatste Joomla! 
     versie en de URL voor het updatepakket. Joomla laat je nogmaals 
     de vereisten zien voor Joomla 4. Als het aangeeft dat je een 
     incompatibel systeem of extensies hebt, zal het je hier vertellen. 
     Neem een moment om deze pagina te bekijken.<br> 
-    ![e update controle voor joomla 4](../../../en/images/migration/update-check.png)
+    ![e update controle voor joomla 4](../../../en/images/migration/joomla-3-x-to-4-x-step-by-step-migration/07-update-check.png)
 7.  Als de update niet verschijnt, ga naar **Extensiebeheerder → Update** en 
     druk op Cache Wisselen uit de werkbalk. Nu zou de update naar Joomla! 4 
     moeten verschijnen.
@@ -225,7 +232,7 @@ met de volgende stappen:
     uitgelogd van de Beheerder. Log opnieuw in. Twee keer.
 11. Als alles goed gaat, krijg je een totaal nieuwe look van het back-end 
     beheerderspaneel.<br> 
-    ![joomla 4 of 5 start dashboard](../../../en/images/migration/j4-home-dashboard.png)
+    ![joomla 4 of 5 start dashboard](../../../en/images/migration/joomla-3-x-to-4-x-step-by-step-migration/08-j4-home-dashboard.png)
 12. Ga naar **Systeem → Onderhoud → Database** en klik op *Herstellen* als 
     er fouten verschijnen.
 13. In **Systeem → Installeren → Ontdekken** kijk of er extensies te installeren 

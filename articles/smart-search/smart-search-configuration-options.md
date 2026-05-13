@@ -1,4 +1,11 @@
-<!-- Filename: Smart_Search_configuration_options / Display title: Slimme Zoekopties  -->
+<!--
+{
+  "source": "https://docs.joomla.org/Smart_Search_configuration_options",
+  "title": "Slimme Zoekopties  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Over Opties
 

@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Multilingual_Associations / Display title: Meertalige Verenigingen  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Multilingual_Associations",
+  "title": "Meertalige Verenigingen  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Meertalige Sites
 
@@ -16,7 +23,7 @@ De volgende items kunnen in associaties worden opgenomen:
 
 De volgende schermafbeelding toont een voorbeeldlijst van artikelen in het Engels met hun equivalenten in andere talen.
 
-![meertalige associaties lijst](../../../en/images/languages/multilingual-associations-list.png)
+![meertalige associaties lijst](../../../en/images/languages/multilingual-associations/01-multilingual-associations-list.png)
 
 Het laatste artikel over Bergen heeft nog geen equivalente artikelen in andere talen. De ontbrekende artikelen kunnen worden vertaald van het oorspronkelijke Engels van deze pagina. 
 
@@ -33,7 +40,7 @@ Als je een meertalige site hebt gemaakt, heb je een taalcategorie voor elke taal
 - Selecteer **Sluiten**.
 - Herhaal voor de andere talen.
 
-![meertalige associaties bewerken](../../../en/images/languages/multilingual-associations-edit.png)
+![meertalige associaties bewerken](../../../en/images/languages/multilingual-associations/02-multilingual-associations-edit.png)
 
 ## Een Menuvertaling Maken
 
@@ -58,7 +65,7 @@ Voortbordurend op het Bergen voorbeeld:
 
 Open of herlaad de siteweergave om te controleren of je menu's en artikelen worden weergegeven zoals verwacht.
 
-![meertalige associaties siteweergave](../../../en/images/languages/multilingual-associations-site.png)
+![meertalige associaties siteweergave](../../../en/images/languages/multilingual-associations/03-multilingual-associations-site.png)
 
 *Vertaald door openai.com*
 

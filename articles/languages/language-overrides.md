@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Language_Overrides / Display title: Taaloverrides  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Language_Overrides",
+  "title": "Taaloverrides  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Locaties van Taalbestanden
 
@@ -70,11 +77,11 @@ De nieuwe sleutel kan nu in elke taal worden vertaald. De vertalingen worden opg
 - Sla het formulier op en sluit.
 - Herhaal het vertaalproces voor elke taal.
 
-![talen bewerk overschrijvingsformulier](../../../en/images/languages/language-overrides-edit.png)
+![talen bewerk overschrijvingsformulier](../../../en/images/languages/language-overrides/01-language-overrides-edit.png)
 
 Controleer ten slotte of de vertaling is geïmplementeerd.
 
-![Resultaat van overschrijving in inlogformulier van site](../../../en/images/languages/language-overrides-custom-logout.png)
+![Resultaat van overschrijving in inlogformulier van site](../../../en/images/languages/language-overrides/02-language-overrides-custom-logout.png)
 
 *Vertaald door openai.com*
 

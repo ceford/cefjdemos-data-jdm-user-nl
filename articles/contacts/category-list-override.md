@@ -1,4 +1,11 @@
-<!-- Filename: category-list-override.md / Display title: Categorie Lijst Overschrijven   -->
+<!--
+{
+  "source": "https://docs.joomla.org/category-list-override.md",
+  "title": "Categorie Lijst Overschrijven   ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## De Menu-optie Contacten in een Categorie Weergeven
 
@@ -38,7 +45,7 @@ De opsomming van aangepaste velden kan worden verbeterd door de opsommingstekens
   padding-left: 0;
 }
 ```
-![gestileerd zakelijk comité](../../../en/images/contacts/contact-business-committee-styled.png)
+![gestileerd zakelijk comité](../../../en/images/contacts/category-list-override/01-contact-business-committee-styled.png)
 
 Dat is zoveel mogelijk wat er gedaan kan worden met stijlen. Beter, maar nog steeds niet goed genoeg. Om meer items toe te voegen en de indeling te veranderen, is een indelingsoverschrijving nodig.
 
@@ -152,7 +159,7 @@ a:has(.contact-thumbnail) {
 
 ### Resultaat
 
-![gerasterde zakencommissie](../../../en/images/contacts/contact-business-committee-grid.png)
+![gerasterde zakencommissie](../../../en/images/contacts/category-list-override/02-contact-business-committee-grid.png)
 
 *Vertaald door openai.com*
 

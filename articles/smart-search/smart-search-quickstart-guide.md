@@ -1,4 +1,11 @@
-<!-- Filename: Smart_Search_quickstart_guide / Display title: Snelstartgids Slim Zoeken  -->
+<!--
+{
+  "source": "https://docs.joomla.org/Smart_Search_quickstart_guide",
+  "title": "Snelstartgids Slim Zoeken  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Achtergrond
 

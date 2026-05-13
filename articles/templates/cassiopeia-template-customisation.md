@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Cassiopeia_Template_Customisation / Display title: Cassiopeia Aanpassing  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Cassiopeia_Template_Customisation",
+  "title": "Cassiopeia Aanpassing  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Inleiding
 
@@ -6,13 +13,13 @@ Cassiopeia is het sjabloon dat wordt geleverd met Joomla 4. Het is een uitsteken
 
 De onderstaande illustratie toont het uiterlijk van een Joomla 4-site met één artikel en een paar aangemaakte menupunten.
 
-![Cassiopeia weergave van een enkel artikel](../../../en/images/templates/cassiopeia-customisation-article-view.png)
+![Cassiopeia weergave van een enkel artikel](../../../en/images/templates/cassiopeia-template-customisation/01-cassiopeia-customisation-article-view.png)
 
 ## Sjablonen: Stijl Bewerken
 
 Je kunt experimenteren met de uitstraling van de site door het formulier Stijl Bewerken te openen. Ga naar **Systeem → Sjablonen → Site Sjabloon Stijlen** en selecteer de sjabloontitel in de kolom Stijl, Cassiopeia - Standaard. Het tabblad Geavanceerd bevat instellingen die je kunt aanpassen:
 
-![Cassiopeia stijl bewerken geavanceerd tabblad](../../../en/images/templates/cassiopeia-customisation-edit-style.png)
+![Cassiopeia stijl bewerken geavanceerd tabblad](../../../en/images/templates/cassiopeia-template-customisation/02-cassiopeia-customisation-edit-style.png)
 
 Om de opties te proberen, open je één browsertabblad of venster met de Beheerder interface en een tweede tabblad of venster met de Site interface, en wissel je heen en weer na elke opgeslagen wijziging.
 
@@ -38,7 +45,7 @@ Je kunt het Merk op Nee zetten als je branding wilt bieden in een aangepast HTML
 
 - **Altijd tot uw dienst** Indien aanwezig verschijnen de woorden in het slagzinveld in een klein lettertype onder het logo of de merknaam.
 
-![Cassiopeia merk met slagzin](../../../en/images/templates/cassiopeia-customisation-brand-with-tagline.png)
+![Cassiopeia merk met slagzin](../../../en/images/templates/cassiopeia-template-customisation/03-cassiopeia-customisation-brand-with-tagline.png)
 
 ### Lettertype Schema
 
@@ -50,7 +57,7 @@ Je kunt het Merk op Nee zetten als je branding wilt bieden in een aangepast HTML
 - **Standaard** Een donkerblauwe achtergrondkleur voor de Merk balk en andere elementen zoals de Inlogknop.
 - **Alternatief** Een kastanjebruine achtergrondkleur in plaats van donkerblauw.
 
-![Cassiopeia alternatief kleurenschema](../../../en/images/templates/cassiopeia-customisation-alt-color-scheme.png)
+![Cassiopeia alternatief kleurenschema](../../../en/images/templates/cassiopeia-template-customisation/04-cassiopeia-customisation-alt-color-scheme.png)
 
 ### Lay-out
 
@@ -59,7 +66,7 @@ Je kunt het Merk op Nee zetten als je branding wilt bieden in een aangepast HTML
 
 Het beeld op een smal scherm (mobiel apparaat):
 
-![Cassiopeia mobiele weergave](../../../en/images/templates/cassiopeia-customisation-mobile-view.png)
+![Cassiopeia mobiele weergave](../../../en/images/templates/cassiopeia-template-customisation/05-cassiopeia-customisation-mobile-view.png)
 
 ### Plakkerige Kop
 
@@ -71,13 +78,13 @@ Het beeld op een smal scherm (mobiel apparaat):
 - **Nee** de standaard. Er is geen Terug-naar-boven link.
 - **Ja** Waar de inhoud hoger is dan het zicht, staat rechtsonder op de pagina een knop gemarkeerd met een Omhoog-chevron. Selecteer het om terug naar de bovenkant van de pagina te scrollen.
 
-![Cassiopeia terug naar boven](../../../en/images/templates/cassiopeia-customisation-back-to-top.png)
+![Cassiopeia terug naar boven](../../../en/images/templates/cassiopeia-template-customisation/06-cassiopeia-customisation-back-to-top.png)
 
 ## Cassiopeia Sjabloonposities
 
 Bij het bouwen van een website met Cassiopeia is het erg handig om de locaties van de posities te kennen die je voor modules kunt gebruiken. Sommige zijn beschrijvend, zoals *menu* en *bottom-a*, maar het is niet zo duidelijk waar ze zijn totdat je ze gebruikt. Deze illustratie zou moeten helpen:
 
-![Cassiopeia sjabloonposities](../../../en/images/templates/cassiopeia-template-positions.png)
+![Cassiopeia sjabloonposities](../../../en/images/templates/cassiopeia-template-customisation/07-cassiopeia-template-positions.png)
 
 Probeer het volgende:
 
@@ -89,7 +96,7 @@ Verander in het Module-tabblad het veld Positie aan de rechterkant naar Menu \[m
 
 Selecteer in het menu bewerkformulier het tabblad Geavanceerd en scroll naar beneden naar het veld Lay-out. Het is een keuzelijst met vier opties. --Van Module-- / Standaard is standaard geselecteerd. Probeer de andere opties en bekijk het resultaat. (Vergeet niet om te *saven* in het bewerkformulier en opnieuw te laden in de site weergave.) Geen van de --Van Module-- opties toont de onderliggende menu-items, maar beide van de --Van Cassiopeia Sjabloon-- doen dat wel.
 
-![Cassiopeia menu posities](../../../en/images/templates/cassiopeia-customisation-menu-position.png)
+![Cassiopeia menu posities](../../../en/images/templates/cassiopeia-template-customisation/08-cassiopeia-customisation-menu-position.png)
 
 Dus wat voor verschil maakt **Inklapbaar**?
 
@@ -106,7 +113,7 @@ Wat als je de donkerblauwe achtergrondkleur van de header niet mooi vindt? Stel 
 
 De onderstaande illustratie toont twee mapgroepen. De eerste groep bestaat uit de sjabloonmappen en -bestanden die je niet zou moeten wijzigen, maar waaraan je mag toevoegen. In het bijzonder mag je sjabloonoverride-HTML-bestanden toevoegen aan de *html* map. De tweede groep bevat de sjabloon mediabestanden die je niet zou moeten wijzigen. Je mag echter een *user.css* bestand toevoegen aan de *css* map en/of een *user.js* bestand aan de *js* map. Dit zou je doen als je enkele eenvoudige aanpassingen aan de site wilt maken.
 
-![Cassiopeia bestanden bewerken](../../../en/images/templates/cassiopeia-customisation-edit-files.png)
+![Cassiopeia bestanden bewerken](../../../en/images/templates/cassiopeia-template-customisation/09-cassiopeia-customisation-edit-files.png)
 
 Let op: in een nieuwe Joomla-installatie is er geen bestand ***user.css*** aanwezig in de map **css**. Dit is een bestand dat u zelf aanmaakt om eerder gedefinieerde stijlen te overschrijven. Als ***user.css*** al aanwezig is, selecteer het dan om het bewerkingsformulier te openen. Als het niet aanwezig is, maak het dan nu aan:
 
@@ -137,7 +144,7 @@ Let hier op dat de vooraanstaande punt (.) een klasse-selector is, bijvoorbeeld 
 
 In het browsertabblad met de site, open je browserontwikkelaarstools, Firefox in dit voorbeeld, en selecteer de header tag.
 
-![Cassiopeia ontwikkelaarstools](../../../en/images/templates/cassiopeia-customisation-developer-tools.png)
+![Cassiopeia ontwikkelaarstools](../../../en/images/templates/cassiopeia-template-customisation/10-cassiopeia-customisation-developer-tools.png)
 
 Dat toont de gebruikte stijlen. De stijl container-header is waar de background-color en background-image worden ingesteld. Ze moeten overschreven worden in het *user.css* bestand. Probeer dit:
 ```css
@@ -158,7 +165,7 @@ Herinner je die opmerking over het menu dat te ver naar links in de topbar staat
 ```
 Dit is het werkende groene thema:
 
-![Cassiopeia groen thema](../../../en/images/templates/cassiopeia-customisation-green-theme.png)
+![Cassiopeia groen thema](../../../en/images/templates/cassiopeia-template-customisation/11-cassiopeia-customisation-green-theme.png)
 
 ### Toegankelijkheid
 
@@ -170,7 +177,7 @@ Het sjablonenformulier: Aanpassen (Cassiopeia) onder het tabblad Overschrijvinge
 
 Dit is het tabblad Overschrijvingen maken:
 
-![Cassiopeia overschrijvingen maken](../../../en/images/templates/cassiopeia-customisation-create-overrides.png)
+![Cassiopeia overschrijvingen maken](../../../en/images/templates/cassiopeia-template-customisation/12-cassiopeia-customisation-create-overrides.png)
 
 Als je slechts aan het experimenteren bent en eigenlijk geen overschrijving wilt, kun je het bewerkingsformulier *Sluiten*, de knop Beheer Mappen in de werkbalk selecteren en de knop Verwijderen onderaan het Beheer Mappen venster selecteren.
 
@@ -180,7 +187,7 @@ Overschrijvingen gaan echt meer over het aanpassen van extensies dan over de Cas
 
 Als je meer substantiële veranderingen aan de uitstraling van de site wilt maken, kun je een kindersjabloon creëren. Dat kopieert slechts een kleine selectie van mappen en bestanden die je kunt wijzigen of uitbreiden, maar blijft verder de mappen en bestanden van het hoofdsjabloon gebruiken. Door kindersjablonen te gebruiken, kun je sommige pagina's één themakleur geven en andere pagina's een tweede themakleur. Kindersjablonen worden elders behandeld. Dit is een illustratie van de bestandsstructuur in een kind van Cassiopeia:
 
-![Cassiopeia kindersjabloonbestanden](../../../en/images/templates/cassiopeia-customisation-child-template-files.png)
+![Cassiopeia kindersjabloonbestanden](../../../en/images/templates/cassiopeia-template-customisation/13-cassiopeia-customisation-child-template-files.png)
 
 *Vertaald door openai.com*
 

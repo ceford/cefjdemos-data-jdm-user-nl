@@ -1,4 +1,11 @@
-<!-- Filename: J3.x:Adding_custom_fields/Radio_Field / Display title: Radioveld -->
+<!--
+{
+  "source": "https://docs.joomla.org/J3.x:Adding_custom_fields",
+  "title": "Radioveld ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Doel
 
@@ -10,7 +17,7 @@ Het Radio Field biedt keuzerondjes waarvan slechts één geselecteerd kan worden
 * Radioknoppen worden één voor één toegevoegd, elk met Tekst en Waarde. De Tekst verschijnt in de uitvoer. De waarde wordt gebruikt in het gegevensinvoerformulier en moet voor elk verschillend zijn. Het eerste item in de lijst moet de Tekst hebben ingesteld op *- Selecteer -* en de Waarde moet leeg worden gelaten. Dit zorgt ervoor dat het veld niet is ingesteld en dus niet in de uitvoer verschijnt.
 * Gebruik de sleep-pictogrammen om de volgorde van de radioknoppenlijst te wijzigen.
 
-![Radioveld aanmaken](../../../en/images/fields/fields-radio-edit.png)
+![Radioveld aanmaken](../../../en/images/fields/adding-custom-fields-radio-field/01-fields-radio-edit.png)
 
 **Opmerking:** In dit voorbeeld is de opname van het veldtype in de Titel alleen voor demonstratiedoeleinden. Laat het weg in je eigen veldtitels.
 
@@ -18,13 +25,13 @@ Het Radio Field biedt keuzerondjes waarvan slechts één geselecteerd kan worden
 
 Eenvoudig: selecteer eenvoudig de vereiste waarde.
 
-![Radio Veld gegevensinvoer](../../../en/images/fields/fields-radio-data-entry.png)
+![Radio Veld gegevensinvoer](../../../en/images/fields/adding-custom-fields-radio-field/02-fields-radio-data-entry.png)
 
 ## Gegevensweergave
 
 De volgende schermafbeelding van de site toont het veld dat in een artikel wordt weergegeven. De optie *Automatische weergave* is verantwoordelijk voor de positie van het veld en jouw sjabloon is verantwoordelijk voor het ontwerp van het veld.
 
-![radio veld siteweergave](../../../en/images/fields/fields-radio-site.png)
+![radio veld siteweergave](../../../en/images/fields/adding-custom-fields-radio-field/03-fields-radio-site.png)
 
 De veldtitel wordt gevolgd door de tekst van de geselecteerde waarde.
 

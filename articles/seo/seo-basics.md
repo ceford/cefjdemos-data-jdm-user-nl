@@ -1,4 +1,11 @@
-<!-- Filename: jdocmanual?manual=user&heading=seo&filename=seo-basics.md / Display title: SEO Basisprincipes -->
+<!--
+{
+  "source": "https://docs.joomla.org/jdocmanual?manual=user&heading=seo&filename=seo-basics.md",
+  "title": "SEO Basisprincipes ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Definitie
 

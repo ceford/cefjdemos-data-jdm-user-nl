@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Help / Display title: Hulp Dashboard -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Help",
+  "title": "Hulp Dashboard ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introductie
 
@@ -6,7 +13,7 @@ Het Helpscherm wordt niet een Dashboard genoemd, maar het heeft alle kenmerken v
 
 ## Screenshot
 
-![Hulpdashboard](../../../en/images/dashboards/help-dashboard.png)
+![Hulpdashboard](../../../en/images/dashboards/help-dashboard/01-help-dashboard.png)
 
 *Vertaald door openai.com*
 

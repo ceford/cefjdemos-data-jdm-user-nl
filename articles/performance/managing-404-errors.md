@@ -1,4 +1,11 @@
-<!-- Filename: Managing_404_Errors / Display title: Beheren van 404-fouten -->
+<!--
+{
+  "source": "https://docs.joomla.org/Managing_404_Errors",
+  "title": "Beheren van 404-fouten ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Waarom 404 Niet Gevonden Belangrijk Is
 
@@ -16,7 +23,7 @@ Wanneer je Search Central bezoekt, is er een sectie die je URL-fouten in de zoek
 
 Als er een tijdelijk probleem was op je site, kun je fouten als opgelost markeren.
 
-![webmaster tools](../../../en/images/performance/404-discovery.png)
+![webmaster tools](../../../en/images/performance/managing-404-errors/01-404-discovery.png)
 
 ## Problemen Oplossen
 
@@ -28,21 +35,21 @@ Als je een pagina moet doorsturen, kun je de System - Redirect plugin gebruiken 
 
 Als je je 404-verkeer wilt monitoren, is de beste manier om dit in Analytics te doen door te kijken wat er gebeurt als je een 404-fout hebt. In de meeste gevallen verandert de paginatitel in 404 – dus we kunnen een aangepast segment maken dat verkeer met een titel van 404 filtert en je vertelt wat de bestemmingspagina is. Hiermee kun je je 404-fouten monitoren en proactief beheren en ervoor zorgen dat je sitebezoekers niet op dode links terechtkomen.
 
-![Analytics waarschuwt 404-verkeer](../../../en/images/performance/404-analytics-alerts.png)
+![Analytics waarschuwt 404-verkeer](../../../en/images/performance/managing-404-errors/02-404-analytics-alerts.png)
 
-![Analytics waarschuwt publieksoverzicht](../../../en/images/performance/404-analytics-alerts-2.png)
+![Analytics waarschuwt publieksoverzicht](../../../en/images/performance/managing-404-errors/03-404-analytics-alerts-2.png)
 
 Google heeft ook de mogelijkheid om waarschuwingen in Analytics in te stellen. Waarschuwingen stellen je in staat om e-mails te ontvangen wanneer bepaalde gebeurtenissen plaatsvinden. In dit geval kunnen we een waarschuwing instellen om op de hoogte te worden gebracht als er meer dan een 5% toename is in het aantal 404-fouten in een wekelijkse periode – wat kan betekenen dat we een probleem hebben met de website dat onderzocht moet worden.
 
 Dit is een geweldige manier om op de hoogte te blijven, zelfs als je niet bent ingelogd om je dashboard te bekijken!
 
-![Analytics waarschuwt e-mail](../../../en/images/performance/404-analytics-alerts-email.png)
+![Analytics waarschuwt e-mail](../../../en/images/performance/managing-404-errors/04-404-analytics-alerts-email.png)
 
 ## Fouten Monitoren met een Dashboard
 
 Er is ook een dashboard dat je kunt installeren, genaamd het *Data Integrity Dashboard*, dat je informatie laat zien over 404-fouten, samen met enkele andere statistieken die mogelijk interessant zijn. Zoek gewoon in de Google Analytics Gallery naar *Data Integrity Dashboard* en selecteer onder welk profiel je het wilt installeren.
 
-![Data-integriteit](../../../en/images/performance/404-data-integrity.png)
+![Data-integriteit](../../../en/images/performance/managing-404-errors/05-404-data-integrity.png)
 
 *Vertaald door openai.com*
 

@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Module_and_Menu_Styles / Display title: Module- en Menu Stijlen -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Module_and_Menu_Styles",
+  "title": "Module- en Menu Stijlen ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Over Cascading Style Sheets
 
@@ -20,7 +27,7 @@ Maar wat als je een module of een hele pagina wilt stijlen? Bijvoorbeeld, je zou
 
 Dit eenvoudige voorbeeld past aangepaste stijlen toe op de Login-module en de titel ervan. De volgende schermafbeelding toont de stijlnamen die zijn ingevoerd op het tabblad Geavanceerd van het Modules: Login bewerkformulier. De Moduleklasse is ingesteld op `make-me-light-green` en de Koptekstklasse is ingesteld op `make-me-dark-green`. Houd er rekening mee dat je in klassennamen streepjes of onderstrepingen kunt gebruiken, maar spaties scheiden verschillende klassennamen.
 
-![bewerkscherm van login module geavanceerd tabblad met aangepaste klasse](../../../en/images/templates/templates-edit-module-style.png)
+![bewerkscherm van login module geavanceerd tabblad met aangepaste klasse](../../../en/images/template-tips/module-and-menu-styles/01-templates-edit-module-style.png)
 
 De volgende stijlverklaringen worden gebruikt in het user.css-bestand:
 ```css
@@ -35,7 +42,7 @@ De volgende stijlverklaringen worden gebruikt in het user.css-bestand:
 ```
 Let op het punt (.) dat wordt gebruikt in css om een klasse met die naam te definiëren. Het punt mag niet worden gebruikt in het modulegegevensinvoerscherm. Het resultaat in dit voorbeeld is als volgt:
 
-![siteweergave van de aangepaste module met ontwikkelaarstools](../../../en/images/templates/templates-edit-module-style-result.png)
+![siteweergave van de aangepaste module met ontwikkelaarstools](../../../en/images/template-tips/module-and-menu-styles/02-templates-edit-module-style-result.png)
 
 De onderkant van de afbeelding toont het ontwikkelaarstoolspaneel van de browser met het omhulsel-`<div>`-tag van de Login-module geselecteerd. Je kunt zien dat de aangepaste Moduleklasse-stijl is toegevoegd aan de stijlen die al in de moduletemplate zijn gedefinieerd. De volgende regel toont de `<h3>`-tag, ook met de aangepaste Koptekstklasse toegevoegd aan al gedefinieerde stijlen.
 
@@ -59,7 +66,7 @@ Het is het laatste in deze lijst dat in dit artikel wordt behandeld. Wat gebeurt
 ```
 De klasse wordt toegevoegd aan de body tag van de pagina:
 
-![site uiterlijk van de aangepaste pagina met ontwikkelaarstools](../../../en/images/templates/templates-edit-page-class-result.png)
+![site uiterlijk van de aangepaste pagina met ontwikkelaarstools](../../../en/images/template-tips/module-and-menu-styles/03-templates-edit-page-class-result.png)
 
 QED!
 

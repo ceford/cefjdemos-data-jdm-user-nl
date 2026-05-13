@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Article_Pagination / Display title: Artikel: Bewerking - Paginering -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Article_Pagination",
+  "title": "Artikel: Bewerking - Paginering ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Lange Artikelen
 
@@ -16,12 +23,12 @@ Om pagina-einden toe te voegen, open eerst een artikel in de teksteditor, TinyMC
   - *Inhoudsopgave Alias* - dit zal worden gebruikt als tekst in de Inhoudsopgave. Voorbeeld: Hoofdstuk 2
 - Selecteer de knop **Pagina-einde Invoegen**.
 
-![Pagina-einde dialoogvenster](../../../en/images/articles/articles-edit-pagination.png)
+![Pagina-einde dialoogvenster](../../../en/images/articles/article-pagination/01-articles-edit-pagination.png)
 
 - Herhaal voor elk pagina-einde dat je wilt maken.
 - Sla het artikel op en bekijk de Voorbeeld- of Siteweergave.
 
-![Artikel paginering siteweergave](../../../en/images/articles/articles-site-pagination.png)
+![Artikel paginering siteweergave](../../../en/images/articles/article-pagination/02-articles-site-pagination.png)
 
 ## Een Pagina-einde Bewerken of Verplaatsen
 
@@ -43,7 +50,7 @@ volgt:
 
 De Broncode-editor bevindt zich in een pop-up dialoogvenster:
 
-![Broncode-editor](../../../en/images/articles/articles-edit-pagination-source-code.png)
+![Broncode-editor](../../../en/images/articles/article-pagination/03-articles-edit-pagination-source-code.png)
 
 *Vertaald door openai.com*  
 

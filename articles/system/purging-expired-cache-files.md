@@ -1,4 +1,11 @@
-<!-- Filename: Purging_expired_cache_files / Display title: Verwijder Verlopen Cache  -->
+<!--
+{
+  "source": "https://docs.joomla.org/Purging_expired_cache_files",
+  "title": "Verwijder Verlopen Cache  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Cachebestanden
 

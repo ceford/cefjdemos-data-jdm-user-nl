@@ -1,4 +1,11 @@
-<!-- Filename: J6.x:_Article_Edit_Configure_Edit_Screen / Display title: Artikel: Bewerken - Bewerkingsscherm Configureren  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J6.x:_Article_Edit_Configure_Edit_Screen",
+  "title": "Artikel: Bewerken - Bewerkingsscherm Configureren  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Inleiding
 
@@ -6,7 +13,7 @@ De schermen voor het bewerken van artikelen hebben verschillende lay-outs in de 
 
 ## Screenshot
 
-![Het configuratie bewerk scherm tabblad](../../../en/images/articles/articles-edit-configure-edit-screen-tab.png)
+![Het configuratie bewerk scherm tabblad](../../../en/images/articles/article-configure-edit-screen/01-articles-edit-configure-edit-screen-tab.png)
 
 ## Configureren bewerkingsscherm paneel
 

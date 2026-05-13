@@ -1,4 +1,11 @@
-<!-- Filename: jdocmanual?manual=user&heading=extensions&filename=vulnerable-extensions.md / Display title: Kwetsbare Extensies  -->
+<!--
+{
+  "source": "https://docs.joomla.org/jdocmanual?manual=user&heading=extensions&filename=vulnerable-extensions.md",
+  "title": "Kwetsbare Extensies  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Uitbreidingsbronnen
 
@@ -16,7 +23,7 @@ Als je je zorgen maakt over een van je extensies, zou je de Joomla Kwetsbare Ext
 
 Als je je zorgen maakt over een extensie die niet in de VEL verschijnt, kun je de JED Checker-extensie gebruiken. Dit is een extensie die wordt gebruikt om extensies te controleren die ingediend zijn om in de Joomla Extensions Directory lijst te verschijnen. Het wordt geïnstalleerd zoals elke andere extensie. Bij gebruik accepteert het een extensie-zipbestand en onderzoekt het de inhoud ervan op naleving van de JED-standaarden. Het is uiterst nuttig, zelfs voor extensies die niet in de JED-lijst verschijnen. Hier is een voorbeeldscreenshot:
 
-![jed checker resultaat](../../../en/images/extensions/extensions-jed-checker.png)
+![jed checker resultaat](../../../en/images/extensions/vulnerable-extensions/01-extensions-jed-checker.png)
 
 De 400 PHP-bestanden zonder GPL-licentiekennisgeving bevinden zich in externe bibliotheken met een andere licentie. De 30 bestanden die door het Joomla Anti-Malware Scan Script zijn geïdentificeerd, bevinden zich ook in die externe bibliotheken. Er is werk aan de winkel voor de bestanden die de JEXEC-beveiliging missen!
 

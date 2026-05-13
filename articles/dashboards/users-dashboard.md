@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Users_Dashboard / Display title: Gebruikersdashboard -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Users_Dashboard",
+  "title": "Gebruikersdashboard ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introductie
 
@@ -6,7 +13,7 @@ De Gebruikersdashboard is toegankelijk via het pictogram rechts van het menu-ite
 
 ## Screenshot
 
-![Gebruikersdashboard](../../../en/images/dashboards/users-dashboard.png)
+![Gebruikersdashboard](../../../en/images/dashboards/users-dashboard/01-users-dashboard.png)
 
 *Vertaald door openai.com*
 

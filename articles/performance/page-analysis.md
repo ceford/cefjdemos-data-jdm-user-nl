@@ -1,4 +1,11 @@
-<!-- Filename: jdocmanual?manual=user&heading=performance&filename=page-analysis.md / Display title: Pagina-analyse   -->
+<!--
+{
+  "source": "https://docs.joomla.org/jdocmanual?manual=user&heading=performance&filename=page-analysis.md",
+  "title": "Pagina-analyse   ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Lighthouse
 
@@ -12,7 +19,7 @@ Je kunt de tool online gebruiken via de PageSpeed Insights-website.
 
 De volgende screenshot toont het eerste deel van het PageSpeed Insights-rapport:
 
-![PageSpeed Insights Rapport](../../../en/images/performance/performance-pagespeed-insights.png)
+![PageSpeed Insights Rapport](../../../en/images/performance/page-analysis/01-performance-pagespeed-insights.png)
 
 ## Prestatieverbeteringen
 

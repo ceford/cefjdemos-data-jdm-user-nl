@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Introduction_to_Joomla! / Display title: Introductie tot Joomla!   -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Introduction_to_Joomla!",
+  "title": "Introductie tot Joomla!   ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introductie
 
@@ -27,7 +34,7 @@ Een Joomla!-installatie bestaat uit de bestanden die worden gebruikt om inhoud t
 
 Deze sjabloon heeft alles wat je nodig hebt om aan de slag te gaan met je eigen website. Het kan worden aangepast met sjablooninstellingen en door de gebruiker opgegeven functies zoals afbeeldingen en kleuren.
 
-![Het Cassiopeia Sjabloon](../../../en/images/getting-started/introduction-to-joomla-cassiopeia.png)
+![Het Cassiopeia Sjabloon](../../../en/images/getting-started/introduction-to-joomla/01-introduction-to-joomla-cassiopeia.png)
 
 Als Cassiopeia niet helemaal geschikt is voor je site, zijn er honderden andere sjablonen beschikbaar van externe leveranciers, zowel gratis als commercieel.
 
@@ -41,7 +48,7 @@ Als Cassiopeia niet helemaal geschikt is voor je site, zijn er honderden andere 
 
 Dit sjabloon wordt niet gezien door het publiek, dus het is zelden nodig om naar een alternatief te zoeken.
 
-![Het Atum Sjabloon](../../../en/images/getting-started/introduction-to-joomla-atum.png)
+![Het Atum Sjabloon](../../../en/images/getting-started/introduction-to-joomla/02-introduction-to-joomla-atum.png)
 
 Je kunt configureren wat er op verschillende dashboards verschijnt, maar dat kan beter worden uitgesteld totdat ervaring een verandering rechtvaardigt.
 

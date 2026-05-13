@@ -1,4 +1,11 @@
-<!-- Filename: Localhost / Display title: Schema.org - Artikel -->
+<!--
+{
+  "source": "https://docs.joomla.org/Localhost",
+  "title": "Schema.org - Artikel ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Doel
 
@@ -29,7 +36,7 @@ De sectie *Algemeen Veld* maakt het mogelijk om *Titel* en *Waarde* paren in te 
 
 Hieronder staat een voorbeeld van een Artikel-schema in een formulier voor het bewerken van een Artikel.
 
-![An article schema edit form](../../../en/images/schemas/edit-schema-article.png)
+![An article schema edit form](../../../en/images/schemas/article/01-edit-schema-article.png)
 
 *Vertaald door openai.com*
 

@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:FatalError / Display title: FataleFout  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:FatalError",
+  "title": "FataleFout  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introductie
 
@@ -9,11 +16,11 @@ Van tijd tot tijd kan Joomla een foutenpagina weergeven in plaats van de pagina 
 
 ### Systeemfoutenpagina
 
-![Systeem fatale foutenpagina](../../../en/images/problems/fatal-error.png)
+![Systeem fatale foutenpagina](../../../en/images/problems/fatalerror/01-fatal-error.png)
 
 ### Sjabloonfoutenpagina
 
-![Sjabloonfoutenpagina](../../../en/images/problems/template-error.png)
+![Sjabloonfoutenpagina](../../../en/images/problems/fatalerror/02-template-error.png)
 
 ## Hoe te Oplossen
 
@@ -43,7 +50,7 @@ Als je Administrator-interface **niet** werkt, bewerk dan het
 
 Na het aanbrengen van de wijzigingen, herlaad je de pagina die de fout veroorzaakte. Nu zou je een stack trace moeten zien. Voorbeeld:
 
-![Template fout pagina](../../../en/images/problems/template-error-stack-trace.png)
+![Template fout pagina](../../../en/images/problems/fatalerror/03-template-error-stack-trace.png)
 
 Het eerste item in de stack trace geeft aan waar de fout is getriggerd. Soms is dat genoeg om de defecte Extensie te identificeren. Soms staat de defecte Extensie verder naar beneden in de stack trace. Het betekent mogelijk niet veel voor jou, maar de stack trace is van onschatbare waarde voor de experts die vragen beantwoorden in de Joomla Forums.
 

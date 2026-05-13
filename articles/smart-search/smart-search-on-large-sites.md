@@ -1,4 +1,11 @@
-<!-- Filename: Smart_Search_on_large_sites / Display title: Slim Zoeken op Grote Sites -->
+<!--
+{
+  "source": "https://docs.joomla.org/Smart_Search_on_large_sites",
+  "title": "Slim Zoeken op Grote Sites ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Site-indexering
 

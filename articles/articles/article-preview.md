@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Article_Preview / Display title: Artikel: Voorvertoning -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Article_Preview",
+  "title": "Artikel: Voorvertoning ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introductie
 
@@ -28,7 +35,7 @@ Na in te loggen op de Beheerdersinterface:
 - Als je een bericht krijgt dat *De gevraagde pagina niet kan worden gevonden*, log dan in op de Frontend en probeer het opnieuw.
 - Om het Voorbeeldvenster te sluiten, selecteer de *X* knop in de rechterbovenhoek.
 
-![Het voorbeeldvenster](../../../en/images/getting-started/article-edit-preview.png)
+![Het voorbeeldvenster](../../../en/images/articles/article-preview/01-article-edit-preview.png)
 
 *Vertaald door openai.com*
 

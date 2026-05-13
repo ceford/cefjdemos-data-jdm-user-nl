@@ -1,4 +1,11 @@
-<!-- Filename: Content_editors / Display title: TinyMCE-plug-in  -->
+<!--
+{
+  "source": "https://docs.joomla.org/Content_editors",
+  "title": "TinyMCE-plug-in  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introductie
 
@@ -12,19 +19,19 @@ TinyMCE is geconfigureerd met 3 verschillende sets werkbalkknoppen voor verschil
 
 Dit hulppakket is de meest uitgebreide set en is standaard toegewezen aan de groepen *Administrator*, *Editor* en *Super Users*.
 
-![TinyMCE-plugin met knoppenset 2](../../../en/images/editors/tinymce-set0.png)
+![TinyMCE-plugin met knoppenset 2](../../../en/images/editors/tinymce-plugin/01-tinymce-set0.png)
 
 ### Hulpenpakket 1
 
 Dit hulppakket is toegewezen aan de groepen *Manager* en *Registered*.
 
-![TinyMCE-plugin met knoppenset 2](../../../en/images/editors/tinymce-set1.png)
+![TinyMCE-plugin met knoppenset 2](../../../en/images/editors/tinymce-plugin/02-tinymce-set1.png)
 
 ### Hulpenpakket 2
 
 Deze set heeft minimale hulpmiddelen en is toegewezen aan de *Public* groep. Het zou worden gebruikt voor het invullen van openbare formulieren.
 
-![TinyMCE-plugin met knoppenset 2](../../../en/images/editors/tinymce-set2.png)
+![TinyMCE-plugin met knoppenset 2](../../../en/images/editors/tinymce-plugin/03-tinymce-set2.png)
 
 ## Andere Instellingen
 

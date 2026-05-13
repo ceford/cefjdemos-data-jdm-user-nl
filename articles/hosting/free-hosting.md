@@ -1,4 +1,11 @@
-<!-- Filename: How_to_build_your_free_Joomla_Website / Display title: Gratis Hosting -->
+<!--
+{
+  "source": "https://docs.joomla.org/How_to_build_your_free_Joomla_Website",
+  "title": "Gratis Hosting ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Wat is joomla.com?
 
@@ -10,7 +17,7 @@ Als je nieuw bent bij Joomla en het in actie wilt zien zonder het zelf te downlo
 
 ### Stap 1: Voer een geschikte subdomeinnaam in
 
-![Startpagina Joomla lanceren](../../../en/images/hosting/free-hosting-launch.png)
+![Startpagina Joomla lanceren](../../../en/images/hosting/free-hosting/01-free-hosting-launch.png)
 
 Alice en Bob zijn waarschijnlijk al in gebruik, maar je kunt elke naam kiezen die gemakkelijk te typen en te onthouden is.
 
@@ -18,13 +25,13 @@ Alice en Bob zijn waarschijnlijk al in gebruik, maar je kunt elke naam kiezen di
 
 Aangezien dit een nieuwe installatie is, is het het beste om de nieuwste stabiele versie te selecteren.
 
-![Selecteren van de Joomla-versie dialoog](../../../en/images/hosting/free-hosting-select-version.png)
+![Selecteren van de Joomla-versie dialoog](../../../en/images/hosting/free-hosting/02-free-hosting-select-version.png)
 
 ### Stap 3: Maak een account aan
 
 Vul je persoonlijke gegevens in en selecteer de knop Registreren.
 
-![Persoonlijke gegevens dialoog Joomla lanceren](../../../en/images/hosting/free-hosting-personal-details.png)
+![Persoonlijke gegevens dialoog Joomla lanceren](../../../en/images/hosting/free-hosting/03-free-hosting-personal-details.png)
 
 #### Notities
 
@@ -41,13 +48,13 @@ Je ontvangt binnenkort een token van 6 cijfers op het telefoonnummer dat je hebt
 
 ### Stap 5: Verifieer account
 
-![Account verifiëren dialoog Joomla lanceren](../../../en/images/hosting/free-hosting-verify-account.png)
+![Account verifiëren dialoog Joomla lanceren](../../../en/images/hosting/free-hosting/04-free-hosting-verify-account.png)
 
 Gebruik de token om het proces te voltooien - je wordt ingelogd op het CloudAccess.net controlepaneel (CCP).
 
 ### Stap 6: CloudAccess.net Controlepaneel
 
-![Controlepaneel cloudtoegang Joomla lanceren](../../../en/images/hosting/free-hosting-cloud-access-control-panel.png)
+![Controlepaneel cloudtoegang Joomla lanceren](../../../en/images/hosting/free-hosting/05-free-hosting-cloud-access-control-panel.png)
 
 Je ontvangt ook een e-mail met de inloggegevens voor je gratis site. Het kan enkele minuten duren voordat je gratis Joomla-site beschikbaar is. Als je problemen ondervindt, open dan een Nieuw Ticket in het CPP en het ondersteuningsteam lost alles op wat opgelost moet worden.
 
@@ -63,7 +70,7 @@ Zo eenvoudig is het en zodra je site actief is, kun je meteen beginnen met het m
 
 Joomla wordt bijna volledig beheerd vanaf de beheerderspagina's. Het is echter soms nuttig om toegang te hebben tot systeemtools voor probleemoplossingsdoeleinden. Selecteer de knop Beheren op de CPP Uw Producten-pagina voor toegang tot deze tools.
 
-![Start Joomla cloud toegang cpp tools](../../../en/images/hosting/free-hosting-cpp-manage.png)
+![Start Joomla cloud toegang cpp tools](../../../en/images/hosting/free-hosting/06-free-hosting-cpp-manage.png)
 
 ### phpMyAdmin
 
@@ -85,7 +92,7 @@ Aangezien de meeste functionaliteit van het platform overlapt met die van het Jo
 
 Tests zijn belangrijk in een open source-project zoals Joomla, omdat ze kwaliteitsborging bieden voor toekomstige releases. Je kunt helpen met het testen van nieuwe functies en bugfixes door de [Joomla Patchtester](https://github.com/joomla-extensions/patchtester/releases) extensie te installeren op je gratis Joomla site. Er zijn geen speciale vaardigheden nodig om tester te worden! Als je nog nooit pull-verzoeken hebt getest, biedt de Joomla Documentatie alle [handleidingen die je nodig hebt. Dus wees erbij en begin vandaag nog met het testen van Joomla.
 
-![Start Joomla cloud toegang tot cpp-tools](../../../en/images/hosting/free-hosting-patch-tester.png)
+![Start Joomla cloud toegang tot cpp-tools](../../../en/images/hosting/free-hosting/07-free-hosting-patch-tester.png)
 
 Aandachtspunten: Je hebt een GitHub-account en een GitHub-token nodig. Je zult geen pull-verzoeken kunnen testen die wijzigingen in CSS en JavaScript vereisen waarbij NPM Resource Changes nodig zijn.
 

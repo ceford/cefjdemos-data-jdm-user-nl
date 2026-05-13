@@ -1,4 +1,11 @@
-<!-- Filename: J6.x:_Article_Options / Display title: Artikel: Bewerken - Opties  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J6.x:_Article_Options",
+  "title": "Artikel: Bewerken - Opties  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Inleiding
 
@@ -10,7 +17,7 @@ Dit artikel gaat over het *Opties* tabblad in het *Artikel: Bewerken* formulier.
 
 Het tabblad *Opties* van het formulier *Artikel: Bewerken* bevat een reeks panelen, meestal met een keuze uit *Gebruik Global (Verbergen of Tonen)*, *Verbergen* of *Tonen*. De volgende gedeeltelijke schermafbeelding toont de algemene indeling.
 
-![Bewerkingsopties tabblad voor artikel](../../../en/images/articles/articles-edit-options-tab.png)
+![Bewerkingsopties tabblad voor artikel](../../../en/images/articles/article-options/01-articles-edit-options-tab.png)
 
 ## Lay-outpaneel
 

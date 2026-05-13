@@ -1,4 +1,11 @@
-<!-- Filename: J6.x:_Article_Metadata / Display title: Artikel: Bewerken - Metadata  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J6.x:_Article_Metadata",
+  "title": "Artikel: Bewerken - Metadata  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Inleiding
 
@@ -42,7 +49,7 @@ In Joomla wordt voor een enkele pagina de artikelkop de paginatitel die in de he
 
 Het artikel *Meta Beschrijving* is een veld in het tabblad *Publiceren* van het artikeldata-invoerformulier:
 
-![Het artikelbewerking formulier publicatie tabblad](../../../en/images/articles/articles-edit-publishing-tab.png)
+![Het artikelbewerking formulier publicatie tabblad](../../../en/images/articles/article-metadata/01-articles-edit-publishing-tab.png)
 
 Als er geen artikelmetadata beschrijving is, wordt een metadata beschrijving van een enkel artikelmenu-item gebruikt als deze is ingesteld. Als er geen metadata beschrijving van een menu-item is, wordt de globale site meta beschrijving gebruikt als deze is ingesteld. Anders wordt het metadata beschrijving veld weggelaten.
 

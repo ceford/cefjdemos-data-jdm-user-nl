@@ -1,4 +1,11 @@
-<!-- Filename: What_is_the_difference_between_a_Sub-Domain,_Parked_Domain_and_an_Add-On_Domain%3F / Display title: Subdomeinen, Geparkeerde Domeinen en Add-on Domeinen  -->
+<!--
+{
+  "source": "https://docs.joomla.org/What_is_the_difference_between_a_Sub-Domain,_Parked_Domain_and_an_Add-On_Domain%3F",
+  "title": "Subdomeinen, Geparkeerde Domeinen en Add-on Domeinen  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Verschillen
 

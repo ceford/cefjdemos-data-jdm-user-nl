@@ -1,4 +1,11 @@
-<!-- Filename: Enabling_Search_Engine_Friendly_(SEF)_URLs_on_Apache / Display title: SEF-URL's op Apache   -->
+<!--
+{
+  "source": "https://docs.joomla.org/Enabling_Search_Engine_Friendly_(SEF)_URLs_on_Apache",
+  "title": "SEF-URL's op Apache   ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Verifiëren of .htaccess is ingeschakeld
 

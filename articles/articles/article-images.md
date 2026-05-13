@@ -1,4 +1,11 @@
-<!-- Filename: Adding_an_image_to_an_article / Display title: Artikel: Bewerken - Afbeeldingen   -->
+<!--
+{
+  "source": "https://docs.joomla.org/Adding_an_image_to_an_article",
+  "title": "Artikel: Bewerken - Afbeeldingen   ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Inleiding
 
@@ -20,7 +27,7 @@ De beste manier om lokale afbeeldingen in te voegen is door de **CMS ContentÂ â†
 
 **Belangrijk:** Plaats eerst de cursor waar je de afbeelding wilt invoegen. Dat kan aan het begin of het einde van een alinea zijn, of in een lege alinea.
 
-![De media popup-dialoog](../../../en/images/articles/articles-edit-images-media.png)
+![De media popup-dialoog](../../../en/images/articles/article-images/01-articles-edit-images-media.png)
 
 Navigeer in het popup-dialoogvenster naar de afbeelding die je wilt gebruiken en selecteer deze. Bij selectie verschijnt er een formulier waarin om aanvullende gegevens wordt gevraagd.
 
@@ -50,7 +57,7 @@ Als de afbeelding die u wilt gebruiken niet in de afbeeldingsmap van uw Joomla-i
 - Vul de andere velden naar wens in.
 - Het tabblad **Geavanceerd** biedt enkele opmaakopties die als inline-stijlen worden toegepast. Experimenteer met 1rem, 2, groove.
 
-![De afbeelding invoegen pop-up dialoog](../../../en/images/articles/articles-edit-images-external-image.png)
+![De afbeelding invoegen pop-up dialoog](../../../en/images/articles/article-images/02-articles-edit-images-external-image.png)
 
 ### Drag en Drop gebruiken om externe afbeeldingslinks in te voegen
 

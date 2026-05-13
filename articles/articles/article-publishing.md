@@ -1,4 +1,11 @@
-<!-- Filename: J6.x:_Article_Publishing / Display title: Artikel: Bewerken - Publiceren  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J6.x:_Article_Publishing",
+  "title": "Artikel: Bewerken - Publiceren  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introductie
 
@@ -10,7 +17,7 @@ Meestal worden artikelen gepubliceerd op de dag dat ze worden gemaakt en blijven
 
 ## Screenshot
 
-![Het artikelbewerkingsformulier publiceertab](../../../en/images/articles/articles-edit-publishing-tab.png)
+![Het artikelbewerkingsformulier publiceertab](../../../en/images/articles/article-publishing/01-articles-edit-publishing-tab.png)
 
 Het *Metadata* paneel wordt uitgelegd in een apart artikel. Dit artikel behandelt
 het *Publiceren* paneel.
@@ -59,7 +66,7 @@ Voor de Begin Publicatie datum worden artikelen beschouwd als **In Behandeling**
 
 De datum- en tijdwaarden kunnen in de datumvelden worden getypt of geselecteerd met het Kalendertool, dat wordt geopend door het kalenderpictogram aan het einde van elk datumveld te selecteren.
 
-![Publicatiedata](../../../en/images/articles-access/article-schedule-publishing.png)
+![Publicatiedata](../../../en/images/articles/article-publishing/02-article-schedule-publishing.png)
 
 De kalender beweegt tussen dagen, maanden en jaren met behulp van de pijltoetsen naar voren, achteren, omhoog en omlaag. De **Vandaag** knop stelt de huidige datum in. De **Wissen** knop wist de datum en tijd.
 

@@ -1,4 +1,11 @@
-<!-- Filename: What_has_the_copyright_of_Joomla!%3F / Display title: Joomla! Auteursrecht -->
+<!--
+{
+  "source": "https://docs.joomla.org/What_has_the_copyright_of_Joomla!%3F",
+  "title": "Joomla! Auteursrecht ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 Het Joomla! project voegt de auteursrechten van zijn codebijdragers niet samen. Geen enkele bijdrager is verplicht om zijn/haar auteursrecht over te dragen aan Joomla! en elke individuele bijdrage blijft voor altijd eigendom van de auteur. Dit geldt ook voor vertalingen van de installatie-taalsets, aangezien deze alleen in de kernversie van Joomla! zijn opgenomen.
 

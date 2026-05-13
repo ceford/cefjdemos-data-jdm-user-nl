@@ -1,4 +1,11 @@
-<!-- Filename: Changing_user_groups / Display title: Gebruikersgroepen Wijzigen  -->
+<!--
+{
+  "source": "https://docs.joomla.org/Changing_user_groups",
+  "title": "Gebruikersgroepen Wijzigen  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Groepsovererving
 

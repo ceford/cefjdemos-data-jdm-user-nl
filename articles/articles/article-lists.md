@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Article_Lists / Display title: Artikel: Bewerken - Lijsten -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Article_Lists",
+  "title": "Artikel: Bewerken - Lijsten ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Lijsttypen
 
@@ -22,7 +29,7 @@ lijsten moeilijk leesbaar worden, dus het is het beste om bij één of twee nive
 
 De volgende screenshot toont een ongeordende lijst met twee niveaus van inspringing. Het toont ook de volledige gereedschapsset die wordt geopend door op de ellipsknop (…) aan het einde van de eerste rij gereedschapsiconen te klikken.
 
-![Geneste ongeordende lijsten](../../../en/images/articles/articles-edit-lists.png)
+![Geneste ongeordende lijsten](../../../en/images/articles/article-lists/01-articles-edit-lists.png)
 
 Deze screenshot zal worden gebruikt om uit te leggen hoe de opsommingstekens zijn gemaakt met behulp van de tools *Opsommingstekens*, *Inspringing vergroten* of *Inspringing verkleinen*:
 
@@ -38,7 +45,7 @@ Drie stijlen zijn beschikbaar:
 
 De naar beneden wijzende chevron rechts van het opsommingstekenpictogram opent een klein paneel waarmee de voorkeursstijl kan worden gekozen voor een geselecteerd lijstitem:
 
-![Hulpmiddelen voor manipulatie van opsommingslijsten](../../../en/images/articles/articles-edit-list-bullets.png)
+![Hulpmiddelen voor manipulatie van opsommingslijsten](../../../en/images/articles/article-lists/02-articles-edit-list-bullets.png)
 
 Het lijstpictogram werkt als een schakelaar. Als de cursor in een alinea staat en een opsommingsteken is geselecteerd, wordt de alinea een lijstitem. Als het opsommingsteken opnieuw wordt geselecteerd, verandert het lijstitem weer in een alinea.
 
@@ -65,7 +72,7 @@ Zes stijlen zijn beschikbaar:
 - Hoofdletters: A, B, C ...
 - Hoofdletters Romeinse cijfers: I, II, III ...
 
-![Hulpmiddelen voor manipulatie van genummerde lijsten](../../../en/images/articles/articles-edit-list-numbers.png)
+![Hulpmiddelen voor manipulatie van genummerde lijsten](../../../en/images/articles/article-lists/03-articles-edit-list-numbers.png)
 
 Genummerde lijsten werken iets anders. Wanneer een lijstitem wordt ingesprongen, neemt het de eerste numerieke waarde aan en schuiven de nummers van de rest van de lijst op zodat de lijst altijd in de juiste numerieke volgorde staat.
 

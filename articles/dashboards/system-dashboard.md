@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:System_Dashboard / Display title: Systeemdashboard   -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:System_Dashboard",
+  "title": "Systeemdashboard   ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introductie
 
@@ -17,7 +24,7 @@ Individuele items worden behandeld in andere handleidingen.
 
 ## Screenshot
 
-![Systeemdashboard](../../../en/images/dashboards/system-dashboard.png)
+![Systeemdashboard](../../../en/images/dashboards/system-dashboard/01-system-dashboard.png)
 
 *Vertaald door openai.com*
 

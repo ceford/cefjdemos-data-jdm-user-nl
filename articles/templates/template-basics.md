@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Template_Basics / Display title: Sjabloon Basisprincipes -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Template_Basics",
+  "title": "Sjabloon Basisprincipes ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Inleiding
 
@@ -6,7 +13,7 @@ In Joomla! is een sjabloon een verzameling bestanden die samen het uiterlijk van
 
 Een typisch sitesjabloon bevat PHP-bestanden om de inhoud te ordenen en CSS-bestanden om de inhoud te stijlen. Er zijn vaak extra bestanden zoals afbeeldingen die in de opmaak worden gebruikt en JavaScript-bestanden die worden gebruikt om te communiceren met sitefuncties zoals links en knoppen. De volgende schermafbeelding toont de Cassiopeia-sjabloonmappen en -bestanden in een nieuwe Joomla 4-installatie:
 
-![templates customize cassiopeia pagina](../../../en/images/templates/templates-customise-cassiopeia.png)
+![templates customize cassiopeia pagina](../../../en/images/templates/template-basics/01-templates-customise-cassiopeia.png)
 
 Let op dat de php-bestanden in de map /templates van de site staan en de mediabestanden in de map /media van de site.
 
@@ -14,7 +21,7 @@ Let op dat de php-bestanden in de map /templates van de site staan en de mediabe
 
 Het sjabloon van de site definieert de posities van de hoofdinhoud, bijvoorbeeld een individueel artikel of een blogindeling van aanbevolen artikelen, en eventuele modules die boven, onder, links of rechts van de hoofdinhoud moeten worden weergegeven. De volgende illustratie toont de beschikbare posities in Cassiopeia:
 
-![sjabloonposities diagram](../../../en/images/templates/cassiopeia-template-positions.png)
+![sjabloonposities diagram](../../../en/images/templates/template-basics/02-cassiopeia-template-positions.png)
 
 Ook kunt u de sjabloonposities in elk sjabloon bekijken door Voorvertoning Moduleposities in te schakelen in het Sjabloon: Opties-formulier en vervolgens ?tp=1 aan de url toe te voegen. Als er al een querystring aan de url is toegevoegd, voeg dan in plaats daarvan &tp=1 toe.
 
@@ -40,7 +47,7 @@ Naast de algemene lay-out die door het sitesjabloon wordt bepaald, heeft elk com
 
 Soms is een van deze *extensie*-sjablonen niet helemaal naar wens. In dat geval kunt u een sjabloonoverschrijving maken. Dit is een kopie van de code die wordt gebruikt om de extensielay-out te genereren, zodat u deze naar eigen inzicht kunt wijzigen. De volgende schermafbeelding toont het sjabloon: Aangepaste Overschrijvingen maken formulier:
 
-![sjabloon overschrijvingen](../../../en/images/templates/cassiopeia-customisation-create-overrides.png)
+![sjabloon overschrijvingen](../../../en/images/templates/template-basics/03-cassiopeia-customisation-create-overrides.png)
 
 Cassiopeia heeft al enkele overschrijvingen geïnstalleerd. Dat lijkt misschien een probleem te zijn. Als u een van de standaard Cassiopeia-bestanden wijzigt, worden uw wijzigingen bij de volgende Joomla-update overschreven (en dus verloren). De oplossing is kind-sjablonen.
 

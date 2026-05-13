@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Installing_Joomla / Display title: Joomla installeren -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Installing_Joomla",
+  "title": "Joomla installeren ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Inleiding
 
@@ -49,7 +56,7 @@ De zip-pakketbestanden kunnen rechtstreeks op de host worden uitgepakt met behul
 
 Met de bovenstaande vereisten voldaan, een aangemaakte database en de vereiste Joomla-bestanden op hun plaats, ben je klaar om Joomla te installeren. Start de Joomla web installer door je favoriete browser te openen en naar de domeinnaam van de site te browsen. Bij een hostinginstallatie gebruik je *`https://www.yoursitename.com`*. Als je Joomla lokaal installeert, gebruik je *`http://localhost/`* en zou je het installatiescherm moeten zien.
 
-![Joomla installer part 1, installation language and site name](../../../en/images/getting-started/installing-joomla-installer-1.png)
+![Joomla installer part 1, installation language and site name](../../../en/images/getting-started/installing-joomla/01-installing-joomla-installer-1.png)
 
 Joomla zal proberen het veld *Selecteer taal* automatisch te identificeren vanuit de taal van je browser. Je kunt dit indien nodig wijzigen.
 
@@ -63,7 +70,7 @@ Wanneer alles op de eerste pagina is voltooid, selecteer de knop *Instellingen A
 
 Je zou nu het inloggegevensscherm moeten zien.
 
-![Joomla installer part 2, login data](../../../en/images/getting-started/installing-joomla-installer-2.png)
+![Joomla installer part 2, login data](../../../en/images/getting-started/installing-joomla/02-installing-joomla-installer-2.png)
 
 Vul de volgende informatie in.
 
@@ -78,7 +85,7 @@ Wanneer alles op de tweede pagina is voltooid, selecteer de knop *Setup Database
 
 Voer de database-informatie in die je hebt genoteerd toen je de database aanmaakte voor deze installatie.
 
-![Joomla installer part 3, database configuration](../../../en/images/getting-started/installing-joomla-installer-3.png)
+![Joomla installer part 3, database configuration](../../../en/images/getting-started/installing-joomla/03-installing-joomla-installer-3.png)
 
 Voor vereenvoudiging zijn deze instructies een referentie voor het installeren met een MySQLi-database. De instructies op de installatiepagina zijn vanzelfsprekend, maar hier zijn ze opnieuw:
 
@@ -103,7 +110,7 @@ Al deze keuzes en meer kunnen worden bewerkt op de pagina Site Globale Configura
 
 Nadat u de knop *Joomla Installeren* hebt geselecteerd, zou u de voortgangsbalk van de Joomla-installatie moeten zien.
 
-![Joomla installer part 4, installation progress bar](../../../en/images/getting-started/installing-joomla-installer-4.png)
+![Joomla installer part 4, installation progress bar](../../../en/images/getting-started/installing-joomla/04-installing-joomla-installer-4.png)
 
 Zodra de installatie is voltooid, zou je de succespagina moeten zien.
 
@@ -113,7 +120,7 @@ Zodra de installatie is voltooid, zou je de succespagina moeten zien.
 
 Gefeliciteerd! Je Joomla-site is klaar.
 
-![Joomla installer part 5, your joomla site is ready](../../../en/images/getting-started/installing-joomla-installer-5.png)
+![Joomla installer part 5, your joomla site is ready](../../../en/images/getting-started/installing-joomla/05-installing-joomla-installer-5.png)
 
 De bovenstaande screenshot toont een ontwikkelaarsinstallatie. Een productie-installatie verwijdert automatisch de Installatiemap.
 
@@ -133,7 +140,7 @@ Dit brengt u naar een extra installatiescherm waar u de gewenste talen kunt sele
 
 Een lijst met taalpakketten wordt weergegeven.
 
-![Joomla installer part 6, install additional languages](../../../en/images/getting-started/installing-joomla-installer-6.png)
+![Joomla installer part 6, install additional languages](../../../en/images/getting-started/installing-joomla/06-installing-joomla-installer-6.png)
 
 Selecteer maximaal 3 talen die je wilt installeren. (Meer dan 3 tegelijk kan time-out problemen veroorzaken; je kunt later meer installeren.)
 
@@ -150,7 +157,7 @@ Selecteer *Volgende* en een voortgangsbalk wordt weergegeven terwijl het taalpak
 
 Wanneer de installatie van de talen is voltooid, zal je nu een vergelijkbaar scherm te zien krijgen met de tekst *Gefeliciteerd! Je Joomla-site is klaar.* Het verschil zal een lijst zijn van de geïnstalleerde talen waarmee je de standaardtaal voor de Site en de Beheerder-interface kunt selecteren.
 
-![Joomla installer part 7, choose default language](../../../en/images/getting-started/installing-joomla-installer-7.png)
+![Joomla installer part 7, choose default language](../../../en/images/getting-started/installing-joomla/07-installing-joomla-installer-7.png)
 
 - Selecteer de standaardtaal die u wilt gebruiken.
 - Wanneer u de standaardtaal hebt geselecteerd, selecteert u de knop *Standaardtaal instellen* om te bevestigen.

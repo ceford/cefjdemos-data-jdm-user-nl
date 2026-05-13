@@ -1,4 +1,11 @@
-<!-- Filename: J3.x:Adding_custom_fields/Media_Field / Display title: Media Veld -->
+<!--
+{
+  "source": "https://docs.joomla.org/J3.x:Adding_custom_fields",
+  "title": "Media Veld ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Doel
 
@@ -13,7 +20,7 @@ Speciale opties binnen dit veld zijn:
 - **Voorvertoning** Toont of verbergt de miniatuurvoorvertoning van de geselecteerde afbeelding.
 - **Afbeeldingsklasse** De klasse die wordt toegevoegd aan het img-tag bij uitvoer. Een klasse van *w-25* zal de breedte van de afbeelding tot 25% van de bovenliggende container verminderen.
 
-![media veldcreatie](../../../en/images/fields/fields-media-edit.png)
+![media veldcreatie](../../../en/images/fields/adding-custom-fields-media-field/01-fields-media-edit.png)
 
 **Opmerking:** In dit voorbeeld is de opname van het veldtype in de titel alleen voor demonstratiedoeleinden. Laat het weg in je eigen veldtitels.
 
@@ -21,14 +28,14 @@ Speciale opties binnen dit veld zijn:
 
 Het gegevensinvoerformulier is een eenvoudige versie van het Media-selectieformulier.
 
-![media veld gegevensinvoer](../../../en/images/fields/fields-media-data-entry.png)
+![media veld gegevensinvoer](../../../en/images/fields/adding-custom-fields-media-field/02-fields-media-data-entry.png)
 
 
 ## Gegevensweergave
 
 De volgende screenshot van de site toont het veld weergegeven in een artikel. De optie *Automatische weergave* is verantwoordelijk voor de positie van het veld en jouw sjabloon is verantwoordelijk voor het ontwerp van het veld.
 
-![media veld site weergave](../../../en/images/fields/fields-media-site.png)
+![media veld site weergave](../../../en/images/fields/adding-custom-fields-media-field/03-fields-media-site.png)
 
 *Vertaald door openai.com*
 

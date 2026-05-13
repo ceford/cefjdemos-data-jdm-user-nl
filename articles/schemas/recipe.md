@@ -1,4 +1,11 @@
-<!-- Filename: J5.x:Schema_org/Type_Recipe_-_Using_Recipe_Plugin / Display title: Schema.org - Recept -->
+<!--
+{
+  "source": "https://docs.joomla.org/J5.x:Schema_org",
+  "title": "Schema.org - Recept ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Doel
 
@@ -30,7 +37,7 @@ De sectie *Algemeen Veld* staat toe dat *Titel* en *Waarde* paren worden ingevoe
 
 Hieronder staat een voorbeeld van een Receptschema in een Artikelbewerkingsformulier.
 
-![A recipe schema edit form](../../../en/images/schemas/edit-schema-recipe.png)
+![A recipe schema edit form](../../../en/images/schemas/recipe/01-edit-schema-recipe.png)
 
 *Vertaald door openai.com*
 

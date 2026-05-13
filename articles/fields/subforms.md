@@ -1,4 +1,11 @@
-<!-- Filename: jdocmanual?manual=user&heading=fields&filename=subform.md / Display title: Subformulier Veld -->
+<!--
+{
+  "source": "https://docs.joomla.org/jdocmanual?manual=user&heading=fields&filename=subform.md",
+  "title": "Subformulier Veld ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Doel
 
@@ -15,7 +22,7 @@ Speciale opties voor dit veld:
 - **Titel** en **Label** In dit voorbeeld zijn deze ingesteld op *Exemplaren*.
 - **Velden** Voeg de vereiste velden in het subformulier één voor één toe. Elke rij heeft een dropdown-lijst van beschikbare velden en een Weergåve van Waarden Ja/Nee schakeloptie. De volgorde van items kan worden gewijzigd met het sleep-icoon.
 
-![Subformulier creatie](../../../en/images/fields/fields-subform-edit.png)
+![Subformulier creatie](../../../en/images/fields/subforms/01-fields-subform-edit.png)
 
 **Opmerking:** In dit voorbeeld is het opnemen van het veldtype in de Titel alleen voor demonstratiedoeleinden. Laat het weg in je eigen veldtitels.
 
@@ -23,14 +30,14 @@ Speciale opties voor dit veld:
 
 In het gegevensinvoerformulier moet je rijen toevoegen voor elk exemplaar. Elke rij bevat een Kalenderveld, een Tekstveld en een Kleurenveld.
 
-![Subform gegevensinvoer](../../../en/images/fields/fields-subform-data-entry.png)
+![Subform gegevensinvoer](../../../en/images/fields/subforms/02-fields-subform-data-entry.png)
 
 ## Gegevensweergave
 
 In het artikel heeft het subformulier met de titel Specimens één rij voor elk specimen.
 Zoek naar het item **Specimens** in deze screenshot:
 
-![subform site display](../../../en/images/fields/fields-subform-site.png)
+![subform site display](../../../en/images/fields/subforms/03-fields-subform-site.png)
 
 *Vertaald door openai.com*  
 

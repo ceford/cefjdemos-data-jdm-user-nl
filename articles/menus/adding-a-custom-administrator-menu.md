@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Adding_a_Custom_Administrator_Menu / Display title: Aangepast Beheerdersmenu  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Adding_a_Custom_Administrator_Menu",
+  "title": "Aangepast Beheerdersmenu  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introductie
 
@@ -74,13 +81,13 @@ Selecteer in de lijst met menu's de knop **Gelinkte Modules** in het Branch Menu
 
 ## Screenshot
 
-![aangepaste beheerder menu component selectie](../../../en/images/menus/menus-custom-administrator-menu.png)
+![aangepaste beheerder menu component selectie](../../../en/images/menus/adding-a-custom-administrator-menu/01-menus-custom-administrator-menu.png)
 
 ## Resultaat
 
 Maak een gebruiker aan in de Branch Group om zelf mee te testen. Log in op de beheerdersinterface als die gebruiker om het resultaat te zien:
 
-![resultaat aangepast beheerdersmenu](../../../en/images/menus/menus-custom-administrator-menu-result.png)
+![resultaat aangepast beheerdersmenu](../../../en/images/menus/adding-a-custom-administrator-menu/02-menus-custom-administrator-menu-result.png)
 
 ## Notities
 

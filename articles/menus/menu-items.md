@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Menu_Items / Display title: Menu-items  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Menu_Items",
+  "title": "Menu-items  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introductie
 
@@ -8,7 +15,7 @@ Menu-items zijn de belangrijkste navigatie-eenheden van een Joomla-site. Na aank
 
 Menu itemtypen zijn gedefinieerd in elke component die site views heeft. De kern van Joomla heeft ongeveer 10 van zulke componenten, elk met verschillende views, wat in totaal meer dan 30 typen oplevert. De volgende schermafbeelding toont de **Menu's: Alle Menu Items**-lijst met een selectie van menu itemtypen onder de menutitels in de **Titel**-kolom:
 
-![menu items lijst](../../../en/images/menus/menus-all-menu-items-list.png)
+![menu items lijst](../../../en/images/menus/menu-items/01-menus-all-menu-items-list.png)
 
 ## Een Menu-item Toevoegen
 
@@ -22,7 +29,7 @@ In het **Menu's: Nieuw Item** formulier:
 - Voer in het **Titel** veld een geschikte korte titel voor het menu-item in.
 - Gebruik in het veld **Menu Item Type** de **Selecteer** knop om het dialoogvenster Menu Item Type te openen.
 
-![menu-items type selecteren](../../../en/images/menus/menus-menu-items-select-type.png)
+![menu-items type selecteren](../../../en/images/menus/menu-items/02-menus-menu-items-select-type.png)
 
 - Selecteer welk type je nodig hebt, in dit voorbeeld een type Enkel Artikel.
 
@@ -33,7 +40,7 @@ Het gegevensformulier **Menu's: Nieuw Item** zal veranderen om velden weer te ge
 - **Opslaan**
 - Als je de volgorde van dit item in het menu wilt veranderen, gebruik dan het **Volgorde** veld aan de rechterkant. Standaard is het als laatste. Je kunt het als **Eerste** of na elk ander geselecteerd menu-item plaatsen.
 
-![menu-items item bewerken](../../../en/images/menus/menus-menu-items-edit-item.png)
+![menu-items item bewerken](../../../en/images/menus/menu-items/03-menus-menu-items-edit-item.png)
 
 - Bekijk de site om te controleren of het is wat je wilt.
 

@@ -1,10 +1,17 @@
-<!-- Filename: J5.x:Improving_SEO_with_Strict_Routing_and_SEF_URLs / Display title: SEO Strikte Routering -->
+<!--
+{
+  "source": "https://docs.joomla.org/J5.x:Improving_SEO_with_Strict_Routing_and_SEF_URLs",
+  "title": "SEO Strikte Routering ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Inleiding
 
 De optie Strict Routing, geïntroduceerd in Joomla 5.2, verbetert de SEO-prestaties van het platform door strengere routeringsregels toe te staan met behulp van een schakelaar in de *System - SEF* plugin. Het helpt dubbele inhoud te elimineren door consistentere URL's af te dwingen en duplicaten om te leiden naar de juiste URL met een 301-omleiding.
 
-![system sef plugin settings](../../../en/images/seo/seo-system-sef-plugin.png)
+![system sef plugin settings](../../../en/images/seo/strict-routing/01-seo-system-sef-plugin.png)
 
 ### Afdwingen van Achtervoegsels
 

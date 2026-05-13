@@ -1,4 +1,11 @@
-<!-- Filename: Customising_the_Smart_Search_results_page / Display title: Slimme zoeklay-out overschrijven -->
+<!--
+{
+  "source": "https://docs.joomla.org/Customising_the_Smart_Search_results_page",
+  "title": "Slimme zoeklay-out overschrijven ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Resultaatpagina's
 

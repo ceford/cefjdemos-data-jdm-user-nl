@@ -1,4 +1,11 @@
-<!-- Filename: Visual_Studio_Code_Primer / Display title: Visual Studio Code Inleiding  -->
+<!--
+{
+  "source": "https://docs.joomla.org/Visual_Studio_Code_Primer",
+  "title": "Visual Studio Code Inleiding  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## VS Code - Een Populaire Gratis IDE
 
@@ -95,7 +102,7 @@ Stel in de Globale Configuratie van Joomla *Systeemdebug* in op *Ja* en *Foutrap
 
 Wanneer u een pagina opent die de defecte module bevat, ziet u een stack-trace die u vertelt waar een fout werd gegenereerd.
 
-![vscode stack trace](../../../en/images/test-installations/vscode-primer-stack-trace.png)
+![vscode stack trace](../../../en/images/test-installations/visual-studio-code-primer/01-vscode-primer-stack-trace.png)
 
 Soms bevindt de codeerfout zich op de eerste regel van de stack-trace. Als de fout echter in bibliotheekcode wordt gegenereerd, bijvoorbeeld door het doorgeven van ongeldige gegevens aan een databasefunctie, kan de codeerfout verderop in de lijst met functieaanroepen staan.
 
@@ -103,7 +110,7 @@ Soms bevindt de codeerfout zich op de eerste regel van de stack-trace. Als de fo
 
 In VS Code, gebruik het menu-item Bestand / Map openen om de map te vinden en te openen die je lokale kopie van de *mod_debugme* extensiecode bevat. Je zou iets vergelijkbaars met het volgende moeten zien:
 
-![vscode folder view](../../../en/images/test-installations/vscode-primer-screen.png)
+![vscode folder view](../../../en/images/test-installations/visual-studio-code-primer/02-vscode-primer-screen.png)
 
 Je kunt mogelijk het probleem diagnosticeren door gewoon de code te lezen. In het geval van de fout *Class "DebugHelper" not found* zul je zien dat een *use* instructie een paar regels eerder is uitgecommentarieerd. Het vergeten om een *use* instructie in te voegen is een veelgemaakte fout tijdens de eerste ontwikkeling!
 
@@ -262,7 +269,7 @@ Een paar minder voor de hand liggende problemen:
 
 Wanneer alles is opgelost, is dit wat je mogelijk ziet:
 
-![vscode debugged module site view](../../../en/images/test-installations/vscode-primer-debugme-fixed.png)
+![vscode debugged module site view](../../../en/images/test-installations/visual-studio-code-primer/03-vscode-primer-debugme-fixed.png)
 
 Cake dagen?
 

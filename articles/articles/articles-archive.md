@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:How_to_Archive_an_Article / Display title: Artikelen: Archief  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:How_to_Archive_an_Article",
+  "title": "Artikelen: Archief  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introductie
 
@@ -38,7 +45,7 @@ Er is een module [Artikelen – Gearchiveerd](jdocmanual?article=user/modules/ar
 
 De volgende schermafbeelding toont een *Gearchiveerde Artikelen* pagina verkregen met een menu-item. Er zijn filters voor *Maand* en *Jaar* en een lijstlimiet met instellingen van 5 tot 100 en Alles. Wees altijd voorzichtig met het gebruik van *Alles*. Als je duizenden resultaten retourneert, kan je pagina traag laden en niet reageren. Je kunt tijd of geheugen tekortkomen, wat kan leiden tot een serverfout.
 
-![Gearchiveerde artikelen paginaweergave](../../../en/images/articles/articles-archived-site.png)
+![Gearchiveerde artikelen paginaweergave](../../../en/images/articles/articles-archive/01-articles-archived-site.png)
 
 Onderaan de rechterkolom bevindt zich de module *Gearchiveerde Artikelen*.  
 

@@ -1,4 +1,11 @@
-<!-- Filename: J5.x:Add_a_class_selector_to_the_create_link_dialog / Display title: Selecteer laatste bestand -->
+<!--
+{
+  "source": "https://docs.joomla.org/J5.x:Add_a_class_selector_to_the_create_link_dialog",
+  "title": "Selecteer laatste bestand ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Inleiding
 

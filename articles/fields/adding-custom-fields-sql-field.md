@@ -1,4 +1,11 @@
-<!-- Filename: J3.x:Adding_custom_fields/Sql_Field / Display title: SQL Veld -->
+<!--
+{
+  "source": "https://docs.joomla.org/J3.x:Adding_custom_fields",
+  "title": "SQL Veld ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Doel
 
@@ -19,7 +26,7 @@ FROM `#__countrybase_countries`
 WHERE `state` = 1
 ORDER BY `title` ASC
 ```
-![SQL Veldcreatie](../../../en/images/fields/fields-sql-edit.png)
+![SQL Veldcreatie](../../../en/images/fields/adding-custom-fields-sql-field/01-fields-sql-edit.png)
 
 **Opmerking:** In dit voorbeeld is het opnemen van het veldtype in de titel alleen voor demonstratiedoeleinden. Laat het weg in je eigen veldtitels.
 
@@ -27,13 +34,13 @@ ORDER BY `title` ASC
 
 Eenvoudig - selecteer uit de lijst.
 
-![SQL veldgegevensinvoer](../../../en/images/fields/fields-sql-data-entry.png)
+![SQL veldgegevensinvoer](../../../en/images/fields/adding-custom-fields-sql-field/02-fields-sql-data-entry.png)
 
 ## Gegevensweergave
 
 De volgende schermafbeelding van de site toont het veld dat in een artikel wordt weergegeven. De optie *Automatische weergave* is verantwoordelijk voor de positie van het veld en jouw template is verantwoordelijk voor het ontwerp van het veld.
 
-![SQL veld site weergave](../../../en/images/fields/fields-sql-site.png)
+![SQL veld site weergave](../../../en/images/fields/adding-custom-fields-sql-field/03-fields-sql-site.png)
 
 De output is een enkel item of een door komma's gescheiden lijst van items (landennamen) na het veldlabel (Land van herkomst).
 

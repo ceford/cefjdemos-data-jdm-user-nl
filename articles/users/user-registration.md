@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:User_Registration / Display title: Gebruikersregistratie   -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:User_Registration",
+  "title": "Gebruikersregistratie   ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Registratiebeleid
 
@@ -16,7 +23,7 @@ Gebruiker zelfregistratie is standaard niet toegestaan. Elke nieuwe gebruiker mo
   - Zelf: Gebruiker ontvangt een e-mail met een activatielink. Het account wordt geactiveerd wanneer de gebruiker op de activatielink klikt.
   - Beheerder: Gebruiker ontvangt een e-mail met een activatielink. Wanneer de gebruiker op deze link klikt, wordt de Sitebeheerder via e-mail op de hoogte gesteld. De Sitebeheerder moet dan het account van de gebruiker activeren.
 
-![Gebruikersconfiguratie gebruikers opties tabblad](../../../en/images/users/users-configuration-user-options.png)
+![Gebruikersconfiguratie gebruikers opties tabblad](../../../en/images/users/user-registration/01-users-configuration-user-options.png)
 
 - **Opslaan & Sluiten**
 - Voeg een *Login* module toe. Of
@@ -34,7 +41,7 @@ Als zelfregistratie niet is toegestaan, moet elke nieuwe gebruiker door een Admi
 - Selecteer **Gebruikers** → **Beheer +** uit het Administrator-menu.
 - Vul het formulier **Nieuwe Gebruikersgegevens** in. De meeste velden hebben geschikte standaardwaarden.
 
-![Pagina voor invoer van nieuwe gebruikersgegevens](../../../en/images/users/users-new-user.png)
+![Pagina voor invoer van nieuwe gebruikersgegevens](../../../en/images/users/user-registration/02-users-new-user.png)
 
 - Selecteer het tabblad **Toegekende Gebruikersgroepen** en vink het vakje aan bij de gewenste gebruikersgroep. Standaard is 'Geregistreerd' aangevinkt.
 - **Opslaan & Sluiten**.
@@ -50,7 +57,7 @@ Om een gebruiker te blokkeren:
 - Zoek de gebruiker in de *Gebruikers*-lijst. Gebruik indien nodig de tekstfilter.
 - Selecteer het ingeschakelde pictogram dat verschijnt als een groen vinkje naast de gebruikersnaam. Een **Blokkeren**-label verschijnt bij zweven.
 
-![Nieuwe invoerpagina gebruiker](../../../en/images/users/users-hover-block.png)
+![Nieuwe invoerpagina gebruiker](../../../en/images/users/user-registration/03-users-hover-block.png)
 
 - Selecteer het *Ingeschakeld*-pictogram. De pagina wordt opnieuw geladen met het ingeschakelde pictogram dat verschijnt als een grijze kruis.
 

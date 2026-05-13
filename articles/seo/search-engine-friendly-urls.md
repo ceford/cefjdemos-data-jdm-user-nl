@@ -1,4 +1,11 @@
-<!-- Filename: Search_Engine_Friendly_URLs / Display title: Zoekmachinevriendelijke URL's  -->
+<!--
+{
+  "source": "https://docs.joomla.org/Search_Engine_Friendly_URLs",
+  "title": "Zoekmachinevriendelijke URL's  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Paden en Routes
 

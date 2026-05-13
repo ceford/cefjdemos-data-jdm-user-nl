@@ -1,4 +1,11 @@
-<!-- Filename: jdocmanual?manual=user&heading=migration&filename=migration-basics.md / Display title: Basisprincipes van Migratie  -->
+<!--
+{
+  "source": "https://docs.joomla.org/jdocmanual?manual=user&heading=migration&filename=migration-basics.md",
+  "title": "Basisprincipes van Migratie  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Terminologie
 

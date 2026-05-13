@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Create_and_Manage_Article_Categories / Display title: Artikelen: Categorieën  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Create_and_Manage_Article_Categories",
+  "title": "Artikelen: Categorieën  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Inleiding
 
@@ -53,11 +60,11 @@ De volgende screenshot toont de Home Dashboard *Artikelcategorieën* link naar
 de lijst van categorieën en het aangrenzende *Plus Symbool* dat leidt naar het 
 *Artikelen: Nieuwe Categorie* formulier.
 
-![Het categorie toevoegen icoon gemarkeerd in het home dashboard](../../../en/images/articles/category-add-via-home-dashboard.png)
+![Het categorie toevoegen icoon gemarkeerd in het home dashboard](../../../en/images/articles/articles-categories/01-category-add-via-home-dashboard.png)
 
 ## De Artikelen: Nieuwe Categorie Formulier
 
-![Het formulier voor nieuwe categorie bijwerken in de artikelen](../../../en/images/getting-started/article-category-edit.png)
+![Het formulier voor nieuwe categorie bijwerken in de artikelen](../../../en/images/articles/articles-categories/02-article-category-edit.png)
 
 De bovenstaande screenshot toont het ingevulde formulier. Er zijn slechts twee velden die enige inhoud nodig hebben. Alles andere heeft standaard- of nullwaarden die je voorlopig kunt laten en later kunt invullen als dat nodig is.
 
@@ -93,7 +100,7 @@ Instellingen in dit tabblad beïnvloeden het uiterlijk van deze Categorie op sit
 
 Het sluiten van het bewerkingsformulier leidt naar de **Artikelen: Categoriën** lijstpagina.
 
-![Een categoriënlijst gefilterd door Natuur-tag](../../../en/images/articles/categories-list.png)
+![Een categoriënlijst gefilterd door Natuur-tag](../../../en/images/articles/articles-categories/03-categories-list.png)
 
 ### Opslaan naar Menu als Lijst
 
@@ -109,7 +116,7 @@ Probeer in het tabblad *Paginaweergave* het veld *Pagina-kop weergeven* in te st
 
 De volgende screenshot toont de weergave op de site van een categorie blogpagina in ontwikkeling.
 
-![Blogpagina van de zoogdiercategorie](../../../en/images/articles/article-mammals-articles-blog-site-view.png)
+![Blogpagina van de zoogdiercategorie](../../../en/images/articles/articles-categories/04-article-mammals-articles-blog-site-view.png)
 
 ## Tips
 

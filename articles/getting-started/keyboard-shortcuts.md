@@ -1,4 +1,11 @@
-<!-- Filename: Keyboard_Shortcuts / Display title: Sneltoetsen  -->
+<!--
+{
+  "source": "https://docs.joomla.org/Keyboard_Shortcuts",
+  "title": "Sneltoetsen  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Inleiding
 

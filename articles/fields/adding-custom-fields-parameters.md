@@ -1,4 +1,11 @@
-<!-- Filename: J3.x:Adding_custom_fields/Parameters_for_all_Custom_Fields / Display title: Veldparameters -->
+<!--
+{
+  "source": "https://docs.joomla.org/J3.x:Adding_custom_fields",
+  "title": "Veldparameters ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Formulier voor Gegevensinvoer
 
@@ -9,7 +16,7 @@ Een veldenlijst zal aanvankelijk leeg zijn. Om te beginnen, bijvoorbeeld met Art
 
 Het formulier bestaat uit een Titelveld en vier tabbladen.
 
-![Algemene tab van veldparameters](../../../en/images/fields/fields-parameters-general-tab.png)
+![Algemene tab van veldparameters](../../../en/images/fields/adding-custom-fields-parameters/01-fields-parameters-general-tab.png)
 
 ## Titel
 
@@ -44,7 +51,7 @@ De titel wordt weergegeven op de *Artikelen: Velden* lijstpagina, waar het gesel
 
 ### Opties tabblad
 
-![Veldparameters algemeen tabblad](../../../en/images/fields/fields-parameters-options-tab.png)
+![Veldparameters algemeen tabblad](../../../en/images/fields/adding-custom-fields-parameters/02-fields-parameters-options-tab.png)
 
 #### Formulier Opties
 
@@ -81,13 +88,13 @@ Als je een Subformulier veld maakt en je voegt dit voorwaardelijke veld toe voor
 
 ### Publicatie tabblad
 
-![Veldparameters algemeen tabblad](../../../en/images/fields/fields-parameters-publishing-tab.png)
+![Veldparameters algemeen tabblad](../../../en/images/fields/adding-custom-fields-parameters/03-fields-parameters-publishing-tab.png)
 
 ### Rechten tabblad
 
 De machtigingen voor elke gebruikersgroep spreken voor zich voor de acties *Verwijderen*, *Bewerken* en *Status bewerken*. De machtigingen geven aan wie wat mag doen met het veld als geheel – bijvoorbeeld het verwijderen, aanpassen of depubliceren ervan.
 
-![Veldparameters algemeen tabblad](../../../en/images/fields/fields-parameters-permissions-tab.png)
+![Veldparameters algemeen tabblad](../../../en/images/fields/adding-custom-fields-parameters/04-fields-parameters-permissions-tab.png)
 
 De machtiging *Aangepaste veldwaarde bewerken* kan verwarrend zijn. Deze geeft aan wie de inhoud van het veld mag wijzigen. Standaard is deze ingesteld op **Niet toegestaan (Geërfd)** voor alle groepen, behalve voor Supergebruikers. Twee voorbeelden:
 

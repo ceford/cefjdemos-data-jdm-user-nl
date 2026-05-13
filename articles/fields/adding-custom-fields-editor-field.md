@@ -1,4 +1,11 @@
-<!-- Filename: J3.x:Adding_custom_fields/Editor_Field / Display title: Editorveld -->
+<!--
+{
+  "source": "https://docs.joomla.org/J3.x:Adding_custom_fields",
+  "title": "Editorveld ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Doel
 
@@ -16,7 +23,7 @@ Speciale opties binnen dit veld zijn:
 - **Hoogte** De waarde voor hoogte bepaalt de hoogte (in pixels) van de WYSIWYG-editor. De standaardwaarde hiervoor is 250px. De waarde kan worden weergegeven als een breuk van de viewporthoogte, bijvoorbeeld 50vh.
 - **Filter** Sta het systeem toe bepaalde HTML-tags of ruwe gegevens op te slaan.
 
-![Editor veldcreatie](../../../en/images/fields/fields-editor-edit.png)
+![Editor veldcreatie](../../../en/images/fields/adding-custom-fields-editor-field/01-fields-editor-edit.png)
 
 **Opmerking:** In dit voorbeeld is de opname van het veldtype in de titel alleen voor demonstratiedoeleinden. Laat het weg in je eigen veldtitels.
 
@@ -24,7 +31,7 @@ Speciale opties binnen dit veld zijn:
 
 In het artikelbewerkingsformulier is het aanvullende Editor-veld vergelijkbaar met het hoofdinhoudsveld van de Editor.
 
-![editor veld gegevensinvoer](../../../en/images/fields/fields-editor-data-entry.png)
+![editor veld gegevensinvoer](../../../en/images/fields/adding-custom-fields-editor-field/02-fields-editor-data-entry.png)
 
 ## Gegevensweergave
 
@@ -34,7 +41,7 @@ In de artikelweergave verschijnt de ingevoerde tekst onder de kop, maar als onde
 
 Zoek naar het item **Teeltnotities**.
 
-![editor veld site weergave](../../../en/images/fields/fields-editor-site.png)
+![editor veld site weergave](../../../en/images/fields/adding-custom-fields-editor-field/03-fields-editor-site.png)
 
 *Vertaald door openai.com*
 

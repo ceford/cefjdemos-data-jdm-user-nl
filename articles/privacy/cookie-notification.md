@@ -1,4 +1,11 @@
-<!-- Filename: Cookie_notification / Display title: Koekjes   -->
+<!--
+{
+  "source": "https://docs.joomla.org/Cookie_notification",
+  "title": "Koekjes   ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Samenvatting van het cookiegebruik op een Joomla!-site
 

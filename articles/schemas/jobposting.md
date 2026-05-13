@@ -1,4 +1,11 @@
-<!-- Filename: J5.x:Schema_org/Type_JobPosting_-_Using_JobPosting_Plugin / Display title: Schema.org - JobPosting -->
+<!--
+{
+  "source": "https://docs.joomla.org/J5.x:Schema_org",
+  "title": "Schema.org - JobPosting ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Doel
 
@@ -29,7 +36,7 @@ De sectie *Algemeen Veld* staat toe om *Titel* en *Waarde* paren in te voeren na
 
 Onderstaand is een voorbeeld van een JobPosting-schema in een artikelbewerkingsformulier.
 
-![A jobposting schema edit form](../../../en/images/schemas/edit-schema-jobposting.png)
+![A jobposting schema edit form](../../../en/images/schemas/jobposting/01-edit-schema-jobposting.png)
 
 *Vertaald door openai.com*
 

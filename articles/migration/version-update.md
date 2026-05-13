@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Updating_from_an_existing_version / Display title: Versie-update  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Updating_from_an_existing_version",
+  "title": "Versie-update  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introductie
 
@@ -16,11 +23,11 @@ Hoewel Joomla je zal informeren wanneer er een update beschikbaar is, vereist he
 
 Als het notificatiepaneel wordt weergegeven op het startdashboard, selecteer dan de knop **x.y.z Beschikbaar - Nu bijwerken!** om naar de Update Component te gaan.
 
-![joomla update notificatie in startdashboard](../../../en/images/migration/version-update-notification-home-dashboard.png)
+![joomla update notificatie in startdashboard](../../../en/images/migration/version-update/01-version-update-notification-home-dashboard.png)
 
 Als alternatief, om toegang te krijgen tot de Update Component via het Beheerdersmenu, selecteer **Systeem** om via het **Systeemdashboard** te gaan.
 
-![joomla update notificatie in systeemdashboard](../../../en/images/migration/version-update-notification-system-dashboard.png)
+![joomla update notificatie in systeemdashboard](../../../en/images/migration/version-update/02-version-update-notification-system-dashboard.png)
 
 Het systeemdashboard heeft een *Updatepaneel* dat een Joomla-link bevat die het beschikbare updateversienummer weergeeft. Selecteer de **Joomla**-link om naar de Update Component te gaan.
 
@@ -34,7 +41,7 @@ Update Server gebruiken in lijstvorm.
 **Let op:** Het *Pre-Updatecontrole*-scherm wordt niet weergegeven als de site op de
 huidige **Minor** versie is.
 
-![joomla pre update controle](../../../en/images/migration/version-update-pre-update-check.png)
+![joomla pre update controle](../../../en/images/migration/version-update/03-version-update-pre-update-check.png)
 
 Let goed op de controle resultaten en neem maatregelen om eventuele problemen
 die naar voren komen op te lossen voordat je bijwerkt. Mogelijk moet je incompatibele
@@ -57,21 +64,21 @@ Wanneer je de Pre-Updatecontrole hebt doorgenomen en tevreden bent, selecteer je
 
 ### Bevestigen van de Update
 
-![start update pagina](../../../en/images/migration/version-update-start-update.png)
+![start update pagina](../../../en/images/migration/version-update/04-version-update-start-update.png)
 
 Klik op het selectievakje om te bevestigen dat je een back-up hebt gemaakt en hebt
 gecontroleerd of extensies compatibel zijn, klik daarna op **Start Update**.
 
 ### Update Voortgang
 
-![update voortgang pagina](../../../en/images/migration/version-update-progress.png)
+![update voortgang pagina](../../../en/images/migration/version-update/05-version-update-progress.png)
 
 Zodra de update start, verschijnt er een voortgangsbalk terwijl de Joomla-bestanden
 worden bijgewerkt.
 
 ### Voltooiing
 
-![update voltooiingspagina](../../../en/images/migration/version-update-completion.png)
+![update voltooiingspagina](../../../en/images/migration/version-update/06-version-update-completion.png)
 
 Wanneer de voortgangsbalk 100% bereikt, zal een systeembericht bevestigen dat je
 site is bijgewerkt en het versienummer weergeven. Het versienummer wordt ook
@@ -92,7 +99,7 @@ Ga naar de frontend van de website en controleer of deze werkt en wordt weergege
 
 Selecteer **Systeem** in het zijbalkmenu om naar het Systeemdashboard te gaan. Dit geeft je een overzicht van de huidige status van je Joomla-site.
 
-![systeemdashboard na update](../../../en/images/migration/version-update-after-update.png)
+![systeemdashboard na update](../../../en/images/migration/version-update/07-version-update-after-update.png)
 
 In dit voorbeeld kunnen we zien dat er sinds de update twee items zijn die aandacht vereisen. Ze zijn gemarkeerd met een label dat een aantal bevat. Het aantal geeft aan hoeveel items aandacht vereisen. Door op elk item te klikken, kun je ze corrigeren.
 
@@ -102,11 +109,11 @@ In dit voorbeeld kunnen we zien dat er sinds de update twee items zijn die aanda
 
 Navigeer naar **Systeem → Onderhoud → Database**. Als je database up-to-date is, zou je een scherm moeten zien dat lijkt op het onderstaande:
 
-![databasecontrole na update zonder problemen](../../../en/images/migration/version-update-after-update-database-check-no-problems.png)
+![databasecontrole na update zonder problemen](../../../en/images/migration/version-update/08-version-update-after-update-database-check-no-problems.png)
 
 Als je database niet up-to-date is, zie je een scherm met een lijst van de gevonden problemen, zoals het onderstaande:
 
-![databasecontrole na update met problemen](../../../en/images/migration/version-update-after-update-database-check-problems.png)
+![databasecontrole na update met problemen](../../../en/images/migration/version-update/09-version-update-after-update-database-check-problems.png)
 
 Selecteer in dit geval de probleem extensie *Naam* en vervolgens de Update Structure knop in de werkbalk. Joomla zal je database bijwerken om de vermelde problemen te corrigeren en vervolgens het scherm opnieuw weergeven. Als de correctie succesvol was, geeft de weergave aan dat de database up-to-date is.
 
@@ -116,13 +123,13 @@ Selecteer in dit geval de probleem extensie *Naam* en vervolgens de Update Struc
 
 In sommige gevallen, wanneer je naar een nieuwe Joomla-versie updatet, worden er nieuwe kernextensies toegevoegd. Als er problemen waren met de database-update, zijn deze extensies mogelijk niet correct geïnstalleerd. Om dit te controleren, navigeer naar **Systeem → Ontdekken**. Selecteer vervolgens het Ontdekkensymbool in de werkbalk. Het scherm zou er als volgt uit moeten zien:
 
-![Ontdekkenscherm Zonder Extensies Om Te Installeren](../../../en/images/migration/version-update-after-update-discover.png)
+![Ontdekkenscherm Zonder Extensies Om Te Installeren](../../../en/images/migration/version-update/10-version-update-after-update-discover.png)
 
 Als dat zo is, weet je dat alle nieuwe extensies die tijdens de update zijn toegevoegd correct in de database zijn geïnstalleerd.
 
 Als er niet-geïnstalleerde extensies zijn, zullen ze vergelijkbaar met het volgende scherm worden weergegeven:
 
-![Ontdekkenscherm Met Ontdekte Extensies Om Te Installeren](../../../en/images/migration/version-update-after-update-discover-found.png)
+![Ontdekkenscherm Met Ontdekte Extensies Om Te Installeren](../../../en/images/migration/version-update/11-version-update-after-update-discover-found.png)
 
 In dit geval vink je de vakjes aan en klik je op het Installeren-symbool in de werkbalk. Joomla zal de extensie(s) installeren en vervolgens het scherm weergeven waarop geen ontdekte extensies staan. Op dit punt zijn de nieuwe extensies in de database geïnstalleerd.
 

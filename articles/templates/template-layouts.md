@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Template_Layouts / Display title: Sjabloonlay-outs  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Template_Layouts",
+  "title": "Sjabloonlay-outs  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Lay-out Bestandstructuren
 
@@ -68,7 +75,7 @@ Je sessie zal verlopen om <br><?php echo $endTime; ?>
 
 Sluit de Cassiopeia-bestanden. Selecteer **Inhoud**→**Website Modules** en open de Login-module. In het tabblad Geavanceerd, Layout-item, zul je de keuze hebben tussen **-- Vanuit Module -- / Standaard** en **-- Vanuit cassiopeia Template -- / expires**.
 
-![login module met alternatieve layouts](../../../en/images/templates/layouts-module-login.png)
+![login module met alternatieve layouts](../../../en/images/templates/template-layouts/01-layouts-module-login.png)
 
 Een manier waarop je deze functie kunt gebruiken is door twee Inlogformulieren te hebben, één met Publieke toegang en de ander met Super Gebruikers toegang. Kies in het laatste geval de **expires** optie en alleen Super Gebruikers zullen de herinnering van de sessievervaltijd zien.
 
@@ -83,11 +90,11 @@ Je kunt de bestandsnaam vertalen met Taal Overrides. Probeer de volgende procedu
 - Selecteer de **Nieuw** knop en vul het formulier in. In dit voorbeeld is de taalsleutel **TPL_CASSIOPEIA_MOD_LOGIN_LAYOUT_EXPIRES** en de tekst zou kunnen zijn **Login / Logout met vervaltijd**
 - Opslaan en Sluiten en ga terug naar het Login-module formulier.
 
-![talen bewerken override formulier](../../../en/images/templates/layouts-language-override-form.png)
+![talen bewerken override formulier](../../../en/images/templates/template-layouts/02-layouts-language-override-form.png)
 
 Het formulier voor modulaire lay-outselectie met **expires** vertaald:
 
-![module alternatieve layouts selecteren](../../../en/images/templates/layouts-example-translated.png)
+![module alternatieve layouts selecteren](../../../en/images/templates/template-layouts/03-layouts-example-translated.png)
 
 ## Alternatieve Layouts voor Componenten
 
@@ -95,11 +102,11 @@ Alternatieve layouts voor componenten werken op dezelfde manier als modulelayout
 
 Je kunt een globale waarde instellen voor componentlayouts in het Opties-venster van de component. Bijvoorbeeld, in het venster Artikel: Opties is er een parameter *Kies een Layout* zoals hieronder getoond:
 
-![opties voor artikelen formulier met alternatieve layouts lijst](../../../en/images/templates/layouts-articles-options.png)
+![opties voor artikelen formulier met alternatieve layouts lijst](../../../en/images/templates/template-layouts/04-layouts-articles-options.png)
 
 Net als bij modulelayouts worden de componentlayouts getoond als parameteropties in het individuele componentbewerkingsscherm. Bijvoorbeeld, voor een artikel verschijnt de parameter in de Artikelen: Bewerken Opties tab zoals hieronder getoond.
 
-![artikel bewerk formulier met alternatieve layouts lijst](../../../en/images/templates/layout-article-edit.png)
+![artikel bewerk formulier met alternatieve layouts lijst](../../../en/images/templates/template-layouts/05-layout-article-edit.png)
 
 Net als bij andere parameters gebruikt de instelling Gebruik Globaal de instelling van de Opties-parameter. De instelling Van Component's Standaard gebruikt de standaardlayout van de component. Alternatieve layouts die je hebt gemaakt voor verschillende templates worden onder elke templatekop weergegeven.
 
@@ -121,11 +128,11 @@ Categorie alternatieve layouts werken net zoals componentlayouts. De regels voor
 
 Je kunt categorie layouts op globaal niveau instellen, in het Opties-scherm van elk component. Hieronder is een voorbeeld uit de Contacten: Opties / Categorie formulier:
 
-![optiesformulier van het contactencomponent dat alternatieve layouts toont](../../../en/images/templates/layouts-contacts-options.png)
+![optiesformulier van het contactencomponent dat alternatieve layouts toont](../../../en/images/templates/template-layouts/06-layouts-contacts-options.png)
 
 Categorie alternatieve layouts verschijnen wanneer je een categorie toevoegt of bewerkt in het Component: Bewerken Categorie / Opties formulier zoals hieronder getoond.
 
-![optiesformulier van het contactencomponent dat alternatieve layouts toont](../../../en/images/templates/layouts-contacts-category-options.png)
+![optiesformulier van het contactencomponent dat alternatieve layouts toont](../../../en/images/templates/template-layouts/07-layouts-contacts-category-options.png)
 
 Categorie alternatieve layouts kunnen worden gebruikt voor artikelen, banners, contacten en nieuwsfeeds.
 
@@ -140,7 +147,7 @@ Als er een menu-item is ingesteld voor een specifieke categorie, zal die layout 
 
 Voor artikelen zijn er twee kerncategorie-indelingen beschikbaar: Blog en Lijst. Elk van deze indelingen verschijnt in het formulier Artikelen: Opties onder de tab Categorie onder de kop "Van Component". Alternatieve indelingen verschijnen ook in de lijst, zodat Blog, Lijst of alternatieve sjabloonindelingen kunnen worden geselecteerd als de standaard categorie-indeling, hetzij globaal, hetzij bij het bewerken van een enkele artikelcategorie.
 
-![contacten componentopties formulier met alternatieve indelingen](../../../en/images/templates/layouts-articles-options-category.png)
+![contacten componentopties formulier met alternatieve indelingen](../../../en/images/templates/template-layouts/08-layouts-articles-options-category.png)
 
 Dit betekent dat, net als bij andere indelingsopties, je kunt bepalen of artikelcategorie-links blog- of lijstindelingen gebruiken. Het is belangrijk om te begrijpen dat deze optie, net als andere indelingsparameters, alleen van kracht zal zijn wanneer er geen menu-item voor een enkele categorie voor de categorie bestaat.
 

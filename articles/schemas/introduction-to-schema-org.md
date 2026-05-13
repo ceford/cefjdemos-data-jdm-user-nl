@@ -1,4 +1,11 @@
-<!-- Filename: J5.x:Schema_org / Display title: Inleiding tot Schema's -->
+<!--
+{
+  "source": "https://docs.joomla.org/J5.x:Schema_org",
+  "title": "Inleiding tot Schema's ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Rijke Snippets
 
@@ -18,7 +25,7 @@ In Joomla worden Rich Snippets gegenereerd met behulp van gestructureerde data-o
 
 Om te beginnen ga je naar **Systeem -> Plugins** en schakel je de *Systeem - Schema.org* plugin in. Als deze plugin niet is ingeschakeld, zal er geen Schema-tabblad zijn in een artikelbewerkingsformulier, zelfs als alle afzonderlijke plugins zijn ingeschakeld.
 
-![List of schema plugins](../../../en/images/schemas/schema-plugins-list.png)
+![List of schema plugins](../../../en/images/schemas/introduction-to-schema-org/01-schema-plugins-list.png)
 
 ### Systeem bewerken - Schema.org Plugin
 
@@ -28,13 +35,13 @@ Om te beginnen ga je naar **Systeem -> Plugins** en schakel je de *Systeem - Sch
 - **Social media-accounts** Voeg uw bedrijfs- of persoonlijke social media-accounts toe. Selecteer de groene knop met plusteken om rijen aan het formulier toe te voegen. 
 - Selecteer **Opslaan & Sluiten**.
 
-![edit system schema org plugin](../../../en/images/schemas/edit-system-schema-org-plugin.png)
+![edit system schema org plugin](../../../en/images/schemas/introduction-to-schema-org/02-edit-system-schema-org-plugin.png)
 
 ### Een artikel bewerken
 
 Ga naar een van je artikelen en vul de velden van het Schema-formulier in. Als het *Schema Type* is ingesteld op *Geen*, de standaardinstelling, zijn er geen velden in te vullen. Selecteer een Schema om een lijst van velden te zien die geschikt zijn voor dat schema. De onderstaande screenshot toont een artikel met het Artikel-schema geselecteerd:
 
-![edit article scheme form](../../../en/images/schemas/schema-form-in-an-article.png)
+![edit article scheme form](../../../en/images/schemas/introduction-to-schema-org/03-schema-form-in-an-article.png)
 
 ### Uitvoer
 

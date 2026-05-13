@@ -1,4 +1,11 @@
-<!-- Filename: jdocmanual?manual=user&heading=modules&filename=module-styles.md / Display title: Module Stijlen   -->
+<!--
+{
+  "source": "https://docs.joomla.org/jdocmanual?manual=user&heading=modules&filename=module-styles.md",
+  "title": "Module Stijlen   ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Stijlconcepten
 
@@ -60,7 +67,7 @@ De modulekop is nu in donkerblauw. Er zijn verschillende manieren om kleuren in 
 * Verander de onderste rand van de koptekst ook.
 * Pas deze stijl toe op meerdere modules in plaats van één tegelijk.
 
-![Voorbeeld van het Gearchiveerde Artikelen Module](../../../en/images/modules/modules-archived-articles.png)
+![Voorbeeld van het Gearchiveerde Artikelen Module](../../../en/images/modules/module-styles/01-modules-archived-articles.png)
 
 *Vertaald door openai.com*
 

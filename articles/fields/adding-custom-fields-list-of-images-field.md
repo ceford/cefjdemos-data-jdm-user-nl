@@ -1,4 +1,11 @@
-<!-- Filename: J3.x:Adding_custom_fields/List_of_Images_Field / Display title: Lijst met afbeeldingsvelden -->
+<!--
+{
+  "source": "https://docs.joomla.org/J3.x:Adding_custom_fields",
+  "title": "Lijst met afbeeldingsvelden ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Doel
 
@@ -13,7 +20,7 @@ Speciale opties binnen dit veld zijn:
 - **Multiple** Sta toe dat meerdere waarden worden geselecteerd.
 - **Afbeeldingsklasse** De klasse die aan de afbeelding moet worden toegevoegd. Bijvoorbeeld, *w-25 p-1* beperkt de breedte van elke afbeelding tot 25% van zijn container en voegt 1 padding-eenheid toe.
 
-![lijst van afbeeldingen veldcreatie](../../../en/images/fields/fields-list-of-images-edit.png)
+![lijst van afbeeldingen veldcreatie](../../../en/images/fields/adding-custom-fields-list-of-images-field/01-fields-list-of-images-edit.png)
 
 **Opmerking:** In dit voorbeeld is het opnemen van het veldtype in de titel uitsluitend bedoeld voor demonstratiedoeleinden. Laat dit weg in je eigen veldtitels.
 
@@ -21,14 +28,14 @@ Speciale opties binnen dit veld zijn:
 
 Eenvoudig: selecteer een of meer afbeeldingen uit de lijst.
 
-![lijst van afbeeldingen veld gegevensinvoer](../../../en/images/fields/fields-list-of-images-data-entry.png)
+![lijst van afbeeldingen veld gegevensinvoer](../../../en/images/fields/adding-custom-fields-list-of-images-field/02-fields-list-of-images-data-entry.png)
 
 
 ## Gegevensweergave
 
 De volgende schermafbeelding van de site toont het veld dat in een artikel wordt weergegeven. De optie *Automatische weergave* is verantwoordelijk voor de positie van het veld en jouw sjabloon is verantwoordelijk voor het ontwerp van het veld.
 
-![lijst van afbeeldingen siteweergave](../../../en/images/fields/fields-list-of-images-site.png)
+![lijst van afbeeldingen siteweergave](../../../en/images/fields/adding-custom-fields-list-of-images-field/03-fields-list-of-images-site.png)
 
 *Vertaald door openai.com*
 

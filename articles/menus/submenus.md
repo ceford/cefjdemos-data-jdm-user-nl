@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Submenus / Display title: Submenu's  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Submenus",
+  "title": "Submenu's  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Menu Basis
 
@@ -26,7 +33,7 @@ Stel dat je een reeks artikelen over dieren hebt. Het kan gaan over huisdieren, 
 
 De lijsten kunnen vrij lang zijn, dus je wilt misschien alleen een lijst van kattenrassen weergeven op pagina's over katten en alleen een lijst van hondenrassen op pagina's over honden. De volgende screenshot toont de gewenste lay-out die de gebruiker wil bereiken:
 
-![submenu doelen dieren katten](../../../en/images/menus/submenus-objectives-animals-cats.png)
+![submenu doelen dieren katten](../../../en/images/menus/submenus/01-submenus-objectives-animals-cats.png)
 
 In dit voorbeeld, wanneer de gebruiker het menu-item Dieren selecteert, wordt de Dierenpagina geladen en verdwijnt de Kattenmenumodule (geen Hondemodule ook). Selecteer het menu-item Katten en de Kattenmenumodule verschijnt naast de Kattenpagina. Selecteer het menu-item Burmees en de Burmeespagina verschijnt. Selecteer het menu-item Honden en de Kattenmenumodule wordt vervangen door een Hondemodule naast de Hondenpagina.
 
@@ -53,7 +60,7 @@ Vanuit het Administrator menu:
 - In sommige gevallen moet u zichzelf herinneren waarvoor dit menu is. Vul daarom het beschrijvingsveld in.
 - Opslaan of Opslaan & Sluiten.
 
-![submenu’s nieuw menu](../../../en/images/menus/submenus-new-menu.png)
+![submenu’s nieuw menu](../../../en/images/menus/submenus/02-submenus-new-menu.png)
 
 ## Menu-items maken
 
@@ -96,7 +103,7 @@ Ga door tot je zeven menu-items hebt, één voor elk artikel.
 
 Wanneer je al je menu-items hebt aangemaakt, controleer dan of ze de juiste ouder-kind-relaties hebben en of ze in de juiste volgorde staan. Je kunt sorteren op de kolom 'Volgorde' (de tweede kolom) en de grijphandvatten (verticale ellipsis) gebruiken om items in de juiste volgorde te slepen. Als een item een verkeerde ouder heeft, selecteer dan gewoon de titel van het item en wijzig de ouder in het menu: bewerk item formulier.
 
-![submenu's menu items lijst](../../../en/images/menus/submenus-menu-items-list.png)  
+![submenu's menu items lijst](../../../en/images/menus/submenus/03-submenus-menu-items-list.png)  
 
 ## Menu Modules
 
@@ -122,7 +129,7 @@ Via het Beheerdersmenu:
     Honden)
   - Positie: zijbalk-links (of waar het je uitkomt)
 
-![submenu's dieren module](../../../en/images/menus/submenus-animals-module.png)
+![submenu's dieren module](../../../en/images/menus/submenus/04-submenus-animals-module.png)
 
 ### Toewijzing Dierenmenu
 
@@ -137,7 +144,7 @@ dit geval op slechts drie pagina's. Vanuit het Menu Toewijzing tabblad:
 - Zorg ervoor dat geen andere vakjes zijn aangevinkt.
 - Opslaan & Sluiten
 
-![submenu's dieren module menu toewijzing](../../../en/images/menus/submenus-animals-module-menu-assignment.png)
+![submenu's dieren module menu toewijzing](../../../en/images/menus/submenus/05-submenus-animals-module-menu-assignment.png)
 
 ## Module voor het Submenu van Katten
 
@@ -178,7 +185,7 @@ Tot nu toe gaat alles goed! Maar er is geen link naar de dierenpagina vanuit het
   - Menu-item Type: Menu Item Alias
   - Menu-item: Dieren - geselecteerd uit de lijst met bestaande menu-items.
 
-![submenu dieren alias](../../../en/images/menus/submenus-animals-alias.png)
+![submenu dieren alias](../../../en/images/menus/submenus/06-submenus-animals-alias.png)
 
 - Opslaan
 - Volgorde - na opslaan kan de volgorde worden gewijzigd. In dit voorbeeld wordt het als eerste geplaatst.
@@ -187,7 +194,7 @@ Tot nu toe gaat alles goed! Maar er is geen link naar de dierenpagina vanuit het
 
 Bekijk de pagina's op je site. In dit voorbeeld zullen de meeste pagina's de submenu's niet aan de linkerzijde tonen. De link 'Dieren' in het bovenste menu zal de dierenpagina openen, vanwaar het mogelijk is om naar de pagina's Katten of Honden te navigeren:
 
-![submenu doelen dieren honden](../../../en/images/menus/submenus-objectives-animals-dogs.png)
+![submenu doelen dieren honden](../../../en/images/menus/submenus/07-submenus-objectives-animals-dogs.png)
 
 *Vertaald door openai.com*
 

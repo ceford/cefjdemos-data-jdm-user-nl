@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Template_Overrides / Display title: Sjabloonoverschrijvingen -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Template_Overrides",
+  "title": "Sjabloonoverschrijvingen ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Invoering
 
@@ -10,7 +17,7 @@ Veel van de Joomla-extensies hebben vrij complexe outputsjablonen die moeilijk t
 
 Begin door **Systeem → Sjablonen → Websitesjablonen** in het beheermenu te selecteren en selecteer vervolgens het item Cassiopeia Details en Bestanden. Dat opent het formulier Sjablonen: Aanpassen (Cassiopeia):
 
-![sjabloon aanpassen cassiopeia site tab](../../../en/images/templates/templates-customise-cassiopeia.png)
+![sjabloon aanpassen cassiopeia site tab](../../../en/images/templates/template-overrides/01-templates-customise-cassiopeia.png)
 
 **Belangrijk:** bewerk geen van de bestanden die als onderdeel van de Cassiopeia-sjabloon worden geleverd. Bij de volgende Joomla-update kunnen die bestanden worden overschreven en gaan uw wijzigingen verloren.
 
@@ -20,7 +27,7 @@ De html-map is waar overschrijvingen zich bevinden. Als u de html-map uitklapt, 
 
 Selecteer het tabblad Aanmaken van Overrides om de lijst met Modules, Componenten, Plugins en Lay-outs te zien waarvoor je overrides kunt maken:
 
-![templates aanpassen cassiopeia overrides tab](../../../en/images/templates/cassiopeia-customisation-create-overrides.png)
+![templates aanpassen cassiopeia overrides tab](../../../en/images/templates/template-overrides/02-cassiopeia-customisation-create-overrides.png)
 
 Selecteer het mod_login-item. De mod_login template php-bestanden worden naar de html-map gekopieerd en je keert terug naar het Editor-tabblad. Vouw de html- en mod_login-mappen uit. Je zult default.php en default_logout.php zien.
 
@@ -32,7 +39,7 @@ Let op hoe eenvoudig het is om bestanden te verwijderen als je van gedachten ver
 
 Selecteer in het tabblad Editor het bestand default_logout.php. Let op de knoppen rechtsboven: Toon Originele Bestand en Toon Verschillen. Voor de volgende schermafbeelding is de laatste optie op Ja gezet om een aantal toevoegingen aan code aan de bovenkant van het bestand te laten zien. Deze regels code berekenen wanneer de gebruikerssessie zal verlopen na het laden van de pagina met het uitlogformulier.
 
-![templates aanpassen cassiopeia overrides tabblad](../../../en/images/templates/cassiopeia-customisation-edit-logout-override.png)
+![templates aanpassen cassiopeia overrides tabblad](../../../en/images/templates/template-overrides/03-cassiopeia-customisation-edit-logout-override.png)
 
 Het verschilgebied toont toegevoegde regels met een groene achtergrond en verwijderde regels met een rode achtergrond. In dit geval zijn er geen regels verwijderd. De code wordt hier getoond mocht je deze willen kopiëren om het zelf te proberen.
 
@@ -56,7 +63,7 @@ Je sessie verloopt om <br><?php echo $endTime; ?>
 
 Sla op en herlaad de sitepagina met het uitlogformulier.
 
-![templates aanpassen cassiopeia overrides tabblad](../../../en/images/templates/cassiopeia-customisation-logout-override-result.png)
+![templates aanpassen cassiopeia overrides tabblad](../../../en/images/templates/template-overrides/04-cassiopeia-customisation-logout-override-result.png)
 
 Je zou het uitlogformulier elke keer moeten zien veranderen wanneer de pagina opnieuw wordt geladen. Maar wat als je van gedachten verandert? Of verschillende opties hebt voor verschillende gebruikersgroepen? Welkom bij Layouts, het onderwerp van een apart artikel.
 
@@ -69,7 +76,7 @@ met com\_, mod\_ of plg\_. Merk op dat het tweede deel van een plugin
 override-map de plugingroep aangeeft. Hier is een voorbeeldselectie
 van override-mappen:
 
-![sjablonen aanpassen cassiopeia overrides tab](../../../en/images/templates/templates-customise-example-override-folder.png)
+![sjablonen aanpassen cassiopeia overrides tab](../../../en/images/templates/template-overrides/05-templates-customise-example-override-folder.png)
 
 ## Layout-Overschrijvingen
 

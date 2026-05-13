@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Fix_%22Database_Table_Structure_NOT_Up_to_Date%22_before_Update / Display title: Databasetabelstructuur  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Fix_%22Database_Table_Structure_NOT_Up_to_Date%22_before_Update",
+  "title": "Databasetabelstructuur  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Gerapporteerde Fouten
 

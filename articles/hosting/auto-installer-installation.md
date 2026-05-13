@@ -1,4 +1,11 @@
-<!-- Filename: Installing_Joomla_using_an_Auto_Installer / Display title: Auto Installer Installatie  -->
+<!--
+{
+  "source": "https://docs.joomla.org/Installing_Joomla_using_an_Auto_Installer",
+  "title": "Auto Installer Installatie  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Overzicht
 
@@ -20,7 +27,7 @@ Sommige hostingbedrijven bieden scriptinstallateurs aan voor veelgebruikte webso
 2.  Selecteer de link *Nieuwe Installatie* in het Joomla! Overzicht.
 3.  Vul de verschillende details in en verstuur. Blijf bij elke stap op Verstuur klikken!
 
-![Fantastico joomla installatielijst](../../../en/images/hosting/auto-installer-fantastico.jpg)
+![Fantastico joomla installatielijst](../../../en/images/hosting/auto-installer-installation/01-auto-installer-fantastico.jpg)
 
 ## Softaculous
 
@@ -29,7 +36,7 @@ Sommige hostingbedrijven bieden scriptinstallateurs aan voor veelgebruikte webso
 3. Vul de verschillende gegevens in. Er zal een optie zijn om de Voorbeeldgegevens die in Joomla zijn inbegrepen, te importeren.
 4. Nadat u de gegevens hebt ingevuld, selecteert u Verzenden.
 
-![Softaculous joomla installatieformulier](../../../en/images/hosting/auto-installer-softaculous.jpg)
+![Softaculous joomla installatieformulier](../../../en/images/hosting/auto-installer-installation/02-auto-installer-softaculous.jpg)
 
 Het is echt snel om te installeren en bij te werken met behulp van Auto Installers.  
 

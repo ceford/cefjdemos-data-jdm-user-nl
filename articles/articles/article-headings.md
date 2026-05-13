@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Article_Headings / Display title: Artikel: Bewerken - Koppen -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Article_Headings",
+  "title": "Artikel: Bewerken - Koppen ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Koptekstsemantiek
 
@@ -39,7 +46,7 @@ Open het artikel dat je wilt bewerken. Let op dat de standaard tekstcontainer ee
 - Onderaan het scherm zal de containerindicator HX weergeven.
 - Je kunt op elke geselecteerde tekst dubbelklikken om een snelle wijziging aan te brengen, zoals van P naar H2 (schakelen) of van H2 naar H3, gebruikmakend van een pop-upbalk zoals in de volgende screenshot:
 
-![artikel-bewerkingsformulier met h3 geselecteerd](../../../en/images/articles/articles-edit-headings.png)
+![artikel-bewerkingsformulier met h3 geselecteerd](../../../en/images/articles/article-headings/01-articles-edit-headings.png)
 
 Opmerking: volgens conventie gebruiken alle HTML-tags kleine letters. Als je de knop *Editor Schakelen* selecteert om de bron te bekijken, zie je de paragrafen en koppen ingesteld in tags met kleine letters.
 

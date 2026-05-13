@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Getting_Started:_Adding_an_Article / Display title: Een Artikel Toevoegen -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Getting_Started:_Adding_an_Article",
+  "title": "Een Artikel Toevoegen ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Inleiding
 
@@ -14,7 +21,7 @@ Totdat een artikel is aangemaakt, toont de Artikelen pagina een tijdelijke pagin
 
 Op bijna elke pagina, direct onder de titelbalk, bevindt zich een balk met actieknoppen. Dit wordt de Werkbalk genoemd. De knoppen verschillen per pagina en zijn soms inactief, wat betekent dat ze grijs worden weergegeven, totdat een item in de lijst wordt geselecteerd. De volgende screenshot toont de *Artikelen* lijst met een geselecteerd artikelvakje. De *Actie* knop is een uitklapmenu dat is geselecteerd om de beschikbare opties te tonen.
 
-![Artikelenlijst met ingeschakelde actieknoop](../../../en/images/getting-started/articles-list.png)
+![Artikelenlijst met ingeschakelde actieknoop](../../../en/images/getting-started/adding-an-article/01-articles-list.png)
 
 Selecteer de *Nieuw* knop in de *Werkbalk* van de *Artikelen* pagina om een artikelbewerkingsformulier te openen.  
 
@@ -22,7 +29,7 @@ Selecteer de *Nieuw* knop in de *Werkbalk* van de *Artikelen* pagina om een arti
 
 Totdat een artikel is opgeslagen, is het label van de *Titelbalk* *Artikelen: Nieuw* en het heeft slechts een paar Werkbalkknoppen. De knop *Annuleren* kan worden gebruikt om het maken van een artikel te annuleren. Er is geen waarschuwingsbericht. Alle ingevoerde inhoud wordt verwijderd. Na het opslaan wordt het label van de Titelbalk *Artikelen: Bewerken* en heeft de Werkbalk veel meer knoppen.
 
-![Artikel bewerkformulier](../../../en/images/getting-started/article-edit-form.png)
+![Artikel bewerkformulier](../../../en/images/getting-started/adding-an-article/02-article-edit-form.png)
 
 Er zijn een overweldigend aantal velden op de Bewerk pagina, maar allemaal behalve twee hebben verstandige standaardinstellingen. De in te vullen velden:
 
@@ -36,7 +43,7 @@ Er zijn een overweldigend aantal velden op de Bewerk pagina, maar allemaal behal
 
 Om te zien hoe het eruitziet, kun je de *Voorbeeld* knop in de werkbalk selecteren.
 
-![Artikellijst met ingeschakelde actietoets](../../../en/images/getting-started/article-edit-preview.png)
+![Artikellijst met ingeschakelde actietoets](../../../en/images/getting-started/adding-an-article/03-article-edit-preview.png)
 
 Let op de metadata van het artikel: de informatie tussen de titel en de inhoud. Je kunt configureren welke informatie verschijnt en waar het verschijnt met die andere velden van het artikel. Later...
 
@@ -56,7 +63,7 @@ Een nieuwe Joomla-installatie heeft een Sitemenu met een enkel menu-item genaamd
 
 De volgende schermafbeelding toont een site-weergave van het eerste deel van het artikel dat hierboven is beschreven. Je nieuwe Joomla! site zal alleen het *Hoofdmenu*, *Inlogformulier* en je artikel bevatten. Deze schermafbeelding is voor een meertalige site die dezelfde pagina in veel verschillende talen toont en andere inhoud heeft die in latere tutorials wordt gebruikt.
 
-![Site-weergave met behulp van categorie blog-indeling](../../../en/images/getting-started/article-site-view.png)
+![Site-weergave met behulp van categorie blog-indeling](../../../en/images/getting-started/adding-an-article/04-article-site-view.png)
 
 ### Broodkruimels
 

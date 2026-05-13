@@ -1,4 +1,11 @@
-<!-- Filename: J5.x:Schema_org/Type_Organization_-_Using_Organization_Plugin / Display title: Schema.org - Boek -->
+<!--
+{
+  "source": "https://docs.joomla.org/J5.x:Schema_org",
+  "title": "Schema.org - Boek ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Doel
 
@@ -25,7 +32,7 @@ De sectie *Algemeen Veld* staat toe dat *Titel* en *Waarde* paren worden ingevoe
 
 Hieronder staat een voorbeeld van een Boekschema in een artikelbewerkingsformulier.
 
-![A book schema edit form](../../../en/images/schemas/edit-schema-book.png)
+![A book schema edit form](../../../en/images/schemas/book/01-edit-schema-book.png)
 
 *Vertaald door openai.com*
 

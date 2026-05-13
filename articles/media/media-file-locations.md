@@ -1,4 +1,11 @@
-<!-- Filename: J6.x:Media_File_Locations / Display title: Media-bestandslocaties   -->
+<!--
+{
+  "source": "https://docs.joomla.org/J6.x:Media_File_Locations",
+  "title": "Media-bestandslocaties   ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introductie
 
@@ -12,7 +19,7 @@ Om een locatie voor bestanden in te stellen die gescheiden is van afbeeldingen, 
 
 Zoek de *FileSystem - Local* plugin in de lijst met plugins en open deze. Voeg je nieuw aangemaakte *files*-map toe aan de lijst met plaatsen waar je media kunt bewaren. Klik gewoon op de + knop en selecteer **files** uit de lijst met beschikbare mappen.
 
-![File System Plugin](../../../en/images/plugins/plugin-group-file-system-local.png)
+![File System Plugin](../../../en/images/media/media-file-locations/01-plugin-group-file-system-local.png)
 
 De optie **Create Thumbnails** ingesteld op **Yes** zorgt voor de aanmaak van kleine afbeeldingen met een maximale hoogte of breedte van 200 pixels in media/cache/com_media/thumbs met dezelfde mapstructuur als de mediamap. Het zou de weergavesnelheid van een map met veel afbeeldingen aanzienlijk moeten verhogen. Het is niet nodig voor bestanden aangezien deze worden vertegenwoordigd door pictogrammen.
 

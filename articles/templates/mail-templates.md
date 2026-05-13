@@ -1,4 +1,11 @@
-<!-- Filename: J5.x:Managing_Mail_Template_Layout / Display title: E-mailsjablonen -->
+<!--
+{
+  "source": "https://docs.joomla.org/J5.x:Managing_Mail_Template_Layout",
+  "title": "E-mailsjablonen ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introductie
 
@@ -6,7 +13,7 @@ E-mailsjablonen worden gebruikt om systeeme-mailberichten te verzenden in **plat
 
 De volgende screenshot toont een selectie van de 26 standaard Mail Sjablonen die beschikbaar zijn. De lijst is beschikbaar door **Systeem -> Mail Sjablonen** te selecteren in het Beheerdersmenu.
 
-![mail templates list](../../../en/images/templates/mail-templates-list.png)
+![mail templates list](../../../en/images/templates/mail-templates/01-mail-templates-list.png)
 
 De e-mailberichten kunnen worden aangepast om de lay-out, verschijning en bewoordingen aan te passen aan de behoeften van uw site. U kunt bijvoorbeeld een site-logo en kleurenschema gebruiken in de e-mails die naar klanten worden gestuurd. Het aanpassen van e-mails die naar beheerders worden gestuurd is minder belangrijk.
 
@@ -16,7 +23,7 @@ Er zijn twee aanpassingsmethoden: via de *Mail Template: Opties* voor alle e-mai
 
 Selecteer de knop **Opties** in de *Mail Templates*-lijstwerkbalk om toegang te krijgen tot de algemene mailtemplates-instellingen. Selecteer de knop *Inline Help Wisselen* om te zien of een van de formuliervelden extra hulp heeft.
 
-![mail templates options](../../../en/images/templates/mail-templates-options.png)
+![mail templates options](../../../en/images/templates/mail-templates/02-mail-templates-options.png)
 
 ### E-mailformaat
 
@@ -32,7 +39,7 @@ In de lijst met Mail Sjablonen kun je elk sjabloon selecteren om te bewerken. De
 
 ### Het tabblad Mail
 
-![edit mail template form](../../../en/images/templates/mail-template-edit.png)
+![edit mail template form](../../../en/images/templates/mail-templates/03-mail-template-edit.png)
 
 De inhoud van de Subject- en Body-gebieden wordt aanvankelijk in taalstrings opgeslagen. Dit maakt het eenvoudig om te *Herstellen naar standaard Onderwerp* of *Body*. Echter, zodra een specifieke mailtemplate is bewerkt, worden de velden Onderwerp en Body opgeslagen in de `#__mail_templates` tabel.
 
@@ -44,7 +51,7 @@ De beschikbare placeholder-tags variëren van e-mail tot e-mail. Je zou je eigen
 
 Deze tab is alleen aanwezig als de *Per Template Mail Instellingen* is ingesteld op *Ja* in *Mail Templates: Opties*. De onderstaande illustratie toont een screenshot met *Mail Instellingen* ingesteld op *Nee*. Als ingesteld op *Ja* verschijnen er meer formulier velden die de Mail opties overschrijven die zijn ingesteld in de Globale Configuratie, Server tab.
 
-![edit mail template form](../../../en/images/templates/mail-template-edit-options.png)
+![edit mail template form](../../../en/images/templates/mail-templates/04-mail-template-edit-options.png)
 
 Als je een blinde kopie van een uitgaande e-mail naar een specifiek e-mailadres wilt sturen, kun je dit invoeren in het veld *Kopie verzenden naar e-mail*.
 

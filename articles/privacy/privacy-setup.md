@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Privacy_Setup / Display title: Privacy-instellingen -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Privacy_Setup",
+  "title": "Privacy-instellingen ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Privacycomponent
 
@@ -19,7 +26,7 @@ Het privacy dashboard biedt een overzicht van de site **Privacyverzoeken** en **
 
 - Selecteer **Gebruikers → Privacy** in het beheerdersmenu.
 
-![privacy dashboard](../../../en/images/privacy/privacy-dashboard.png)
+![privacy dashboard](../../../en/images/privacy/privacy-setup/01-privacy-dashboard.png)
 
 Er worden standaard twee modules getoond in het Privacy Dashboard:
 
@@ -47,7 +54,7 @@ Om toestemmingen in te stellen:
 - Zoek de plugin **Systeem - Privacytoestemming** (niet te verwarren met de Privacy - Toestemmingen plugin).
 - Selecteer om het gegevensinvoerveld van de plugin te openen.
 
-![plugin systeem privacytoestemming](../../../en/images/privacy/plugin-system-privacy-consent.png)
+![plugin systeem privacytoestemming](../../../en/images/privacy/privacy-setup/02-plugin-system-privacy-consent.png)
 
 - Stel de **Status** in op **Ingeschakeld**.
 - Optioneel: Selecteer of maak een artikel om te linken vanaf het Registratieformulier. Of stel het Privacytype in op Menu-item en selecteer of maak een menu-item.
@@ -81,7 +88,7 @@ Deze plugin is niet standaard ingeschakeld. Om in te schakelen:
 
 Samen verschijnen de twee plugins op het Gebruikersregistratieformulier zoals in de volgende screenshot:
 
-![privacy toestemmingen siteweergave](../../../en/images/privacy/privacy-consents-site.png)
+![privacy toestemmingen siteweergave](../../../en/images/privacy/privacy-setup/03-privacy-consents-site.png)
 
 ## Menu-item: Verzoek om Informatie over Privacy
 
@@ -117,13 +124,13 @@ Bekijk de andere menu-items van het Privacycomponent.
 
 Dit scherm is de centrale locatie voor het verwerken en beheren van gebruikersinformatieaanvragen. Raadpleeg het gerelateerde artikel over Privacy Workflow voor begeleiding bij het verwerken van verzoeken.
 
-![privacy informatie aanvragen](../../../en/images/privacy/privacy-information-requests.png)
+![privacy informatie aanvragen](../../../en/images/privacy/privacy-setup/04-privacy-information-requests.png)
 
 ### Extensiecapaciteiten
 
 Dit scherm verzamelt en toont informatie over de privacygerelateerde mogelijkheden die door afzonderlijke extensies worden gemeld. Het is bedoeld om te helpen bij de voorbereiding van documentatie, zoals een privacybeleidsartikel of een artikel over de gebruiksvoorwaarden.
 
-![privacy informatie aanvragen](../../../en/images/privacy/privacy-extension-capabilities.png)
+![privacy informatie aanvragen](../../../en/images/privacy/privacy-setup/05-privacy-extension-capabilities.png)
 
 De inhoud van de pagina komt van taalstrings in de core, in het privacycomponent en in plugins die het onPrivacyCollectAdminCapabilities-evenement implementeren. Dat omvat:
 
@@ -140,7 +147,7 @@ De informatie zal worden weergegeven in de taal die is geselecteerd voor het inl
 
 Dit scherm toont een lijst van toestemmingen, met de meest recente bovenaan. Het zal in de taal zijn die in het toestemmingsformulier wordt gebruikt, meestal tijdens registratie. U kunt op naam zoeken naar een specifieke gebruiker. Houd er rekening mee dat toestemming om akkoord te gaan met de sitevoorwaarden hier niet wordt geregistreerd. Dat staat alleen in het Actieslogboek van gebruikers.
 
-![privacy toestemmingen](../../../en/images/privacy/privacy-consents.png)
+![privacy toestemmingen](../../../en/images/privacy/privacy-setup/06-privacy-consents.png)
 
 *Vertaald door openai.com*
 

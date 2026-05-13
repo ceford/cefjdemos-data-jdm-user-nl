@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Workflow / Display title: Publicatieworkflow   -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Workflow",
+  "title": "Publicatieworkflow   ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introductie
 
@@ -20,7 +27,7 @@ Er is een tutorialpagina met stappen voor het creëren van een voorbeeldworkflow
 
 Wanneer workflows zijn ingeschakeld, kan de lijst van beschikbare workflows worden bekeken door te kiezen voor **Inhoud → Workflows** in het Administrator-menu.
 
-![Workflows lijst](../../../en/images/workflows/workflows-list.png)
+![Workflows lijst](../../../en/images/workflows/workflow/01-workflows-list.png)
 
 - De **Status** van een workflow kan Ingeschakeld, Uitgeschakeld of Verwijderd zijn.
 - De **Naam** is een link naar het formulier om de workflow te bewerken.
@@ -33,17 +40,17 @@ Wanneer workflows zijn ingeschakeld, kan de lijst van beschikbare workflows word
 
 De stadia zijn toegankelijk via de *Workflows* lijst. Selecteer de gele knop die het aantal stadia toont.
 
-![Workflow stadia lijst](../../../en/images/workflows/workflow-stages-list.png)
+![Workflow stadia lijst](../../../en/images/workflows/workflow/02-workflow-stages-list.png)
 
 Selecteer de naam van een stadium om het te bewerken.
 
-![Workflow stadium bewerkformulier](../../../en/images/workflows/workflow-stage-edit.png)
+![Workflow stadium bewerkformulier](../../../en/images/workflows/workflow/03-workflow-stage-edit.png)
 
 ## Overgangen
 
 In workflows gaan artikelen van de ene fase naar de andere. De overgangen worden beheerd via de *Overgangen*-lijst.
 
-![De overgangenlijst](../../../en/images/workflows/workflow-transitions-list.png)
+![De overgangenlijst](../../../en/images/workflows/workflow/04-workflow-transitions-list.png)
 
 - De *Huidige Fase* definieert waar deze overgang begint.
 - De *Doelfase* definieert waar deze overgang eindigt.
@@ -52,18 +59,18 @@ In workflows gaan artikelen van de ene fase naar de andere. De overgangen worden
 
 De *Huidige* en *Doel*-fasen worden ingesteld in het *Bewerk Overgang*-formulier:
 
-![Bewerk overgang formulier](../../../en/images/workflows/workflow-transition-edit.png)
+![Bewerk overgang formulier](../../../en/images/workflows/workflow/05-workflow-transition-edit.png)
 
 Het *Overgangsacties*-tabblad wordt gebruikt om de *Status* te definiëren waarin het item zich na de overgang zal bevinden.
 
-![Bewerk overgang formulier acties tab](../../../en/images/workflows/workflow-transition-edit-actions-tab.png)
+![Bewerk overgang formulier acties tab](../../../en/images/workflows/workflow/06-workflow-transition-edit-actions-tab.png)
 
 - **In De Schijnwerpers Status** Of het item wel of niet *In De Schijnwerpers* zal zijn.
 - **Publicatiestatus** Selecteer de doelstatus uit de lijst.
 
 Het *Overgangsmeldingen*-tabblad wordt gebruikt om te bepalen of er een melding voor die status wordt verzonden. Bijvoorbeeld, als een artikel is geschreven maar moet worden nagelezen, kan een e-mail worden verzonden om de redacteur te informeren.
 
-![Bewerk overgang formulier meldingen tab](../../../en/images/workflows/workflow-transition-edit-notifications-tab.png)
+![Bewerk overgang formulier meldingen tab](../../../en/images/workflows/workflow/07-workflow-transition-edit-notifications-tab.png)
 
 - **Stuur Melding** Als ingesteld op *Ja* verschijnen er extra velden.
 - **Aanvullende Berichttekst** Voeg extra berichttekst toe of gebruik een taalstring om de berichttekst vertaalbaar te maken.
@@ -78,7 +85,7 @@ Het rechten-tabblad beheert de toegang tot deze overgang door geselecteerde gebr
 
 De workflow plugins worden gebruikt voor acties die worden opgeroepen door overgangen. Ga naar **Systeem → Plugins** en verander het *- Selecteer Type -* filter naar *workflow*. Elk van deze plugins kan worden uitgeschakeld als ze niet nodig zijn.
 
-![Workflow plugins-lijst](../../../en/images/workflows/workflow-plugins.png)
+![Workflow plugins-lijst](../../../en/images/workflows/workflow/08-workflow-plugins.png)
 
 - **Workflow In De Schijnwerpers** Deze actie implementeert de verandering van de *In De Schijnwerpers* status van een artikel van *Ja* naar *Nee*.
 - **Workflow Melding** Deze actie implementeert de melding aan een gebruiker dat een verandering van fase aandacht vereist.
@@ -88,7 +95,7 @@ De workflow plugins worden gebruikt voor acties die worden opgeroepen door overg
 
 Artikelen kunnen aan categorieën worden toegewezen. Ze komen overeen met een bepaalde workflow en kunnen op verschillende manieren worden aangepast. Je kunt een status instellen, een hoofdcategorie kiezen en ook de toegang en de rechten beperken. Deze optie bevindt zich niet op het workflows-scherm. Voor deze optie moet je naar **Inhoud → Categorieën** gaan. Eenmaal daar open je een categorie en zie je een tabblad *Workflows*.
 
-![Artikelen categorie workflow bewerken](../../../en/images/workflows/workflow-categories-blog.png)
+![Artikelen categorie workflow bewerken](../../../en/images/workflows/workflow/09-workflow-categories-blog.png)
 
 ### Voorbeeld
 

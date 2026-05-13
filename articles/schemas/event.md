@@ -1,4 +1,11 @@
-<!-- Filename: J5.x:Schema_org/Type_Event_-_Using_Event_Plugin / Display title: Schema.org - Evenement -->
+<!--
+{
+  "source": "https://docs.joomla.org/J5.x:Schema_org",
+  "title": "Schema.org - Evenement ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Doel
 
@@ -21,7 +28,7 @@ De sectie *Algemeen Veld* staat toe dat *Titel* en *Waarde* paren worden ingevoe
 
 Hieronder staat een voorbeeld van een Evenement-schema in een artikelbewerkingsformulier.
 
-![An event schema edit form](../../../en/images/schemas/edit-schema-event.png)
+![An event schema edit form](../../../en/images/schemas/event/01-edit-schema-event.png)
 
 *Vertaald door openai.com*
 

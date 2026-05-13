@@ -1,4 +1,11 @@
-<!-- Filename: Preconfigured_htaccess / Display title: Het htaccess.txt-bestand  -->
+<!--
+{
+  "source": "https://docs.joomla.org/Preconfigured_htaccess",
+  "title": "Het htaccess.txt-bestand  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Inleiding
 

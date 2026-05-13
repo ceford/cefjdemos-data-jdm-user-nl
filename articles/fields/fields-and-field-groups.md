@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Fields_and_Field_Groups / Display title: Velden en veldgroepen  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Fields_and_Field_Groups",
+  "title": "Velden en veldgroepen  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introductie
 
@@ -14,7 +21,7 @@ Als een veld niet aan een groep is toegewezen, verschijnt het in het Bewerken-fo
 
 Voor artikelen over Natuur kunnen de artikelcategorieën en subcategorieën voor elke tak van de levende wereld eruitzien zoals in het volgende voorbeeld:
 
-![Artikelcategorieën voor natuur](../../../en/images/fields/fields-articles-categories-list.png)
+![Artikelcategorieën voor natuur](../../../en/images/fields/fields-and-field-groups/01-fields-articles-categories-list.png)
 
 Enkele opvallende kenmerken van Natuur om op te merken:
 
@@ -37,7 +44,7 @@ Het maken van veldgroepen voor artikelen is heel eenvoudig:
 - Voer een **Beschrijving** in. Deze verschijnt onder het veld in het artikelbewerkingsformulier wanneer *Inline Help Inschakelen* is geselecteerd.
 - Selecteer **Opslaan & Sluiten** in de werkbalk.
 
-![Lijst met inhoud veldgroepen](../../../en/images/fields/fields-field-groups-list.png)
+![Lijst met inhoud veldgroepen](../../../en/images/fields/fields-and-field-groups/02-fields-field-groups-list.png)
 
 ### Volgorde
 
@@ -55,7 +62,7 @@ Let op dat in de onderstaande schermafbeelding dit veld is toegewezen aan de
 Nature Veldgroep en aan de Nature categorie. Dit zorgt ervoor dat het altijd verschijnt 
 in artikelen in de Nature categorie en alle subcategorieën.
 
-![Tekstveld - latijnse naam in natuur groep](../../../en/images/fields/fields-latin-name.png)
+![Tekstveld - latijnse naam in natuur groep](../../../en/images/fields/fields-and-field-groups/03-fields-latin-name.png)
 
 ### Selectievakjes - Bloeiseizoen
 
@@ -68,14 +75,14 @@ Let op dat in deze schermafbeelding het veld is toegewezen aan de Bloemen
 groep en aan de Bloemen categorie. Dit zou ervoor moeten zorgen dat het veld 
 alleen voorkomt in artikelen over bloemen.
 
-![Selectievakje veld - bloeiseizoen](../../../en/images/fields/fields-flowering-season.png)
+![Selectievakje veld - bloeiseizoen](../../../en/images/fields/fields-and-field-groups/04-fields-flowering-season.png)
 
 ### Kleur - Kleur
 
 Om verwarring te zaaien, is de naam van het veldtype Color (Amerikaanse spelling) 
 maar het label in de documentatie is Colour (Britse spelling).
 
-![Kleur veld](../../../en/images/fields/fields-colour.png)
+![Kleur veld](../../../en/images/fields/fields-and-field-groups/05-fields-colour.png)
 
 Het Kleur veld is toegewezen aan de Nature veldgroep en de Nature categorie 
 aangezien het niet uniek is voor bloemen.
@@ -88,7 +95,7 @@ geen veld voor een reëel getal, dus lengte en breedte zouden gehele getallen ku
 in het *Opties* tabblad. Als er geen duidelijke bovengrens is, laat dan het *Laatste:* 
 veld leeg.
 
-![Winterhardheid veld](../../../en/images/fields/fields-hardiness.png)
+![Winterhardheid veld](../../../en/images/fields/fields-and-field-groups/06-fields-hardiness.png)
 
 RHS Winterhardheid is een eigenschap die gewoonlijk wordt toegepast op bloemen!
 
@@ -105,7 +112,7 @@ tabs aanwezig.
 
 ### Natuur Tab
 
-![Bluebell artikel natuur tab](../../../en/images/fields/field-article-bluebell-nature-tab.png)
+![Bluebell artikel natuur tab](../../../en/images/fields/fields-and-field-groups/07-field-article-bluebell-nature-tab.png)
 
 - **Latijnse Naam** Dit is een tekstinvoerveld, dus het is enkel een kwestie van
   het intypen van de Latijnse naam van welke levensvorm het artikel behandelt.
@@ -118,7 +125,7 @@ tabs aanwezig.
 
 ### Bloemen Tab
 
-![Bluebell artikel natuur tab](../../../en/images/fields/field-article-bluebell-flowers-tab.png)
+![Bluebell artikel natuur tab](../../../en/images/fields/fields-and-field-groups/08-field-article-bluebell-flowers-tab.png)
 
 - **Bloeitijd** Het selectievakveld – blauwe druifjes zijn bekende lentebloemen
   dus de selectie van één selectievakje is passend.
@@ -131,7 +138,7 @@ tabs aanwezig.
 
 Bekijk het resultaat dat op uw site te zien is. In dit voorbeeld is een menu-item voor een enkel artikel gemaakt:
 
-![Bluebell artikel siteweergave](../../../en/images/fields/field-article-bluebell-site.png)
+![Bluebell artikel siteweergave](../../../en/images/fields/fields-and-field-groups/09-field-article-bluebell-site.png)
 
 ### De hex Kleur
 

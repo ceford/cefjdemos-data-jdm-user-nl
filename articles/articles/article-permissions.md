@@ -1,4 +1,11 @@
-<!-- Filename: J6.x:Access_Control / Display title: Artikel: Bewerken - Machtigingen -->
+<!--
+{
+  "source": "https://docs.joomla.org/J6.x:Access_Control",
+  "title": "Artikel: Bewerken - Machtigingen ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introductie
 
@@ -13,7 +20,7 @@ Toegangsbeheersysteem.
 
 ## Screenshot
 
-![Het tabblad artikelmachtigingen met auteur geselecteerd](../../../en/images/articles/articles-edit-permissions-tab.png)
+![Het tabblad artikelmachtigingen met auteur geselecteerd](../../../en/images/articles/article-permissions/01-articles-edit-permissions-tab.png)
 
 Het kan verrassend zijn dat een auteur geen toestemming lijkt te hebben om een artikel te bewerken!
 

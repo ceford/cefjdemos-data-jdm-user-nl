@@ -1,4 +1,11 @@
-<!-- Filename: Help4.x:Components_Version_History / Display title: Artikel: Versies  -->
+<!--
+{
+  "source": "https://docs.joomla.org/Help4.x:Components_Version_History",
+  "title": "Artikel: Versies  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Inleiding
 
@@ -16,7 +23,7 @@ Selecteer de knop **Versies** op de werkbalk terwijl je het item bewerkt.
 
 ## Screenshot
 
-![Versies popupdialoog](../../../en/images/articles/articles-versions.png)
+![Versies popupdialoog](../../../en/images/articles/article-versions/01-articles-versions.png)
 
 ## Kolomkoppen
 
@@ -33,9 +40,9 @@ Bovenaan de pagina zie je de werkbalk zoals weergegeven in de schermafbeelding h
 
 - **Herstellen** De huidige versie van het item is gemarkeerd met een ster aan de rechterkant van de datum. Als je een van de andere opgeslagen versies wilt herstellen, vink je het selectievakje aan voor de gewenste versie en selecteer je de *Herstellen* knop. De huidige versie van het item wordt vervangen door de geselecteerde versie en het bewerkscherm wordt herladen met de herstelde versie in de editor geladen.
 - **Voorbeeld** Om een versie te bekijken, selecteer je het item in de kolom Datum of vink je het selectievakje aan en klik je op de Voorbeeld knop. Er wordt een apart browservenster geladen waarin de geselecteerde versie van het item wordt weergegeven, vergelijkbaar met de onderstaande schermafbeelding. Sluit het browservenster nadat je de versie hebt bekeken.
-![Voorbeeld dialoogvenster van versies](../../../en/images/articles/articles-versions-preview.png)
+![Voorbeeld dialoogvenster van versies](../../../en/images/articles/article-versions/02-articles-versions-preview.png)
 - **Vergelijken** Om twee versies te vergelijken en te zien wat er is veranderd, klik je op de selectievakjes van elk van de versies en klik je op de Vergelijken knop. Er wordt een nieuw browservenster geopend, zoals weergegeven in de onderstaande schermafbeelding. De eerste kolom is de veldnaam, de tweede is de oudere versie, de derde is de nieuwere versie, en de laatste kolom markeert de verschillen tussen de twee versies.
-![Vergelijk dialoogvenster van versies](../../../en/images/articles/articles-versions-compare.png)
+![Vergelijk dialoogvenster van versies](../../../en/images/articles/article-versions/03-articles-versions-compare.png)
 - **Bewaren Aan/Uit** Deze knop stelt je in staat om de Bewaar Voor Altijd functie voor een versie aan of uit te zetten. Normaal gesproken wordt de oudste versie van een item automatisch verwijderd wanneer het maximale aantal versies (ingesteld in de Opties voor het component) is overschreden. Als je de Bewaar Voor Altijd eigenschap voor een versie instelt, zal deze nooit automatisch worden verwijderd.
 - **Verwijderen** Deze knop stelt je in staat om handmatig een of meer versies te verwijderen. Selecteer het selectievakje voor de versies die je wilt verwijderen en selecteer vervolgens de Verwijderen knop. Merk op dat dit *niet* het item verwijdert dat wordt bewerkt. Het verwijdert alleen de geselecteerde versie van het item.
 

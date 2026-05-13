@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Privacy_Workflow / Display title: Privacy Workflow  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Privacy_Workflow",
+  "title": "Privacy Workflow  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Een Verzoek Indienen
 
@@ -16,11 +23,11 @@ Geregistreerde gebruikers kunnen een informatieverzoek indienen via een *Privacy
 
 - Het type verzoek: Exporteren of Verwijderen geselecteerd uit de keuzelijst.
 
-![privacy workflow gebruikersverzoek](../../../en/images/privacy/privacy-workflow-user-request.png)
+![privacy workflow gebruikersverzoek](../../../en/images/privacy/privacy-workflow/01-privacy-workflow-user-request.png)
 
 Bij het indienen verschijnt er een bericht dat aangeeft of het verzoek is geaccepteerd en er een verificatie-e-mail onderweg is:
 
-![privacy workflow gebruikersverzoek geaccepteerd](../../../en/images/privacy/privacy-workflow-user-request-accepted.png)
+![privacy workflow gebruikersverzoek geaccepteerd](../../../en/images/privacy/privacy-workflow/02-privacy-workflow-user-request-accepted.png)
 
 of dat *Uw informatieverzoek kon niet worden aangemaakt. Er is al een actief informatieverzoek voor dit e-mailadres en type verzoek. Neem contact op met de eigenaar van de site voor updates over dit verzoek.*
 
@@ -40,7 +47,7 @@ Eenmaal aangemaakt kan het verzoek niet worden bewerkt. Het kan alleen ongeldig 
 
 Zodra een verzoek is aangemaakt, ongeacht hoe het is aangemaakt, ontvangt de gebruiker een e-mail met een link naar een bevestigingsformulier.
 
-![privacy workflow gebruikersverzoek bevestigen](../../../en/images/privacy/privacy-workflow-user-request-confirm.png)
+![privacy workflow gebruikersverzoek bevestigen](../../../en/images/privacy/privacy-workflow/03-privacy-workflow-user-request-confirm.png)
 
 De gebruiker moet de token die in de e-mail is verstrekt invoeren en het formulier indienen. De token is 24 uur geldig. Als een verzoek binnen dat tijdsbestek niet wordt bevestigd, wordt het verzoek als **Ongeldig** gemarkeerd in de Privacy Verzoeklijst en moet een nieuw verzoek worden ingediend.
 
@@ -49,7 +56,7 @@ Zodra de gebruiker het verzoek bevestigt, wordt er een e-mail naar de Supergebru
 - Selecteer **Gebruikers → Privacy → Verzoeken** in het Beheerdersmenu.
 - Verzoeken die actie vereisen, worden gemarkeerd als **Bevestigd**.
 
-![privacy workflow informatielijst verzoeken](../../../en/images/privacy/privacy-workflow-information-requests-list.png)
+![privacy workflow informatielijst verzoeken](../../../en/images/privacy/privacy-workflow/04-privacy-workflow-information-requests-list.png)
 
 ## Verwerken van een Exporteerverzoek
 
@@ -80,7 +87,7 @@ Nadat het verzoek is verwerkt, moet het als voltooid worden gemarkeerd. Dit geef
   - Selecteer de juiste knop **Exporteren**, **E-mailen** of **Verwijderen** uit de werkbalk als dit nog niet was gedaan in de lijstweergave.
 - Selecteer de knop **Voltooien** uit de werkbalk (of de knop **Ongeldig verklaren** als dit verzoek als ongeldig wordt beschouwd).
 
-![privacy workflow informatieverzoek beoordelen](../../../en/images/privacy/privacy-workflow-review-information-request.png)
+![privacy workflow informatieverzoek beoordelen](../../../en/images/privacy/privacy-workflow/05-privacy-workflow-review-information-request.png)
 
 ## Tot slot
 
@@ -97,7 +104,7 @@ Om gegevens van Privéberichten en Privacyverzoeken te verwijderen:
   batchgewijs te verwijderen. De snelste methode is om in de database met phpMyAdmin
   naar de gebruikersnaam (e-mailadres) te zoeken en de records daar te verwijderen. Hier is een voorbeeldscreenshot:
 
-![privacy workflow verwijderen met phpmyadmin](../../../en/images/privacy/privacy-workflow-delete-with-phpmyadmin.png)
+![privacy workflow verwijderen met phpmyadmin](../../../en/images/privacy/privacy-workflow/06-privacy-workflow-delete-with-phpmyadmin.png)
 
 ## Aanvullende Bronnen
 

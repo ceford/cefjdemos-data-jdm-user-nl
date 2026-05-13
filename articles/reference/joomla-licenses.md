@@ -1,4 +1,11 @@
-<!-- Filename: Joomla_Licenses / Display title: Joomla Licenties -->
+<!--
+{
+  "source": "https://docs.joomla.org/Joomla_Licenses",
+  "title": "Joomla Licenties ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## ALGEMENE PUBLIEKE LICENTIE VAN GNU
 

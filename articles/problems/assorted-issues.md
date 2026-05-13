@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Assorted_Issues / Display title: Diverse Zaken   -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Assorted_Issues",
+  "title": "Diverse Zaken   ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Probleem met Omleiding na Upgrade naar 4.0.6
 

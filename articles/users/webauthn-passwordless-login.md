@@ -1,4 +1,11 @@
-<!-- Filename: WebAuthn_Passwordless_Login / Display title: WebAuthn-inloggen -->
+<!--
+{
+  "source": "https://docs.joomla.org/WebAuthn_Passwordless_Login",
+  "title": "WebAuthn-inloggen ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## WebAuthn Wachtwoordloze Aanmelding
 
@@ -23,11 +30,11 @@ WebAuthn is de toekomst van authenticatie. Eenvoudig, veilig en zorgeloos. Alles
 
 De volgende afbeelding toont een hardware-apparaat dat in de USB-poort van een laptopcomputer is gestoken. Het kostte £15 in februari 2022.
 
-![foto van Hardware apparaat](../../../en/images/users/passwordless-login-hardware-device.jpg)
+![foto van Hardware apparaat](../../../en/images/users/webauthn-passwordless-login/01-passwordless-login-hardware-device.jpg)
 
 WebAuthn gebruikt een systeemplugin die standaard is ingeschakeld. Er zal een **Web Authenticatie**-knop aanwezig zijn in de standaard Joomla 4 en latere inlogschermen, zoals geïllustreerd in het beheerdersinlogscherm:
 
-![veilig beheerdersinlogformulier](../../../en/images/users/passwordless-login-login-form.jpg)
+![veilig beheerdersinlogformulier](../../../en/images/users/webauthn-passwordless-login/02-passwordless-login-login-form.jpg)
 
 ## Gebruikersconfiguratie
 
@@ -38,11 +45,11 @@ De gebruiker moet zich eerst registreren met een normale gebruikersnaam en wacht
 
 De exacte presentatie van de volgende stap hangt af van uw browser. Meestal ziet u een waarschuwing, bericht of venster waarin u wordt gevraagd een authenticatortype te selecteren of, als u een hardware-authenticator gebruikt die aan uw apparaat is gekoppeld, eraan wordt herinnerd op de knop van de hardware-authenticator te drukken. Om veiligheids- en praktische redenen is er een relatief korte tijdsspanne toegestaan voor het activeren van de authenticator: 60 seconden.
 
-![beveiligde beheerderslogin hardware prompt](../../../en/images/users/passwordless-login-hardware-propmpt.png)
+![beveiligde beheerderslogin hardware prompt](../../../en/images/users/webauthn-passwordless-login/03-passwordless-login-hardware-propmpt.png)
 
 Zodra u uw authenticator ontgrendelt — door op een knop te tikken, uw vingerafdruk / gezicht te scannen, een PIN-code in te voeren of een combinatie van het bovenstaande, afhankelijk van uw authenticator — verdwijnt het bericht, wordt de authenticator geregistreerd en verschijnt het scherm als volgt:
 
-![beveiligde beheerderslogin geregistreerde authenticator](../../../en/images/users/passwordless-login-registered-authenticator.png)
+![beveiligde beheerderslogin geregistreerde authenticator](../../../en/images/users/webauthn-passwordless-login/04-passwordless-login-registered-authenticator.png)
 
 Het is erg belangrijk om op te merken dat u alleen authenticators kunt registreren of verwijderen op uw eigen gebruikersaccount. Om veiligheidsredenen is het zelfs voor een Super User niet toegestaan om authenticators op andere gebruikersaccounts te registreren, te bewerken of toe te voegen.
 

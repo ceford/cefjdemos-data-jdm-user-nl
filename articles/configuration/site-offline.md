@@ -1,10 +1,17 @@
-<!-- Filename: J4.x:Site_Offline / Display title: Site Offline  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Site_Offline",
+  "title": "Site Offline  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Alleen voor sitegebruikers
 
 Er kunnen momenten zijn waarop je jouw Joomla!-website tijdelijk niet beschikbaar wilt maken voor bezoekers. Er is een eenvoudige **Site Offline**-configuratieschakelaar voor dit doel die je van **Nee** naar **Ja** kunt wijzigen indien nodig. Als deze op *Ja* staat, zien alle sitebezoekers een offline berichtpagina met een inlogformulier. Het standaard offline formulier kan aangepast worden met een afbeelding:
 
-![Site offline scherm](../../../en/images/configuration/site-offline.png)
+![Site offline scherm](../../../en/images/configuration/site-offline/01-site-offline.png)
 
 De Site Offline-schakelaar is niet van toepassing op de beheerdersinterface, en gebruikers die kunnen inloggen op de backend kunnen blijven inloggen op de frontend. Frontend login wordt alleen geweigerd voor gebruikers in de groepen Geregistreerd, Auteur, Redacteur en Uitgever.
 

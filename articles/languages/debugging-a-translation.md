@@ -1,4 +1,11 @@
-<!-- Filename: Debugging_a_translation / Display title: Het Debuggen van een Vertaling  -->
+<!--
+{
+  "source": "https://docs.joomla.org/Debugging_a_translation",
+  "title": "Het Debuggen van een Vertaling  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Joomla Taalbestanden
 
@@ -55,7 +62,7 @@ Deze systeemplugin bepaalt wat er wordt weergegeven wanneer debugging is geactiv
 
 In het **Taal** tabblad:
 
-![plugin systeem debug](../../../en/images/languages/languages-debug-plugin.png)
+![plugin systeem debug](../../../en/images/languages/debugging-a-translation/01-languages-debug-plugin.png)
 
 * **Fouten bij het parseren van taalbestanden** Toon een foutmelding als een taalbestand niet kan worden geladen.
 

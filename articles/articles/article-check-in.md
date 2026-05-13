@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Article_Check-out_and_Check-in / Display title: Artikel: Inchecken  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Article_Check-out_and_Check-in",
+  "title": "Artikel: Inchecken  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Inleiding
 
@@ -40,7 +47,7 @@ Vanuit het Administrator-menu:
   **Systeem → Onderhoudspaneel → Globale Check-in**.
 - De lijst toont het aantal uitgecheckte items.
 
-![Pagina voor globale check-in](../../../en/images/articles/global-checkin.png)
+![Pagina voor globale check-in](../../../en/images/articles/article-check-in/01-global-checkin.png)
 
 - Selecteer in de lijst van databastabellen het selectievakje voor het type
   item dat ingecheckt moet worden.

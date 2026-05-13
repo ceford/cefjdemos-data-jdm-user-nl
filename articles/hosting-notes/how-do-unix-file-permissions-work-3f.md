@@ -1,4 +1,11 @@
-<!-- Filename: How_do_UNIX_file_permissions_work%3F / Display title: UNIX-bestandsrechten -->
+<!--
+{
+  "source": "https://docs.joomla.org/How_do_UNIX_file_permissions_work%3F",
+  "title": "UNIX-bestandsrechten ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 Unix/Linux-bestandsrechten kunnen verwarrend zijn. De basis UNIX-rechten komen in drie varianten;
 

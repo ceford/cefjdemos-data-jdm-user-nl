@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Child_Templates / Display title: Kindsjablonen -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Child_Templates",
+  "title": "Kindsjablonen ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Inleiding
 
@@ -15,7 +22,7 @@ Start vanuit **Systeem → Sjablonen paneel → Sitesjablonen**
 - Vul het Kindersjabloon pop-updialoogvenster in en selecteer de knop
   Maak Kindersjabloon:
 
-![kindersjabloon aanmaakmodaal](../../../en/images/templates/child-templates-create-green.png)
+![kindersjabloon aanmaakmodaal](../../../en/images/templates/child-templates/01-child-templates-create-green.png)
 
 Selectie van Cassiopeia - Standaard in het veld Aanvullende Sjabloonstijlen lijkt onnodig (is dat een fout?).
 
@@ -32,7 +39,7 @@ Op dit moment is er een mapstructuur, maar slechts één bestand: templateDetail
 - Selecteer het Bestandstype `.css`.
 - Selecteer de knop *Creëer*.
 
-![kindersjabloon creëer user css formulier](../../../en/images/templates/child-templates-create-green-user-css.png)
+![kindersjabloon creëer user css formulier](../../../en/images/templates/child-templates/02-child-templates-create-green-user-css.png)
 
 Het user.css-bestand is leeg, klaar om aangepaste stijlen in te voeren. Voer het volgende in om het groene thema te starten:
 ```css
@@ -81,7 +88,7 @@ Op dit punt is er een menu-item nodig om gebruik te maken van het kindersjabloon
 - Selecteer een menutype vanuit de Menutype pop-updialoog - Uitgelichte Artikelen in dit voorbeeld.
 - Selecteer *cassiopeia_manual - Standaard* vanuit het *Sjabloon Stijl* veld.
 
-![kindersjabloon menu-item bewerk formulier](../../../en/images/templates/child-templates-create-green-menu-item.png)
+![kindersjabloon menu-item bewerk formulier](../../../en/images/templates/child-templates/03-child-templates-create-green-menu-item.png)
 
 - Voor de doeleinden van de volgende schermafbeelding is het Blog Indeling ingesteld op Leading Artikelen: 0, Intro Artikelen: 3 en Multi Kolom Richting: Over.
 
@@ -89,7 +96,7 @@ Op dit punt is er een menu-item nodig om gebruik te maken van het kindersjabloon
 
 - Op de startpagina van je site selecteer je het zojuist aangemaakte menu-item.
 
-![site met aangepast groene thema sjabloon](../../../en/images/templates/child-templates-green-site-result.png)
+![site met aangepast groene thema sjabloon](../../../en/images/templates/child-templates/04-child-templates-green-site-result.png)
 
 ### Bewerk de Stijl
 

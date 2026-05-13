@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Favicons / Display title: Favicons  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Favicons",
+  "title": "Favicons  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## De Joomla! Favicons
 
@@ -18,7 +25,7 @@ Als u uw eigen favicons wilt gebruiken in plaats van de Joomla-favicons, uploadt
 
 Favicons worden soms gebruikt in grotere formaten en op andere plaatsen dan het browsertabblad. Bijvoorbeeld, dit is een screenshot van een deel van een Firefox-startpagina die enkele van de favoriete locaties van de gebruiker toont:
 
-![faviconvoorbeelden van Firefox startpagina](../../../en/images/templates/favicons-firefox-start-collection.png)
+![faviconvoorbeelden van Firefox startpagina](../../../en/images/templates/favicons/01-favicons-firefox-start-collection.png)
 
 Alle moderne browsers ondersteunen SVG-pictogrammen, dus u zou de creatie van een SVG-pictogram als prioriteit moeten stellen.
 
@@ -26,7 +33,7 @@ Alle moderne browsers ondersteunen SVG-pictogrammen, dus u zou de creatie van ee
 
 SVG is een acroniem voor Scalable Vector Graphics. Een SVG-bestand bevat tekst in een formaat dat de locaties en vormen van lijnen definieert met lijnkleuren, vulkleuren enzovoort. De volgende schermafbeelding toont het bestand *joomla-favicon.svg* geopend in een teksteditor. De regelnummers worden door de teksteditor gegenereerd en zijn niet aanwezig in het bestand. De lange regels vertegenwoordigen curves en zijn hier afgebroken voor weergavedoeleinden.
 
-![joomla favicon tekstinhoud](../../../en/images/templates/favicons-joomla-favicon-svg-text.png)
+![joomla favicon tekstinhoud](../../../en/images/templates/favicons/02-favicons-joomla-favicon-svg-text.png)
 
 Om een SVG-bestand te maken, moet je een geschikte applicatie gebruiken, zoals Inkscape. Rastergrafische applicaties zoals Photoshop of The GIMP voldoen niet. Als je liever een pictogram ontwerpt in een rastergrafische applicatie, of je hebt een bestaand rastergrafisch logo dat kan worden aangepast voor een pictogram, kun je het resulterende PNG-bestand in Inkscape importeren en daar traceren om een SVG-bestand te produceren. De getraceerde afbeelding moet na het traceren worden verwijderd!
 
@@ -40,7 +47,7 @@ Als je je eigen favicons wilt maken, is de beste manier om een SVG-favicon te ma
 
 Inkscape is een gratis, Open Source, cross-platform vector graphics applicatie die wordt gebruikt om met SVG-bestanden te werken. Het werkt op Linux, Mac en Windows. Ga naar de Inkscape (inkscape.org) site om een exemplaar voor jouw platform te downloaden. De volgende illustraties tonen het Inkscape-scherm halverwege de volgende instructies.
 
-![inkscape met favicon in voorbereiding](../../../en/images/templates/favicons-inkscape-favicon.png)
+![inkscape met favicon in voorbereiding](../../../en/images/templates/favicons/03-favicons-inkscape-favicon.png)
 
 ### Creëer een SVG
 

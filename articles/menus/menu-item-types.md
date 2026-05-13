@@ -1,10 +1,17 @@
-<!-- Filename: J4.x:Menu_Item_Types / Display title: Menu-itemtypes -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Menu_Item_Types",
+  "title": "Menu-itemtypes ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Over Menu-itemtypen
 
 Menu-itemtypen worden gedefinieerd in elk onderdeel dat sitetonen heeft. De Joomla-core heeft ongeveer 10 van dergelijke componenten, elk met meerdere views, wat leidt tot een totaal van meer dan 30 typen. De volgende screenshot toont de componenten met menu-itemtypen. Elk onderdeel breidt uit bij selectie om een lijst van typen te tonen die door dat onderdeel zijn gedefinieerd:
 
-![menu-itemtype selecteren](../../../en/images/menus/menus-menu-item-type-select.png)
+![menu-itemtype selecteren](../../../en/images/menus/menu-item-types/01-menus-menu-item-type-select.png)
 
 ### Artikelen
 

@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Content_Dashboard / Display title: Inhoud Dashboard  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Content_Dashboard",
+  "title": "Inhoud Dashboard  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Inleiding
 
@@ -6,7 +13,7 @@ Het Content Dashboard is toegankelijk via het pictogram rechts van het item Cont
 
 ## Screenshot
 
-![Inhoud dashboard](../../../en/images/dashboards/content-dashboard.png)
+![Inhoud dashboard](../../../en/images/dashboards/content-dashboard/01-content-dashboard.png)
 
 *Vertaald door openai.com*  
 

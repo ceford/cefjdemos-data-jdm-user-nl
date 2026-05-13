@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Getting_Started:_Adding_a_Menu_Item / Display title: Een menu-item toevoegen  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Getting_Started:_Adding_a_Menu_Item",
+  "title": "Een menu-item toevoegen  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Inleiding
 
@@ -10,7 +17,7 @@ Stel dat een van uw artikelen belangrijk genoeg is om het een menu-item te geven
 
 ## De Menu Bewerken Pagina
 
-![Menu item bewerkformulier](../../../en/images/getting-started/menu-item-edit-form.png)
+![Menu item bewerkformulier](../../../en/images/getting-started/adding-a-menu-item/01-menu-item-edit-form.png)
 
 Het formulier *Menu's: Nieuw Item* heeft vier verplichte velden om in te vullen:
 
@@ -27,7 +34,7 @@ Het formulier *Menu's: Nieuw Item* heeft vier verplichte velden om in te vullen:
 Dat is alles wat gedaan moet worden. Alles anders is optioneel. Kijk eens naar de
 homepagina van de site. Het menu-item in het Hoofdmenu linkt direct naar die pagina.
 
-![Siteweergave van enkel artikel](../../../en/images/getting-started/menu-item-single-article-site-view.png)
+![Siteweergave van enkel artikel](../../../en/images/getting-started/adding-a-menu-item/02-menu-item-single-article-site-view.png)
 
 ## Meerdere Menu-items
 
@@ -43,7 +50,7 @@ Tot nu toe gaat het goed. Maar wat gebeurt er als je 10 of 100 of 1000 of meer a
 
 Ga naar de Startpagina van de site en laad deze opnieuw. Selecteer het nieuwe *Artikelen over Zoogdieren* menu-item.
 
-![Categorielijst van Artikelen over Zoogdieren](../../../en/images/getting-started/menu-item-category-list-site-view.png)
+![Categorielijst van Artikelen over Zoogdieren](../../../en/images/getting-started/adding-a-menu-item/03-menu-item-category-list-site-view.png)
 
 Selecteer de artikeltitel, Zoogdieren, om naar de artikelweergave te gaan. Als je veel artikelen hebt, kun je ze hier vinden, waardoor aparte menu-items voor individuele artikelen niet nodig zijn.
 

@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Components_Dashboard / Display title: Componenten Dashboard  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Components_Dashboard",
+  "title": "Componenten Dashboard  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Inleiding
 
@@ -6,7 +13,7 @@ Om het Componenten Dashboard te openen, selecteer je het dashboardpictogram rech
 
 ## Schermafbeelding
 
-![Componenten dashboard](../../../en/images/dashboards/components-dashboard.png)
+![Componenten dashboard](../../../en/images/dashboards/components-dashboard/01-components-dashboard.png)
 
 *Vertaald door openai.com*
 

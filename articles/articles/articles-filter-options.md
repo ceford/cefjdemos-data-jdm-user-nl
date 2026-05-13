@@ -1,4 +1,11 @@
-<!-- Filename: J6.x:Articles:_Filter_Options / Display title: Artikelen: Filteropties   -->
+<!--
+{
+  "source": "https://docs.joomla.org/J6.x:Articles:_Filter_Options",
+  "title": "Artikelen: Filteropties   ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introductie
 
@@ -8,7 +15,7 @@ De volgende screenshot toont de artikelen die gebruikt zijn om deze set tutorial
 
 De *Filteropties* zijn geopend om de beschikbare filters te tonen.
 
-![Artikelenlijst](../../../en/images/articles/articles-filter-options.png)
+![Artikelenlijst](../../../en/images/articles/articles-filter-options/01-articles-filter-options.png)
 
 Deze lijst bevat meer dan 20 artikelen die zijn gemaakt vanuit de installatie van de *Meertalige Voorbeeldgegevens* en enkele andere artikelen die later zijn toegevoegd.
 

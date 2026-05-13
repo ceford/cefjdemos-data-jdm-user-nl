@@ -1,4 +1,11 @@
-<!-- Filename: Top_10_Stupidest_Administrator_Tricks / Display title: Top 10 Domme Trucs  -->
+<!--
+{
+  "source": "https://docs.joomla.org/Top_10_Stupidest_Administrator_Tricks",
+  "title": "Top 10 Domme Trucs  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Over Deze Lijst
 

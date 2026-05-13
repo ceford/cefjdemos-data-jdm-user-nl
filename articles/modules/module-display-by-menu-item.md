@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Module_Display_by_Menu_Item / Display title: Module weergeven per menu-item  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Module_Display_by_Menu_Item",
+  "title": "Module weergeven per menu-item  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introductie
 
@@ -24,7 +31,7 @@ Er zijn vier opties voor menu toewijzing:
 - Op alle pagina's behalve de geselecteerde
 
 Voor de laatste twee wordt er een Menu Selectie paneel weergegeven. Aanvankelijk zijn de menu's die het bevat volledig uitgeklapt, maar ze kunnen worden samengevouwen met de **Klapt de Menu-Subtrees uit** *Geen* knop. Vervolgens vouwt u het gewenste menu uit.
-![module menu toewijzing](../../../en/images/modules/module-display-by-menu.png)
+![module menu toewijzing](../../../en/images/modules/module-display-by-menu-item/01-module-display-by-menu.png)
 
 Selecteer de Menu-items om de module wel of niet weer te geven zoals gewenst.
 

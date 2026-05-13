@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Multi-factor_Authentication / Display title: Multifactor Authenticatie  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Multi-factor_Authentication",
+  "title": "Multifactor Authenticatie  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introductie
 
@@ -67,7 +74,7 @@ Let op dat er een aparte **Systeem - WebAuthn Wachtwoordloos Inloggen** plugin i
 
 Het formulier Gebruikers: Opties bevat een Multi-Factor Authenticatie-formulier om te configureren hoe Multi-factor Authenticatie werkt in Joomla. Selecteer de knop Informatie Inline Help weergeven voor informatie over elke optie.
 
-![gebruikersopties multi-factor authenticatie formulier](../../../en/images/users/users-configuration-mfa.png)
+![gebruikersopties multi-factor authenticatie formulier](../../../en/images/users/multi-factor-authentication/01-users-configuration-mfa.png)
 
 ## Gebruikersprofiel
 
@@ -75,7 +82,7 @@ Het formulier Beheerder / Gebruikers: Profiel bewerken heeft aparte tabbladen vo
 
 Het formulier Site / Bewerk je profiel heeft de formulier tabs van de backend boven elkaar geplaatst, wat verwarrend kan zijn omdat Web Authenticatie twee keer verschijnt, eerst voor wachtwoordloze login en als tweede voor Multi-factor Authenticatie. De volgende illustratie toont het Multi-factor Authenticatie gedeelte van het formulier nadat een methode is aangemaakt. Dit stelt automatisch de functie in op Ingeschakeld en toont de optie om Back-upcodes te maken.
 
-![siteweergave van gebruikers multi-factor authenticatieformulier](../../../en/images/users/multi-factor-authentication-site-profile.jpg)
+![siteweergave van gebruikers multi-factor authenticatieformulier](../../../en/images/users/multi-factor-authentication/02-multi-factor-authentication-site-profile.jpg)
 
 Zoals hierboven vermeld, kun je elk uitproberen door op de knop + Toevoegen ... te klikken, maar selecteer Annuleren in het daaropvolgende formulier als je besluit niet verder te gaan.
 

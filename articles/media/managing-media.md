@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Managing_Media / Display title: Media beheren -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Managing_Media",
+  "title": "Media beheren ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introductie
 
@@ -20,7 +27,7 @@ In de eerste twee gevallen verschijnt de Mediakomponent in een normaal komponent
 
 De volgende afbeelding toont de MediPagina net na de installatie van Joomla, maar met de map cassiopeia/sampledata geselecteerd. Een map *files* is toegevoegd om niet-afbeeldingsbestanden op te slaan en een extra map genaamd *garbage* is toegevoegd om het verwijderen van mappen te illustreren:
 
-![MediPagina met voorbeeldgegevens cassiopeia](../../../en/images/media/media-sample-data-cassiopeia.png)
+![MediPagina met voorbeeldgegevens cassiopeia](../../../en/images/media/managing-media/01-media-sample-data-cassiopeia.png)
 
 ## Mappen beheren
 
@@ -60,7 +67,7 @@ Als je een andere map selecteert, sluit de vorige map op hetzelfde niveau.
 
 De map geselecteerd voor verwijdering is hieronder geïllustreerd:
 
-![Mediapagina met prullenbakmap](../../../en/images/media/media-sample-data-garbage-select.png)
+![Mediapagina met prullenbakmap](../../../en/images/media/managing-media/02-media-sample-data-garbage-select.png)
 
 ## Werkbalk voor Media Gebied
 

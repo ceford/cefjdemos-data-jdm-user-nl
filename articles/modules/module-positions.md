@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Module_Positions / Display title: Moduleposities  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Module_Positions",
+  "title": "Moduleposities  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introductie
 
@@ -20,15 +27,15 @@ Om moduleposities te bekijken, moet je ofwel ?tp=1 of &tp=1 aan de url toevoegen
 
 ### Atum Beheerderssjabloonposities
 
-![sjablonen atum sjabloonposities](../../../en/images/modules/template-positions-templates-page.png)
+![sjablonen atum sjabloonposities](../../../en/images/modules/module-positions/01-template-positions-templates-page.png)
 
 ### Cassiopeia Sitesjabloonposities
 
-![sjablonen cassiopeia sjabloonposities](../../../en/images/modules/template-positions-site-page.png)
+![sjablonen cassiopeia sjabloonposities](../../../en/images/modules/module-positions/02-template-positions-site-page.png)
 
 Je kunt dit modulepositiediagram ook nuttig vinden:
 
-![cassiopeia sjabloonpositie diagram](../../../en/images/modules/cassiopeia-template-positions.png)
+![cassiopeia sjabloonpositie diagram](../../../en/images/modules/module-positions/03-cassiopeia-template-positions.png)
 
 ## Productielocaties
 

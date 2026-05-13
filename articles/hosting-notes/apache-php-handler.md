@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Apache_PHP_Handler / Display title: Apache PHP-handlers  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Apache_PHP_Handler",
+  "title": "Apache PHP-handlers  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Notities
 

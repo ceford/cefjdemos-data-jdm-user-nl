@@ -1,4 +1,11 @@
-<!-- Filename: jdocmanual?manual=user&heading=help&filename=administrator-help.md / Display title: Beheerdershulp   -->
+<!--
+{
+  "source": "https://docs.joomla.org/jdocmanual?manual=user&heading=help&filename=administrator-help.md",
+  "title": "Beheerdershulp   ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Introductie
 

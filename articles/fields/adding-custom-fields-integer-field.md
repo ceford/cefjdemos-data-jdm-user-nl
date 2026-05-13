@@ -15,7 +15,7 @@ Speciale opties voor dit veld:
 - **Stap** De toename voor elke stap in de lijst.
 - **Veldklasse** Stel in op *w-auto* om de lijst precies breed genoeg te maken voor de lijst met gehele getallen.
 
-![Geheel getal veldcreatie](../../../en/images/fields/fields-integer-edit.png)
+![Geheel getal veldcreatie](../../../en/images/fields/adding-custom-fields-integer-field/01-fields-integer-edit.png)
 
 **Opmerking:** In dit voorbeeld is het opnemen van het veldtype in de Titel alleen voor demonstratiedoeleinden. Laat het weg in je eigen veldtitels.
 
@@ -24,13 +24,13 @@ Speciale opties voor dit veld:
 
 Selecteer het vereiste geheel getal uit de lijst, of meer dan één uit een lijst met meerdere selecties. Let op dat zonder w-auto het geheel getal selectievak de volledige breedte van het formulier heeft.
 
-![Geheel getal invoerveld](../../../en/images/fields/fields-integer-data-entry.png)
+![Geheel getal invoerveld](../../../en/images/fields/adding-custom-fields-integer-field/02-fields-integer-data-entry.png)
 
 ## Gegevensweergave
 
 De volgende schermafbeelding van de site toont het veld dat in een artikel wordt weergegeven. De optie *Automatische weergave* is verantwoordelijk voor de positie van het veld en je sjabloon is verantwoordelijk voor het ontwerp van het veld.
 
-![Weergave van integer veld op de site](../../../en/images/fields/fields-integer-site.png)
+![Weergave van integer veld op de site](../../../en/images/fields/adding-custom-fields-integer-field/03-fields-integer-site.png)
 
 *Vertaald door openai.com*
 

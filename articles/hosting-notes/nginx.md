@@ -1,4 +1,11 @@
-<!-- Filename: Nginx / Display title: Nginx -->
+<!--
+{
+  "source": "https://docs.joomla.org/Nginx",
+  "title": "Nginx ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 <a href="http://nginx.org/" rel="nofollow noreferrer noopener">Nginx</a> is een lichte webserver die
 <a href="https://en.wikipedia.org/wiki/Nginx" rel="nofollow noreferrer noopener">ongeveer 33%</a> van de webservers over alle domeinen aandrijft. Tenzij je specifieke eisen hebt die een zware webserver zoals Apache vereisen, ben je veel beter af met het gebruik van Nginx.

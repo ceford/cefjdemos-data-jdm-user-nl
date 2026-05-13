@@ -1,4 +1,11 @@
-<!-- Filename: How_do_you_block_direct_hot_linking_to_image_files_using_htaccess%3F / Display title: Afbeeldingen Hotlinken Verbieden  -->
+<!--
+{
+  "source": "https://docs.joomla.org/How_do_you_block_direct_hot_linking_to_image_files_using_htaccess%3F",
+  "title": "Afbeeldingen Hotlinken Verbieden  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Definitie
 

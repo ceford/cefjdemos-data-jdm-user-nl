@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Menu_Item_Order / Display title: Menu-item Bestelling  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Menu_Item_Order",
+  "title": "Menu-item Bestelling  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Inleiding
 
@@ -19,7 +26,7 @@ Begin vanuit het Beheerdersmenu:
 - Selecteer en sleep het symbool van het item dat je wilt verplaatsen.
 - Laat het gesleepte item vallen op de nieuwe positie.
 
-![menu item volgorde sleep](../../../en/images/menus/menus-menu-item-order-drag.png)
+![menu item volgorde sleep](../../../en/images/menus/menu-item-order/01-menus-menu-item-order-drag.png)
 
 Deze methode kan lastig zijn als er oudermenu-items zijn met veel kinderen. Je kunt een ouderitem gemakkelijker verplaatsen door de kinderen te verbergen:
 
@@ -45,7 +52,7 @@ Begin bij het Administrator-menu:
   waarna je het verplaatste item wilt plaatsen, of de *- Eerste -* of
   *- Laatste -* posities.
 
-![menu-item volgorde lijst](../../../en/images/menus/menus-menu-item-order-list.png)
+![menu-item volgorde lijst](../../../en/images/menus/menu-item-order/02-menus-menu-item-order-list.png)
 
 - **Opslaan** of **Opslaan & Sluiten**
 

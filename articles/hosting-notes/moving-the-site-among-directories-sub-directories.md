@@ -1,4 +1,11 @@
-<!-- Filename: Moving_the_site_among_directories/sub-directories / Display title: Installatiemap Verplaatsen -->
+<!--
+{
+  "source": "https://docs.joomla.org/Moving_the_site_among_directories",
+  "title": "Installatiemap Verplaatsen ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 Vaak installeer je Joomla in een submap en wil je deze vervolgens naar een hoger gelegen map verplaatsen. Hier is een korte handleiding over hoe dit te doen.
 
