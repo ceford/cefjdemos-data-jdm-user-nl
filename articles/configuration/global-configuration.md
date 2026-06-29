@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Global_Configuration",
-  "title": "Globale Configuratie ",
+  "title": "Globale Configuratie",
   "description": "", 
   "author": ""
 }

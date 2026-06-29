@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J6.x:_Article_Edit_Configure_Edit_Screen",
-  "title": "Artikel: Bewerken - Bewerkingsscherm Configureren  ",
+  "title": "Artikel: Bewerken - Bewerkingsscherm Configureren ",
   "description": "", 
   "author": ""
 }

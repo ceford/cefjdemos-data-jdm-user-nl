@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Fields_and_Field_Groups",
-  "title": "Velden en veldgroepen  ",
+  "title": "Velden en veldgroepen ",
   "description": "", 
   "author": ""
 }

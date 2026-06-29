@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Top_10_Stupidest_Administrator_Tricks",
-  "title": "Top 10 Domme Trucs  ",
+  "title": "Top 10 Domme Trucs ",
   "description": "", 
   "author": ""
 }

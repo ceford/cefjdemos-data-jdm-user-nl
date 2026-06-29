@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Article_Links",
-  "title": "Artikel: Bewerken - Links  ",
+  "title": "Artikel: Bewerken - Links ",
   "description": "", 
   "author": ""
 }

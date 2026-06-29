@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Get_locally_hosted_Joomla!_website_e-mail_functions_to_work",
-  "title": "Lokale Host E-mail  ",
+  "title": "Lokale Host E-mail ",
   "description": "", 
   "author": ""
 }

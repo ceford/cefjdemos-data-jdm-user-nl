@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/category-list-override.md",
-  "title": "Categorie Lijst Overschrijven   ",
+  "title": "Categorie Lijst Overschrijven  ",
   "description": "", 
   "author": ""
 }

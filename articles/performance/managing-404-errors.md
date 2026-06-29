@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Managing_404_Errors",
-  "title": "Beheren van 404-fouten ",
+  "title": "Beheren van 404-fouten",
   "description": "", 
   "author": ""
 }

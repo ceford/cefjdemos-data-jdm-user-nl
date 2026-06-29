@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Switching_Templates",
-  "title": "Templates Wisselen ",
+  "title": "Templates Wisselen",
   "description": "", 
   "author": ""
 }

@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Localhost",
-  "title": "Schema.org - Aangepast ",
+  "title": "Schema.org - Aangepast",
   "description": "", 
   "author": ""
 }

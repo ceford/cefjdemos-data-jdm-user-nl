@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:User_Actions_Log",
-  "title": "Gebruikersactieslogboek ",
+  "title": "Gebruikersactieslogboek",
   "description": "", 
   "author": ""
 }

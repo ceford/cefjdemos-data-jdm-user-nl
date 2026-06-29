@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Module_and_Menu_Styles",
-  "title": "Module- en Menu Stijlen ",
+  "title": "Module- en Menu Stijlen",
   "description": "", 
   "author": ""
 }

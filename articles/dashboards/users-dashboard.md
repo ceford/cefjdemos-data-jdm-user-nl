@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Users_Dashboard",
-  "title": "Gebruikersdashboard ",
+  "title": "Gebruikersdashboard",
   "description": "", 
   "author": ""
 }

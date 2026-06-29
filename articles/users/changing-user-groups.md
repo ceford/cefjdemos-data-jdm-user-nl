@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Changing_user_groups",
-  "title": "Gebruikersgroepen Wijzigen  ",
+  "title": "Gebruikersgroepen Wijzigen ",
   "description": "", 
   "author": ""
 }

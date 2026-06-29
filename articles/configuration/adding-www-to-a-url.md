@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Adding_www_to_a_url",
-  "title": "www toevoegen aan een URL  ",
+  "title": "www toevoegen aan een URL ",
   "description": "", 
   "author": ""
 }

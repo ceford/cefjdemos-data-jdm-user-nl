@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Help4.x:Components_Privacy_Outline",
-  "title": "Privacyoverzicht  ",
+  "title": "Privacyoverzicht ",
   "description": "", 
   "author": ""
 }

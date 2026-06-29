@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Article_Headings",
-  "title": "Artikel: Bewerken - Koppen ",
+  "title": "Artikel: Bewerken - Koppen",
   "description": "", 
   "author": ""
 }

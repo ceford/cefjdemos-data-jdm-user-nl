@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Logging_in_to_Joomla",
-  "title": "Inloggen bij Joomla ",
+  "title": "Inloggen bij Joomla",
   "description": "", 
   "author": ""
 }

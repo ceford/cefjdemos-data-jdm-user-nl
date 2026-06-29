@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Article_Tables",
-  "title": "Artikel: Bewerken - Tabellen  ",
+  "title": "Artikel: Bewerken - Tabellen ",
   "description": "", 
   "author": ""
 }

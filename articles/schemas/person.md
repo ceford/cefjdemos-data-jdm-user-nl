@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Localhost",
-  "title": "Schema.org - Persoon ",
+  "title": "Schema.org - Persoon",
   "description": "", 
   "author": ""
 }

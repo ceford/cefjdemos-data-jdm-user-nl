@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Purging_expired_cache_files",
-  "title": "Verwijder Verlopen Cache  ",
+  "title": "Verwijder Verlopen Cache ",
   "description": "", 
   "author": ""
 }

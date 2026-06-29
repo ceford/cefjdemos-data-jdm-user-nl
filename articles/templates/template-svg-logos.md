@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Template_SVG_Logos",
-  "title": "Template SVG-logo's  ",
+  "title": "Template SVG-logo's ",
   "description": "", 
   "author": ""
 }

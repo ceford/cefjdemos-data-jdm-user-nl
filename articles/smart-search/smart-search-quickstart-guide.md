@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Smart_Search_quickstart_guide",
-  "title": "Snelstartgids Slim Zoeken  ",
+  "title": "Snelstartgids Slim Zoeken ",
   "description": "", 
   "author": ""
 }

@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Content_Dashboard",
-  "title": "Inhoud Dashboard  ",
+  "title": "Inhoud Dashboard ",
   "description": "", 
   "author": ""
 }

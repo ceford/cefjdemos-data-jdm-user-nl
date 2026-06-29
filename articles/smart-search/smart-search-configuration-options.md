@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Smart_Search_configuration_options",
-  "title": "Slimme Zoekopties  ",
+  "title": "Slimme Zoekopties ",
   "description": "", 
   "author": ""
 }

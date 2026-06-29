@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:User_Registration",
-  "title": "Gebruikersregistratie   ",
+  "title": "Gebruikersregistratie  ",
   "description": "", 
   "author": ""
 }

@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/What_has_the_copyright_of_Joomla!%3F",
-  "title": "Joomla! Auteursrecht ",
+  "title": "Joomla! Auteursrecht",
   "description": "", 
   "author": ""
 }

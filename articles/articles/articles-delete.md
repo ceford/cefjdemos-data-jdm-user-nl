@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Deleting_an_Article",
-  "title": "Artikelen: Verwijderen ",
+  "title": "Artikelen: Verwijderen",
   "description": "", 
   "author": ""
 }

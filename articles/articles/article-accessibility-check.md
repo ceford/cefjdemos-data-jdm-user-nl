@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Help6.x:_Article_Accessibility_Check",
-  "title": "Artikel: Toegankelijkheidscontrole  ",
+  "title": "Artikel: Toegankelijkheidscontrole ",
   "description": "", 
   "author": ""
 }

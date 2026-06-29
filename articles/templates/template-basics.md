@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Template_Basics",
-  "title": "Sjabloon Basisprincipes ",
+  "title": "Sjabloon Basisprincipes",
   "description": "", 
   "author": ""
 }

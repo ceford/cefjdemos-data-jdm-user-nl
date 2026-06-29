@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/jdocmanual?manual=user&heading=modules&filename=module-styles.md",
-  "title": "Module Stijlen   ",
+  "title": "Module Stijlen  ",
   "description": "", 
   "author": ""
 }

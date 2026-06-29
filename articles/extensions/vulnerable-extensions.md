@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/jdocmanual?manual=user&heading=extensions&filename=vulnerable-extensions.md",
-  "title": "Kwetsbare Extensies  ",
+  "title": "Kwetsbare Extensies ",
   "description": "", 
   "author": ""
 }

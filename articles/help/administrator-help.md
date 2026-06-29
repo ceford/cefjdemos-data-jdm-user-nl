@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/jdocmanual?manual=user&heading=help&filename=administrator-help.md",
-  "title": "Beheerdershulp   ",
+  "title": "Beheerdershulp  ",
   "description": "", 
   "author": ""
 }

@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J6.x:Access_Control",
-  "title": "Artikel: Bewerken - Machtigingen ",
+  "title": "Artikel: Bewerken - Machtigingen",
   "description": "", 
   "author": ""
 }

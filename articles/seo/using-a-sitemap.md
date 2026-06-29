@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Using_A_Sitemap",
-  "title": "Een Sitemap Gebruiken  ",
+  "title": "Een Sitemap Gebruiken ",
   "description": "", 
   "author": ""
 }

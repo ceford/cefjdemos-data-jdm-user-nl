@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Verifying_permissions",
-  "title": "Bestandsrechten: Linux ",
+  "title": "Bestandsrechten: Linux",
   "description": "", 
   "author": ""
 }

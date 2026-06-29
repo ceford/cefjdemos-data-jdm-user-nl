@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Read_More_Links",
-  "title": "Artikel: Bewerken - Lees meer ",
+  "title": "Artikel: Bewerken - Lees meer",
   "description": "", 
   "author": ""
 }

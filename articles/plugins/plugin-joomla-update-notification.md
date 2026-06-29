@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J3.x:Plugin_Joomla_Update_Notification",
-  "title": "Joomla! Update Melding  ",
+  "title": "Joomla! Update Melding ",
   "description": "", 
   "author": ""
 }

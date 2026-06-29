@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Preconfigured_htaccess",
-  "title": "Het htaccess.txt-bestand  ",
+  "title": "Het htaccess.txt-bestand ",
   "description": "", 
   "author": ""
 }

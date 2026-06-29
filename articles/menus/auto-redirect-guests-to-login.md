@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Auto_redirect_guests_to_login",
-  "title": "Leid gasten automatisch om naar inloggen  ",
+  "title": "Leid gasten automatisch om naar inloggen ",
   "description": "", 
   "author": ""
 }

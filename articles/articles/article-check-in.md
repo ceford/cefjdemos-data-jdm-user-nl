@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Article_Check-out_and_Check-in",
-  "title": "Artikel: Inchecken  ",
+  "title": "Artikel: Inchecken ",
   "description": "", 
   "author": ""
 }

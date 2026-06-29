@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Keyboard_Shortcuts",
-  "title": "Sneltoetsen  ",
+  "title": "Sneltoetsen ",
   "description": "", 
   "author": ""
 }

@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Installing_an_extension",
-  "title": "Een extensie installeren ",
+  "title": "Een extensie installeren",
   "description": "", 
   "author": ""
 }

@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Managing_Media",
-  "title": "Media beheren ",
+  "title": "Media beheren",
   "description": "", 
   "author": ""
 }

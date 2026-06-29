@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Adding_an_image_to_an_article",
-  "title": "Artikel: Bewerken - Afbeeldingen   ",
+  "title": "Artikel: Bewerken - Afbeeldingen  ",
   "description": "", 
   "author": ""
 }

@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Unable_to_connect_to_the_database",
-  "title": "Databaseverbinding ",
+  "title": "Databaseverbinding",
   "description": "", 
   "author": ""
 }

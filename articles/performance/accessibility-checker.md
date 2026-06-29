@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/jdocmanual?manual=user&heading=performance&filename=accessibility-checker.md",
-  "title": "Controle van de Toegankelijkheid   ",
+  "title": "Controle van de Toegankelijkheid  ",
   "description": "", 
   "author": ""
 }

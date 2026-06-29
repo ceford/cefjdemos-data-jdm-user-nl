@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/https:",
-  "title": "HTTP-headers  ",
+  "title": "HTTP-headers ",
   "description": "", 
   "author": ""
 }

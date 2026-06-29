@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Login_and_Logout_Redirects",
-  "title": "Inlog- en Uitlogomleidingen ",
+  "title": "Inlog- en Uitlogomleidingen",
   "description": "", 
   "author": ""
 }

@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/jdocmanual?manual=user&heading=news&filename=news-display.md",
-  "title": "Nieuwsweergave  ",
+  "title": "Nieuwsweergave ",
   "description": "", 
   "author": ""
 }
