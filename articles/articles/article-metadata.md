@@ -43,7 +43,18 @@ Er zijn verschillende webmasters-tools die kunnen worden gebruikt om te identifi
 
 [Google ondersteuningsartikel over het gebruik van titels voor uw webpagina's](http://support.google.com/webmasters/bin/answer.py?hl=nl&amp;answer=35624)
 
-In Joomla wordt voor een enkele pagina de artikelkop de paginatitel die in de head wordt gebruikt en in het browsertabblad wordt weergegeven. Voor een samengestelde pagina, zoals *Uitgelichte artikelen* of een *Categorieblog*, wordt de menukoptitel de paginatitel. Dus je moet goed nadenken over het samenstellen van goede beschrijvende titels voor zowel artikelen als menu-items.
+### Prioriteiten voor paginatitels
+
+In Joomla wordt de metadata-paginatitel – die in de `<head>`-sectie staat en op het browsertabblad wordt weergegeven – afgeleid van een van de volgende bronnen, in deze volgorde:
+
+1. Menu-item > Paginaweergave > Paginatitel in browser (indien ingesteld in het formulier)
+2. Artikel > Opties > Paginatitel in browser (indien ingesteld in het formulier)
+3. Artikeltitel (voor een enkel artikel zonder menu-item)
+4. Titel van menu-item (voor een samengestelde pagina, zoals *Uitgelichte artikelen*
+of een *Categorieblog*)
+
+Het is dus belangrijk om goed na te denken over het formuleren van duidelijke, beschrijvende titels
+en paginatitels voor zowel artikelen als menu-items.
 
 ## De pagina Beschrijving
 

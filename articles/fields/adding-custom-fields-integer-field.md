@@ -1,4 +1,11 @@
-<!-- Filename: J3.x:Adding_custom_fields/Integer_Field / Display title: Geheel Getal Veld -->
+<!--
+{
+  "source": "https://docs.joomla.org/J3.x:Adding_custom_fields",
+  "title": "Geheel Getal Veld",
+  "description": "", 
+  "author": ""
+}
+-->
 
 
 ## Doel
