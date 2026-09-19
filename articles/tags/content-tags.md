@@ -1,140 +1,160 @@
 <!--
 {
-  "source": "https://docs.joomla.org/J4.x:How_To_Use_Content_Tags_in_Joomla",
-  "title": "Inhoudstags",
-  "description": "", 
-  "author": ""
+    "source": "https://docs.joomla.org/J4.x:How_To_Use_Content_Tags_in_Joomla",
+    "title": "Inhoudstags",
+    "description": " ",
+    "author": ""
 }
 -->
 
 ## Inleiding
 
-Tags bieden een eenvoudige en efficiënte manier om content te organiseren en weer te geven. De **Tags Component** maakt het mogelijk om tags te gebruiken bij verschillende soorten content, waaronder artikelen, categorieën, contactpersonen en nieuwsfeeds. Het biedt ook de mogelijkheid om ouder- en kind-tags aan te maken.
+Tags bieden een gebruiksvriendelijke en efficiënte manier om inhoud te ordenen en weer te geven. 
+Met de **Tags-component** kunnen afzonderlijke tags worden gebruikt voor verschillende 
+inhoudstypen, waaronder artikelen, categorieën, contacten en nieuwsfeeds. Ook kunnen er bovenliggende en onderliggende tags worden aangemaakt.
 
-In tegenstelling tot Joomla **Categorieën**, waar slechts één categorie aan een item kan worden toegewezen, kunnen meerdere tags aan een enkel item worden toegekend, maar het is niet verplicht om tags aan items toe te wijzen.
+In tegenstelling tot Joomla **Categorieën**, waarbij slechts één categorie aan
+een item kan worden toegewezen, kunnen meerdere tags aan één item worden toegewezen. Het is echter niet
+verplicht om tags aan items toe te wijzen.
 
-Zodra een item met een specifieke tag is gemarkeerd, leidt het klikken op de tagknop in content met tags naar een pagina die een lijst weergeeft van alle items die met die specifieke tag zijn gemarkeerd. Om deze reden worden tags vaak gebruikt om *gefilterde* lijsten van content te presenteren.
+Zodra een item van een specifieke tag is voorzien, brengt het klikken op de tagknop bij
+inhoud waarin tags worden weergegeven u naar een pagina met een lijst van
+alle items die met die specifieke tag zijn voorzien. Om deze
+reden worden tags vaak gebruikt als een manier om *gefilterde* lijsten met
+inhoud weer te geven.
 
-Tags kunnen op verschillende plaatsen worden toegevoegd, wat flexibiliteit biedt bij het maken van tags.
+Tags kunnen op verschillende plaatsen worden toegevoegd, wat flexibiliteit biedt bij het aanmaken van tags.
 
 ## Overwegingen
 
-Voordat je begint, overweeg het doel van tags op de website, vooral als anderen inhoud zullen toevoegen. Tenzij ze correct worden toegevoegd en beheerd, kunnen tags contraproductief worden. Veelvoorkomende problemen zijn dat inhoudsschrijvers nieuwe onnodige tags toevoegen en dat er typefouten in de tagnamen zitten. Sommige sitebeheerders kunnen ervoor kiezen om toegangsrechten te wijzigen zodat alleen specifieke gebruikers nieuwe tags kunnen toevoegen.
+Bedenk voordat u begint wat het doel van tags op de website is, vooral
+als anderen inhoud zullen toevoegen. Als tags niet correct worden toegevoegd en beheerd,
+kunnen ze contraproductief worden. Veelvoorkomende problemen zijn onder andere
+inhoudschrijvers die nieuwe, onnodige tags en verkeerd gespelde tagnamen toevoegen.
+Sommige sitebeheerders kiezen ervoor om de toegangsrechten te wijzigen, zodat
+alleen specifieke gebruikers nieuwe tags kunnen toevoegen.
 
-Wanneer tags worden aangemaakt, verschijnen ze als links in de getagde items. De tagstijlen en posities worden gedefinieerd door de sitetemplate. Ze worden vaak gestyled als knoppen of labels.
+De volgende schermafbeelding toont tags die worden gebruikt op een site met artikelen over 
+UNESCO-werelderfgoedlocaties. In dit geval heeft elke tag een kenmerkende kleur. 
 
-Het weergeven van tags kan worden uitgeschakeld! Dit lijkt misschien onlogisch, maar het is een nuttige functie waar tags worden gebruikt, bijvoorbeeld om inhoud te filteren voor specifieke gebruikssituaties.
+![de pagina met de taglijst](../../../en/images/tags/content-tags/01-tags-example.png)
 
-## De Tags Lijst
+Wanneer tags worden aangemaakt, worden ze als koppelingen weergegeven in de items met tags. 
+De stijlen en posities van tags worden bepaald door de sitesjabloon. Ze worden vaak 
+opgemaakt als knoppen of labels.
 
-- Selecteer **Componenten → Tags** in het Administrator-menu.
+De weergave van tags kan voor afzonderlijke artikelen of voor alle artikelen worden uitgeschakeld! Dit
+lijkt misschien onlogisch, maar het is een nuttige functie wanneer tags bijvoorbeeld worden gebruikt om
+inhoud te filteren voor specifieke gebruikssituaties.
 
-![de tags lijst pagina](../../../en/images/tags/content-tags/01-tags-list.png)
+## De taglijst
 
-Hoe tags ook zijn aangemaakt, ze zijn te vinden in deze lijst.
+- Selecteer **Componenten → Tags** in het beheerdersmenu.
 
-## Tags Toevoegen
+Deze schermafbeelding toont tags in een structuur die wordt gebruikt voor een meertalige site.
+Elke taal heeft een lijst met tags, met een taaltag als bovenliggende tag. 
+De bovenliggende tag wordt gebruikt in de modules *Populaire tags* en *Vergelijkbare tags*.
 
-### Via de Taglijst
+![de pagina met de taglijst](../../../en/images/tags/content-tags/02-tags-list.png)
 
-Selecteer de knop **Nieuw** in de Werkbalk van de Taglijst.
+Ongeacht hoe tags zijn aangemaakt, ze zijn in deze lijst te vinden.
 
-![nieuwe tag genaamd predator](../../../en/images/tags/content-tags/02-new-tag-predator.png)
+- Selecteer de knop **Nieuw** op de werkbalk om een nieuwe tag aan te maken.
+- Selecteer een **Titel** van een tag om een bestaande tag te bewerken.
 
-- **Titel** Dit is het enige *verplichte* veld.
-- **Alias** Dit wordt aangemaakt vanuit de Titel bij het opslaan.
-- **Beschrijving** Het is altijd goed om een Beschrijving toe te voegen. Het wordt weergegeven in
-  de Administrator-formulieren en kan nuttig zijn wanneer er veel tags in gebruik zijn.
-- **Ouder** Laat ingesteld op *Geen* als dit een hoofdtag is. Of kies een
-  bovenliggende tag uit de lijst als dit een kindtag is.
-- **Status** Dit veld is standaard ingesteld op *Gepubliceerd*. Het kan worden ingesteld op
-  *Niet-gepubliceerd*, *Gearchiveerd* of *Verwijderd*.
+### Het tabblad Taggegevens
+
+![formulieropties voor het bewerken van tags met bootstrap-css-klassen](../../../en/images/tags/content-tags/03-edit-tag-details-tab.png)
+
+- **Titel** Dit is het enige *verplichte* veld. 
+- **Alias** Deze wordt bij het opslaan uit de titel aangemaakt.
+- **Beschrijving** Het is altijd het beste om een beschrijving toe te voegen. Deze wordt weergegeven in 
+  beheerdersformulieren en kan nuttig zijn wanneer er veel tags worden gebruikt.
+- **Bovenliggende tag** Laat dit ingesteld op *Geen* als deze tag geen bovenliggende tag heeft. Of kies een 
+  bovenliggende tag uit de lijst om hiervan een onderliggende tag te maken.
+- **Status** Dit veld is standaard ingesteld op *Gepubliceerd*. Het kan worden ingesteld op 
+  *Gedepubliceerd*, *Gearchiveerd* of *Naar prullenbak*.
 - **Toegang** Het toegangsniveau is standaard Openbaar.
-- **Notitie** en **Versie Notitie:** Indien nodig kunt u notities toevoegen.
-- **Opslaan & Sluiten** De nieuwe tag verschijnt in de Taglijst. Als u
-  meerdere tags maakt, kunt u kiezen om **Opslaan & Nieuw** te klikken om
-  er nog een te maken.
+- **Notitie** en **Versienotitie:** Indien nodig kunt u notities toevoegen.
+- **Opslaan en sluiten** Als u meerdere tags aanmaakt, kunt u **Opslaan en nieuw** selecteren om een nieuwe tag aan te maken.
 
-Na het opslaan is de tag beschikbaar voor gebruik in de verschillende inhoudstypen die ze gebruiken.
+### Het tabblad Opties
 
-### Vanuit een Artikel
+- **Lay-out** Er kunnen verschillende lay-outs zijn om uit te kiezen en u kunt uw eigen lay-out maken met een template override.
+- **CSS-klasse voor tagkoppeling** Standaard worden tags weergegeven als een blauwe knop. U kunt hier klassedeclaraties invoeren om het uiterlijk van tags aan te passen en verschillende tags verschillende kleuren te geven. Voorbeeld: `bg-danger-subtle border border-danger` zijn Bootstrap-klassen die een roze knop met een rode rand opleveren.
+- **Teaserafbeelding en volledige afbeelding** Stel afbeeldingen in voor de tag: een teaserafbeelding voor de taglijst en/of een volledige afbeelding voor de tagpagina.
 
-Het is mogelijk om nieuwe tags toe te voegen tijdens het maken of bewerken van een artikel. In
-het tabblad Artikelinhoud, voer in het **Tagsveld** de naam van de nieuwe tag in en
-druk op **Enter** om de tag op te slaan en toe te wijzen aan het artikel.
+![formulieropties voor het bewerken van tags met bootstrap-css-klassen](../../../en/images/tags/content-tags/04-edit-tag-options-tab.png)
 
-### Vanuit een Categorie
+### Het tabblad Publiceren
 
-Tags kunnen worden toegevoegd bij het aanmaken of bewerken van een categorie. In het **Categorie**-tabblad
-voer de tagnaam in het **Tagsveld** in en druk op **Enter** om
+- Stel metagegevens in voor de tagpagina ten behoeve van zoekmachineoptimalisatie (SEO).
+
+## Alternatieve methoden voor aanmaken
+
+### Vanuit een artikel
+
+Het is mogelijk om nieuwe tags toe te voegen tijdens het aanmaken of bewerken van een artikel. Voer in het tabblad Inhoud van het artikel, in het **Tags-veld**, de naam van de nieuwe tag in en druk op **Enter** om de tag op te slaan en aan het artikel toe te wijzen.
+
+### Vanuit een categorie
+
+Tags kunnen worden toegevoegd tijdens het aanmaken of bewerken van een categorie. Voer in het tabblad **Categorie**
+de tagnaam in het **Tags-veld** in en druk op **Enter** om
 de nieuwe tag aan te maken en toe te wijzen.
 
-### Vanuit een Contact
+### Vanuit een contact
 
-Tags kunnen worden toegevoegd bij het aanmaken of bewerken van een Contact. In het **Nieuw/Bewerken Contact**-tabblad
-voer de tagnaam in het **Tagsveld** in en druk op **Enter**
-om de nieuwe tag aan te maken en toe te wijzen. U kunt ook nieuwe tags toevoegen bij het maken
-van Contactcategorieën.
+Tags kunnen worden toegevoegd tijdens het aanmaken of bewerken van een contact. Voer in het tabblad 
+**Nieuw contact/Contact bewerken** de tagnaam in het **Tags-veld** in en druk op 
+**Enter** om de nieuwe tag aan te maken en toe te wijzen. U kunt ook nieuwe tags toevoegen tijdens het aanmaken van contactcategorieën.
 
-### Vanuit een Nieuwsfeed
+### Vanuit een nieuwsfeed
 
-Tags kunnen worden toegevoegd bij het aanmaken of bewerken van een nieuwe Nieuwsfeed. In het 
-**Nieuw/Bewerken Nieuwsfeed**-tabblad voert u de tagnaam in het **Tagsveld** in en druk
-op **Enter** om de nieuwe tag aan te maken en toe te wijzen. U kunt ook nieuwe tags toevoegen bij
-het maken van Nieuwsfeedcategorieën.
+Tags kunnen worden toegevoegd bij het maken of bewerken van een nieuwe nieuwsfeed. Voer in het tabblad 
+**Nieuwe/nieuwsfeed bewerken** de tagnaam in het **Tags-veld** in en druk op
+**Enter** om de nieuwe tag te maken en toe te wijzen. U kunt ook nieuwe tags toevoegen bij 
+het maken van nieuwsfeedcategorieën.
 
-## Tags Beheren
+## Tags beheren
 
-Waar je ook nieuwe Tags toevoegt binnen Joomla, ze zullen allemaal verschijnen in de Tags-lijst. Gebruik de Tags-lijst om taginstellingen te vinden, openen en aanpassen.
+Waar u ook nieuwe tags toevoegt binnen Joomla, ze verschijnen allemaal in de taglijst.
+Gebruik de taglijst om taginstellingen te vinden, te openen en aan te passen.
 
-### De Tags Lijstfilter
+U kunt de lijst op verschillende manieren bewerken:
 
-![tags lijst filter op type](../../../en/images/tags/content-tags/03-tags-list-filter.png)
+- Zoek naar een tag door een deel van of de volledige titel of alias ervan in het veld Zoeken in te voeren.
+- Wijzig de volgorde van de lijst door middel van slepen en neerzetten om de uitvoervolgorde te optimaliseren.
+- Publiceer of depubliceer tags met de knop in de kolom Status.
+- Selecteer een of meer tags en gebruik de knop **Acties** om de geselecteerde tags te publiceren, te depubliceren, te archiveren, in te checken of naar de prullenbak te verplaatsen.
+- Selecteer een of meer tags en gebruik de knop **Acties → Batch** om de taal of het toegangsniveau in te stellen.
 
-Je kunt de lijst op verschillende manieren manipuleren:
+## Tagweergaven
 
-- Zoek naar een tag door een deel van de titel in te voeren in het Zoekveld.
-- Herorder de lijst met slepen en neerzetten om de uitvoerorde te optimaliseren.
-- Publiceer of Depubliceer tags met de knop in de kolom Status.
-- Selecteer een of meer tags en gebruik de **Acties**-knop om de geselecteerde tags te Publiceren, Depubliceren, Archiveren, Inchecken of Verwijderen.
-- Selecteer een of meer tags en gebruik de **Acties → Batch**-knop om de Taal of Toegangsrechten in te stellen.
+Nadat tags op uw site zijn gemaakt, zijn ze beschikbaar voor gebruik in inhoud en in modules zoals **Populaire tags** en **Vergelijkbare tags**. De volgende voorbeelden laten zien hoe deze eruit kunnen zien op een site die de standaardtemplate **Cassiopeia** gebruikt.
 
-### Taginstellingen
+![tags weergegeven in een artikel en de modules voor populaire tags en vergelijkbare tags](../../../en/images/tags/content-tags/05-tag-modules-site-view.png)
 
-- Selecteer een tag **Titel** om wijzigingen aan te brengen in de instellingen.
+Wanneer u een van de tags selecteert, gaat u naar een pagina met een lijst van
+alle items die aan die specifieke tag zijn toegewezen:
 
-In het tag bewerkingsformulier:
+![voorbeeld van taggebruik op een site met een zwarte labrador](../../../en/images/tags/content-tags/06-items-with-cultural-site-tag.png)
 
-- De instellingen van het tabblad **Tagdetails** zijn hierboven besproken.
-- Het tabblad **Opties**:
-  - Wijzig de lay-out van de tagpagina (de pagina die verschijnt wanneer je op de taglink klikt - bijvoorbeeld, mijnsite.com/tags/mijn-tag). Deze lay-out is normaal gesproken de standaardinstelling en afhankelijk van de sjabloon.
-  - Voeg een CSS-klasse toe om een andere stijl (uiterlijk) toe te passen op de link voor de tag. Dit zou normaal gesproken alleen worden gebruikt door de Sitebeheerder.
-  - Stel afbeeldingen in voor de tag - een teaserafbeelding voor de tagslijst en/of een volledige afbeelding voor de tagpagina.
-- Het tabblad **Publiceren**: Stel metadata in voor de tagpagina voor Zoekmachineoptimalisatie (SEO).
+De lijst met items is een gefilterde lijst van website-inhoud met de geselecteerde tag.
+Er is een filtervak beschikbaar om items gemakkelijker te kunnen vinden wanneer de lijst groeit. 
+U kunt ook het aantal resultaten instellen dat u in één weergave wilt zien.
 
-## Hoe Joomla Tags Uitvoert
+## Tagconfiguratie
 
-Zodra tags op je site zijn aangemaakt, zijn ze beschikbaar voor gebruik, niet alleen in de inhoud maar ook in enkele nuttige modules zoals **Populaire Tags** en **Vergelijkbare Tags**. De volgende voorbeelden laten zien hoe deze eruitzien op een standaardinstallatie met de standaard **Cassiopeia**-sjabloon.
+Afzonderlijke tags nemen instellingen over uit de opties van de Tags-component. Selecteer de 
+knop **Opties** in de werkbalk van de taglijstpagina om de beschikbare standaardopties 
+voor tags te bekijken.
 
-![tags gebruik site voorbeeld gele labrador](../../../en/images/tags/content-tags/04-tag-examples-yellow-labrador.png)
-
-Wanneer je op een van de tags klikt, word je naar een pagina gebracht die alle items opsomt die aan die specifieke tag zijn toegewezen:
-
-![tags gebruik site voorbeeld zwarte labrador](../../../en/images/tags/content-tags/05-tag-examples-black-labrador.png)
-
-Door op een tag te klikken, kom je op een pagina die een lijst uitvoert van alle items die aan die specifieke tag zijn toegewezen - in feite is het een gefilterde lijst van je getagde website-inhoud. Er wordt een filtervak aangeboden om het gemakkelijker te maken items te vinden naarmate de lijst groeit. Je kunt ook het aantal resultaten instellen dat je in één weergave wilt zien.
-
-## Tags-configuratie
-
-Individuele tags erven instellingen over van de Tags-componentopties. Dit wordt behandeld in een aparte tutorial. [TeDoen] Selecteer de knop **Opties** in de werkbalk van de Tags-lijstpagina.
-
-De configuratie van de Tags-component kan op menu-itemniveau worden overschreven.
+De configuratieopties van de Tags-component kunnen op het niveau van het inhoudsitem en/of menu-item worden overschreven.
 
 ## Tips
 
-- Onthoud dat tags worden gebruikt voor meerdere soorten inhoud
-- Je kunt meer dan één tag aan een item toevoegen
-- Gebruik de Help-knop wanneer je het niet zeker weet
+- Houd er rekening mee dat tags voor meerdere inhoudstypen worden gebruikt.
+- U kunt meer dan één tag aan een item toevoegen.
+- Gebruik de knop Help op de werkbalk als u twijfelt.
 
 *Vertaald door openai.com*
-

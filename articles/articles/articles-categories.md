@@ -116,7 +116,7 @@ Probeer in het tabblad *Paginaweergave* het veld *Pagina-kop weergeven* in te st
 
 De volgende screenshot toont de weergave op de site van een categorie blogpagina in ontwikkeling.
 
-![Blogpagina van de zoogdiercategorie](../../../en/images/articles/articles-categories/04-article-mammals-articles-blog-site-view.png)
+![Blogpagina van de zoogdiercategorie](../../../en/images/articles/articles-categories/04-category-blog-site-view.png)
 
 ## Tips
 
