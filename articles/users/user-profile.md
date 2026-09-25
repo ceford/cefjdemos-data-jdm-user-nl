@@ -39,7 +39,7 @@ Vanuit het Administrator-menu:
 
 - Log in op de site en gebruik de link om het gebruikersprofiel te controleren.
 
-![menu-itemformulier gebruikersprofiel](../../../en/images/users/user-profile/03-user-profile-summary.png)
+![menu-itemformulier gebruikersprofiel](../../../en/images/users/user-profile/03-user-profile-edit.png.png)
 
 - Probeer de knop **Profiel Bewerken**.
 

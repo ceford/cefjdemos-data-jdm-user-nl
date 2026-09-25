@@ -18,7 +18,7 @@ Speciale opties voor dit veld:
 
 - **Veldklasse** Instellen op *w-auto* om het veld net breed genoeg te maken voor de kleurstaal en waarde.
 
-![Kleur veld aanmaken](../../../en/images/fields/adding-custom-fields-color-field/01-fields-colour-edit.png)
+![Kleur veld aanmaken](../../../en/images/fields/adding-custom-fields-color-field/01-fields-color-edit.png)
 
 **Opmerking:** In dit voorbeeld is het opnemen van het veldtype in de titel enkel voor demonstratiedoeleinden. Laat het weg in je eigen veldtitels.
 
@@ -26,7 +26,7 @@ Speciale opties voor dit veld:
 
 Je kunt een hex kleurwaarde typen als je weet dat hex getallen van 0 tot 9 lopen en daarna van a tot f, en de paren van getallen staan voor rood, groen en blauw. Dus #00ff00 is geen rood, maximaal groen en geen blauw. Of je kunt een cursor gebruiken om een kleur visueel te selecteren.
 
-![Kleurveld gegevensinvoer](../../../en/images/fields/adding-custom-fields-color-field/02-fields-colour-data-entry.png)
+![Kleurveld gegevensinvoer](../../../en/images/fields/adding-custom-fields-color-field/02-fields-color-data-entry.png)
 
 
 ## Gegevensweergave
@@ -46,5 +46,5 @@ En de hex-waarde wordt voorafgegaan door een kleurvoorbeeld met de achtergrondkl
 
 Zoek naar het **Bloem Kleur** item.
 
-![kleurveld siteweergave](../../../en/images/fields/adding-custom-fields-color-field/03-fields-colour-site.png)
+![kleurveld siteweergave](../../../en/images/fields/adding-custom-fields-color-field/03-fields-color-site.png)
 

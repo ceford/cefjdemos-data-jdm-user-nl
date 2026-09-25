@@ -50,4 +50,6 @@ In het gegevensinvoerformulier wordt het notitieveld tussen de andere velden wee
 
 Als *Weergeven in frontend* is ingesteld op *Ja*, wordt het notitieveld tussen de andere velden in de frontend weergegeven. Daar kan het algemene informatie bevatten die voor een groep artikelen geldt.
 
+![Note field site display](../../../en/images/fields/adding-custom-fields-note-field/03-fields-note-site.png)
+
 *Vertaald door openai.com*

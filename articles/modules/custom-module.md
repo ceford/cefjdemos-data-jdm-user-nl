@@ -55,7 +55,7 @@ Wanneer je klaar bent, selecteer je de knop **Opslaan & Sluiten**.
 
 De module zal in de zijbalk van de website worden gepubliceerd en de ingevoerde tekst weergeven.
 
-![Voorbeeld van een Aangepaste Module](../../../en/images/modules/how-do-you-create-a-custom-module-3f/01-modules-custom-display.png)
+![Voorbeeld van een Aangepaste Module](../../../en/images/modules/custom-module/01-modules-site-message.png)
 
 *Vertaald door openai.com*
 
