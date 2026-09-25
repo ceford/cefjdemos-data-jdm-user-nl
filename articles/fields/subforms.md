@@ -40,4 +40,3 @@ Zoek naar het item **Specimens** in deze screenshot:
 ![subform site display](../../../en/images/fields/subforms/03-fields-subform-site.png)
 
 *Vertaald door openai.com*  
-
