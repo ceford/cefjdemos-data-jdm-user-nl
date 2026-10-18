@@ -25,7 +25,7 @@ zijn toegestaan.
 - **Toon URL** Als deze is ingesteld op *Nee*, wordt op de weergave van het artikel de URL vervangen door de
 woorden *Bezoek Site*.
 
-![url veld aanmaak](../../../en/images/fields/adding-custom-fields-url-field/01-fields-url-edit.png)
+![url veld aanmaak](../../../nl/images/fields/adding-custom-fields-url-field/01-fields-url-edit.png)
 
 **Opmerking:** In dit voorbeeld is opname van het veldtype in de titel alleen voor
 demonstratiedoeleinden. Laat het weg in uw eigen veldtitels.
@@ -34,13 +34,13 @@ demonstratiedoeleinden. Laat het weg in uw eigen veldtitels.
 
 Eenvoudig: voer gewoon een bestemmings-URL in.
 
-![url veld gegevensinvoer](../../../en/images/fields/adding-custom-fields-url-field/02-fields-url-data-entry.png)
+![url veld gegevensinvoer](../../../nl/images/fields/adding-custom-fields-url-field/02-fields-url-data-entry.png)
 
 ## Gegevensweergave
 
 De volgende schermafbeelding van de site toont het veld dat in een artikel wordt weergegeven. De optie *Automatische weergave* is verantwoordelijk voor de positie van het veld en jouw sjabloon is verantwoordelijk voor het ontwerp van het veld.
 
-![url veld siteweergave](../../../en/images/fields/adding-custom-fields-url-field/03-fields-url-site.png)
+![url veld siteweergave](../../../nl/images/fields/adding-custom-fields-url-field/03-fields-url-site.png)
 
 De URL volgt het veldlabel.
 

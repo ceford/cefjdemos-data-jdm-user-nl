@@ -19,7 +19,7 @@ Dit zijn de problemen die de Mediacomponent kan oplossen.
 
 Als voorbeeld toont de volgende afbeelding een groep dieren die iets te groot is voor het beoogde doel. Hij kan bijgesneden of opnieuw formaat gegeven worden.
 
-![Afbeelding van dieren](../../../en/images/media/media-image-crop-resize-rotate/01-media-crop-serengeti.png)
+![Afbeelding van dieren](../../../nl/images/media/media-image-crop-resize-rotate/01-media-crop-serengeti.png)
 
 ## Bijsnijden
 

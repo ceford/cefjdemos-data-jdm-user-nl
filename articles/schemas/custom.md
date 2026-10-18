@@ -31,7 +31,7 @@ De eigenschap *timeRequired* vertegenwoordigt de geschatte leestijd in ISO 8601 
 
 Hieronder staat een voorbeeld van een Aangepast schema-veld in een Artikelbewerkingsformulier.
 
-![A custom schema edit form](../../../en/images/schemas/custom/01-edit-schema-custom.png)
+![A custom schema edit form](../../../nl/images/schemas/custom/01-edit-schema-custom.png)
 
 *Vertaald door openai.com*
 

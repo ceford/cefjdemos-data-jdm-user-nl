@@ -37,7 +37,7 @@ alleen specifieke gebruikers nieuwe tags kunnen toevoegen.
 De volgende schermafbeelding toont tags die worden gebruikt op een site met artikelen over 
 UNESCO-werelderfgoedlocaties. In dit geval heeft elke tag een kenmerkende kleur. 
 
-![de pagina met de taglijst](../../../en/images/tags/content-tags/01-tags-example.png)
+![de pagina met de taglijst](../../../nl/images/tags/content-tags/01-tags-example.png)
 
 Wanneer tags worden aangemaakt, worden ze als koppelingen weergegeven in de items met tags. 
 De stijlen en posities van tags worden bepaald door de sitesjabloon. Ze worden vaak 
@@ -55,7 +55,7 @@ Deze schermafbeelding toont tags in een structuur die wordt gebruikt voor een me
 Elke taal heeft een lijst met tags, met een taaltag als bovenliggende tag. 
 De bovenliggende tag wordt gebruikt in de modules *Populaire tags* en *Vergelijkbare tags*.
 
-![de pagina met de taglijst](../../../en/images/tags/content-tags/02-tags-list.png)
+![de pagina met de taglijst](../../../nl/images/tags/content-tags/02-tags-list.png)
 
 Ongeacht hoe tags zijn aangemaakt, ze zijn in deze lijst te vinden.
 
@@ -64,7 +64,7 @@ Ongeacht hoe tags zijn aangemaakt, ze zijn in deze lijst te vinden.
 
 ### Het tabblad Taggegevens
 
-![formulieropties voor het bewerken van tags met bootstrap-css-klassen](../../../en/images/tags/content-tags/03-edit-tag-details-tab.png)
+![formulieropties voor het bewerken van tags met bootstrap-css-klassen](../../../nl/images/tags/content-tags/03-edit-tag-details-tab.png)
 
 - **Titel** Dit is het enige *verplichte* veld. 
 - **Alias** Deze wordt bij het opslaan uit de titel aangemaakt.
@@ -84,7 +84,7 @@ Ongeacht hoe tags zijn aangemaakt, ze zijn in deze lijst te vinden.
 - **CSS-klasse voor tagkoppeling** Standaard worden tags weergegeven als een blauwe knop. U kunt hier klassedeclaraties invoeren om het uiterlijk van tags aan te passen en verschillende tags verschillende kleuren te geven. Voorbeeld: `bg-danger-subtle border border-danger` zijn Bootstrap-klassen die een roze knop met een rode rand opleveren.
 - **Teaserafbeelding en volledige afbeelding** Stel afbeeldingen in voor de tag: een teaserafbeelding voor de taglijst en/of een volledige afbeelding voor de tagpagina.
 
-![formulieropties voor het bewerken van tags met bootstrap-css-klassen](../../../en/images/tags/content-tags/04-edit-tag-options-tab.png)
+![formulieropties voor het bewerken van tags met bootstrap-css-klassen](../../../nl/images/tags/content-tags/04-edit-tag-options-tab.png)
 
 ### Het tabblad Publiceren
 
@@ -132,12 +132,12 @@ U kunt de lijst op verschillende manieren bewerken:
 
 Nadat tags op uw site zijn gemaakt, zijn ze beschikbaar voor gebruik in inhoud en in modules zoals **Populaire tags** en **Vergelijkbare tags**. De volgende voorbeelden laten zien hoe deze eruit kunnen zien op een site die de standaardtemplate **Cassiopeia** gebruikt.
 
-![tags weergegeven in een artikel en de modules voor populaire tags en vergelijkbare tags](../../../en/images/tags/content-tags/05-tag-modules-site-view.png)
+![tags weergegeven in een artikel en de modules voor populaire tags en vergelijkbare tags](../../../nl/images/tags/content-tags/05-tag-modules-site-view.png)
 
 Wanneer u een van de tags selecteert, gaat u naar een pagina met een lijst van
 alle items die aan die specifieke tag zijn toegewezen:
 
-![voorbeeld van taggebruik op een site met een zwarte labrador](../../../en/images/tags/content-tags/06-items-with-cultural-site-tag.png)
+![voorbeeld van taggebruik op een site met een zwarte labrador](../../../nl/images/tags/content-tags/06-items-with-cultural-site-tag.png)
 
 De lijst met items is een gefilterde lijst van website-inhoud met de geselecteerde tag.
 Er is een filtervak beschikbaar om items gemakkelijker te kunnen vinden wanneer de lijst groeit. 

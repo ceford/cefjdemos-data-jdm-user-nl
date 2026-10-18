@@ -66,7 +66,7 @@ ingeschakeld. In de standaard inlogschermen van Joomla 4 en later is een knop
 **Inloggen met passkey** aanwezig, zoals geïllustreerd in het inlogscherm van de
 beheerder:
 
-![veilig inlogformulier voor beheerder](../../../en/images/users/passkey-login/02-login-form.png)
+![veilig inlogformulier voor beheerder](../../../nl/images/users/passkey-login/02-login-form.png)
 
 ## Gebruikersconfiguratie
 
@@ -93,7 +93,7 @@ vingerafdruk of gezicht te scannen, een pincode in te voeren of een combinatie
 van bovenstaande, afhankelijk van uw authenticator — verdwijnt het bericht,
 wordt de authenticator geregistreerd en verschijnt het scherm als volgt:
 
-![veilige beheerderlogin met geregistreerde authenticator](../../../en/images/users/passkey-login/04-registered-authenticator.png)
+![veilige beheerderlogin met geregistreerde authenticator](../../../nl/images/users/passkey-login/04-registered-authenticator.png)
 
 Het is zeer belangrijk om op te merken dat u alleen authenticators op uw eigen
 gebruikersaccount kunt registreren of verwijderen. Om veiligheidsredenen mag

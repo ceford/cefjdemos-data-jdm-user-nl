@@ -62,7 +62,7 @@ Deze systeemplugin bepaalt wat er wordt weergegeven wanneer debugging is geactiv
 
 In het **Taal** tabblad:
 
-![plugin systeem debug](../../../en/images/languages/debugging-a-translation/01-languages-debug-plugin.png)
+![plugin systeem debug](../../../nl/images/languages/debugging-a-translation/01-languages-debug-plugin.png)
 
 * **Fouten bij het parseren van taalbestanden** Toon een foutmelding als een taalbestand niet kan worden geladen.
 

@@ -23,7 +23,7 @@ Opmerking: het is het beste om afbeeldingen voor te bereiden in je favoriete afb
 zoals *Gimp*. De kleine en middelgrote afbeeldingen zijn gebruikt om de 
 volgende screenshots te maken.
 
-![Artikel bewerkingsformulier, afbeeldingen- en linktab](../../../en/images/articles/article-images-and-links/01-articles-edit-images-and-links-tab.png)
+![Artikel bewerkingsformulier, afbeeldingen- en linktab](../../../nl/images/articles/article-images-and-links/01-articles-edit-images-and-links-tab.png)
 
 ## Formulier Velden
 
@@ -60,11 +60,11 @@ Exact dezelfde gegevensinvoer als Link A.
 
 De onderstaande screenshot toont een categorie-bloglay-out met de *Intro Afbeelding*. Het was misschien beter geweest om een panoramafoto te gebruiken met dezelfde hoogte, maar een veel grotere breedte om de lege witte ruimte op te vullen.
 
-![Voorbeeld van een introductieafbeelding op de categorieblogpagina](../../../en/images/articles/article-images-and-links/02-site-intro-image.png)
+![Voorbeeld van een introductieafbeelding op de categorieblogpagina](../../../nl/images/articles/article-images-and-links/02-site-intro-image.png)
 
 De onderstaande screenshot toont de enkele artikelpagina met de *Volledige Artikelafbeelding* en Link A. De afbeelding is naar rechts uitgelijnd en het zichtbare bijschrift voegt iets toe aan wat de Beschrijving zegt, zodat het logisch klinkt voor schermlezers.
 
-![Voorbeeld van een volledige artikelafbeelding op een enkele artikelpagina](../../../en/images/articles/article-images-and-links/03-site-full-article-image.png)
+![Voorbeeld van een volledige artikelafbeelding op een enkele artikelpagina](../../../nl/images/articles/article-images-and-links/03-site-full-article-image.png)
 
 *Vertaald door openai.com*
 

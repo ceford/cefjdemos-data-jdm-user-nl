@@ -13,7 +13,7 @@ Het Content Dashboard is toegankelijk via het pictogram rechts van het item Cont
 
 ## Screenshot
 
-![Inhoud dashboard](../../../en/images/dashboards/content-dashboard/01-content-dashboard.png)
+![Inhoud dashboard](../../../nl/images/dashboards/content-dashboard/01-content-dashboard.png)
 
 *Vertaald door openai.com*  
 

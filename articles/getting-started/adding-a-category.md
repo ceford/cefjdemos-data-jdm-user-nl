@@ -59,7 +59,7 @@ Menu-items worden in een later artikel behandeld.
 
 Het volgende voorbeeld gebruikt een zoogdieren-categorie, geïnspireerd door de bovenstaande lijst, om te demonstreren hoe je een nieuwe categorie aanmaakt:
 
-![Categorie bewerk formulier](../../../en/images/articles/articles-categories/02-article-category-edit.png)
+![Categorie bewerk formulier](../../../nl/images/articles/articles-categories/02-article-category-edit.png)
 
 - Selecteer het **Inhoud** item in het Beheerdersmenu om het uit te vouwen.
 - Selecteer het **+** icoon naast het *Categorieën* menu-item om het 

@@ -15,7 +15,7 @@ Om toegang te krijgen tot het *Media: Opties* formulier, selecteer je de **Optie
 
 ## Screenshot
 
-![Het media-optiesformulier](../../../en/images/media/media-options/01-media-options.png)
+![Het media-optiesformulier](../../../nl/images/media/media-options/01-media-options.png)
 
 ## Pad naar Bestanden en Mappen
 
@@ -29,7 +29,7 @@ Voer in het Opties formulier de mapnaam in het veld **Pad naar Bestandenmap** in
 
 Wanneer dit is ingesteld, kunt u kiezen tussen de afbeeldingen- en bestandenmappen in het Lokale deel van de Mediaview.
 
-![De media pagina](../../../en/images/media/media-options/02-media-sample-data-cassiopeia.png)
+![De media pagina](../../../nl/images/media/media-options/02-media-sample-data-cassiopeia.png)
 
 ## Extra Afbeeldings- of Documenttypen
 

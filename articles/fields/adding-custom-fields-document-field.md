@@ -19,7 +19,7 @@ Algemene veldparameters worden beschreven in een afzonderlijk artikel.
 * **Label** Dit wordt weergegeven in de uitvoer. Als dit leeg wordt gelaten, wordt het
 overgenomen uit de inhoud van het veld Titel, maar het kan worden gewijzigd.
 
-![documentveld aanmaken](../../../en/images/fields/adding-custom-fields-document-field/01-fields-document-edit.png)
+![documentveld aanmaken](../../../nl/images/fields/adding-custom-fields-document-field/01-fields-document-edit.png)
 
 **Opmerking:** In dit voorbeeld wordt het veldtype alleen ter demonstratie in de titel opgenomen. Laat het in uw eigen veldtitels weg.
 
@@ -30,7 +30,7 @@ mediakiezer.
 
 De volgende schermafbeelding toont een geselecteerd audiobestand:
 
-![gegevensinvoer van documentveld](../../../en/images/fields/adding-custom-fields-document-field/02-fields-document-data-entry.png)
+![gegevensinvoer van documentveld](../../../nl/images/fields/adding-custom-fields-document-field/02-fields-document-data-entry.png)
 
 Velden worden alleen in een artikel weergegeven als ze zijn ingevuld in het formulier voor gegevensinvoer van het artikel.
 
@@ -40,6 +40,6 @@ De volgende schermafbeelding van de site toont het veld dat in een artikel wordt
 optie *Automatische weergave* bepaalt de positie van het veld en
 uw template bepaalt het ontwerp van het veld.
 
-![weergave van documentveld op de site](../../../en/images/fields/adding-custom-fields-document-field/03-fields-document-site.png)
+![weergave van documentveld op de site](../../../nl/images/fields/adding-custom-fields-document-field/03-fields-document-site.png)
 
 *Vertaald door openai.com*

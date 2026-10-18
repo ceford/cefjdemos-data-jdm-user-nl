@@ -31,7 +31,7 @@ Het gebruik van het Gasttoegangsniveau kan worden geïllustreerd met een inlogme
 - Kies indien gewenst de bestellingslijst en selecteer het item **na**
   welk je zou willen dat het inlogitem verschijnt.
 
-![inlogmenuformulier beperkt tot gasttoegang](../../../en/images/users/guest-access/01-guest-access-menu-login.png)
+![inlogmenuformulier beperkt tot gasttoegang](../../../nl/images/users/guest-access/01-guest-access-menu-login.png)
 
 - Opslaan en Sluiten.
 - Bekijk de site. Controleer of het inlogmenu-item werkt. Controleer of het
@@ -50,7 +50,7 @@ Het gebruik van het geregistreerde toegangsniveau kan worden geïllustreerd met 
 - Opslaan
 - Optioneel, selecteer de Volgorde dropdown en kies het item **na** welk je zou willen dat het Inlog-item verschijnt.
 
-![uitlog menu formulier beperkt tot geregistreerde toegang](../../../en/images/users/guest-access/02-guest-access-menu-logout.png)
+![uitlog menu formulier beperkt tot geregistreerde toegang](../../../nl/images/users/guest-access/02-guest-access-menu-logout.png)
 
 - Opslaan en sluiten.
 - Bekijk de site. Controleer of het uitlog-menu item werkt. Controleer of het verdwijnt na uitloggen.

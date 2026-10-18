@@ -24,7 +24,7 @@ De sectie *Generiek Veld* staat het invoeren van *Titel* en *Waarde* paren toe, 
 
 Hieronder staat een voorbeeld van een Organisatie-schema in een artikelbewerkingsformulier.
 
-![An organisation schema edit form](../../../en/images/schemas/organisation/01-edit-schema-organisation.png)
+![An organisation schema edit form](../../../nl/images/schemas/organisation/01-edit-schema-organisation.png)
 
 *Vertaald door openai.com*
 

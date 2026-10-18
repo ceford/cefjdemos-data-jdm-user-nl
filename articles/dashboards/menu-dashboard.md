@@ -15,7 +15,7 @@ Je kunt zoveel Site- en Administrator-menu's hebben als je wilt, en bijna op elk
 
 ## Screenshot
 
-![Menu dashboard](../../../en/images/dashboards/menu-dashboard/01-menus-dashboard.png)
+![Menu dashboard](../../../nl/images/dashboards/menu-dashboard/01-menus-dashboard.png)
 
 *Vertaald door openai.com*
 

@@ -29,7 +29,7 @@ Overweeg waarom je het artikel wilt verwijderen:
 - Selecteer de **Acties** knop in de werkbalk.
 - Selecteer **Prullenbak** in het dropdownmenu.
 
-![Artikel geselecteerd voor verwijdering naar prullenbak](../../../en/images/articles/articles-delete/01-articles-selected-to-trash.png)
+![Artikel geselecteerd voor verwijdering naar prullenbak](../../../nl/images/articles/articles-delete/01-articles-selected-to-trash.png)
 
 Er zal een bevestigingsmelding verschijnen en het artikel zal uit de huidige lijst van artikelen verdwenen zijn, omdat deze normaal gesproken geen items in de prullenbak bevat.
 
@@ -42,7 +42,7 @@ Om de lijst met verwijderde artikelen te bekijken:
 - Selecteer de knop **Filteropties** om de lijst met filters te openen.
 - Selecteer **Verwijderd** uit de lijst *-- Selecteer Status --*.
 
-![Artikel prullenbak weergave](../../../en/images/articles/articles-delete/02-articles-trash-list.png)
+![Artikel prullenbak weergave](../../../nl/images/articles/articles-delete/02-articles-trash-list.png)
 
 ### Om te Herstellen
 

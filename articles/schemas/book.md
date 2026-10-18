@@ -32,7 +32,7 @@ De sectie *Algemeen Veld* staat toe dat *Titel* en *Waarde* paren worden ingevoe
 
 Hieronder staat een voorbeeld van een Boekschema in een artikelbewerkingsformulier.
 
-![A book schema edit form](../../../en/images/schemas/book/01-edit-schema-book.png)
+![A book schema edit form](../../../nl/images/schemas/book/01-edit-schema-book.png)
 
 *Vertaald door openai.com*
 

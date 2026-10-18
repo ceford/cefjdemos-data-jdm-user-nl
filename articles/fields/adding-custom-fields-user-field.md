@@ -18,7 +18,7 @@ Speciale opties binnen dit veld zijn:
 
 - **Standaardgebruiker** Het kan nuttig zijn om een standaardgebruiker in te stellen als dezelfde gebruiker in bijna alle artikelen voorkomt.
 
-![gebruikersveld aanmaken](../../../en/images/fields/adding-custom-fields-user-field/01-fields-user-edit.png)
+![gebruikersveld aanmaken](../../../nl/images/fields/adding-custom-fields-user-field/01-fields-user-edit.png)
 
 **Opmerking:** In dit voorbeeld is de opname van het veldtype in de titel alleen voor demonstratiedoeleinden. Laat dit weg in je eigen veldtitels.
 
@@ -26,13 +26,13 @@ Speciale opties binnen dit veld zijn:
 
 Eenvoudig, selecteer gewoon een gebruiker uit de lijst met gebruikers.
 
-![gebruikersveld gegevensinvoer](../../../en/images/fields/adding-custom-fields-user-field/02-fields-user-data-entry.png)
+![gebruikersveld gegevensinvoer](../../../nl/images/fields/adding-custom-fields-user-field/02-fields-user-data-entry.png)
 
 ## Gegevensweergave
 
 De volgende site-screenshot toont het veld weergegeven in een artikel. De optie *Automatische weergave* is verantwoordelijk voor de positie van het veld en je sjabloon is verantwoordelijk voor het ontwerp van het veld.
 
-![gebruikersveld site-weergave](../../../en/images/fields/adding-custom-fields-user-field/03-fields-user-site.png)
+![gebruikersveld site-weergave](../../../nl/images/fields/adding-custom-fields-user-field/03-fields-user-site.png)
 
 Het veldlabel wordt gevolgd door de naam van de gebruiker (niet de gebruikersnaam).
 

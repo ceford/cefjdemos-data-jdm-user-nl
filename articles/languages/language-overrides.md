@@ -77,7 +77,7 @@ De nieuwe sleutel kan nu in elke taal worden vertaald. De vertalingen worden opg
 - Sla het formulier op en sluit.
 - Herhaal het vertaalproces voor elke taal.
 
-![talen bewerk overschrijvingsformulier](../../../en/images/languages/language-overrides/01-language-overrides-edit.png)
+![talen bewerk overschrijvingsformulier](../../../nl/images/languages/language-overrides/01-language-overrides-edit.png)
 
 Controleer ten slotte of de vertaling is geïmplementeerd.
 

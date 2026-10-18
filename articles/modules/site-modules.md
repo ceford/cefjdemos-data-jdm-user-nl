@@ -48,15 +48,15 @@ En de volgende lijst toont de beschikbare moduleposities per naam:
 
 Kernmodules zijn modules die worden geleverd met een nieuwe Joomla-installatie. Er zijn duizenden aanvullende modules beschikbaar van derde partijen. Stel dat je een willekeurige afbeelding wilt tonen om je site interessanter te maken voor bezoekers. Selecteer vanuit het Administrator-menu **Content → Site Modules** om de lijst van reeds in gebruik zijnde site-modules te zien:
 
-![Lijst van Site Modules](../../../en/images/modules/site-modules/02-cassiopeia-modules-list.png)
+![Lijst van Site Modules](../../../nl/images/modules/site-modules/02-cassiopeia-modules-list.png)
 
 Selecteer de knop Nieuw om een lijst van beschikbare site-modules te zien die je kunt installeren:
 
-![Beschikbare Site Modules](../../../en/images/modules/site-modules/03-cassiopeia-modules-available.png)
+![Beschikbare Site Modules](../../../nl/images/modules/site-modules/03-cassiopeia-modules-available.png)
 
 Scroll naar beneden en selecteer de module Willekeurige Afbeelding. Hiermee wordt het **Modules: Willekeurige Afbeelding** bewerkingsformulier geopend, klaar voor verdere invulling.
 
-![Willekeurige afbeelding-module](../../../en/images/modules/site-modules/04-cassiopeia-module-random-image.png)
+![Willekeurige afbeelding-module](../../../nl/images/modules/site-modules/04-cassiopeia-module-random-image.png)
 
 - **Titel** Dit is een verplicht veld.
 - **Afbeeldingstype** Standaard is jpg.
@@ -76,7 +76,7 @@ Na het opslaan, moet je mogelijk de volgorde van de modules wijzigen op de gekoz
 
 ## Bekijk de Site
 
-![Random image module site view](../../../en/images/modules/site-modules/05-cassiopeia-module-random-image-site.png)
+![Random image module site view](../../../nl/images/modules/site-modules/05-cassiopeia-module-random-image-site.png)
 
 Controleer het uiterlijk van de site. In dit geval kan het een goed idee zijn om de afbeelding te centreren. Dat kan als volgt worden gedaan:
 

@@ -13,7 +13,7 @@
 
 De volgende screenshot toont het bewerkingsformulier met een artikel dat al is opgeslagen.
 
-![Het inhoudsbewerkingsformulier](../../../en/images/articles/article-content/01-articles-edit-content.png)
+![Het inhoudsbewerkingsformulier](../../../nl/images/articles/article-content/01-articles-edit-content.png)
 
 ## Gegevensinvoer
 

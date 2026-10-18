@@ -21,7 +21,7 @@ Algemene veldparameters worden beschreven in een afzonderlijk artikel.
 * **Label** Dit wordt in de uitvoer weergegeven. Als dit leeg wordt gelaten, wordt het
 overgenomen uit de inhoud van het veld Titel, maar kan het worden gewijzigd.
 
-![videoveld aanmaken](../../../en/images/fields/adding-custom-fields-video-field/01-fields-video-edit.png)
+![videoveld aanmaken](../../../nl/images/fields/adding-custom-fields-video-field/01-fields-video-edit.png)
 
 **Opmerking:** In dit voorbeeld is het opnemen van het veldtype in de titel uitsluitend
 voor demonstratiedoeleinden. Laat dit in uw eigen veldtitels weg.
@@ -33,7 +33,7 @@ mediakiezer.
 
 In de volgende schermafbeelding is een audiobestand geselecteerd:
 
-![gegevens invoeren voor videoveld](../../../en/images/fields/adding-custom-fields-video-field/02-fields-video-data-entry.png)
+![gegevens invoeren voor videoveld](../../../nl/images/fields/adding-custom-fields-video-field/02-fields-video-data-entry.png)
 
 Velden worden alleen in een artikel weergegeven als ze in het formulier voor het invoeren van artikelgegevens zijn ingevuld.
 
@@ -43,6 +43,6 @@ In de volgende schermafbeelding van de site wordt het veld in een artikel weerge
 optie *Automatische weergave* bepaalt de positie van het veld en
 uw template bepaalt het ontwerp van het veld.
 
-![videoveld weergeven op site](../../../en/images/fields/adding-custom-fields-video-field/03-fields-video-site.png)
+![videoveld weergeven op site](../../../nl/images/fields/adding-custom-fields-video-field/03-fields-video-site.png)
 
 *Vertaald door openai.com*

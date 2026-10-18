@@ -36,7 +36,7 @@ De sectie *Algemeen Veld* staat toe om *Titel* en *Waarde* paren in te voeren na
 
 Onderstaand is een voorbeeld van een JobPosting-schema in een artikelbewerkingsformulier.
 
-![A jobposting schema edit form](../../../en/images/schemas/jobposting/01-edit-schema-jobposting.png)
+![A jobposting schema edit form](../../../nl/images/schemas/jobposting/01-edit-schema-jobposting.png)
 
 *Vertaald door openai.com*
 

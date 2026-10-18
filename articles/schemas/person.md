@@ -29,7 +29,7 @@ De sectie *Generiek Veld* staat toe dat *Titel*- en *Waarde*-paren worden ingevo
 
 Hieronder volgt een voorbeeld van een Persoon-schema in een bewerkingsformulier voor een Artikel.
 
-![A person schema edit form](../../../en/images/schemas/person/01-edit-schema-person.png)
+![A person schema edit form](../../../nl/images/schemas/person/01-edit-schema-person.png)
 
 *Vertaald door openai.com*
 

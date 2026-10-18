@@ -13,7 +13,7 @@ Een menumodule kan worden gebruikt om een horizontaal menu (meestal bovenaan de 
 
 In een verticaal (zijbalk)menu is het echter vaak wenselijk om een submenu open te laten wanneer het het actieve menu-item bevat. In Joomla 6.0 is een nieuwe CSS-klasse, `nav-active-open`, geïntroduceerd om specifiek te bepalen of submenu's bij het laden van de pagina automatisch worden geopend voor het actieve menu-item. Door deze klasse in te stellen, is dit nu mogelijk. De klasse wordt via de backend in de module ingesteld.
 
-![menu class setting in backend for nav-active-open for toggle stay open on active menu](../../../en/images/menus/keep-submenus-open/01-menu-class-setting.png)
+![menu class setting in backend for nav-active-open for toggle stay open on active menu](../../../nl/images/menus/keep-submenus-open/01-menu-class-setting.png)
 
 ## Een zijbalkmenu maken zonder uitklapschakelaar
 
@@ -25,7 +25,7 @@ Zo maak je deze specifieke template-override:
 
 2. Ga naar het tabblad Overrides maken en selecteer mod_menu:
 
-![module menu template override selection](../../../en/images/menus/keep-submenus-open/02-create-override-select-mod-menu.png)
+![module menu template override selection](../../../nl/images/menus/keep-submenus-open/02-create-override-select-mod-menu.png)
 
 Hiermee worden alle layoutbestanden van de menumodule naar de override gekopieerd. Vervolgens wordt het tabblad Editor weer geopend.
 
@@ -33,7 +33,7 @@ Hiermee worden alle layoutbestanden van de menumodule naar de override gekopieer
 
 4. Maak een nieuw bestand in de map html → mod_menu. De naam mag geen underscore bevatten. In dit voorbeeld heet het nieuwe bestand `treedefault.php`. Hierdoor kun je in al je menumodules kiezen tussen de standaard menulayout en deze alternatieve menulayout. In de volgende lijst met overridebestanden is het origineel rood omlijnd en het nieuwe alternatief groen omlijnd.
 
-![mod_menu override edit tab - open default.php](../../../en/images/menus/keep-submenus-open/03-edit-mod-menu.png)
+![mod_menu override edit tab - open default.php](../../../nl/images/menus/keep-submenus-open/03-edit-mod-menu.png)
 
 4. Bewerk het nieuwe layoutbestand. De volgende stappen worden in omgekeerde volgorde weergegeven om de regelnummers tijdens het bewerkingsproces te behouden:
 
@@ -186,6 +186,6 @@ $startLevel = (int) $params->get('startLevel', 1);
 
 Het resultaat is een gewone lijst, zonder schakel functionaliteit voor de zijbalkmenumodule, hier links weergegeven:
 
-![result with template override - plain list without toggle buttons and functionality](../../../en/images/menus/keep-submenus-open/05-site-result.png)
+![result with template override - plain list without toggle buttons and functionality](../../../nl/images/menus/keep-submenus-open/05-site-result.png)
 
 *Vertaald door openai.com*

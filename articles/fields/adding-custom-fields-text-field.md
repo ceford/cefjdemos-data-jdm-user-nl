@@ -22,7 +22,7 @@ ruwe filter om ervoor te zorgen dat de html-code behouden blijft wanneer het for
 - **Prefix** Dit verschijnt voor de tekst in de artikeloutput. Voorbeeld: £.
 - **Suffix** Dit verschijnt na de tekst in de artikeloutput. Voorbeeld: EUR.
 
-![tekstveldcreatie](../../../en/images/fields/adding-custom-fields-text-field/01-fields-text-edit.png)
+![tekstveldcreatie](../../../nl/images/fields/adding-custom-fields-text-field/01-fields-text-edit.png)
 
 **Opmerking:** In dit voorbeeld is het opnemen van het veldtype in de Titel uitsluitend
 voor demonstratiedoeleinden. Laat het weg in je eigen veldtitels.
@@ -32,13 +32,13 @@ voor demonstratiedoeleinden. Laat het weg in je eigen veldtitels.
 
 Eenvoudig: Typ je tekst in.
 
-![tekstveld gegevensinvoer](../../../en/images/fields/adding-custom-fields-text-field/02-fields-text-data-entry.png)
+![tekstveld gegevensinvoer](../../../nl/images/fields/adding-custom-fields-text-field/02-fields-text-data-entry.png)
 
 ## Gegevensweergave
 
 De volgende schermafbeelding van de site toont het veld zoals weergegeven in een artikel. De optie *Automatische weergave* is verantwoordelijk voor de positie van het veld en je sjabloon is verantwoordelijk voor het ontwerp van het veld.
 
-![tekstveld siteweergave](../../../en/images/fields/adding-custom-fields-text-field/03-fields-text-site.png)
+![tekstveld siteweergave](../../../nl/images/fields/adding-custom-fields-text-field/03-fields-text-site.png)
 
 Het veld Tekst volgt het veld Label.
 *Vertaald door openai.com*

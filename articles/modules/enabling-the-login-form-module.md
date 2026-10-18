@@ -50,7 +50,7 @@ U kunt ervoor zorgen dat de Login Form-module op één of meer pagina's verschij
 - **Menu-selectie**: Toont een lijst van alle Menu's en Menu-items waarvan er één of meer kunnen worden geselecteerd. Dit veld wordt alleen gebruikt als het
   **Menu's**-veld is ingesteld op **Selecteer Menu-item(s) uit de lijst**.
 
-  ![module menu toewijzing](../../../en/images/modules/enabling-the-login-form-module/01-modules-login-menu-assignment.png)
+  ![module menu toewijzing](../../../nl/images/modules/enabling-the-login-form-module/01-modules-login-menu-assignment.png)
 
 ## De module Aanmeldformulier aanpassen
 

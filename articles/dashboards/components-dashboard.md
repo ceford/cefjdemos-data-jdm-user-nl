@@ -13,7 +13,7 @@ Om het Componenten Dashboard te openen, selecteer je het dashboardpictogram rech
 
 ## Schermafbeelding
 
-![Componenten dashboard](../../../en/images/dashboards/components-dashboard/01-components-dashboard.png)
+![Componenten dashboard](../../../nl/images/dashboards/components-dashboard/01-components-dashboard.png)
 
 *Vertaald door openai.com*
 

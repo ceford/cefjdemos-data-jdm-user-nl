@@ -15,7 +15,7 @@ Met het notitieveldtype kunt u titels, teksten, beschrijvingen en zelfs waarschu
 
 ### Tabblad Algemeen
 
-![Aanmaken van notitieveld](../../../en/images/fields/adding-custom-fields-note-field/01-fields-note-edit.png)
+![Aanmaken van notitieveld](../../../nl/images/fields/adding-custom-fields-note-field/01-fields-note-edit.png)
 
 - **Type** Getal, dat na selectie niet kan worden gewijzigd.
 - **Naam** De unieke naam van het veld.
@@ -42,7 +42,7 @@ Met het notitieveldtype kunt u titels, teksten, beschrijvingen en zelfs waarschu
 
 In het gegevensinvoerformulier wordt het notitieveld tussen de andere velden weergegeven als tekst die is opgemaakt volgens de stijlkeuzes die in het veld zijn ingesteld. Het kan instructies of informatie bevatten.
 
-![Gegevensinvoer van numeriek veld](../../../en/images/fields/adding-custom-fields-note-field/02-fields-note-data-entry.png)
+![Gegevensinvoer van numeriek veld](../../../nl/images/fields/adding-custom-fields-note-field/02-fields-note-data-entry.png)
 
 **Tip:** Gebruik het sorteemechanisme voor velden om de volgorde van de notitie tussen de andere velden te sorteren. U kunt meerdere verschillende notitievelden gebruiken om structuur en informatie voor uw velden te bieden.
 
@@ -50,6 +50,6 @@ In het gegevensinvoerformulier wordt het notitieveld tussen de andere velden wee
 
 Als *Weergeven in frontend* is ingesteld op *Ja*, wordt het notitieveld tussen de andere velden in de frontend weergegeven. Daar kan het algemene informatie bevatten die voor een groep artikelen geldt.
 
-![Note field site display](../../../en/images/fields/adding-custom-fields-note-field/03-fields-note-site.png)
+![Note field site display](../../../nl/images/fields/adding-custom-fields-note-field/03-fields-note-site.png)
 
 *Vertaald door openai.com*

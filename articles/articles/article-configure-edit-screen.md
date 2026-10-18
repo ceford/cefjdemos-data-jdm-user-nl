@@ -13,7 +13,7 @@ De schermen voor het bewerken van artikelen hebben verschillende lay-outs in de 
 
 ## Screenshot
 
-![Het configuratie bewerk scherm tabblad](../../../en/images/articles/article-configure-edit-screen/01-articles-edit-configure-edit-screen-tab.png)
+![Het configuratie bewerk scherm tabblad](../../../nl/images/articles/article-configure-edit-screen/01-articles-edit-configure-edit-screen-tab.png)
 
 ## Configureren bewerkingsscherm paneel
 

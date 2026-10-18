@@ -17,7 +17,7 @@ Dit artikel beschrijft de implementatie van toegangsbeperking in het *Artikel: B
 
 Joomla biedt de Toegangsniveaus zoals te zien in de volgende schermafbeelding:
 
-![Gebruikerstoegangsniveaus](../../../en/images/articles/article-access-restriction/01-article-access-user-groups.png)
+![Gebruikerstoegangsniveaus](../../../nl/images/articles/article-access-restriction/01-article-access-user-groups.png)
 
 De toegangsniveaus verschijnen in het tabblad *Inhoud* van het formulier *Artikel: Bewerken*.
 

@@ -16,11 +16,11 @@ Van tijd tot tijd kan Joomla een foutenpagina weergeven in plaats van de pagina 
 
 ### Systeemfoutenpagina
 
-![Systeem fatale foutenpagina](../../../en/images/problems/fatal-error/01-fatal-error.png)
+![Systeem fatale foutenpagina](../../../nl/images/problems/fatal-error/01-fatal-error.png)
 
 ### Sjabloonfoutenpagina
 
-![Sjabloonfoutenpagina](../../../en/images/problems/fatal-error/02-template-error.png)
+![Sjabloonfoutenpagina](../../../nl/images/problems/fatal-error/02-template-error.png)
 
 ## Hoe te Oplossen
 

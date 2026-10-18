@@ -37,7 +37,7 @@ De sectie *Algemeen Veld* staat toe dat *Titel* en *Waarde* paren worden ingevoe
 
 Hieronder staat een voorbeeld van een Receptschema in een Artikelbewerkingsformulier.
 
-![A recipe schema edit form](../../../en/images/schemas/recipe/01-edit-schema-recipe.png)
+![A recipe schema edit form](../../../nl/images/schemas/recipe/01-edit-schema-recipe.png)
 
 *Vertaald door openai.com*
 

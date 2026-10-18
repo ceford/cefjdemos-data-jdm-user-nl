@@ -24,7 +24,7 @@ De meeste items zijn zelfverklarende links die dupliceren wat in het Administrat
 
 ## Screenshot
 
-![Startdashboard](../../../en/images/dashboards/home-dashboard/01-home-dashboard.png)
+![Startdashboard](../../../nl/images/dashboards/home-dashboard/01-home-dashboard.png)
 
 *Vertaald door openai.com*
 

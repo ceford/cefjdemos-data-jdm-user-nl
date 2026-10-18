@@ -19,7 +19,7 @@ Speciale opties binnen dit veld zijn:
 - **Lijstwaarden** Items toevoegen indien nodig en gebruik het sleepicoon om hun volgorde te wijzigen. Begin de lijst met Tekst ingesteld op *- Selecteer -* en Waarde leeg. Dit zorgt voor een lege standaard, waardoor deze lijst niet in het artikel voorkomt.
 - **Veldklasse** Zet op *w-auto* om de lijst precies breed genoeg te maken voor de bijbehorende labels.
 
-![Lijstveldcreatie](../../../en/images/fields/adding-custom-fields-list-field/01-fields-list-edit.png)
+![Lijstveldcreatie](../../../nl/images/fields/adding-custom-fields-list-field/01-fields-list-edit.png)
 
 **Opmerking:** In dit voorbeeld is de vermelding van het veldtype in de Titel alleen bedoeld voor demonstratiedoeleinden. Laat deze weg in je eigen veldtitels.
 
@@ -28,7 +28,7 @@ Speciale opties binnen dit veld zijn:
 
 Eenvoudig: kies gewoon een item uit de lijst of meerdere items als *Meerdere* *Ja* is.
 
-![Gegevensinvoer lijstveld](../../../en/images/fields/adding-custom-fields-list-field/02-fields-list-data-entry.png)
+![Gegevensinvoer lijstveld](../../../nl/images/fields/adding-custom-fields-list-field/02-fields-list-data-entry.png)
 
 ## Gegevensweergave
 
@@ -36,7 +36,7 @@ De volgende schermafbeelding van de site toont het veld dat in een artikel wordt
 
 De uitvoer is een enkel item of een door komma's gescheiden lijst.
 
-![lijstveld siteweergave](../../../en/images/fields/adding-custom-fields-list-field/03-fields-list-site.png)
+![lijstveld siteweergave](../../../nl/images/fields/adding-custom-fields-list-field/03-fields-list-site.png)
 
 *Vertaald door openai.com*
 

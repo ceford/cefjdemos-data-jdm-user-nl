@@ -19,7 +19,7 @@ Algemene veldparameters worden in een afzonderlijk artikel beschreven.
 * **Label** Dit wordt in de uitvoer weergegeven. Als dit leeg wordt gelaten, wordt het ingesteld
 op basis van de inhoud van het veld Titel, maar het kan worden gewijzigd.
 
-![audioveld aanmaken](../../../en/images/fields/adding-custom-fields-audio-field/01-fields-audio-edit.png)
+![audioveld aanmaken](../../../nl/images/fields/adding-custom-fields-audio-field/01-fields-audio-edit.png)
 
 **Opmerking:** In dit voorbeeld dient de opname van het veldtype in de Titel uitsluitend ter
 demonstratie. Laat dit in uw eigen veldtitels weg.
@@ -31,7 +31,7 @@ mediakiezer.
 
 De volgende schermafbeelding toont een geselecteerd audiobestand:
 
-![gegevens invoeren voor audioveld](../../../en/images/fields/adding-custom-fields-audio-field/02-fields-audio-data-entry.png)
+![gegevens invoeren voor audioveld](../../../nl/images/fields/adding-custom-fields-audio-field/02-fields-audio-data-entry.png)
 
 Velden worden alleen in een artikel weergegeven als ze zijn ingevuld in het formulier voor
 gegevensinvoer van het artikel.
@@ -42,6 +42,6 @@ De volgende schermafbeelding van de site toont het veld dat in een artikel wordt
 optie *Automatische weergave* bepaalt de positie van het veld en uw template bepaalt het ontwerp
 van het veld.
 
-![audioveld weergeven op de site](../../../en/images/fields/adding-custom-fields-audio-field/03-fields-audio-site.png)
+![audioveld weergeven op de site](../../../nl/images/fields/adding-custom-fields-audio-field/03-fields-audio-site.png)
 
 *Vertaald door openai.com*

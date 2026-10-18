@@ -17,7 +17,7 @@ Gebruikersinformatie verzameld met behulp van het standaard gebruikersregistrati
 - Stel in het tweede deel van het formulier in op Uitgeschakeld voor alle items die niet in het gebruikersprofielformulier moeten verschijnen.
 - Opslaan & Sluiten
 
-![gebruikersprofielplugin](../../../en/images/users/user-profile/01-user-profile-plugin.png)
+![gebruikersprofielplugin](../../../nl/images/users/user-profile/01-user-profile-plugin.png)
 
 - Als zelfregistratie is toegestaan, open het gebruikersregistratieformulier om te controleren of extra gebruikersprofielvelden aanwezig zijn.
 - Maak een nieuwe gebruiker of bewerk een bestaande gebruiker vanuit het menu van de beheerder. Selecteer het tabblad **Gebruikersprofiel** en controleer of extra gebruikersprofielvelden aanwezig zijn.
@@ -35,11 +35,11 @@ Vanuit het Administrator-menu:
 - Stel het veld **Toegang** in op **Geregistreerd**. Dit is BELANGRIJK! Het menu-item moet alleen zichtbaar zijn wanneer ingelogd.
 - Opslaan en sluiten.
 
-![menu-itemformulier gebruikersprofiel](../../../en/images/users/user-profile/02-user-profile-menu-item-form.png)
+![menu-itemformulier gebruikersprofiel](../../../nl/images/users/user-profile/02-user-profile-menu-item-form.png)
 
 - Log in op de site en gebruik de link om het gebruikersprofiel te controleren.
 
-![menu-itemformulier gebruikersprofiel](../../../en/images/users/user-profile/03-user-profile-edit.png.png)
+![menu-itemformulier gebruikersprofiel](../../../nl/images/users/user-profile/03-user-profile-edit.png)
 
 - Probeer de knop **Profiel Bewerken**.
 

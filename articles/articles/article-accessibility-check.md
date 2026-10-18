@@ -22,7 +22,7 @@ Joomla heeft een ingebouwde toegankelijkheidscontrole. Het is beschikbaar via de
 
 ## Screenshot
 
-![Toegankelijkheidscontrole](../../../en/images/articles/article-accessibility-check/01-articles-accessibility-check.png)
+![Toegankelijkheidscontrole](../../../nl/images/articles/article-accessibility-check/01-articles-accessibility-check.png)
 
 De controlegereedschap wordt bediend met het blauwe cirkelpictogram rechtsonder op het scherm. Selecteer het om een rapport te openen of te sluiten. Selecteer het groene vinkje (of gele kruis) om elk element te bekijken dat is getest.
 

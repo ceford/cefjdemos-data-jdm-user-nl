@@ -20,7 +20,7 @@ Algemene veldparameters worden in een apart artikel beschreven.
 * **Tijd weergeven** Als dit is ingesteld op *Ja*, wordt de tijd toegevoegd aan het datumveld, de datumkiezer en de uitvoerdatum. **Let op**: Zelfs als u de tijd niet opgeeft in de standaarddatum, wordt de tijd weergegeven wanneer de optie *Tijd weergeven* actief is.
 * **Plaatshouder** Dit bevindt zich op het tabblad Opties. Het kan worden ingesteld op een datumformaat zoals *JJJJ-MM-DD* om gebruikers eraan te herinneren welk formaat vereist is en/of als geheugensteun waar de datum voor dient, zoals *Aankomstdatum*.
 
-![kalender veldcreatie](../../../en/images/fields/adding-custom-fields-calendar-field/01-fields-calendar-edit.png)
+![kalender veldcreatie](../../../nl/images/fields/adding-custom-fields-calendar-field/01-fields-calendar-edit.png)
 
 **Opmerking:** In dit voorbeeld is de opname van het veldtype in de Titel alleen voor demonstratiedoeleinden. Laat het weg in uw eigen veldtitels.
 
@@ -30,7 +30,7 @@ In gebruik is het Kalenderveld eenvoudig. Je kunt de datum in het vereiste forma
 
 De volgende schermafbeelding toont een Aankoopdatum:
 
-![kalenderveld gegevensinvoer](../../../en/images/fields/adding-custom-fields-calendar-field/02-fields-calendar-data-entry.png)
+![kalenderveld gegevensinvoer](../../../nl/images/fields/adding-custom-fields-calendar-field/02-fields-calendar-data-entry.png)
 
 Velden verschijnen alleen in een artikel als ze zijn ingevuld in het gegevensinvoervormulier van het artikel.
 
@@ -39,7 +39,7 @@ Velden verschijnen alleen in een artikel als ze zijn ingevuld in het gegevensinv
 
 De volgende screenshot van de site toont het veld dat in een artikel wordt weergegeven. De optie *Automatische weergave* is verantwoordelijk voor de positie van het veld en je sjabloon is verantwoordelijk voor het ontwerp van het veld.
 
-![kalenderveld siteweergave](../../../en/images/fields/adding-custom-fields-calendar-field/03-fields-calendar-site.png)
+![kalenderveld siteweergave](../../../nl/images/fields/adding-custom-fields-calendar-field/03-fields-calendar-site.png)
 
 De datumnotaties worden gelokaliseerd met behulp van taalstrings.
 

@@ -13,7 +13,7 @@ Het Helpscherm wordt niet een Dashboard genoemd, maar het heeft alle kenmerken v
 
 ## Screenshot
 
-![Hulpdashboard](../../../en/images/dashboards/help-dashboard/01-help-dashboard.png)
+![Hulpdashboard](../../../nl/images/dashboards/help-dashboard/01-help-dashboard.png)
 
 *Vertaald door openai.com*
 

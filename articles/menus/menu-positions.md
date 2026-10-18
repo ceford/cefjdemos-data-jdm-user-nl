@@ -14,7 +14,7 @@ Een menu wordt op een pagina geplaatst via een menumodule. Om al je menumodules 
 - Selecteer **Inhoud → Site Modules** vanuit het Administratiemenu.
 - Filter met **- Selecteer Type -** ingesteld op *Menu*, zoals in de volgende illustratie:
 
-![modules lijst gefilterd op type menu](../../../en/images/menus/menu-positions/01-menus-menu-positions.png)
+![modules lijst gefilterd op type menu](../../../nl/images/menus/menu-positions/01-menus-menu-positions.png)
 
 Ter referentie, de Cassiopeia-template heeft de volgende posities:
 
@@ -31,7 +31,7 @@ Uit de Modules (Site) lijst:
 
 De volgende illustratie toont een menumodule met een deel van de lijst van posities. Het is vrij lang omdat het beschikbare posities in de Cassiopeia-template bevat, gevolgd door Actieve posities in gebruik.
 
-![Menu module bewerkformulier](../../../en/images/menus/menu-positions/03-menus-menu-edit-position.png)
+![Menu module bewerkformulier](../../../nl/images/menus/menu-positions/03-menus-menu-edit-position.png)
 
 ## Menu-indeling
 

@@ -34,7 +34,7 @@ Om de artikelen te zien die zijn geselecteerd voor een *Uitgelichte Artikelen* i
 
 De volgende screenshot toont een lijst met uitgelichte artikelen met vier items, genoeg om een interessante blog-indeling te maken:
 
-![Uitgelichte artikelen](../../../en/images/articles/articles-featured/01-articles-featured.png)
+![Uitgelichte artikelen](../../../nl/images/articles/articles-featured/01-articles-featured.png)
 
 ### Volgorde van Uitgelichte Artikelen
 
@@ -46,7 +46,7 @@ Een blog-indeling werkt het beste als de hoeveelheid tekst in elk item beperkt i
 
 ## Uiterlijke van de Site
 
-![Siteweergave van aanbevolen artikelen](../../../en/images/articles/articles-featured/02-articles-featured-site.png)
+![Siteweergave van aanbevolen artikelen](../../../nl/images/articles/articles-featured/02-articles-featured-site.png)
 
 *Vertaald door openai.com*  
 

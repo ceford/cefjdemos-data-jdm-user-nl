@@ -13,7 +13,7 @@ De Gebruikersdashboard is toegankelijk via het pictogram rechts van het menu-ite
 
 ## Screenshot
 
-![Gebruikersdashboard](../../../en/images/dashboards/users-dashboard/01-users-dashboard.png)
+![Gebruikersdashboard](../../../nll/images/dashboards/users-dashboard/01-users-dashboard.png)
 
 *Vertaald door openai.com*
 

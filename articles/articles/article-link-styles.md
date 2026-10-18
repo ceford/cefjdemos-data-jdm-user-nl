@@ -18,7 +18,7 @@ Aangepaste linkklassen die zijn toegevoegd aan de TinyMCE-editoropties, stellen 
 3. Voeg klassen toe aan de *Link Classes List*. Bijvoorbeeld Bootstrap-klassen om stijlvolle knoppen te maken. Mogelijk moet je de lijst van links naar rechts scrollen of de schermvergroting wijzigen om de knoppen toevoegen, verwijderen en ordenen aan het einde te zien.
 4. Opslaan & Sluiten.
 
-![Set link classes in tinymce](../../../en/images/articles/article-link-styles/01-article-edit-link-style-tinymce.png)
+![Set link classes in tinymce](../../../nl/images/articles/article-link-styles/01-article-edit-link-style-tinymce.png)
 
 Je kunt voorbeelden van sjablonen vinden die Bootstrap native gebruiken in de officiële [Bootstrap Documentatie](https://getbootstrap.com/docs/5.3/components/buttons/)
 
@@ -59,11 +59,11 @@ Je kunt ook de varianten van de omtrekknop gebruiken:
 6. Bewaar het Artikel.
 7. Bekijk een Voorvertoning van het Artikel.
 
-![Apply link style in an article](../../../en/images/articles/article-link-styles/02-article-edit-link-style-apply.png)
+![Apply link style in an article](../../../nl/images/articles/article-link-styles/02-article-edit-link-style-apply.png)
 
 En dit is een voorbeeld waar de Link Button-klasse was ingesteld op `btn btn-sm btn-outline-info` en de gelinkte tekst is *Bootstrap*:
 
-![Preview of a custom Link Button](../../../en/images/articles/article-link-styles/03-article-edit-link-style-preview.png)
+![Preview of a custom Link Button](../../../nl/images/articles/article-link-styles/03-article-edit-link-style-preview.png)
 
 ## Geavanceerd Gebruik: Aangepaste Klassen Toepassen
 

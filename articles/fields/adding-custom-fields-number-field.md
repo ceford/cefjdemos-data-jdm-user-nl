@@ -15,7 +15,7 @@ Het getalveld biedt een methode om een reëel getal in te voeren, met de optie o
 
 ### Tabblad Algemeen
 
-![Aanmaken van een getalveld](../../../en/images/fields/adding-custom-fields-number-field/01-fields-number-edit.png)
+![Aanmaken van een getalveld](../../../nl/images/fields/adding-custom-fields-number-field/01-fields-number-edit.png)
 
 - **Type** Getal, dat na selectie niet kan worden gewijzigd.
 - **Name** De unieke naam van het veld.
@@ -70,7 +70,7 @@ De inhoud van deze tabbladen spreekt voor zich en wordt elders behandeld.
 
 Gegevensinvoer: typ eenvoudig de gewenste waarde in. Dit voorbeeld toont het kookpunt van argon:
 
-![Gegevensinvoer in een nummerveld](../../../en/images/fields/adding-custom-fields-number-field/02-fields-number-data-entry.png)
+![Gegevensinvoer in een nummerveld](../../../nl/images/fields/adding-custom-fields-number-field/02-fields-number-data-entry.png)
 
 **Let op:** als het ingevoerde getal buiten het minimum- en maximumbereik valt dat is ingesteld in de opties voor het aanmaken van het veld, geeft een browserlabel bij aanwijzen met de muis dit aan, maar de verstrekte informatie wordt niet afgedwongen. U kunt een getal buiten het bereik invoeren en het wordt geaccepteerd.
 
@@ -78,6 +78,6 @@ Gegevensinvoer: typ eenvoudig de gewenste waarde in. Dit voorbeeld toont het koo
 
 De volgende afbeelding toont de weergave van een item met een negatieve waarde:
 
-![Weergave van een nummerveld op de site](../../../en/images/fields/adding-custom-fields-number-field/03-fields-number-site.png)
+![Weergave van een nummerveld op de site](../../../nl/images/fields/adding-custom-fields-number-field/03-fields-number-site.png)
 
 *Vertaald door openai.com*

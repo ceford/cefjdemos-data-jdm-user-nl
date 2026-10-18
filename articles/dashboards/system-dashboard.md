@@ -24,7 +24,7 @@ Individuele items worden behandeld in andere handleidingen.
 
 ## Screenshot
 
-![Systeemdashboard](../../../en/images/dashboards/system-dashboard/01-system-dashboard.png)
+![Systeemdashboard](../../../nl/images/dashboards/system-dashboard/01-system-dashboard.png)
 
 *Vertaald door openai.com*
 

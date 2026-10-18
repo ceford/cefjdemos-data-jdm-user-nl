@@ -56,7 +56,7 @@ Vanuit het Beheerdersmenu:
 
 De volgende schermafbeelding toont een voorbeeld van het aanmaken van een override voor een Duitse taalconstante.
 
-![Override creatie in het Duits](../../../en/images/fields/adding-custom-fields-multilingual-sites/01-fields-overrides-creation-de.png)
+![Override creatie in het Duits](../../../nl/images/fields/adding-custom-fields-multilingual-sites/01-fields-overrides-creation-de.png)
 
 ## Het veldgroep definiëren
 
@@ -86,11 +86,11 @@ Vanuit het Beheerdersmenu:
 
 Met Engels geselecteerd vóór de Administrator-login, zou het contactgegevensformulier een tabblad moeten bevatten met de Engelse naam van je veldgroep en velden in die groep ook met Engelse waarden.
 
-![Gegevensinvoer in het Engels](../../../en/images/fields/adding-custom-fields-multilingual-sites/02-fields-overrides-entry.png)
+![Gegevensinvoer in het Engels](../../../nl/images/fields/adding-custom-fields-multilingual-sites/02-fields-overrides-entry.png)
 
 Met Duits geselecteerd vóór de Administrator-login, zou je de Duitse vertalingen van je taalconstanten moeten zien:
 
-![Gegevensinvoer in het Duits](../../../en/images/fields/adding-custom-fields-multilingual-sites/03-fields-overrides-entry-de.png)
+![Gegevensinvoer in het Duits](../../../nl/images/fields/adding-custom-fields-multilingual-sites/03-fields-overrides-entry-de.png)
 
 Let op: vertaling door translate.google.co.uk!
 
@@ -98,11 +98,11 @@ Let op: vertaling door translate.google.co.uk!
 
 In het Engels:
 
-![Gegevensweergave in het Engels](../../../en/images/fields/adding-custom-fields-multilingual-sites/04-fields-overrides-display.png)
+![Gegevensweergave in het Engels](../../../nl/images/fields/adding-custom-fields-multilingual-sites/04-fields-overrides-display.png)
 
 En in het Duits:
 
-![Gegevensweergave in het Duits](../../../en/images/fields/adding-custom-fields-multilingual-sites/05-fields-overrides-display-de.png)
+![Gegevensweergave in het Duits](../../../nl/images/fields/adding-custom-fields-multilingual-sites/05-fields-overrides-display-de.png)
 
 *Vertaald door openai.com*
 

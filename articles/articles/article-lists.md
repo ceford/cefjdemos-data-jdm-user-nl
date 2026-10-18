@@ -39,7 +39,7 @@ Drie stijlen zijn beschikbaar:
 
 De naar beneden wijzende chevron rechts van het opsommingstekenpictogram opent een klein paneel waarmee de voorkeursstijl kan worden gekozen voor een geselecteerd lijstitem:
 
-![Hulpmiddelen voor manipulatie van opsommingslijsten](../../../en/images/articles/article-lists/01-articles-edit-list-bullets.png)
+![Hulpmiddelen voor manipulatie van opsommingslijsten](../../../nl/images/articles/article-lists/01-articles-edit-list-bullets.png)
 
 Het lijstpictogram werkt als een schakelaar. Als de cursor in een alinea staat en een opsommingsteken is geselecteerd, wordt de alinea een lijstitem. Als het opsommingsteken opnieuw wordt geselecteerd, verandert het lijstitem weer in een alinea.
 
@@ -66,7 +66,7 @@ Zes stijlen zijn beschikbaar:
 - Hoofdletters: A, B, C ...
 - Hoofdletters Romeinse cijfers: I, II, III ...
 
-![Hulpmiddelen voor manipulatie van genummerde lijsten](../../../en/images/articles/article-lists/02-articles-edit-list-numbers.png)
+![Hulpmiddelen voor manipulatie van genummerde lijsten](../../../nl/images/articles/article-lists/02-articles-edit-list-numbers.png)
 
 Genummerde lijsten werken iets anders. Wanneer een lijstitem wordt ingesprongen, neemt het de eerste numerieke waarde aan en schuiven de nummers van de rest van de lijst op zodat de lijst altijd in de juiste numerieke volgorde staat.
 
